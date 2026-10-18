@@ -31,6 +31,7 @@ def sync(root,category,categories):
     for path,row in list(entries.items()):
         parts=Path(path).parts
         if len(parts)<4 or parts[0]!='archive' or parts[2] not in {'crypto-charting-data','outputs','research','x-finance-os'}:continue
+        if parts[2]=='research' and parts[3]=='research':continue
         rel=Path(*parts[2:]);dest=Path('archive')/parts[1]/category(rel)/rel
         if str(dest) in entries and entries[str(dest)]['sha']!=row['sha']:dest=dest.with_name(dest.stem+'.'+row['sha'][:16]+dest.suffix)
         entries[str(dest)]=row;del entries[path];migrated+=1
