@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "symbol": "SUI",
+  "asset_id": "sui",
+  "collected_at": "2026-10-15T10:54:04+08:00",
+  "report_date_shanghai": "2026-10-15",
+  "status": "partial",
+  "metrics": {
+    "price_usd": {
+      "value": 0.9738,
+      "unit": "USD/SUI",
+      "data_as_of": "2026-10-15 10:39–10:46 北京时间页面观察；提供方未公布报价更新时间",
+      "source_url": "https://www.coingecko.com/en/coins/sui",
+      "status": "available",
+      "method": "CoinGecko 页面当前报价；与其他字段取同一页面主行情模块"
+    },
+    "change_24h_pct": {
+      "value": -7.9,
+      "unit": "%",
+      "data_as_of": "2026-10-15 10:39–10:46 北京时间页面观察；提供方未公布报价更新时间",
+      "source_url": "https://www.coingecko.com/en/coins/sui",
+      "status": "available",
+      "method": "CoinGecko 滚动 24 小时涨跌幅"
+    },
+    "volume_24h_usd": {
+      "value": 522102937.24,
+      "unit": "USD",
+      "data_as_of": "2026-10-15 10:39–10:46 北京时间页面观察；提供方未公布报价更新时间",
+      "source_url": "https://www.coingecko.com/en/coins/sui",
+      "status": "available",
+      "method": "CoinGecko 滚动 24 小时成交额"
+    },
+    "market_cap_usd": {
+      "value": 4007889535,
+      "unit": "USD",
+      "data_as_of": "2026-10-15 10:39–10:46 北京时间页面观察；提供方未公布报价更新时间",
+      "source_url": "https://www.coingecko.com/en/coins/sui",
+      "status": "available",
+      "method": "CoinGecko 流通市值"
+    },
+    "change_7d_pct": {
+      "value": -10.8,
+      "unit": "%",
+      "data_as_of": "2026-10-15 10:39–10:46 北京时间页面观察；提供方未公布报价更新时间",
+      "source_url": "https://www.coingecko.com/en/coins/sui",
+      "status": "available",
+      "method": "CoinGecko 滚动 7 天涨跌幅；不同于 UTC 收盘收益率"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-08",
+          "close_usd": 1.04
+        },
+        {
+          "date_utc": "2026-10-09",
+          "close_usd": 1.069
+        },
+        {
+          "date_utc": "2026-10-10",
+          "close_usd": 1.11
+        },
+        {
+          "date_utc": "2026-10-11",
+          "close_usd": 1.13
+        },
+        {
+          "date_utc": "2026-10-12",
+          "close_usd": 1.028
+        },
+        {
+          "date_utc": "2026-10-13",
+          "close_usd": 1.047
+        },
+        {
+          "date_utc": "2026-10-14",
+          "close_usd": 1.022
+        }
+      ],
+      "source_url": "https://www.coingecko.com/en/coins/sui/historical_data",
+      "period_start": "2026-10-08",
+      "period_end": "2026-10-14",
+      "method": "CoinGecko 按 UTC 标注的完整日收盘；2026-10-15 未完结日排除"
+    }
+  },
+  "etf": {
+    "scope": "US spot SUI products; excludes leveraged/futures funds",
+    "trading_date_et": null,
+    "product_coverage": "3 eligible spot products identified; 1 issuer holding verified as of 2026-10-14; market-wide holding total unavailable",
+    "product_universe": [
+      {
+        "ticker": "GSUI",
+        "issuer": "Grayscale",
+        "name": "Grayscale Sui Staking ETF",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2034012/000119312526056117/gsui_424b3.htm"
+      },
+      {
+        "ticker": "SUIS",
+        "issuer": "Canary Capital",
+        "name": "Canary Staked SUI ETF",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2060703/000199937126003565/sui-424b3_021726.htm"
+      },
+      {
+        "ticker": "TSUI",
+        "issuer": "21Shares",
+        "name": "21Shares Sui ETF",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/2061626/000121390026018991/ea0277918-424b3_21shares.htm"
+      }
+    ],
+    "holdings": [
+      {
+        "ticker": "SUIS",
+        "quantity_native": 29538317.34,
+        "unit": "SUI",
+        "as_of_et": "2026-10-14",
+        "source_url": "https://canaryetfs.com/suis/",
+        "verified_at_shanghai": "2026-10-15T11:47:45+08:00",
+        "scope": "issuer disclosed fund holding"
+      }
+    ],
+    "flows": [],
+    "flow_history": [],
+    "holdings_summary": {
+      "kind": "verified_sample",
+      "as_of_et": "2026-10-14",
+      "verified_products": 1,
+      "universe_products": 3,
+      "unit": "SUI",
+      "verified_at_shanghai": "2026-10-15T11:47:45+08:00",
+      "note": "One issuer-disclosed product quantity only; not total holdings of all spot products."
+    },
+    "product_details": [
+      {
+        "ticker": "GSUI",
+        "annual_fee_pct_listed": 0.35,
+        "fee_source_url": "https://www.sec.gov/Archives/edgar/data/2034012/000119312526056117/gsui_424b3.htm",
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-15T12:18:40+08:00"
+      },
+      {
+        "ticker": "SUIS",
+        "annual_fee_pct_listed": 0.75,
+        "fee_source_url": "https://canaryetfs.com/suis/",
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-15T12:18:40+08:00"
+      },
+      {
+        "ticker": "TSUI",
+        "annual_fee_pct_listed": 0.3,
+        "fee_source_url": "https://www.21shares.com/en-us/products-us/tsui",
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-15T12:18:40+08:00"
+      }
+    ]
+  },
+  "chain": {
+    "metrics": [
+      {
+        "name": "DeFi TVL",
+        "value": 506477738.02187324,
+        "unit": "USD",
+        "data_as_of": "2026-10-15 10:43 北京时间观察",
+        "method": "Sui 链 DeFi 协议锁仓值；提供方未标注具体采样时点",
+        "source_url": "https://api.llama.fi/v2/chains"
+      },
+      {
+        "name": "DEX 成交额 24h",
+        "value": 61103949,
+        "unit": "USD",
+        "data_as_of": "2026-10-15 10:43 北京时间观察",
+        "method": "Sui 链 DEX 滚动 24h 成交额；API total24h",
+        "source_url": "https://api.llama.fi/overview/dexs/Sui?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+      },
+      {
+        "name": "DEX 成交额 7d",
+        "value": 320500393,
+        "unit": "USD",
+        "data_as_of": "2026-10-15 10:43 北京时间观察",
+        "method": "Sui 链 DEX 滚动 7d 成交额；API total7d",
+        "source_url": "https://api.llama.fi/overview/dexs/Sui?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+      }
+    ]
+  },
+  "developments": [],
+  "sources": [
+    "https://www.coingecko.com/en/coins/sui",
+    "https://www.coingecko.com/en/coins/sui/historical_data",
+    "https://api.llama.fi/v2/chains",
+    "https://api.llama.fi/overview/dexs/Sui?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume",
+    "https://www.sec.gov/Archives/edgar/data/2034012/000119312526056117/gsui_424b3.htm",
+    "https://www.sec.gov/Archives/edgar/data/2060703/000199937126003565/sui-424b3_021726.htm",
+    "https://www.sec.gov/Archives/edgar/data/2061626/000121390026018991/ea0277918-424b3_21shares.htm",
+    "https://studio.glassnode.com/charts/institutions.UsSpotEtfBalancesAll?a=SUI&mScl=lin&s=1754524806&u=1757203206"
+  ],
+  "missing_or_stale": [
+    "CoinGecko 未提供本次页面报价的精确更新时间；记录页面观察时间，不把观察时间当源数据时间。",
+    "ETF 原生币总持仓：未取得全部产品在同一交易日的可比发行商持仓披露；总量、变化及排名留空，非零。",
+    "过去 24 小时未核实到足以列入的重要官方动态，事件表留空。",
+    "SUI 美元 ETF 每日资金流：未取得可核验的完整来源；最后有效日期无。Glassnode 全产品原生币余额最后可见日期为 2026-10-13，未作为 2026-10-14 最新持仓。"
+  ],
+  "revision": {
+    "revised_at_shanghai": "2026-10-15T12:18:40+08:00",
+    "reason": "Added issuer/product-level listed fees and Farside per-product USD flows to support ETF overview; updated SOL complete flow date to 2026-10-14. Market prices were not recollected."
+  },
+  "revision_history": [
+    {
+      "revised_at_shanghai": "2026-10-15T11:47:45+08:00",
+      "reason": "Added one issuer-disclosed native-coin holding sample; previous snapshot preserved as pre-holdings file. Market price and flows not recollected in this revision."
+    }
+  ]
+}

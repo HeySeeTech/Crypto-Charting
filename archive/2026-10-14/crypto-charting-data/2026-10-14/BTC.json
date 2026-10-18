@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "symbol": "BTC",
+  "asset_id": "bitcoin",
+  "collected_at": "2026-10-14T23:12:59+08:00",
+  "report_date_shanghai": "2026-10-14",
+  "status": "partial",
+  "metrics": {
+    "price_usd": {
+      "value": 81681.92,
+      "unit": "USD/BTC",
+      "data_as_of": "2026-10-14 23:10 Asia/Shanghai (approximate page observation; provider update time unknown)",
+      "timestamp_basis": "page observed; provider update timestamp not published",
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin",
+      "status": "available"
+    },
+    "change_24h_pct": {
+      "value": -2.2,
+      "unit": "%",
+      "data_as_of": "2026-10-14 23:10 Asia/Shanghai (approximate page observation; provider update time unknown)",
+      "timestamp_basis": "page observed; provider update timestamp not published",
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin",
+      "status": "available",
+      "method": "CoinGecko page 24-hour rolling change"
+    },
+    "volume_24h_usd": {
+      "value": 31121466319,
+      "unit": "USD",
+      "data_as_of": "2026-10-14 23:10 Asia/Shanghai (approximate page observation; provider update time unknown)",
+      "timestamp_basis": "page observed; provider update timestamp not published",
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin",
+      "status": "available"
+    },
+    "market_cap_usd": {
+      "value": 1642413056710,
+      "unit": "USD",
+      "data_as_of": "2026-10-14 23:10 Asia/Shanghai (approximate page observation; provider update time unknown)",
+      "timestamp_basis": "page observed; provider update timestamp not published",
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin",
+      "status": "available"
+    },
+    "change_7d_pct": {
+      "value": -1.7,
+      "unit": "%",
+      "data_as_of": "2026-10-14 23:10 Asia/Shanghai (approximate page observation; provider update time unknown)",
+      "timestamp_basis": "page observed; provider update timestamp not published",
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin",
+      "status": "available",
+      "method": "CoinGecko page seven-day rolling change"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-07",
+          "close_usd": 83282
+        },
+        {
+          "date_utc": "2026-10-08",
+          "close_usd": 81686
+        },
+        {
+          "date_utc": "2026-10-09",
+          "close_usd": 82564
+        },
+        {
+          "date_utc": "2026-10-10",
+          "close_usd": 82918
+        },
+        {
+          "date_utc": "2026-10-11",
+          "close_usd": 83691
+        },
+        {
+          "date_utc": "2026-10-12",
+          "close_usd": 81795
+        },
+        {
+          "date_utc": "2026-10-13",
+          "close_usd": 83115
+        }
+      ],
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin/historical_data",
+      "period_start": "2026-10-07",
+      "period_end": "2026-10-13",
+      "method": "CoinGecko UTC daily close; 2026-10-14 ongoing day excluded"
+    }
+  },
+  "etf": {
+    "scope": "US spot Bitcoin ETFs",
+    "trading_date_et": "2026-10-13",
+    "product_coverage": "Farside USD flows reported for 2026-10-13; 2026-10-14 row unreported; complete issuer native-BTC holdings census unavailable",
+    "holdings": [],
+    "flows": [
+      {
+        "trading_date_et": "2026-10-13",
+        "net_flow_usd_millions": 175.7,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+        "contributors_usd_millions": {
+          "FBTC": 103.1,
+          "IBIT": 65.9,
+          "MSBT": 6.7
+        }
+      }
+    ],
+    "flow_history": [
+      {
+        "trading_date_et": "2026-10-05",
+        "net_flow_usd_millions": -89.8,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+      },
+      {
+        "trading_date_et": "2026-10-06",
+        "net_flow_usd_millions": 118.8,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+      },
+      {
+        "trading_date_et": "2026-10-07",
+        "net_flow_usd_millions": -484.9,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+      },
+      {
+        "trading_date_et": "2026-10-08",
+        "net_flow_usd_millions": -244.1,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+      },
+      {
+        "trading_date_et": "2026-10-09",
+        "net_flow_usd_millions": 21.1,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+      },
+      {
+        "trading_date_et": "2026-10-12",
+        "net_flow_usd_millions": -65.4,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+      },
+      {
+        "trading_date_et": "2026-10-13",
+        "net_flow_usd_millions": 175.7,
+        "source_url": "https://farside.co.uk/bitcoin-etf-flow-all-data/"
+      }
+    ]
+  },
+  "chain": {
+    "metrics": []
+  },
+  "developments": [
+    {
+      "title": "Strive 披露于 10 月 12–13 日购入 2,822 BTC",
+      "event_time": "2026-10-12/2026-10-13",
+      "published_at": "2026-10-14",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065816/asst-20261014.htm",
+      "details": "平均购入价约 83,266 USD/BTC，含费用"
+    }
+  ],
+  "sources": [
+    "https://www.coingecko.com/en/coins/bitcoin",
+    "https://www.coingecko.com/en/coins/bitcoin/historical_data",
+    "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+    "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust,",
+    "https://www.sec.gov/Archives/edgar/data/1920406/000162828026065816/asst-20261014.htm"
+  ],
+  "missing_or_stale": [
+    "CoinGecko 页面未披露上述即时行情的源数据更新时间；collected_at 是本次页面观察时间，不保证报价与该秒同步。",
+    "Farside 2026-10-14 行各基金仍为未披露，页面合计 0.0 不视为零资金流。",
+    "缺少可比且完整的各发行商原生 BTC 持仓清单，因此不计算美国现货 ETF 总持币量及持币变化。"
+  ],
+  "revision": {
+    "revised_at": null,
+    "reason": null
+  }
+}

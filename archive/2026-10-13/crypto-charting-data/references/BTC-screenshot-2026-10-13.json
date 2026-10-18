@@ -1,0 +1,44 @@
+{
+  "symbol": "BTC",
+  "as_of_et": "2026-10-13",
+  "source_label": "用户提供的 BTC ETF 报表截图；未独立核验",
+  "source_file": "/Users/jss/Desktop/workspace/XCreator/crypto-charting-data/references/BTC-user-dashboard-2026-10-13.png",
+  "holdings_total": 1286689.22,
+  "prior_seven_trading_days_change": 6610.70,
+  "month_to_date_change": -3708.61,
+  "year_to_date_change": -11277.71,
+  "since_listing_change": 664338.55,
+  "daily": [
+    {"date": "2026-10-05", "holdings": 1292751.39, "change": -1064.98},
+    {"date": "2026-10-06", "holdings": 1294112.14, "change": 1361.15},
+    {"date": "2026-10-07", "holdings": 1288650.29, "change": -5461.75},
+    {"date": "2026-10-08", "holdings": 1285241.38, "change": -3408.60},
+    {"date": "2026-10-09", "holdings": 1285363.65, "change": 122.73},
+    {"date": "2026-10-12", "holdings": 1284582.81, "change": -780.75},
+    {"date": "2026-10-13", "holdings": 1286689.22, "change": 2106.80}
+  ],
+  "fund_changes": [
+    {"ticker": "GBTC", "name": "灰度", "change": -5.18},
+    {"ticker": "BTC", "name": "灰度迷你", "change": 0},
+    {"ticker": "IBIT", "name": "贝莱德", "change": 792.46},
+    {"ticker": "FBTC", "name": "富达", "change": 1239.30},
+    {"ticker": "ARKB", "name": "ARK 21Shares", "change": 0},
+    {"ticker": "BITB", "name": "Bitwise", "change": 0},
+    {"ticker": "HODL", "name": "VanEck", "change": 0},
+    {"ticker": "BRRR", "name": "Valkyrie", "change": 0},
+    {"ticker": "BTCO", "name": "景顺银河", "change": 0},
+    {"ticker": "EZBC", "name": "富兰克林", "change": 0},
+    {"ticker": "DEFI", "name": "Hashdex", "change": 0},
+    {"ticker": "MSBT", "name": "摩根士丹利", "change": 80.22},
+    {"ticker": "BTCW", "name": "WisdomTree", "change": 0}
+  ],
+  "holdings_rank": [
+    {"ticker": "IBIT", "name": "贝莱德", "holdings": 805025.33},
+    {"ticker": "FBTC", "name": "富达", "holdings": 179411.91},
+    {"ticker": "GBTC", "name": "灰度", "holdings": 125977.97},
+    {"ticker": "BTC", "name": "灰度迷你", "holdings": 63128.17},
+    {"ticker": "BITB", "name": "Bitwise", "holdings": 37290.75},
+    {"ticker": "ARKB", "name": "ARK 21Shares", "holdings": 32024.00},
+    {"ticker": "OTHER", "name": "其他", "holdings": 43831.10}
+  ]
+}
