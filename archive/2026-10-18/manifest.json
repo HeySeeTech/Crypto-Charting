@@ -1,0 +1,425 @@
+{
+  "date": "2026-10-18",
+  "files": [
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/BTC-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "0c938321cc4243df52d1c038119ce23a4312b975",
+      "bytes": 71981
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/BTC-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "35c10fe5d5a366b273c464b7fc98a46740f00cbc",
+      "bytes": 763042
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/BTC-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "8149a4fc3298c992d304c486ada68a9ee234dcf6",
+      "bytes": 478899
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/BTC-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "2296c86b138ecbfdaee4665067c6fbae8e3dbf2b",
+      "bytes": 199575
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ETH-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "cac1ca928f547ee5b16fcd889ea5dce74ecb2304",
+      "bytes": 162535
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ETH-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "228ae69ef271b7d508a105160099eeba87d76242",
+      "bytes": 720293
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ETH-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "1a10a53c8650a4657b4a3b2afc2673b286fb9785",
+      "bytes": 396511
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ETH-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "980241521016de5705abc04915c5063e55cb3108",
+      "bytes": 194360
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SOL-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "44e3fee9261367247b3bd54a2c9b5a2a816b9d8e",
+      "bytes": 163547
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SOL-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "2e2198039e390d05020e07659acbbf4125852221",
+      "bytes": 717112
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SOL-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "aa43304fb9deee65dc36c81b2ec96a793e5d1f6c",
+      "bytes": 372128
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SOL-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "e76de40687bd5719b580a5a1275dac10fec36433",
+      "bytes": 192199
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SUI-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "f77fdb19439d82aee68b311aca93692c31cac363",
+      "bytes": 156877
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SUI-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "ef398073375aa395b9b2b0f3cd213c50b9fca02f",
+      "bytes": 663248
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SUI-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "d57d12d0a5a8d9aeaefdd1dabb3efca255e69edb",
+      "bytes": 255452
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/SUI-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "c0d61a60c7cc7bd47995f99274520beb319eea49",
+      "bytes": 202032
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/UNI-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "727eb8c34c854d3fe8fe7c4bd4dfa76f71055ca5",
+      "bytes": 257294
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/UNI-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "ecc3234c5c3622e0d8ced589378dcb0d5ef84a6a",
+      "bytes": 346116
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/UNI-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "1d8dc734d8b23d685b34e65134cb85d7d2035ab8",
+      "bytes": 170594
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/UNI-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "1b517fefc8881ca590b9590f0b2b6dc5ddf2f40c",
+      "bytes": 195574
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/XRP-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "393a84616a1258fb4c571b5f23f5b3bffa217e32",
+      "bytes": 156457
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/XRP-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "f99760ff39fcda10cf0c345bb65d58ab7b0c9dfe",
+      "bytes": 410825
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/XRP-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "ecac9ebcc38422d051739290113f1c46ef59de86",
+      "bytes": 343503
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/XRP-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "5b96e6a4a629ae89d7c0c62d3fc35c019e1546da",
+      "bytes": 240826
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ZEC-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "0f9961b5b93115eeee6dc8bb35bd38360bb3f575",
+      "bytes": 137068
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ZEC-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "712d9b99ef26f40b9d9d3aabe864844902dd1676",
+      "bytes": 354331
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ZEC-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "44721ca19c16eaba13edecb3ae79c1fd659508e1",
+      "bytes": 219692
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-18/ZEC-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "fa239b09710273328003c59635f1865e88719709",
+      "bytes": 194702
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
+      "category": "copy",
+      "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
+      "bytes": 10
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/feedback.md",
+      "category": "copy",
+      "git_blob_sha1": "4406108d5170424ffa5d78812cd7c8a6784e2771",
+      "bytes": 12
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/ideas.md",
+      "category": "copy",
+      "git_blob_sha1": "df14cf0338f377e2beb5d4700fa9332cf82c970d",
+      "bytes": 9
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/published.md",
+      "category": "copy",
+      "git_blob_sha1": "9c0a60b0a2245fd35b8dd0a8146a8a28aa1c2c1d",
+      "bytes": 13
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/research-notes.md",
+      "category": "copy",
+      "git_blob_sha1": "229ecdaed5d0b66514dff42df0fea87c39a424bb",
+      "bytes": 18
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/BTC.json",
+      "category": "data",
+      "git_blob_sha1": "eee3a7aea7340f2feb2dbfecd2fdb5a411cddf58",
+      "bytes": 17529
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/ETH.json",
+      "category": "data",
+      "git_blob_sha1": "c0f672ddd544ba0ee3966b7907bc90f168571100",
+      "bytes": 16061
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/SOL.json",
+      "category": "data",
+      "git_blob_sha1": "1fe981f74601e928302ea27eba3e9b0fdf89727b",
+      "bytes": 13738
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/SUI.json",
+      "category": "data",
+      "git_blob_sha1": "4176496a96796488881c5eae4a4e08d57756d414",
+      "bytes": 8377
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "893dc47a94e96aefc0aac7b1be8a7088dd1c9bcf",
+      "bytes": 5605
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/XRP.json",
+      "category": "data",
+      "git_blob_sha1": "1c1412c5724dcd48c5122f97ea81ff9067775cbe",
+      "bytes": 10431
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/XRP.previous-133549.json",
+      "category": "data",
+      "git_blob_sha1": "80aa00b8c6040c4ca55025b34fc0f1b25770fb14",
+      "bytes": 9997
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-18/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "796ea451d539b1d7475f8ec27a41fac986a664e0",
+      "bytes": 7161
+    },
+    {
+      "path": "data/crypto-charting-data/latest/BTC.json",
+      "category": "data",
+      "git_blob_sha1": "eee3a7aea7340f2feb2dbfecd2fdb5a411cddf58",
+      "bytes": 17529
+    },
+    {
+      "path": "data/crypto-charting-data/latest/ETH.json",
+      "category": "data",
+      "git_blob_sha1": "c0f672ddd544ba0ee3966b7907bc90f168571100",
+      "bytes": 16061
+    },
+    {
+      "path": "data/crypto-charting-data/latest/SOL.json",
+      "category": "data",
+      "git_blob_sha1": "1fe981f74601e928302ea27eba3e9b0fdf89727b",
+      "bytes": 13738
+    },
+    {
+      "path": "data/crypto-charting-data/latest/SUI.json",
+      "category": "data",
+      "git_blob_sha1": "4176496a96796488881c5eae4a4e08d57756d414",
+      "bytes": 8377
+    },
+    {
+      "path": "data/crypto-charting-data/latest/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "893dc47a94e96aefc0aac7b1be8a7088dd1c9bcf",
+      "bytes": 5605
+    },
+    {
+      "path": "data/crypto-charting-data/latest/XRP.json",
+      "category": "data",
+      "git_blob_sha1": "1c1412c5724dcd48c5122f97ea81ff9067775cbe",
+      "bytes": 10431
+    },
+    {
+      "path": "data/crypto-charting-data/latest/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "796ea451d539b1d7475f8ec27a41fac986a664e0",
+      "bytes": 7161
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-18/BTC.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "012cda7c674605831b9a6be3ca1130fce024ec6a",
+      "bytes": 178219
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-18/ETH.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "ca45d4bec1866c112403aabfa46356df201093e2",
+      "bytes": 174818
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-18/SOL.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "492f367dab4179396e7bc47e080d4b742959b148",
+      "bytes": 160337
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-18/SUI.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "cf61230be9c5620798b27a3336334278f645db61",
+      "bytes": 116143
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-18/UNI.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "b4e7df334db6391de46cfb02b444048c8b01a318",
+      "bytes": 100955
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-18/XRP.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "05e93d9b695b4db4d33ad9a92b5d322098d6d830",
+      "bytes": 127251
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-18/ZEC.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "c7a8802d0095d032293be6dc51bc47a5a9699b50",
+      "bytes": 109367
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-18/BTC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "365fc87c7b228ae17db8a71951361433f40f00e8",
+      "bytes": 2007411
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-18/ETH.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "734f1e4e021a1c58434825e9faee878ca9ad31e4",
+      "bytes": 1913772
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-18/SOL.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "6be35ded6c06a1a2ec3c671bad630419c81c08fa",
+      "bytes": 1970310
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-18/SUI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "96724c2d19d2b0157c023ca19682cc18b52c8733",
+      "bytes": 2017552
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-18/UNI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "2510bff14507ba3a8a55241f92a135bde622f3ac",
+      "bytes": 23028
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-18/XRP.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "c06ad4e52e0556b10bfc863006285dbad6f7ec6c",
+      "bytes": 24662
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-18/ZEC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "d23a06969db78c72ab7b52064a3876c2d71956a0",
+      "bytes": 23316
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/BTC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "365fc87c7b228ae17db8a71951361433f40f00e8",
+      "bytes": 2007411
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/ETH.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "734f1e4e021a1c58434825e9faee878ca9ad31e4",
+      "bytes": 1913772
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/SOL.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "6be35ded6c06a1a2ec3c671bad630419c81c08fa",
+      "bytes": 1970310
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/SUI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "96724c2d19d2b0157c023ca19682cc18b52c8733",
+      "bytes": 2017552
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/UNI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "2510bff14507ba3a8a55241f92a135bde622f3ac",
+      "bytes": 23028
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/XRP.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "c06ad4e52e0556b10bfc863006285dbad6f7ec6c",
+      "bytes": 24662
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/ZEC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "d23a06969db78c72ab7b52064a3876c2d71956a0",
+      "bytes": 23316
+    },
+    {
+      "path": "research/research/2026-10-18-sol/solana-q3-2026.pdf",
+      "category": "research",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0
+    }
+  ]
+}

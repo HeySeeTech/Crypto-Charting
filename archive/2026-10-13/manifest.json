@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-13",
+  "files": [
+    {
+      "path": "charts/crypto-charting-data/references/BTC-user-dashboard-2026-10-13.png",
+      "category": "charts",
+      "git_blob_sha1": "8b6476d69d8f25136de21e6e535fa427b7c9211a",
+      "bytes": 2634917
+    },
+    {
+      "path": "data/crypto-charting-data/references/BTC-screenshot-2026-10-13.json",
+      "category": "data",
+      "git_blob_sha1": "3392e3a492987d3385788edee07c0b5d706fa9f9",
+      "bytes": 2246
+    }
+  ]
+}

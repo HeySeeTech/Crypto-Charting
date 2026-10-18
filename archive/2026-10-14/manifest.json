@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-14",
+  "files": [
+    {
+      "path": "charts/crypto-charting-data/2026-10-14/BTC-price-7d.png",
+      "category": "charts",
+      "git_blob_sha1": "fb46cbeb76572b47a68f429a138f73e4b7892bd9",
+      "bytes": 33594
+    },
+    {
+      "path": "charts/crypto-charting-data/latest/BTC-price-7d.png",
+      "category": "charts",
+      "git_blob_sha1": "fb46cbeb76572b47a68f429a138f73e4b7892bd9",
+      "bytes": 33594
+    },
+    {
+      "path": "code/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/build_crypto_workbook.mjs",
+      "category": "code",
+      "git_blob_sha1": "bbb94989793b570d715239214656071d6f173e4c",
+      "bytes": 21448
+    },
+    {
+      "path": "copy/crypto-charting-data/2026-10-14/BTC.md",
+      "category": "copy",
+      "git_blob_sha1": "acc013ca1f6505b7ad5cacddcebf67f088ba6441",
+      "bytes": 2557
+    },
+    {
+      "path": "copy/crypto-charting-data/latest/BTC.md",
+      "category": "copy",
+      "git_blob_sha1": "acc013ca1f6505b7ad5cacddcebf67f088ba6441",
+      "bytes": 2557
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-14/BTC.json",
+      "category": "data",
+      "git_blob_sha1": "57980c4ece75ab6830f3550903785ed80250ab65",
+      "bytes": 6101
+    },
+    {
+      "path": "logs/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14-v2.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "bfc3e6c4eb0cfd708fd45acd5cfd3ef907d091be",
+      "bytes": 170660
+    },
+    {
+      "path": "logs/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14-v3.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "d7ea18990fadcff24bb15c358b42a8df66780278",
+      "bytes": 174507
+    },
+    {
+      "path": "logs/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14-v4.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "d5e850b6f6ea9ac0a6e3578ff16d9109ff3282de",
+      "bytes": 181986
+    },
+    {
+      "path": "logs/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "fefe7002f21a1f2d438c1b84111b1a475fab14a3",
+      "bytes": 144263
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-14/BTC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "3bd2b579c2a6a4bff7a588b6d87b9444d0eec3db",
+      "bytes": 2006598
+    },
+    {
+      "path": "reports/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14-v2.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "74e4508cf85f327dc1ecfba6a2e923a1f9915811",
+      "bytes": 22629
+    },
+    {
+      "path": "reports/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14-v3.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "81d08bfbe5f35f9ca58729b0989f8014aa548afc",
+      "bytes": 2005608
+    },
+    {
+      "path": "reports/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14-v4.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "3bd2b579c2a6a4bff7a588b6d87b9444d0eec3db",
+      "bytes": 2006598
+    },
+    {
+      "path": "reports/outputs/01a13ae0-b074-7631-8e27-4a5ba00c5cf7/BTC-2026-10-14.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "080febd3daab1cda7be86ab69e9b785b38692e72",
+      "bytes": 21174
+    }
+  ]
+}
