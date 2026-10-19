@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "files": [
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
+      "category": "copy",
+      "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
+      "bytes": 10
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/feedback.md",
+      "category": "copy",
+      "git_blob_sha1": "4406108d5170424ffa5d78812cd7c8a6784e2771",
+      "bytes": 12
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/ideas.md",
+      "category": "copy",
+      "git_blob_sha1": "df14cf0338f377e2beb5d4700fa9332cf82c970d",
+      "bytes": 9
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/published.md",
+      "category": "copy",
+      "git_blob_sha1": "9c0a60b0a2245fd35b8dd0a8146a8a28aa1c2c1d",
+      "bytes": 13
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/research-notes.md",
+      "category": "copy",
+      "git_blob_sha1": "229ecdaed5d0b66514dff42df0fea87c39a424bb",
+      "bytes": 18
+    }
+  ]
+}
