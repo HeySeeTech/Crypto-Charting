@@ -254,6 +254,12 @@
       "bytes": 2884
     },
     {
+      "path": "copy/outputs/2026-10-19/PEPE-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "25aa47b8131d4358f723ad63441b56539aff71b5",
+      "bytes": 2481
+    },
+    {
       "path": "copy/outputs/2026-10-19/SOL-X文案.md",
       "category": "copy",
       "git_blob_sha1": "58aa03b81c2f66d26b5ba0b669edc29888968f42",
@@ -822,6 +828,60 @@
       "category": "research",
       "git_blob_sha1": "42dc257c06982167c1b47d7eeef2284c3f01f037",
       "bytes": 550
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/archive-day-index.md",
+      "category": "research",
+      "git_blob_sha1": "c48f569ddc48a4c231e1337969f59c65d757c0c3",
+      "bytes": 7719
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/archive-index.md",
+      "category": "research",
+      "git_blob_sha1": "69dfbbbd87818cd9e1cfefcd2409482fab8c38d2",
+      "bytes": 704
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/archived-research-notes.md",
+      "category": "research",
+      "git_blob_sha1": "229ecdaed5d0b66514dff42df0fea87c39a424bb",
+      "bytes": 18
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/official.html",
+      "category": "research",
+      "git_blob_sha1": "8f89103999eebe6251f462e0cbf2ec68b2dae742",
+      "bytes": 1066974
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "a9ace7247f72018196b1216ac3be698b6f1be590",
+      "bytes": 3301
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/sec-submissions.html",
+      "category": "research",
+      "git_blob_sha1": "378490410948ac002be76a4841e0b0ecda8ea41f",
+      "bytes": 1633
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "9e49d5af53e5332bd73d05ee0a29d05cf899171e",
+      "bytes": 484
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/techflow.html",
+      "category": "research",
+      "git_blob_sha1": "c30eba73962a02f2ab45eee4b065e21f356ba835",
+      "bytes": 211729
+    },
+    {
+      "path": "research/research/2026-10-19/pepe-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "af26dab27f0bec6933e153854919e1884739e576",
+      "bytes": 2428
     },
     {
       "path": "research/research/2026-10-19/recalculation-qa.json",

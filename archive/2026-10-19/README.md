@@ -2,10 +2,11 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（12）
+## 文案（13）
 
 - [outputs/2026-10-19/BTC-X文案.md](copy/outputs/2026-10-19/BTC-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/ETH-X文案.md](copy/outputs/2026-10-19/ETH-X%E6%96%87%E6%A1%88.md)
+- [outputs/2026-10-19/PEPE-X文案.md](copy/outputs/2026-10-19/PEPE-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/SOL-X文案.md](copy/outputs/2026-10-19/SOL-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/SUI-X文案.md](copy/outputs/2026-10-19/SUI-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/UNI-X文案.md](copy/outputs/2026-10-19/UNI-X%E6%96%87%E6%A1%88.md)
@@ -109,7 +110,7 @@
 - [crypto-charting-data/weekly/2026-10-19/ZEC.json](data/crypto-charting-data/weekly/2026-10-19/ZEC.json)
 - [crypto-charting-data/weekly/2026-10-19/validation.json](data/crypto-charting-data/weekly/2026-10-19/validation.json)
 
-## 研究资料（80）
+## 研究资料（89）
 
 - [research/2026-10-19-weekly/recover_sources.py](research/research/2026-10-19-weekly/recover_sources.py)
 - [research/2026-10-19-weekly/verify_weekly.py](research/research/2026-10-19-weekly/verify_weekly.py)
@@ -139,6 +140,15 @@
 - [research/2026-10-19/final-delivery-check.json](research/research/2026-10-19/final-delivery-check.json)
 - [research/2026-10-19/issuer-source-checks.json](research/research/2026-10-19/issuer-source-checks.json)
 - [research/2026-10-19/issuer-web.json](research/research/2026-10-19/issuer-web.json)
+- [research/2026-10-19/pepe-update/archive-day-index.md](research/research/2026-10-19/pepe-update/archive-day-index.md)
+- [research/2026-10-19/pepe-update/archive-index.md](research/research/2026-10-19/pepe-update/archive-index.md)
+- [research/2026-10-19/pepe-update/archived-research-notes.md](research/research/2026-10-19/pepe-update/archived-research-notes.md)
+- [research/2026-10-19/pepe-update/official.html](research/research/2026-10-19/pepe-update/official.html)
+- [research/2026-10-19/pepe-update/prices.json](research/research/2026-10-19/pepe-update/prices.json)
+- [research/2026-10-19/pepe-update/sec-submissions.html](research/research/2026-10-19/pepe-update/sec-submissions.html)
+- [research/2026-10-19/pepe-update/source-manifest.json](research/research/2026-10-19/pepe-update/source-manifest.json)
+- [research/2026-10-19/pepe-update/techflow.html](research/research/2026-10-19/pepe-update/techflow.html)
+- [research/2026-10-19/pepe-update/研究说明.md](research/research/2026-10-19/pepe-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/recalculation-qa.json](research/research/2026-10-19/recalculation-qa.json)
 - [research/2026-10-19/sol-update/alpenglow.html](research/research/2026-10-19/sol-update/alpenglow.html)
 - [research/2026-10-19/sol-update/anza-consensus.html](research/research/2026-10-19/sol-update/anza-consensus.html)
