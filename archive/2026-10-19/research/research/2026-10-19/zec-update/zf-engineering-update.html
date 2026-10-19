@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ZF Engineering Update: 21 September - 5 October 2026 - Zcash Foundation - Zcash Community Forum</title>
+    <meta name="description" content="Over the past two weeks we shipped four Zebra releases. Zebra 6.4.0 and 6.4.1 brought security fixes, light wallet serving, lower transaction fees and a sync fix, and Zebra 6.4.2 was an emergency fix for a crash that any…">
+    <meta name="generator" content="Discourse 2026.10.0-latest - https://github.com/discourse/discourse version 94679c2ce7bd0e9132782adae441e1185433612d">
+<link rel="icon" type="image/png" href="https://global.discourse-cdn.com/zcash/optimized/2X/2/2e49c52ed4ae155178b3f89440b914f99b85374a_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://global.discourse-cdn.com/zcash/optimized/2X/2/2e49c52ed4ae155178b3f89440b914f99b85374a_2_180x180.png">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="color-scheme" content="light">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+<link rel="canonical" href="https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059" />
+
+<meta name="discourse-track-view-session-id" content="AoY7jPRgIymwI2l9413e1kRao6DmIkwN">
+  <link rel="search" type="application/opensearchdescription+xml" href="https://forum.zcashcommunity.com/opensearch.xml" title="Zcash Community Forum Search">
+
+    
+    <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/color_definitions_light_2_2_b99b3432cd1ad32cc0bbe7c7f6c610d94e2ea8dd.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" class="light-scheme" data-scheme-id="2"/>
+
+<link href="https://sea2.discourse-cdn.com/zcash/stylesheets/common_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="common"  />
+
+
+
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/boards_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="boards"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/chat_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="chat"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/checklist_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="checklist"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-ai_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-ai"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-assign_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-assign"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-cakeday_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-data-explorer_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-data-explorer"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-details_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-events_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-events"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-github_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-github"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-lazy-videos_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-local-dates_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-math_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-math"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-narrative-bot_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-policy_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-policy"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-presence_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-reactions_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-reactions"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-rewind_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-rewind"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-solved_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-templates_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-templates"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-topic-voting_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-topic-voting"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-workflows_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="discourse-workflows"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/footnote_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="footnote"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/hosted-site_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/poll_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/spoiler-alert_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="spoiler-alert"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/chat_mobile_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width < 40rem)" rel="stylesheet" data-target="chat_mobile"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-ai_mobile_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width < 40rem)" rel="stylesheet" data-target="discourse-ai_mobile"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-assign_mobile_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width < 40rem)" rel="stylesheet" data-target="discourse-assign_mobile"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-events_mobile_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width < 40rem)" rel="stylesheet" data-target="discourse-events_mobile"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-reactions_mobile_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width < 40rem)" rel="stylesheet" data-target="discourse-reactions_mobile"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-rewind_mobile_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width < 40rem)" rel="stylesheet" data-target="discourse-rewind_mobile"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/chat_desktop_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width >= 40rem)" rel="stylesheet" data-target="chat_desktop"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-ai_desktop_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-ai_desktop"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-events_desktop_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-events_desktop"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/discourse-reactions_desktop_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width >= 40rem)" rel="stylesheet" data-target="discourse-reactions_desktop"  />
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/poll_desktop_2eff12e61f3850b18440727b558dd890b4b6bb10.css?__ws=forum.zcashcommunity.com" media="(width >= 40rem)" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://sea2.discourse-cdn.com/zcash/stylesheets/common_theme_7_18fd84a954a21dd5e7e67e7ecc7e40bb3bc219a0.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="7" data-theme-name="category banners"/>
+<link href="https://sea2.discourse-cdn.com/zcash/stylesheets/common_theme_9_8903e89315f2812057ca5796a6699eb83bbb1164.css?__ws=forum.zcashcommunity.com" media="all" rel="stylesheet" data-target="common_theme" data-theme-id="9" data-theme-name="sidebar theme toggle"/>
+  
+  
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;ZF Engineering Update: 21 September - 5 October 2026&#39;" href="https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059.rss" />
+    <meta property="og:site_name" content="Zcash Community Forum" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://global.discourse-cdn.com/zcash/original/2X/2/2e49c52ed4ae155178b3f89440b914f99b85374a.png" />
+<meta property="og:image" content="https://global.discourse-cdn.com/zcash/original/2X/2/2e49c52ed4ae155178b3f89440b914f99b85374a.png" />
+<meta property="og:url" content="https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059" />
+<meta name="twitter:url" content="https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059" />
+<meta property="og:title" content="ZF Engineering Update: 21 September - 5 October 2026" />
+<meta name="twitter:title" content="ZF Engineering Update: 21 September - 5 October 2026" />
+<meta property="og:description" content="Over the past two weeks we shipped four Zebra releases. Zebra 6.4.0 and 6.4.1 brought security fixes, light wallet serving, lower transaction fees and a sync fix, and Zebra 6.4.2 was an emergency fix for a crash that any peer on the network could trigger. Most of our time went into NU7, the next network upgrade: Zebra 7.0.0-rc.0 is its first release candidate, and NU7 activated on public Testnet at block 4,465,026 on 4 October. Mainnet operators don’t need to do anything for NU7 yet, but should ..." />
+<meta name="twitter:description" content="Over the past two weeks we shipped four Zebra releases. Zebra 6.4.0 and 6.4.1 brought security fixes, light wallet serving, lower transaction fees and a sync fix, and Zebra 6.4.2 was an emergency fix for a crash that any peer on the network could trigger. Most of our time went into NU7, the next network upgrade: Zebra 7.0.0-rc.0 is its first release candidate, and NU7 activated on public Testnet at block 4,465,026 on 4 October. Mainnet operators don’t need to do anything for NU7 yet, but should ..." />
+<meta property="og:article:section" content="Ecosystem Updates" />
+<meta property="og:article:section:color" content="283890" />
+<meta property="og:article:section" content="Zcash Foundation" />
+<meta property="og:article:section:color" content="92278F" />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="3 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="12 ❤" />
+<meta property="article:published_time" content="2026-10-06T11:14:48+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    <link rel="alternate" type="text/markdown" href="https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059.md">
+    
+  </head>
+  <body class="crawler ">
+    
+    <header>
+  <a href="/">Zcash Community Forum</a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="/t/zf-engineering-update-21-september-5-october-2026/58059">ZF Engineering Update: 21 September - 5 October 2026</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/ecosystem-updates/31" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #283890'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Ecosystem Updates</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/c/ecosystem-updates/foundation/21" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #92278F'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Zcash Foundation</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+    <div itemscope="itemscope" itemtype="http://schema.org/DiscussionForumPosting">
+      <meta itemprop='headline' content='ZF Engineering Update: 21 September - 5 October 2026'>
+      <link itemprop='url' href='https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059'>
+      <meta itemprop='datePublished' content='2026-10-06T11:14:48Z'>
+      <meta itemprop='keywords' content=''>
+          <meta itemprop='articleSection' content='Zcash Foundation'>
+        <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+          <meta itemprop='name' content='Zcash Foundation'>
+            <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+              <meta itemprop='url' content='https://global.discourse-cdn.com/zcash/original/3X/f/a/fa836ba94f5b129a26c82ec17dc376eef9bb8831.png'>
+            </div>
+        </div>
+
+      
+
+
+
+          <div id='post_1'  class='topic-body crawler-post'>
+            <div class='crawler-post-meta'>
+              <span class="creator" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+                <a rel='nofollow' href='https://forum.zcashcommunity.com/u/ZcashFoundation'><span itemprop="name">ZcashFoundation</span></a>
+                  <meta itemprop='url' content='https://forum.zcashcommunity.com/u/ZcashFoundation'>
+                
+              </span>
+
+                <link itemprop="mainEntityOfPage" href="https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059">
+
+
+              <span class="crawler-post-infos">
+                  <time  datetime='2026-10-06T11:14:48Z' class='post-time'>
+                    October 6, 2026, 11:14am
+                  </time>
+                  <meta itemprop='dateModified' content='2026-10-06T11:14:48Z'>
+              <span itemprop="position">1</span>
+              </span>
+            </div>
+            <div class='post' itemprop="text">
+              <p>Over the past two weeks we shipped four Zebra releases. <a href="https://zfnd.org/zebra-6-4-0-and-6-4-1-release/">Zebra 6.4.0 and 6.4.1</a> brought security fixes, light wallet serving, lower transaction fees and a sync fix, and <a href="https://zfnd.org/zebra-6-4-2-release/">Zebra 6.4.2</a> was an emergency fix for a crash that any peer on the network could trigger. Most of our time went into NU7, the next network upgrade: <a href="https://zfnd.org/zebra-7-0-0-rc-0-nu7-arrives-on-testnet/">Zebra 7.0.0-rc.0</a> is its first release candidate, and NU7 activated on public Testnet at block 4,465,026 on 4 October. Mainnet operators don’t need to do anything for NU7 yet, but should make sure they are running 6.4.2.</p>
+<h2><a name="p-256833-security-1" class="anchor" href="#p-256833-security-1" aria-label="Heading link"></a><strong>Security</strong></h2>
+<p>Zebra 6.4.0 fixes three reported issues, all about how Zebra handles peers that misbehave. A node now keeps syncing and asks someone else when a peer sends it a tampered copy of a block, peers that pass along altered blocks are now penalised, and a banned peer can no longer get around the ban by switching to a nearby IPv6 address. Bans also now expire after 24 hours, so a peer banned by mistake isn’t shut out for good. These fixes went in <a href="https://github.com/ZcashFoundation/zebra/pull/11502">as one combined change</a>. Thanks to <a href="https://github.com/ouicate">@ouicate</a> and <a href="https://github.com/craftsoldier">@craftsoldier</a> for reporting them.</p>
+<p>Two days later we released Zebra 6.4.2 to fix <a href="https://github.com/ZcashFoundation/zebra/pull/11533">a crash that a malformed transaction from any peer could cause</a>. It was found by Google’s OSS-Fuzz, a service that continuously feeds random inputs to open-source software to find bugs like this. The <a href="https://zfnd.org/zebra-6-4-0-and-6-4-1-release/">6.4.0/6.4.1</a> and <a href="https://zfnd.org/zebra-6-4-2-release/">6.4.2</a> release posts have the details.</p>
+<h2><a name="p-256833-ci-devops-2" class="anchor" href="#p-256833-ci-devops-2" aria-label="Heading link"></a><strong>CI / DevOps</strong></h2>
+<p>Alongside the four releases, we changed how long a release keeps running before it asks to be upgraded. Each Zebra release stops itself after a set period so nobody runs outdated software through a network upgrade, and we <a href="https://github.com/ZcashFoundation/zebra/pull/11491">shortened that period from 15 weeks to 12</a> so that 6.4.x stops around 2 November, ahead of NU7’s tentative Mainnet date of 5 November. Zebra 7.0.0-rc.0 also includes <a href="https://github.com/ZcashFoundation/zebra/pull/11461">refreshed checkpoints</a>, the known-good points in the chain that help new nodes sync faster.</p>
+<h2><a name="p-256833-other-zebra-work-3" class="anchor" href="#p-256833-other-zebra-work-3" aria-label="Heading link"></a><strong>Other Zebra work</strong></h2>
+<p>NU7 brings blocks every 25 seconds instead of every 75, so payments confirm about three times faster while the amount of ZEC issued each day stays the same. It also sets aside part of every transaction fee in a reserve that is paid back out to miners gradually in future blocks, and it adds per-block limits on shielded activity that protect light wallets from spam. We implemented <a href="https://github.com/ZcashFoundation/zebra/pull/11529">the faster block schedule and the new shielded limits</a>, <a href="https://github.com/ZcashFoundation/zebra/pull/11527">prepared the upgrade’s deployment</a>, <a href="https://github.com/ZcashFoundation/zebra/pull/11530">switched on the fee reserve</a>, made Zebra <a href="https://github.com/ZcashFoundation/zebra/pull/11528">stop accepting an older transaction format once NU7 is active</a>, and <a href="https://github.com/ZcashFoundation/zebra/pull/11554">set the Testnet activation height</a>. While checking the work against the specifications, we closed several gaps in how <a href="https://github.com/ZcashFoundation/zebra/pull/11496">rewards</a>, <a href="https://github.com/ZcashFoundation/zebra/pull/11514">network settings and timing</a>, and <a href="https://github.com/ZcashFoundation/zebra/pull/11519">mining</a> are handled, and added tests that run the new rules <a href="https://github.com/ZcashFoundation/zebra/pull/11546">through the full validation path</a> and <a href="https://github.com/ZcashFoundation/zebra/pull/11561">on live test nodes</a>.</p>
+<p>Faster blocks also meant revisiting places where Zebra assumed a 75-second block time. Release expiry and sync progress estimates <a href="https://github.com/ZcashFoundation/zebra/pull/11555">now follow the block time in effect at each height</a>, so a node won’t stop early once blocks speed up. Around any network upgrade, some honest peers briefly relay transactions built for the other side of the switchover; Zebra now <a href="https://github.com/ZcashFoundation/zebra/pull/11563">gives them a short grace period</a> instead of banning them at the moment the network needs them most.</p>
+<p>Zebra 7.0.0-rc.0 <a href="https://github.com/ZcashFoundation/zebra/pull/11530">upgrades the node’s database</a> automatically the first time it starts, without a resync. Going back to an older version isn’t supported, so back up first if you want a way back. Tools that read Zebra’s database directly, such as Zallet and Zaino, need a compatible version at the same time.</p>
+<p>For the lower transaction fee, Zebra now <a href="https://github.com/ZcashFoundation/zebra/pull/11557">reports the new fee to wallets only from Mainnet block 3,590,000</a>, so wallets move to it together. Until then it reports the current fee, although nodes already accept transactions paying the lower one.</p>
+<p>Zebra 6.4.1 <a href="https://github.com/ZcashFoundation/zebra/pull/11510">fixed a sync stall</a> where a node whose sync restarted near the top of the chain could get stuck until it was restarted by hand.</p>
+<h2><a name="p-256833-work-in-progress-4" class="anchor" href="#p-256833-work-in-progress-4" aria-label="Heading link"></a><strong>Work in progress</strong></h2>
+<p>The next big step is NU7 on Mainnet. NU7 has been live on Testnet since 4 October, which gives us time on a live network before the Mainnet release. Mainnet operators will need to install that release before 6.4.x stops in early November. No Mainnet activation height has been set yet; the overall effort is tracked in <a href="https://github.com/ZcashFoundation/zebra/pull/11484">this draft</a>.</p>
+<p>Some nodes running 6.4.1 can still pause near the top of the chain while they wait on busy peers, or ask peers that don’t keep full block history and give up too soon. A set of fixes under review makes Zebra <a href="https://github.com/ZcashFoundation/zebra/pull/11521">wait for a peer that can actually serve the block</a> and <a href="https://github.com/ZcashFoundation/zebra/pull/11532">send its searches for new blocks to those peers</a>, and <a href="https://github.com/ZcashFoundation/zebra/pull/11525">stops relying on a peer that keeps failing to deliver</a>.</p>
+<h2><a name="p-256833-work-on-other-repositories-5" class="anchor" href="#p-256833-work-on-other-repositories-5" aria-label="Heading link"></a><strong>Work on other repositories</strong></h2>
+<p><strong>Zeeder.</strong> Our DNS seeder, the service that helps brand-new nodes find their first peers, had two releases. <a href="https://github.com/ZcashFoundation/zeeder/pull/109">v1.6.3</a> <a href="https://github.com/ZcashFoundation/zeeder/pull/105">moved it onto Zebra’s latest networking code</a>, including the 6.4.2 fix. <a href="https://github.com/ZcashFoundation/zeeder/releases/tag/v1.7.0">v1.7.0</a> <a href="https://github.com/ZcashFoundation/zeeder/pull/112">adds support for NU7 on Testnet</a>: new nodes on Testnet are now pointed first to peers that already run NU7. Zeeder only stops listing older peers once it has seen for itself that NU7 is active, so the switch doesn’t cut anyone off early. It also checks for the upgrade less often, so it keeps working with 25-second blocks without getting blocked by Zebra’s limit on how often a peer can reconnect. Nothing changes on Mainnet, and operators only need to update the container.</p>
+<p><strong>Zinder.</strong> Zinder, our early-stage service that indexes the chain from a Zebra node and serves that data to wallets and explorers, <a href="https://github.com/ZcashFoundation/zinder/pull/97">no longer crashes in a loop</a> when new blocks arrive while it is catching up. This bug had kept a production faucet offline for about eleven hours.</p>
+<p><strong>reddsa.</strong> We <a href="https://github.com/ZcashFoundation/reddsa/pull/280">removed the FROST code</a> from reddsa, the signature library behind Zcash’s shielded spends, so that it can move into the main FROST repository.</p>
+<p><strong>ed25519-zebra.</strong> We <a href="https://github.com/ZcashFoundation/ed25519-zebra/pull/207">prepared version 5.0.0</a> of this signature library with updated dependencies.</p>
+<h2><a name="p-256833-thanks-to-external-contributors-6" class="anchor" href="#p-256833-thanks-to-external-contributors-6" aria-label="Heading link"></a><strong>Thanks to external contributors</strong></h2>
+<p>Thanks to <a href="https://github.com/evan-forbes">@evan-forbes</a> for <a href="https://github.com/ZcashFoundation/zebra/pull/11380">a cache that stops Zebra checking the same shielded proofs twice</a>, once when a transaction first arrives and again when it is mined into a block. It shipped in 6.4.0 and saves work on every node.</p>
+<p>Thanks to <a href="https://github.com/judah-caruso">@judah-caruso</a>, whose early NU7 work from our last update has now merged: the <a href="https://github.com/ZcashFoundation/zebra/pull/11454">rule that pays the fee reserve back out over time</a> and the change that <a href="https://github.com/ZcashFoundation/zebra/pull/11487">sets aside 60% of each block’s fees</a>. Thanks also to <a href="https://github.com/yagop">@yagop</a>, who made it possible for block explorers and indexers to <a href="https://github.com/ZcashFoundation/zebra/pull/11472">fetch a block together with what each payment spent and the fee it paid</a> in a single request.</p>
+<p>Thanks to <a href="https://github.com/ouicate">@ouicate</a> and <a href="https://github.com/craftsoldier">@craftsoldier</a> for their security reports, and to Google’s OSS-Fuzz for finding the crash fixed in 6.4.2.</p>
+<p>And also thanks to <a href="https://github.com/robustfengbin">@robustfengbin</a> for their contributions.</p>
+            </div>
+
+              <div itemprop="interactionStatistic" itemscope="itemscope" itemtype="http://schema.org/InteractionCounter">
+                  <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+                  <meta itemprop="userInteractionCount" content="12" />
+                <span class='post-likes'>12 Likes</span>
+              </div>
+
+
+            
+
+
+          </div>
+
+    </div>
+
+
+    <div id="related-topics" class="more-topics__list " role="complementary" aria-labelledby="related-topics-title">
+  <h3 id="related-topics-title" class="more-topics__list-title">
+    Related topics
+  </h3>
+  <div class="topic-list-container" itemscope itemtype='http://schema.org/ItemList'>
+    <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+    <table class='topic-list'>
+      <thead>
+        <tr>
+          <th>Topic</th>
+          <th></th>
+          <th class="replies">Replies</th>
+          <th class="views">Views</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="topic-list-item" id="topic-list-item-56845">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='1'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.zcashcommunity.com/t/zf-engineering-update-13th-july-26th-july-2026/56845' class='title raw-link raw-topic-link'>ZF Engineering Update: 13th July - 26th July 2026</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/ecosystem-updates/foundation/21' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #92278F'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Zcash Foundation</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>114</span>
+            </td>
+            <td>
+              July 29, 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-56667">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='2'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.zcashcommunity.com/t/zf-engineering-update-29th-june-to-12th-july-2026/56667' class='title raw-link raw-topic-link'>ZF Engineering Update - 29th June to 12th July 2026</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/ecosystem-updates/foundation/21' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #92278F'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Zcash Foundation</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>182</span>
+            </td>
+            <td>
+              July 14, 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-57789">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='3'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.zcashcommunity.com/t/zebra-6-4-0-and-6-4-1-security-fixes-light-client-serving-and-nu7-preparation-updated/57789' class='title raw-link raw-topic-link'>Zebra 6.4.0 and 6.4.1: Security Fixes, Light Client Serving, and NU7 Preparation (Updated)</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/ecosystem-updates/foundation/21' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #92278F'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Zcash Foundation</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>2</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>157</span>
+            </td>
+            <td>
+              September 25, 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-58006">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='4'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.zcashcommunity.com/t/zebra-7-0-0-rc-0-nu7-arrives-on-testnet/58006' class='title raw-link raw-topic-link'>Zebra 7.0.0-rc.0: NU7 Arrives on Testnet</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/ecosystem-updates/foundation/21' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #92278F'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Zcash Foundation</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>8</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>305</span>
+            </td>
+            <td>
+              October 16, 2026
+            </td>
+          </tr>
+          <tr class="topic-list-item" id="topic-list-item-56966">
+            <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='5'>
+              <span class="link-top-line">
+                <a itemprop='url' href='https://forum.zcashcommunity.com/t/zf-engineering-update-27th-july-to-9th-august-2026/56966' class='title raw-link raw-topic-link'>ZF Engineering Update - 27th July to 9th August 2026</a>
+              </span>
+              <div class="link-bottom-line">
+                  <a href='/c/ecosystem-updates/foundation/21' class='badge-wrapper bullet'>
+                    <span class='badge-category-bg' style='background-color: #92278F'></span>
+                    <span class='badge-category clear-badge'>
+                      <span class='category-name'>Zcash Foundation</span>
+                    </span>
+                  </a>
+                  <div class="discourse-tags">
+                  </div>
+              </div>
+            </td>
+            <td class="replies">
+              <span class='posts' title='posts'>0</span>
+            </td>
+            <td class="views">
+              <span class='views' title='views'>107</span>
+            </td>
+            <td>
+              August 11, 2026
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='/tos' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  </body>
+  
+</html>

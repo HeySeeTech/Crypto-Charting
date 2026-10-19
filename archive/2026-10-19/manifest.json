@@ -278,6 +278,12 @@
       "bytes": 3110
     },
     {
+      "path": "copy/outputs/2026-10-19/ZEC-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "fed2ed710bacdc180ebc0eb55868d4174bb0a617",
+      "bytes": 3198
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -1076,10 +1082,58 @@
       "bytes": 7161
     },
     {
+      "path": "research/research/2026-10-19/zec-update/nu7-timeline.html",
+      "category": "research",
+      "git_blob_sha1": "324e6314a76fce15d36816677cf4dc2a83cf3922",
+      "bytes": 63805
+    },
+    {
       "path": "research/research/2026-10-19/zec-update/prices.json",
       "category": "research",
       "git_blob_sha1": "077962f9e3542f61b3bfc282a1b7c060b04f377a",
       "bytes": 2285
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "b85d1259bc1f168eb40b8630d0b653956e988eb5",
+      "bytes": 989
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/zf-engineering-update.html",
+      "category": "research",
+      "git_blob_sha1": "760847af17683aa95faebec4b38b785f0412cd3c",
+      "bytes": 37092
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/zf-testnet.html",
+      "category": "research",
+      "git_blob_sha1": "804c74f082ffc946fc50d625cc6e1ab5b8c592cf",
+      "bytes": 295132
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/zip218.html",
+      "category": "research",
+      "git_blob_sha1": "d9f1f0ce6eb773ef87d733068f8fd174a07e3d08",
+      "bytes": 77937
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/zip235.html",
+      "category": "research",
+      "git_blob_sha1": "b42ac029c5b738f2c4c597d123bab26d7db25a59",
+      "bytes": 26121
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/zip237.html",
+      "category": "research",
+      "git_blob_sha1": "d8c13a556c998dd289fe63bfb73298991ffa7154",
+      "bytes": 47887
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "ce3c7513c6010d127be5053a5f07b845693e8a1f",
+      "bytes": 5083
     }
   ]
 }

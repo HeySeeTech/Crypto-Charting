@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（11）
+## 文案（12）
 
 - [outputs/2026-10-19/BTC-X文案.md](copy/outputs/2026-10-19/BTC-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/ETH-X文案.md](copy/outputs/2026-10-19/ETH-X%E6%96%87%E6%A1%88.md)
@@ -10,6 +10,7 @@
 - [outputs/2026-10-19/SUI-X文案.md](copy/outputs/2026-10-19/SUI-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/UNI-X文案.md](copy/outputs/2026-10-19/UNI-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/XRP-X文案.md](copy/outputs/2026-10-19/XRP-X%E6%96%87%E6%A1%88.md)
+- [outputs/2026-10-19/ZEC-X文案.md](copy/outputs/2026-10-19/ZEC-X%E6%96%87%E6%A1%88.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
@@ -108,7 +109,7 @@
 - [crypto-charting-data/weekly/2026-10-19/ZEC.json](data/crypto-charting-data/weekly/2026-10-19/ZEC.json)
 - [crypto-charting-data/weekly/2026-10-19/validation.json](data/crypto-charting-data/weekly/2026-10-19/validation.json)
 
-## 研究资料（72）
+## 研究资料（80）
 
 - [research/2026-10-19-weekly/recover_sources.py](research/research/2026-10-19-weekly/recover_sources.py)
 - [research/2026-10-19-weekly/verify_weekly.py](research/research/2026-10-19-weekly/verify_weekly.py)
@@ -181,7 +182,15 @@
 - [research/2026-10-19/xrp-update/xrpl-security-disclosure.html](research/research/2026-10-19/xrp-update/xrpl-security-disclosure.html)
 - [research/2026-10-19/xrp-update/研究说明.md](research/research/2026-10-19/xrp-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/zec-update/archived-ZEC-2026-10-18.json](research/research/2026-10-19/zec-update/archived-ZEC-2026-10-18.json)
+- [research/2026-10-19/zec-update/nu7-timeline.html](research/research/2026-10-19/zec-update/nu7-timeline.html)
 - [research/2026-10-19/zec-update/prices.json](research/research/2026-10-19/zec-update/prices.json)
+- [research/2026-10-19/zec-update/source-manifest.json](research/research/2026-10-19/zec-update/source-manifest.json)
+- [research/2026-10-19/zec-update/zf-engineering-update.html](research/research/2026-10-19/zec-update/zf-engineering-update.html)
+- [research/2026-10-19/zec-update/zf-testnet.html](research/research/2026-10-19/zec-update/zf-testnet.html)
+- [research/2026-10-19/zec-update/zip218.html](research/research/2026-10-19/zec-update/zip218.html)
+- [research/2026-10-19/zec-update/zip235.html](research/research/2026-10-19/zec-update/zip235.html)
+- [research/2026-10-19/zec-update/zip237.html](research/research/2026-10-19/zec-update/zip237.html)
+- [research/2026-10-19/zec-update/研究说明.md](research/research/2026-10-19/zec-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 
 ## 校验与日志（14）
 

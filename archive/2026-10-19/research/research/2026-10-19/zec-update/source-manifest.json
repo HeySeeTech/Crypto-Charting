@@ -1,0 +1,41 @@
+{
+  "retrieved_at_utc": "2026-10-19T04:03:47.997684+00:00",
+  "sources": [
+    {
+      "name": "nu7-timeline",
+      "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655",
+      "status": "saved",
+      "bytes": 63805
+    },
+    {
+      "name": "zf-testnet",
+      "url": "https://zfnd.org/zebra-7-0-0-rc-0-nu7-arrives-on-testnet/",
+      "status": "saved",
+      "bytes": 295132
+    },
+    {
+      "name": "zf-engineering-update",
+      "url": "https://forum.zcashcommunity.com/t/zf-engineering-update-21-september-5-october-2026/58059",
+      "status": "saved",
+      "bytes": 37092
+    },
+    {
+      "name": "zip218",
+      "url": "https://zips.z.cash/zip-0218",
+      "status": "saved",
+      "bytes": 77937
+    },
+    {
+      "name": "zip235",
+      "url": "https://zips.z.cash/zip-0235",
+      "status": "saved",
+      "bytes": 26121
+    },
+    {
+      "name": "zip237",
+      "url": "https://zips.z.cash/zip-0237",
+      "status": "saved",
+      "bytes": 47887
+    }
+  ]
+}
