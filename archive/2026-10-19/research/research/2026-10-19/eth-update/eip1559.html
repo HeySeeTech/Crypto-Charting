@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    
+      <title>EIP-1559: Fee market change for ETH 1.0 chain</title>
+      <meta property="og:title" content="EIP-1559: Fee market change for ETH 1.0 chain" />
+    
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:description" content="" />
+  
+  <meta name="generator" content="Jekyll" />
+  <meta property="og:locale" content="en_US" />
+  <link rel="canonical" href="https://eips.ethereum.org/EIPS/eip-1559" />
+  <meta property="og:url" content="https://eips.ethereum.org/EIPS/eip-1559" />
+  <meta property="og:site_name" content="Ethereum Improvement Proposals" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://eips.ethereum.org/assets/images/eip-og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://eips.ethereum.org/assets/images/eip-og-image.png" />
+  <meta name="twitter:site" content="@" />
+  <script type="application/ld+json">
+    {
+      "@type": "WebSite",
+      "url": "https://eips.ethereum.org",
+      "name": "Ethereum Improvement Proposals",
+      "description": "Ethereum Improvement Proposals (EIPs) describe standards for the Ethereum platform, such as core protocol specifications.",
+      "@context": "https://schema.org"
+    }
+  </script>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" /><link type="application/atom+xml" rel="alternate" href="https://eips.ethereum.org/feed.xml" title="Ethereum Improvement Proposals" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/override.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", (event) => {
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    });
+  </script>
+  <script type="text/javascript">
+    window.MathJax = {
+      loader: {
+        load: ['input/tex-base', 'output/chtml']
+      },
+      tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true,
+        processEnvironments: false,
+        processRefs: false
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js" integrity="sha384-/1zmJ1mBdfKIOnwPxpdG6yaRrxP6qu3eVYm0cz2nOx+AcL4d3AqEFrwcqGZVVroG" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/citation-js/0.6.7/citation.min.js" integrity="sha512-N+LDFMa9owHXGS+CyMrBvuxq2QuGl3fiB/7cys3aUEL7K6P1soHGqsS0sjHXZpwNd9Kz0m3R4IPy1HYRi6ROEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript">
+    addEventListener('DOMContentLoaded', async () => {
+      const Cite = window.require('citation-js');
+      const citationElements = document.querySelectorAll('.language-csl-json');
+      for (let citationElement of citationElements) {
+        try {
+          const citation = await Cite.async(citationElement);
+          const template = document.createElement('template');
+          template.innerHTML = citation.format('bibliography', {
+            format: 'html',
+            template: 'apa',
+            lang: 'en-US'
+          });
+          if (citationElement.parentElement && citationElement.parentElement.matches('pre')) {
+            citationElement.parentElement.replaceWith(template.content);
+          } else {
+            citationElement.replaceWith(template.content);
+          }
+        } catch (e) {
+          console.error("unable to render citation", e);
+        }
+      }
+    });
+  </script>
+</head>
+<body><header class="site-header" role="banner">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ethereum Improvement Proposals</a><nav class="site-nav d-flex">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger row p-2"><a class="page-link col" href="/all">All</a><a class="page-link col" href="/core">Core</a><a class="page-link col" href="/networking">Networking</a><a class="page-link col" href="/interface">Interface</a><a class="page-link col" href="/erc">ERC</a><a class="page-link col" href="/meta">Meta</a><a class="page-link col" href="/informational">Informational</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="bi-megaphone-fill" fill="currentColor" viewBox="0 0 16 16">
+    <title>Alert</title>
+    <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/>
+  </symbol>
+  <symbol id="bi-code" fill="currentColor" viewBox="0 0 16 16">
+    <title>Source</title>
+    <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+  </symbol>
+  <svg id="bi-chat" fill="currentColor" viewBox="0 0 16 16">
+    <title>Discuss</title>
+    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+  </svg>
+</svg>
+
+<div class="home">
+  
+  
+  
+ 
+  <span class="h5">
+    
+    
+    
+    
+    
+      <span class="badge text-light bg-success" data-bs-toggle="tooltip" data-bs-title="This EIP is finalized and is added as an Ethereum Standard. "> 🎉 Final</span>
+    
+       
+    
+      <a class="badge text-light bg-primary" data-bs-toggle="tooltip" data-bs-title="Improvements requiring a consensus fork, as well as changes that are not necessarily consensus critical but may be relevant to “core dev” discussions." href="../core">Standards Track: Core</a>
+    
+  </span>
+  <h1 class="page-heading">
+    EIP-1559: Fee market change for ETH 1.0 chain
+    <a href="https://ethereum-magicians.org/t/eip-1559-fee-market-change-for-eth-1-0-chain/2783" class="no-underline">
+      <svg role="img" aria-label="Discuss" class="inline-svg" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <use xlink:href="#bi-chat"/>
+      </svg>
+    </a>
+    <a href="https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md" class="no-underline">
+      <svg role="img" aria-label="Source" class="inline-svg" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 16 16">
+        <use xlink:href="#bi-code"/>
+      </svg>
+    </a>
+  </h1>
+  <h3></h3>
+  <table class="table table-borderless preamble">
+    <tbody>
+      <tr>
+        <th scope="row">Authors</th>
+        <td>Vitalik Buterin&nbsp;(<a href="https://github.com/vbuterin">@vbuterin</a>), Eric Conner&nbsp;(<a href="https://github.com/econoar">@econoar</a>), Rick Dudley&nbsp;(<a href="https://github.com/AFDudley">@AFDudley</a>), Matthew Slipper&nbsp;(<a href="https://github.com/mslipper">@mslipper</a>), Ian Norden&nbsp;(<a href="https://github.com/i-norden">@i-norden</a>), Abdelhamid Bakhta&nbsp;(<a href="https://github.com/abdelhamidbakhta">@abdelhamidbakhta</a>)</td>
+      </tr>
+      
+        <tr>
+          <th scope="row">Created</th>
+          <td>2019-04-13</td>
+        </tr>
+      
+      
+             
+      
+      
+        <tr>
+          <th scope="row">Requires</th>
+          <td>
+
+  <a href="eip-2718">EIP-2718</a>, 
+
+  <a href="eip-2930">EIP-2930</a>
+
+</td>
+        </tr>
+      
+    </tbody>
+  </table>
+  <br/>
+
+  
+
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    <ul>
+  <li><a href="#simple-summary">Simple Summary</a></li>
+  <li><a href="#abstract">Abstract</a></li>
+  <li><a href="#motivation">Motivation</a></li>
+  <li><a href="#specification">Specification</a></li>
+  <li><a href="#backwards-compatibility">Backwards Compatibility</a>
+    <ul>
+      <li><a href="#block-hash-changing">Block Hash Changing</a></li>
+      <li><a href="#gasprice">GASPRICE</a></li>
+    </ul>
+  </li>
+  <li><a href="#security-considerations">Security Considerations</a>
+    <ul>
+      <li><a href="#increased-max-block-sizecomplexity">Increased Max Block Size/Complexity</a></li>
+      <li><a href="#transaction-ordering">Transaction Ordering</a></li>
+      <li><a href="#miners-mining-empty-blocks">Miners Mining Empty Blocks</a></li>
+      <li><a href="#eth-burn-precludes-fixed-supply">ETH Burn Precludes Fixed Supply</a></li>
+    </ul>
+  </li>
+  <li><a href="#copyright">Copyright</a></li>
+</ul>
+
+  </div>
+
+  <h2 id="simple-summary">
+      
+      
+        <a href="#simple-summary" class="anchor-link"></a> Simple Summary
+      
+      
+    </h2>
+<p>A transaction pricing mechanism that includes fixed-per-block network fee that is burned and dynamically expands/contracts block sizes to deal with transient congestion.</p>
+  
+    <h2 id="abstract">
+      
+      
+        <a href="#abstract" class="anchor-link"></a> Abstract
+      
+      
+    </h2>
+<p>We introduce a new <a href="/EIPS/eip-2718">EIP-2718</a> transaction type, with the format <code class="language-plaintext highlighter-rouge">0x02 || rlp([chain_id, nonce, max_priority_fee_per_gas, max_fee_per_gas, gas_limit, destination, amount, data, access_list, signature_y_parity, signature_r, signature_s])</code>.</p>
+
+<p>There is a base fee per gas in protocol, which can move up or down each block according to a formula which is a function of gas used in parent block and gas target (block gas limit divided by elasticity multiplier) of parent block.
+The algorithm results in the base fee per gas increasing when blocks are above the gas target, and decreasing when blocks are below the gas target.
+The base fee per gas is burned.
+Transactions specify the maximum fee per gas they are willing to give to miners to incentivize them to include their transaction (aka: priority fee).
+Transactions also specify the maximum fee per gas they are willing to pay total (aka: max fee), which covers both the priority fee and the block’s network fee per gas (aka: base fee).
+Senders will always pay the base fee per gas of the block their transaction was included in, and they will pay the priority fee per gas set in the transaction, as long as the combined amount of the two fees doesn’t exceed the transaction’s maximum fee per gas.</p>
+  
+    <h2 id="motivation">
+      
+      
+        <a href="#motivation" class="anchor-link"></a> Motivation
+      
+      
+    </h2>
+<p>Ethereum historically priced transaction fees using a simple auction mechanism, where users send transactions with bids (“gasprices”) and miners choose transactions with the highest bids, and transactions that get included pay the bid that they specify. This leads to several large sources of inefficiency:</p>
+
+<ul>
+  <li><strong>Mismatch between volatility of transaction fee levels and social cost of transactions</strong>: bids to include transactions on mature public blockchains, that have enough usage so that blocks are full, tend to be extremely volatile. It’s absurd to suggest that the cost incurred by the network from accepting one more transaction into a block actually is 10x more when the cost per gas is 10 nanoeth compared to when the cost per gas is 1 nanoeth; in both cases, it’s a difference between 8 million gas and 8.02 million gas.</li>
+  <li><strong>Needless delays for users</strong>: because of the hard per-block gas limit coupled with natural volatility in transaction volume, transactions often wait for several blocks before getting included, but this is socially unproductive; no one significantly gains from the fact that there is no “slack” mechanism that allows one block to be bigger and the next block to be smaller to meet block-by-block differences in demand.</li>
+  <li><strong>Inefficiencies of first price auctions</strong>: The current approach, where transaction senders publish a transaction with a bid a maximum fee, miners choose the highest-paying transactions, and everyone pays what they bid. This is well-known in mechanism design literature to be highly inefficient, and so complex fee estimation algorithms are required. But even these algorithms often end up not working very well, leading to frequent fee overpayment.</li>
+  <li><strong>Instability of blockchains with no block reward</strong>: In the long run, blockchains where there is no issuance (including Bitcoin and Zcash) at present intend to switch to rewarding miners entirely through transaction fees. However, there are known issues with this that likely leads to a lot of instability, incentivizing mining “sister blocks” that steal transaction fees, opening up much stronger selfish mining attack vectors, and more. There is at present no good mitigation for this.</li>
+</ul>
+
+<p>The proposal in this EIP is to start with a base fee amount which is adjusted up and down by the protocol based on how congested the network is. When the network exceeds the target per-block gas usage, the base fee increases slightly and when capacity is below the target, it decreases slightly. Because these base fee changes are constrained, the maximum difference in base fee from block to block is predictable. This then allows wallets to auto-set the gas fees for users in a highly reliable fashion. It is expected that most users will not have to manually adjust gas fees, even in periods of high network activity. For most users the base fee will be estimated by their wallet and a small priority fee, which compensates miners taking on orphan risk (e.g. 1 nanoeth), will be automatically set. Users can also manually set the transaction max fee to bound their total costs.</p>
+
+<p>An important aspect of this fee system is that miners only get to keep the priority fee. The base fee is always burned (i.e. it is destroyed by the protocol). This ensures that only ETH can ever be used to pay for transactions on Ethereum, cementing the economic value of ETH within the Ethereum platform and reducing risks associated with miner extractable value (MEV). Additionally, this burn counterbalances Ethereum inflation while still giving the block reward and priority fee to miners. Finally, ensuring the miner of a block does not receive the base fee is important because it removes miner incentive to manipulate the fee in order to extract more fees from users.</p>
+  
+    <h2 id="specification">
+      
+      
+        <a href="#specification" class="anchor-link"></a> Specification
+      
+      
+    </h2>
+<p>Block validity is defined in the reference implementation below.
+The <code class="language-plaintext highlighter-rouge">GASPRICE</code> (<code class="language-plaintext highlighter-rouge">0x3a</code>) opcode <strong>MUST</strong> return the <code class="language-plaintext highlighter-rouge">effective_gas_price</code> as defined in the reference implementation below.</p>
+
+<p>As of <code class="language-plaintext highlighter-rouge">FORK_BLOCK_NUMBER</code>, a new <a href="/EIPS/eip-2718">EIP-2718</a> transaction is introduced with <code class="language-plaintext highlighter-rouge">TransactionType</code> 2.</p>
+
+<p>The intrinsic cost of the new transaction is inherited from <a href="/EIPS/eip-2930">EIP-2930</a>, specifically <code class="language-plaintext highlighter-rouge">21000 + 16 * non-zero calldata bytes + 4 * zero calldata bytes + 1900 * access list storage key count + 2400 * access list address count</code>.</p>
+
+<p>The <a href="/EIPS/eip-2718">EIP-2718</a> <code class="language-plaintext highlighter-rouge">TransactionPayload</code> for this transaction is <code class="language-plaintext highlighter-rouge">rlp([chain_id, nonce, max_priority_fee_per_gas, max_fee_per_gas, gas_limit, destination, amount, data, access_list, signature_y_parity, signature_r, signature_s])</code>.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">signature_y_parity, signature_r, signature_s</code> elements of this transaction represent a secp256k1 signature over <code class="language-plaintext highlighter-rouge">keccak256(0x02 || rlp([chain_id, nonce, max_priority_fee_per_gas, max_fee_per_gas, gas_limit, destination, amount, data, access_list]))</code>.</p>
+
+<p>The <a href="/EIPS/eip-2718">EIP-2718</a> <code class="language-plaintext highlighter-rouge">ReceiptPayload</code> for this transaction is <code class="language-plaintext highlighter-rouge">rlp([status, cumulative_transaction_gas_used, logs_bloom, logs])</code>.</p>
+
+<p><em>Note: <code class="language-plaintext highlighter-rouge">//</code> is integer division, round down.</em></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Union</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Literal</span>
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span><span class="p">,</span> <span class="n">field</span>
+<span class="kn">from</span> <span class="nn">abc</span> <span class="kn">import</span> <span class="n">ABC</span><span class="p">,</span> <span class="n">abstractmethod</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">TransactionLegacy</span><span class="p">:</span>
+	<span class="n">signer_nonce</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">gas_price</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">gas_limit</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">destination</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">amount</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">payload</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">()</span>
+	<span class="n">v</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">r</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">s</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Transaction2930Payload</span><span class="p">:</span>
+	<span class="n">chain_id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">signer_nonce</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">gas_price</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">gas_limit</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">destination</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">amount</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">payload</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">()</span>
+	<span class="n">access_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]]</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="nb">list</span><span class="p">)</span>
+	<span class="n">signature_y_parity</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">False</span>
+	<span class="n">signature_r</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">signature_s</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Transaction2930Envelope</span><span class="p">:</span>
+	<span class="nb">type</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+	<span class="n">payload</span><span class="p">:</span> <span class="n">Transaction2930Payload</span> <span class="o">=</span> <span class="n">Transaction2930Payload</span><span class="p">()</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Transaction1559Payload</span><span class="p">:</span>
+	<span class="n">chain_id</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">signer_nonce</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">max_priority_fee_per_gas</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">max_fee_per_gas</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">gas_limit</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">destination</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">amount</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">payload</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">()</span>
+	<span class="n">access_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]]</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="nb">list</span><span class="p">)</span>
+	<span class="n">signature_y_parity</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">False</span>
+	<span class="n">signature_r</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">signature_s</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Transaction1559Envelope</span><span class="p">:</span>
+	<span class="nb">type</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+	<span class="n">payload</span><span class="p">:</span> <span class="n">Transaction1559Payload</span> <span class="o">=</span> <span class="n">Transaction1559Payload</span><span class="p">()</span>
+
+<span class="n">Transaction2718</span> <span class="o">=</span> <span class="n">Union</span><span class="p">[</span><span class="n">Transaction1559Envelope</span><span class="p">,</span> <span class="n">Transaction2930Envelope</span><span class="p">]</span>
+
+<span class="n">Transaction</span> <span class="o">=</span> <span class="n">Union</span><span class="p">[</span><span class="n">TransactionLegacy</span><span class="p">,</span> <span class="n">Transaction2718</span><span class="p">]</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">NormalizedTransaction</span><span class="p">:</span>
+	<span class="n">signer_address</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">signer_nonce</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">max_priority_fee_per_gas</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">max_fee_per_gas</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">gas_limit</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">destination</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">amount</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">payload</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">()</span>
+	<span class="n">access_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]]</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="nb">list</span><span class="p">)</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Block</span><span class="p">:</span>
+	<span class="n">parent_hash</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">uncle_hashes</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="nb">list</span><span class="p">)</span>
+	<span class="n">author</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">state_root</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">transaction_root</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">transaction_receipt_root</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">logs_bloom</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">difficulty</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">number</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">gas_limit</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># note the gas_limit is the gas_target * ELASTICITY_MULTIPLIER
+</span>	<span class="n">gas_used</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">timestamp</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">extra_data</span><span class="p">:</span> <span class="nb">bytes</span> <span class="o">=</span> <span class="nb">bytes</span><span class="p">()</span>
+	<span class="n">proof_of_work</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">nonce</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">base_fee_per_gas</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="o">@</span><span class="n">dataclass</span>
+<span class="k">class</span> <span class="nc">Account</span><span class="p">:</span>
+	<span class="n">address</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">nonce</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">balance</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">storage_root</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">code_hash</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="n">INITIAL_BASE_FEE</span> <span class="o">=</span> <span class="mi">1000000000</span>
+<span class="n">INITIAL_FORK_BLOCK_NUMBER</span> <span class="o">=</span> <span class="mi">10</span> <span class="c1"># TBD
+</span><span class="n">BASE_FEE_MAX_CHANGE_DENOMINATOR</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">ELASTICITY_MULTIPLIER</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="k">class</span> <span class="nc">World</span><span class="p">(</span><span class="n">ABC</span><span class="p">):</span>
+	<span class="k">def</span> <span class="nf">validate_block</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block</span><span class="p">:</span> <span class="n">Block</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+		<span class="n">parent_gas_target</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="n">block</span><span class="p">).</span><span class="n">gas_limit</span> <span class="o">//</span> <span class="n">ELASTICITY_MULTIPLIER</span>
+		<span class="n">parent_gas_limit</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="n">block</span><span class="p">).</span><span class="n">gas_limit</span>
+
+		<span class="c1"># on the fork block, don't account for the ELASTICITY_MULTIPLIER to avoid
+</span>		<span class="c1"># unduly halving the gas target.
+</span>		<span class="k">if</span> <span class="n">INITIAL_FORK_BLOCK_NUMBER</span> <span class="o">==</span> <span class="n">block</span><span class="p">.</span><span class="n">number</span><span class="p">:</span>
+			<span class="n">parent_gas_target</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="n">block</span><span class="p">).</span><span class="n">gas_limit</span>
+			<span class="n">parent_gas_limit</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="n">block</span><span class="p">).</span><span class="n">gas_limit</span> <span class="o">*</span> <span class="n">ELASTICITY_MULTIPLIER</span> 
+
+		<span class="n">parent_base_fee_per_gas</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="n">block</span><span class="p">).</span><span class="n">base_fee_per_gas</span>
+		<span class="n">parent_gas_used</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">parent</span><span class="p">(</span><span class="n">block</span><span class="p">).</span><span class="n">gas_used</span>
+		<span class="n">transactions</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">transactions</span><span class="p">(</span><span class="n">block</span><span class="p">)</span>
+
+		<span class="c1"># check if the block used too much gas
+</span>		<span class="k">assert</span> <span class="n">block</span><span class="p">.</span><span class="n">gas_used</span> <span class="o">&lt;=</span> <span class="n">block</span><span class="p">.</span><span class="n">gas_limit</span><span class="p">,</span> <span class="s">'invalid block: too much gas used'</span>
+
+		<span class="c1"># check if the block changed the gas limit too much
+</span>		<span class="k">assert</span> <span class="n">block</span><span class="p">.</span><span class="n">gas_limit</span> <span class="o">&lt;</span> <span class="n">parent_gas_limit</span> <span class="o">+</span> <span class="n">parent_gas_limit</span> <span class="o">//</span> <span class="mi">1024</span><span class="p">,</span> <span class="s">'invalid block: gas limit increased too much'</span>
+		<span class="k">assert</span> <span class="n">block</span><span class="p">.</span><span class="n">gas_limit</span> <span class="o">&gt;</span> <span class="n">parent_gas_limit</span> <span class="o">-</span> <span class="n">parent_gas_limit</span> <span class="o">//</span> <span class="mi">1024</span><span class="p">,</span> <span class="s">'invalid block: gas limit decreased too much'</span>
+
+		<span class="c1"># check if the gas limit is at least the minimum gas limit
+</span>		<span class="k">assert</span> <span class="n">block</span><span class="p">.</span><span class="n">gas_limit</span> <span class="o">&gt;=</span> <span class="mi">5000</span>
+
+		<span class="c1"># check if the base fee is correct
+</span>		<span class="k">if</span> <span class="n">INITIAL_FORK_BLOCK_NUMBER</span> <span class="o">==</span> <span class="n">block</span><span class="p">.</span><span class="n">number</span><span class="p">:</span>
+			<span class="n">expected_base_fee_per_gas</span> <span class="o">=</span> <span class="n">INITIAL_BASE_FEE</span>
+		<span class="k">elif</span> <span class="n">parent_gas_used</span> <span class="o">==</span> <span class="n">parent_gas_target</span><span class="p">:</span>
+			<span class="n">expected_base_fee_per_gas</span> <span class="o">=</span> <span class="n">parent_base_fee_per_gas</span>
+		<span class="k">elif</span> <span class="n">parent_gas_used</span> <span class="o">&gt;</span> <span class="n">parent_gas_target</span><span class="p">:</span>
+			<span class="n">gas_used_delta</span> <span class="o">=</span> <span class="n">parent_gas_used</span> <span class="o">-</span> <span class="n">parent_gas_target</span>
+			<span class="n">base_fee_per_gas_delta</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">parent_base_fee_per_gas</span> <span class="o">*</span> <span class="n">gas_used_delta</span> <span class="o">//</span> <span class="n">parent_gas_target</span> <span class="o">//</span> <span class="n">BASE_FEE_MAX_CHANGE_DENOMINATOR</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+			<span class="n">expected_base_fee_per_gas</span> <span class="o">=</span> <span class="n">parent_base_fee_per_gas</span> <span class="o">+</span> <span class="n">base_fee_per_gas_delta</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="n">gas_used_delta</span> <span class="o">=</span> <span class="n">parent_gas_target</span> <span class="o">-</span> <span class="n">parent_gas_used</span>
+			<span class="n">base_fee_per_gas_delta</span> <span class="o">=</span> <span class="n">parent_base_fee_per_gas</span> <span class="o">*</span> <span class="n">gas_used_delta</span> <span class="o">//</span> <span class="n">parent_gas_target</span> <span class="o">//</span> <span class="n">BASE_FEE_MAX_CHANGE_DENOMINATOR</span>
+			<span class="n">expected_base_fee_per_gas</span> <span class="o">=</span> <span class="n">parent_base_fee_per_gas</span> <span class="o">-</span> <span class="n">base_fee_per_gas_delta</span>
+		<span class="k">assert</span> <span class="n">expected_base_fee_per_gas</span> <span class="o">==</span> <span class="n">block</span><span class="p">.</span><span class="n">base_fee_per_gas</span><span class="p">,</span> <span class="s">'invalid block: base fee not correct'</span>
+
+		<span class="c1"># execute transactions and do gas accounting
+</span>		<span class="n">cumulative_transaction_gas_used</span> <span class="o">=</span> <span class="mi">0</span>
+		<span class="k">for</span> <span class="n">unnormalized_transaction</span> <span class="ow">in</span> <span class="n">transactions</span><span class="p">:</span>
+			<span class="c1"># Note: this validates transaction signature and chain ID which must happen before we normalize below since normalized transactions don't include signature or chain ID
+</span>			<span class="n">signer_address</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">validate_and_recover_signer_address</span><span class="p">(</span><span class="n">unnormalized_transaction</span><span class="p">)</span>
+			<span class="n">transaction</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">normalize_transaction</span><span class="p">(</span><span class="n">unnormalized_transaction</span><span class="p">,</span> <span class="n">signer_address</span><span class="p">)</span>
+
+			<span class="n">signer</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">account</span><span class="p">(</span><span class="n">signer_address</span><span class="p">)</span>
+
+			<span class="n">signer</span><span class="p">.</span><span class="n">balance</span> <span class="o">-=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">amount</span>
+			<span class="k">assert</span> <span class="n">signer</span><span class="p">.</span><span class="n">balance</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">,</span> <span class="s">'invalid transaction: signer does not have enough ETH to cover attached value'</span>
+			<span class="c1"># the signer must be able to afford the transaction
+</span>			<span class="k">assert</span> <span class="n">signer</span><span class="p">.</span><span class="n">balance</span> <span class="o">&gt;=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">gas_limit</span> <span class="o">*</span> <span class="n">transaction</span><span class="p">.</span><span class="n">max_fee_per_gas</span>
+
+			<span class="c1"># ensure that the user was willing to at least pay the base fee
+</span>			<span class="k">assert</span> <span class="n">transaction</span><span class="p">.</span><span class="n">max_fee_per_gas</span> <span class="o">&gt;=</span> <span class="n">block</span><span class="p">.</span><span class="n">base_fee_per_gas</span>
+
+			<span class="c1"># Prevent impossibly large numbers
+</span>			<span class="k">assert</span> <span class="n">transaction</span><span class="p">.</span><span class="n">max_fee_per_gas</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="o">**</span><span class="mi">256</span>
+			<span class="c1"># Prevent impossibly large numbers
+</span>			<span class="k">assert</span> <span class="n">transaction</span><span class="p">.</span><span class="n">max_priority_fee_per_gas</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="o">**</span><span class="mi">256</span>
+			<span class="c1"># The total must be the larger of the two
+</span>			<span class="k">assert</span> <span class="n">transaction</span><span class="p">.</span><span class="n">max_fee_per_gas</span> <span class="o">&gt;=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">max_priority_fee_per_gas</span>
+
+			<span class="c1"># priority fee is capped because the base fee is filled first
+</span>			<span class="n">priority_fee_per_gas</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">transaction</span><span class="p">.</span><span class="n">max_priority_fee_per_gas</span><span class="p">,</span> <span class="n">transaction</span><span class="p">.</span><span class="n">max_fee_per_gas</span> <span class="o">-</span> <span class="n">block</span><span class="p">.</span><span class="n">base_fee_per_gas</span><span class="p">)</span>
+			<span class="c1"># signer pays both the priority fee and the base fee
+</span>			<span class="n">effective_gas_price</span> <span class="o">=</span> <span class="n">priority_fee_per_gas</span> <span class="o">+</span> <span class="n">block</span><span class="p">.</span><span class="n">base_fee_per_gas</span>
+			<span class="n">signer</span><span class="p">.</span><span class="n">balance</span> <span class="o">-=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">gas_limit</span> <span class="o">*</span> <span class="n">effective_gas_price</span>
+			<span class="k">assert</span> <span class="n">signer</span><span class="p">.</span><span class="n">balance</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">,</span> <span class="s">'invalid transaction: signer does not have enough ETH to cover gas'</span>
+			<span class="n">gas_used</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">execute_transaction</span><span class="p">(</span><span class="n">transaction</span><span class="p">,</span> <span class="n">effective_gas_price</span><span class="p">)</span>
+			<span class="n">gas_refund</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">gas_limit</span> <span class="o">-</span> <span class="n">gas_used</span>
+			<span class="n">cumulative_transaction_gas_used</span> <span class="o">+=</span> <span class="n">gas_used</span>
+			<span class="c1"># signer gets refunded for unused gas
+</span>			<span class="n">signer</span><span class="p">.</span><span class="n">balance</span> <span class="o">+=</span> <span class="n">gas_refund</span> <span class="o">*</span> <span class="n">effective_gas_price</span>
+			<span class="c1"># miner only receives the priority fee; note that the base fee is not given to anyone (it is burned)
+</span>			<span class="bp">self</span><span class="p">.</span><span class="n">account</span><span class="p">(</span><span class="n">block</span><span class="p">.</span><span class="n">author</span><span class="p">).</span><span class="n">balance</span> <span class="o">+=</span> <span class="n">gas_used</span> <span class="o">*</span> <span class="n">priority_fee_per_gas</span>
+
+		<span class="c1"># check if the block spent too much gas transactions
+</span>		<span class="k">assert</span> <span class="n">cumulative_transaction_gas_used</span> <span class="o">==</span> <span class="n">block</span><span class="p">.</span><span class="n">gas_used</span><span class="p">,</span> <span class="s">'invalid block: gas_used does not equal total gas used in all transactions'</span>
+
+		<span class="c1"># TODO: verify account balances match block's account balances (via state root comparison)
+</span>		<span class="c1"># TODO: validate the rest of the block
+</span>
+	<span class="k">def</span> <span class="nf">normalize_transaction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">Transaction</span><span class="p">,</span> <span class="n">signer_address</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NormalizedTransaction</span><span class="p">:</span>
+		<span class="c1"># legacy transactions
+</span>		<span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">transaction</span><span class="p">,</span> <span class="n">TransactionLegacy</span><span class="p">):</span>
+			<span class="k">return</span> <span class="n">NormalizedTransaction</span><span class="p">(</span>
+				<span class="n">signer_address</span> <span class="o">=</span> <span class="n">signer_address</span><span class="p">,</span>
+				<span class="n">signer_nonce</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">signer_nonce</span><span class="p">,</span>
+				<span class="n">gas_limit</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">gas_limit</span><span class="p">,</span>
+				<span class="n">max_priority_fee_per_gas</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">gas_price</span><span class="p">,</span>
+				<span class="n">max_fee_per_gas</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">gas_price</span><span class="p">,</span>
+				<span class="n">destination</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">destination</span><span class="p">,</span>
+				<span class="n">amount</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">amount</span><span class="p">,</span>
+				<span class="n">payload</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">,</span>
+				<span class="n">access_list</span> <span class="o">=</span> <span class="p">[],</span>
+			<span class="p">)</span>
+		<span class="c1"># 2930 transactions
+</span>		<span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">transaction</span><span class="p">,</span> <span class="n">Transaction2930Envelope</span><span class="p">):</span>
+			<span class="k">return</span> <span class="n">NormalizedTransaction</span><span class="p">(</span>
+				<span class="n">signer_address</span> <span class="o">=</span> <span class="n">signer_address</span><span class="p">,</span>
+				<span class="n">signer_nonce</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">signer_nonce</span><span class="p">,</span>
+				<span class="n">gas_limit</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">gas_limit</span><span class="p">,</span>
+				<span class="n">max_priority_fee_per_gas</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">gas_price</span><span class="p">,</span>
+				<span class="n">max_fee_per_gas</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">gas_price</span><span class="p">,</span>
+				<span class="n">destination</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">destination</span><span class="p">,</span>
+				<span class="n">amount</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">amount</span><span class="p">,</span>
+				<span class="n">payload</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">payload</span><span class="p">,</span>
+				<span class="n">access_list</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">access_list</span><span class="p">,</span>
+			<span class="p">)</span>
+		<span class="c1"># 1559 transactions
+</span>		<span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">transaction</span><span class="p">,</span> <span class="n">Transaction1559Envelope</span><span class="p">):</span>
+			<span class="k">return</span> <span class="n">NormalizedTransaction</span><span class="p">(</span>
+				<span class="n">signer_address</span> <span class="o">=</span> <span class="n">signer_address</span><span class="p">,</span>
+				<span class="n">signer_nonce</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">signer_nonce</span><span class="p">,</span>
+				<span class="n">gas_limit</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">gas_limit</span><span class="p">,</span>
+				<span class="n">max_priority_fee_per_gas</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">max_priority_fee_per_gas</span><span class="p">,</span>
+				<span class="n">max_fee_per_gas</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">max_fee_per_gas</span><span class="p">,</span>
+				<span class="n">destination</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">destination</span><span class="p">,</span>
+				<span class="n">amount</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">amount</span><span class="p">,</span>
+				<span class="n">payload</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">payload</span><span class="p">,</span>
+				<span class="n">access_list</span> <span class="o">=</span> <span class="n">transaction</span><span class="p">.</span><span class="n">payload</span><span class="p">.</span><span class="n">access_list</span><span class="p">,</span>
+			<span class="p">)</span>
+		<span class="k">else</span><span class="p">:</span>
+			<span class="k">raise</span> <span class="nb">Exception</span><span class="p">(</span><span class="s">'invalid transaction: unexpected number of items'</span><span class="p">)</span>
+
+	<span class="o">@</span><span class="n">abstractmethod</span>
+	<span class="k">def</span> <span class="nf">parent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block</span><span class="p">:</span> <span class="n">Block</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Block</span><span class="p">:</span> <span class="k">pass</span>
+
+	<span class="o">@</span><span class="n">abstractmethod</span>
+	<span class="k">def</span> <span class="nf">block_hash</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block</span><span class="p">:</span> <span class="n">Block</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span> <span class="k">pass</span>
+
+	<span class="o">@</span><span class="n">abstractmethod</span>
+	<span class="k">def</span> <span class="nf">transactions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block</span><span class="p">:</span> <span class="n">Block</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Transaction</span><span class="p">]:</span> <span class="k">pass</span>
+
+	<span class="c1"># effective_gas_price is the value returned by the GASPRICE (0x3a) opcode
+</span>	<span class="o">@</span><span class="n">abstractmethod</span>
+	<span class="k">def</span> <span class="nf">execute_transaction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">NormalizedTransaction</span><span class="p">,</span> <span class="n">effective_gas_price</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span> <span class="k">pass</span>
+
+	<span class="o">@</span><span class="n">abstractmethod</span>
+	<span class="k">def</span> <span class="nf">validate_and_recover_signer_address</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">Transaction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span> <span class="k">pass</span>
+
+	<span class="o">@</span><span class="n">abstractmethod</span>
+	<span class="k">def</span> <span class="nf">account</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">address</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Account</span><span class="p">:</span> <span class="k">pass</span>
+</code></pre></div></div>
+  
+    <h2 id="backwards-compatibility">
+      
+      
+        <a href="#backwards-compatibility" class="anchor-link"></a> Backwards Compatibility
+      
+      
+    </h2>
+<p>Legacy Ethereum transactions will still work and be included in blocks, but they will not benefit directly from the new pricing system.  This is due to the fact that upgrading from legacy transactions to new transactions results in the legacy transaction’s <code class="language-plaintext highlighter-rouge">gas_price </code> entirely being consumed either by the <code class="language-plaintext highlighter-rouge">base_fee_per_gas</code> and the <code class="language-plaintext highlighter-rouge">priority_fee_per_gas</code>.</p>
+  
+    <h3 id="block-hash-changing">
+      
+      
+        <a href="#block-hash-changing" class="anchor-link"></a> Block Hash Changing
+      
+      
+    </h3>
+<p>The datastructure that is passed into keccak256 to calculate the block hash is changing, and all applications that are validating blocks are valid or using the block hash to verify block contents will need to be adapted to support the new datastructure (one additional item).  If you only take the block header bytes and hash them you should still correctly get a hash, but if you construct a block header from its constituent elements you will need to add in the new one at the end.</p>
+  
+    <h3 id="gasprice">
+      
+      
+        <a href="#gasprice" class="anchor-link"></a> GASPRICE
+      
+      
+    </h3>
+<p>Previous to this change, <code class="language-plaintext highlighter-rouge">GASPRICE</code> represented both the ETH paid by the signer per gas for a transaction as well as the ETH received by the miner per gas.  As of this change, <code class="language-plaintext highlighter-rouge">GASPRICE</code> now only represents the amount of ETH paid by the signer per gas, and the amount a miner was paid for the transaction is no longer accessible directly in the EVM.</p>
+  
+    <h2 id="security-considerations">
+      
+      
+        <a href="#security-considerations" class="anchor-link"></a> Security Considerations
+      
+      
+    </h2>
+  
+    <h3 id="increased-max-block-sizecomplexity">
+      
+      
+        <a href="#increased-max-block-sizecomplexity" class="anchor-link"></a> Increased Max Block Size/Complexity
+      
+      
+    </h3>
+<p>This EIP will increase the maximum block size, which could cause problems if miners are unable to process a block fast enough as it will force them to mine an empty block.  Over time, the average block size should remain about the same as without this EIP, so this is only an issue for short term size bursts.  It is possible that one or more clients may handle short term size bursts poorly and error (such as out of memory or similar) and client implementations should make sure their clients can appropriately handle individual blocks up to max size.</p>
+  
+    <h3 id="transaction-ordering">
+      
+      
+        <a href="#transaction-ordering" class="anchor-link"></a> Transaction Ordering
+      
+      
+    </h3>
+<p>With most people not competing on priority fees and instead using a baseline fee to get included, transaction ordering now depends on individual client internal implementation details such as how they store the transactions in memory.  It is recommended that transactions with the same priority fee be sorted by time the transaction was received to protect the network from spamming attacks where the attacker throws a bunch of transactions into the pending pool in order to ensure that at least one lands in a favorable position.  Miners should still prefer higher gas premium transactions over those with a lower gas premium, purely from a selfish mining perspective.</p>
+  
+    <h3 id="miners-mining-empty-blocks">
+      
+      
+        <a href="#miners-mining-empty-blocks" class="anchor-link"></a> Miners Mining Empty Blocks
+      
+      
+    </h3>
+<p>It is possible that miners will mine empty blocks until such time as the base fee is very low and then proceed to mine half full blocks and revert to sorting transactions by the priority fee.  While this attack is possible, it is not a particularly stable equilibrium as long as mining is decentralized.  Any defector from this strategy will be more profitable than a miner participating in the attack for as long as the attack continues (even after the base fee reached 0).  Since any miner can anonymously defect from a cartel, and there is no way to prove that a particular miner defected, the only feasible way to execute this attack would be to control 50% or more of hashing power.  If an attacker had exactly 50% of hashing power, they would make no Ether from priority fee while defectors would make double the Ether from priority fees.  For an attacker to turn a profit, they need to have some amount over 50% hashing power, which means they can instead execute double spend attacks or simply ignore any other miners which is a far more profitable strategy.</p>
+
+<p>Should a miner attempt to execute this attack, we can simply increase the elasticity multiplier (currently 2x) which requires they have even more hashing power available before the attack can even be theoretically profitable against defectors.</p>
+  
+    <h3 id="eth-burn-precludes-fixed-supply">
+      
+      
+        <a href="#eth-burn-precludes-fixed-supply" class="anchor-link"></a> ETH Burn Precludes Fixed Supply
+      
+      
+    </h3>
+<p>By burning the base fee, we can no longer guarantee a fixed Ether supply.  This could result in economic instability as the long term supply of ETH will no longer be constant over time.  While a valid concern, it is difficult to quantify how much of an impact this will have.  If more is burned on base fee than is generated in mining rewards then ETH will be deflationary and if more is generated in mining rewards than is burned then ETH will be inflationary.  Since we cannot control user demand for block space, we cannot assert at the moment whether ETH will end up inflationary or deflationary, so this change causes the core developers to lose some control over Ether’s long term quantity.</p>
+  
+    <h2 id="copyright">
+      
+      
+        <a href="#copyright" class="anchor-link"></a> Copyright
+      
+      
+    </h2>
+<p>Copyright and related rights waived via <a href="/LICENSE">CC0</a>.</p>
+
+  <h2>Citation</h2>
+  <p>Please cite this document as:</p>
+  
+  <p>Vitalik Buterin&nbsp;(<a href="https://github.com/vbuterin">@vbuterin</a>), Eric Conner&nbsp;(<a href="https://github.com/econoar">@econoar</a>), Rick Dudley&nbsp;(<a href="https://github.com/AFDudley">@AFDudley</a>), Matthew Slipper&nbsp;(<a href="https://github.com/mslipper">@mslipper</a>), Ian Norden&nbsp;(<a href="https://github.com/i-norden">@i-norden</a>), Abdelhamid Bakhta&nbsp;(<a href="https://github.com/abdelhamidbakhta">@abdelhamidbakhta</a>), "EIP-1559: Fee market change for ETH 1.0 chain," <em>Ethereum Improvement Proposals</em>, no. 1559, April 2019. Available: https://eips.ethereum.org/EIPS/eip-1559.</p>
+</div>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "TechArticle",
+    "headline": "EIP-1559: Fee market change for ETH 1.0 chain",
+    "name": "EIP-1559: Fee market change for ETH 1.0 chain",
+    "author": "Vitalik Buterin (@vbuterin), Eric Conner (@econoar), Rick Dudley (@AFDudley), Matthew Slipper (@mslipper), Ian Norden (@i-norden), Abdelhamid Bakhta (@abdelhamidbakhta)",
+    "dateCreated": "2019-04-13",
+    "datePublished": "2019-04-13",
+    
+    "discussionUrl": "https://ethereum-magicians.org/t/eip-1559-fee-market-change-for-eth-1-0-chain/2783",
+    
+    "inLanguage": "en-US",
+    "license": "#copyright",
+    "copyrightYear": "2019"
+  }
+</script>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Ethereum Improvement Proposals</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Ethereum Improvement Proposals</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/ethereum/EIPs"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">ethereum/EIPs</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Ethereum Improvement Proposals (EIPs) describe standards for the Ethereum platform, such as core protocol specifications.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

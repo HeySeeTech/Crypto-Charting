@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-19T03:14:55.740250+00:00",
+  "sources": [
+    {
+      "name": "hoodi-announcement",
+      "url": "https://blog.ethereum.org/2026/10/16/glamsterdam-hoodi-announcement",
+      "bytes": 204062,
+      "status": "saved"
+    },
+    {
+      "name": "repricing-guide",
+      "url": "https://blog.ethereum.org/2026/08/24/glamsterdam-repricing-testing",
+      "bytes": 168332,
+      "status": "saved"
+    },
+    {
+      "name": "eip1559",
+      "url": "https://eips.ethereum.org/EIPS/eip-1559",
+      "bytes": 65732,
+      "status": "saved"
+    },
+    {
+      "name": "gas-documentation",
+      "url": "https://ethereum.org/en/developers/docs/gas/",
+      "bytes": 512707,
+      "status": "saved"
+    },
+    {
+      "name": "farside",
+      "url": "https://farside.co.uk/eth/",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "failed"
+    }
+  ]
+}

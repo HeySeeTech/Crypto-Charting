@@ -194,6 +194,12 @@
       "bytes": 3039
     },
     {
+      "path": "copy/outputs/2026-10-19/ETH-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "882fedf083a6e6cc2b509f46e8f8d660f6cf171b",
+      "bytes": 2884
+    },
+    {
       "path": "copy/outputs/2026-10-19/UNI-X文案.md",
       "category": "copy",
       "git_blob_sha1": "df59d42ce70a66840606def4e7c89a76f7993a51",
@@ -564,6 +570,54 @@
       "category": "research",
       "git_blob_sha1": "bb74ff79d5ea1d80065cb678e6c7db1132623c27",
       "bytes": 685
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/archived-ETH-2026-10-18.json",
+      "category": "research",
+      "git_blob_sha1": "c0f672ddd544ba0ee3966b7907bc90f168571100",
+      "bytes": 16061
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/eip1559.html",
+      "category": "research",
+      "git_blob_sha1": "a36bca479183ad6bb6a5133cb9467f9000672c6a",
+      "bytes": 65732
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/gas-documentation.html",
+      "category": "research",
+      "git_blob_sha1": "00ca5e89a7900ccc732c18a4fb01e0b5f9cb25a7",
+      "bytes": 512707
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/hoodi-announcement.html",
+      "category": "research",
+      "git_blob_sha1": "9ecf75769e679419426144e993b6ee4bcb2a1208",
+      "bytes": 204062
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/live-prices.json",
+      "category": "research",
+      "git_blob_sha1": "b5fd78e06a8ef971811f60c571a2cf8d92df3c5a",
+      "bytes": 2387
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/repricing-guide.html",
+      "category": "research",
+      "git_blob_sha1": "dfb56ef422f37adb876e6dabab1a5ac9e30d8508",
+      "bytes": 168332
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "fac2f3e2087231fdc54407bf86d68268ed661cf3",
+      "bytes": 881
+    },
+    {
+      "path": "research/research/2026-10-19/eth-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "08f58f8399898422ec80380985ccbc9a59ecd94d",
+      "bytes": 4179
     },
     {
       "path": "research/research/2026-10-19/factsheet-checks.json",
