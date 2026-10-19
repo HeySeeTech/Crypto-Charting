@@ -32,10 +32,22 @@
       "bytes": 236285
     },
     {
+      "path": "charts/crypto-charting-data/2026-10-19/ETH-context-preview.c61184896a2cb117.png",
+      "category": "charts",
+      "git_blob_sha1": "1ccf149bb0a0fe43e266b45a7ab298631ee9fac9",
+      "bytes": 346849
+    },
+    {
       "path": "charts/crypto-charting-data/2026-10-19/ETH-context-preview.png",
       "category": "charts",
       "git_blob_sha1": "8e0ed702653b770785f8d9b4608c503c686e8833",
       "bytes": 344190
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-19/ETH-dashboard-preview.92f6942aeb18cf1d.png",
+      "category": "charts",
+      "git_blob_sha1": "c4810e7793b4d45b8d52e0221cc620befab0974d",
+      "bytes": 719975
     },
     {
       "path": "charts/crypto-charting-data/2026-10-19/ETH-dashboard-preview.png",
@@ -50,6 +62,12 @@
       "bytes": 101974
     },
     {
+      "path": "charts/crypto-charting-data/2026-10-19/ETH-holdings-preview.7a5e04c18c42bba9.png",
+      "category": "charts",
+      "git_blob_sha1": "ce5901b035fcfa5d9ad50b7b4d6f19b641d5dd87",
+      "bytes": 656723
+    },
+    {
       "path": "charts/crypto-charting-data/2026-10-19/ETH-holdings-preview.png",
       "category": "charts",
       "git_blob_sha1": "9c8be9f6c56a67ecc2588dbcdccccbb7aa34948c",
@@ -62,10 +80,22 @@
       "bytes": 230246
     },
     {
+      "path": "charts/crypto-charting-data/2026-10-19/SOL-context-preview.cb5bd29e4ac1f684.png",
+      "category": "charts",
+      "git_blob_sha1": "1a45f120efeb4644a3d4438c73cd7a97722c73c5",
+      "bytes": 389288
+    },
+    {
       "path": "charts/crypto-charting-data/2026-10-19/SOL-context-preview.png",
       "category": "charts",
       "git_blob_sha1": "d97593b953cdc511a582932db0adb238b7d66c8f",
       "bytes": 387095
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-19/SOL-dashboard-preview.a9dd6e73f728041e.png",
+      "category": "charts",
+      "git_blob_sha1": "732d0f20bebe42731a20a27c3ce81707481386f1",
+      "bytes": 724081
     },
     {
       "path": "charts/crypto-charting-data/2026-10-19/SOL-dashboard-preview.png",
@@ -78,6 +108,12 @@
       "category": "charts",
       "git_blob_sha1": "1b0afd235eb37946c78ee031f5651874e5e32ced",
       "bytes": 88955
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-19/SOL-holdings-preview.ed0233ea03a830d2.png",
+      "category": "charts",
+      "git_blob_sha1": "6c59e0952be13a9f31d88a6c748f42ff48b56768",
+      "bytes": 547971
     },
     {
       "path": "charts/crypto-charting-data/2026-10-19/SOL-holdings-preview.png",
@@ -188,10 +224,22 @@
       "bytes": 22704
     },
     {
+      "path": "data/crypto-charting-data/2026-10-19/ETH.9bf64322a02b1f81.json",
+      "category": "data",
+      "git_blob_sha1": "bd6a536a63565473abc19d6bb27794f03195161c",
+      "bytes": 20498
+    },
+    {
       "path": "data/crypto-charting-data/2026-10-19/ETH.json",
       "category": "data",
       "git_blob_sha1": "071ac303d5d39c277808454df46f72a20d11627d",
       "bytes": 19785
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-19/SOL.a77a9a777fc4b203.json",
+      "category": "data",
+      "git_blob_sha1": "e587a06ef182c8f59903da1c8f2300c844402d16",
+      "bytes": 16379
     },
     {
       "path": "data/crypto-charting-data/2026-10-19/SOL.json",
@@ -230,10 +278,22 @@
       "bytes": 22704
     },
     {
+      "path": "data/crypto-charting-data/latest/ETH.9bf64322a02b1f81.json",
+      "category": "data",
+      "git_blob_sha1": "bd6a536a63565473abc19d6bb27794f03195161c",
+      "bytes": 20498
+    },
+    {
       "path": "data/crypto-charting-data/latest/ETH.json",
       "category": "data",
       "git_blob_sha1": "071ac303d5d39c277808454df46f72a20d11627d",
       "bytes": 19785
+    },
+    {
+      "path": "data/crypto-charting-data/latest/SOL.a77a9a777fc4b203.json",
+      "category": "data",
+      "git_blob_sha1": "e587a06ef182c8f59903da1c8f2300c844402d16",
+      "bytes": 16379
     },
     {
       "path": "data/crypto-charting-data/latest/SOL.json",
@@ -284,6 +344,12 @@
       "bytes": 1612
     },
     {
+      "path": "logs/crypto-charting-data/2026-10-19/ETH.xlsx.inspect.693b47d006e7c277.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "9ef5d0915c7aae8d1c9fbbfdc51b64f6b425f2f8",
+      "bytes": 194679
+    },
+    {
       "path": "logs/crypto-charting-data/2026-10-19/ETH.xlsx.inspect.ndjson",
       "category": "logs",
       "git_blob_sha1": "49140ca558c9d27a7b412dba669feff1a1bff32b",
@@ -294,6 +360,12 @@
       "category": "logs",
       "git_blob_sha1": "3794074949c1815559dd28f06284c4578a5689c5",
       "bytes": 1601
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-19/SOL.xlsx.inspect.7b4f9e8e4a89ea2c.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "3d4055c7582f55a36a509b3703fa7386ac6252d5",
+      "bytes": 176998
     },
     {
       "path": "logs/crypto-charting-data/2026-10-19/SOL.xlsx.inspect.ndjson",
@@ -332,10 +404,22 @@
       "bytes": 2009157
     },
     {
+      "path": "reports/crypto-charting-data/2026-10-19/ETH.f482e8492accee0c.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "25baee98fb1ab3bdb216f0fdd14ca9ecaa38b539",
+      "bytes": 1915846
+    },
+    {
       "path": "reports/crypto-charting-data/2026-10-19/ETH.xlsx",
       "category": "reports",
       "git_blob_sha1": "5d27828b3028ec30ff754016372f24fb8f5f1769",
       "bytes": 1915738
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-19/SOL.1598f0ef29e979cf.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "c3361b26b398e70a1350c6499dfc9aa0a54ed7aa",
+      "bytes": 1972323
     },
     {
       "path": "reports/crypto-charting-data/2026-10-19/SOL.xlsx",
@@ -362,10 +446,22 @@
       "bytes": 2009157
     },
     {
+      "path": "reports/crypto-charting-data/latest/ETH.f482e8492accee0c.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "25baee98fb1ab3bdb216f0fdd14ca9ecaa38b539",
+      "bytes": 1915846
+    },
+    {
       "path": "reports/crypto-charting-data/latest/ETH.xlsx",
       "category": "reports",
       "git_blob_sha1": "5d27828b3028ec30ff754016372f24fb8f5f1769",
       "bytes": 1915738
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/SOL.1598f0ef29e979cf.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "c3361b26b398e70a1350c6499dfc9aa0a54ed7aa",
+      "bytes": 1972323
     },
     {
       "path": "reports/crypto-charting-data/latest/SOL.xlsx",
@@ -386,6 +482,12 @@
       "bytes": 25601
     },
     {
+      "path": "research/research/2026-10-19/corrected-primary-sources.json",
+      "category": "research",
+      "git_blob_sha1": "bb74ff79d5ea1d80065cb678e6c7db1132623c27",
+      "bytes": 685
+    },
+    {
       "path": "research/research/2026-10-19/factsheet-checks.json",
       "category": "research",
       "git_blob_sha1": "7acc663622f4601e9c5d546f13d93e05e90f84f2",
@@ -396,6 +498,12 @@
       "category": "research",
       "git_blob_sha1": "515fbb63842d06a5571f2082f1852545e5124b39",
       "bytes": 6636
+    },
+    {
+      "path": "research/research/2026-10-19/final-delivery-check.2992e73260576abc.json",
+      "category": "research",
+      "git_blob_sha1": "33c841f5edfb137b3599aedd8781e2931a6119ee",
+      "bytes": 6251
     },
     {
       "path": "research/research/2026-10-19/final-delivery-check.json",
@@ -426,6 +534,36 @@
       "category": "research",
       "git_blob_sha1": "787ed5531585e71cc61dc44145a2d0fde4d915fa",
       "bytes": 899
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/archive-index-2026-10-18.md",
+      "category": "research",
+      "git_blob_sha1": "c48f569ddc48a4c231e1337969f59c65d757c0c3",
+      "bytes": 7719
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/archived-UNI-2026-10-18.json",
+      "category": "research",
+      "git_blob_sha1": "893dc47a94e96aefc0aac7b1be8a7088dd1c9bcf",
+      "bytes": 5605
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/archived-drafts.md",
+      "category": "research",
+      "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
+      "bytes": 10
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/archived-research-notes.md",
+      "category": "research",
+      "git_blob_sha1": "229ecdaed5d0b66514dff42df0fea87c39a424bb",
+      "bytes": 18
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/live-prices.json",
+      "category": "research",
+      "git_blob_sha1": "c216b8cd6330f92bd39484e6c3c5067071d2fd18",
+      "bytes": 3432
     },
     {
       "path": "research/research/2026-10-19/verify_workbooks.mjs",

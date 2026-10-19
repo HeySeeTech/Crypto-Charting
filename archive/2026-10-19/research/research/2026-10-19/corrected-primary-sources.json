@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-19T10:55:37+08:00",
+  "observations": [
+    {
+      "ticker": "EZET",
+      "product_id": "40521",
+      "as_of_et": "2026-10-05",
+      "historical_native": 20076.75,
+      "unit": "ETH",
+      "source_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/40521/SINGLCLASS/franklin-ethereum-etf/EZET"
+    },
+    {
+      "ticker": "SOEZ",
+      "product_id": "47315",
+      "as_of_et": "2026-10-05",
+      "historical_native": 147075.34,
+      "unit": "SOL",
+      "source_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47315/SINGLCLASS/franklin-solana-etf/SOEZ"
+    }
+  ]
+}
