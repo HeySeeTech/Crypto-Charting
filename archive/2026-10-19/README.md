@@ -16,7 +16,7 @@
 - [x-finance-os/CONTENT_DB/published.md](copy/x-finance-os/CONTENT_DB/published.md)
 - [x-finance-os/CONTENT_DB/research-notes.md](copy/x-finance-os/CONTENT_DB/research-notes.md)
 
-## Excel报表（14）
+## Excel报表（18）
 
 - [crypto-charting-data/2026-10-19/BTC.xlsx](reports/crypto-charting-data/2026-10-19/BTC.xlsx)
 - [crypto-charting-data/2026-10-19/ETH.f482e8492accee0c.xlsx](reports/crypto-charting-data/2026-10-19/ETH.f482e8492accee0c.xlsx)
@@ -31,9 +31,13 @@
 - [crypto-charting-data/latest/SOL.1598f0ef29e979cf.xlsx](reports/crypto-charting-data/latest/SOL.1598f0ef29e979cf.xlsx)
 - [crypto-charting-data/latest/SOL.xlsx](reports/crypto-charting-data/latest/SOL.xlsx)
 - [crypto-charting-data/latest/SUI.xlsx](reports/crypto-charting-data/latest/SUI.xlsx)
+- [crypto-charting-data/latest/UNI.xlsx](reports/crypto-charting-data/latest/UNI.xlsx)
 - [crypto-charting-data/latest/XRP.xlsx](reports/crypto-charting-data/latest/XRP.xlsx)
+- [crypto-charting-data/latest/ZEC.xlsx](reports/crypto-charting-data/latest/ZEC.xlsx)
+- [crypto-charting-data/weekly/2026-10-19/UNI.xlsx](reports/crypto-charting-data/weekly/2026-10-19/UNI.xlsx)
+- [crypto-charting-data/weekly/2026-10-19/ZEC.xlsx](reports/crypto-charting-data/weekly/2026-10-19/ZEC.xlsx)
 
-## 图表与预览（31）
+## 图表与预览（40）
 
 - [crypto-charting-data/2026-10-19/BTC-context-preview.png](charts/crypto-charting-data/2026-10-19/BTC-context-preview.png)
 - [crypto-charting-data/2026-10-19/BTC-dashboard-preview.png](charts/crypto-charting-data/2026-10-19/BTC-dashboard-preview.png)
@@ -66,8 +70,17 @@
 - [crypto-charting-data/2026-10-19/XRP-holdings-detail-qa.png](charts/crypto-charting-data/2026-10-19/XRP-holdings-detail-qa.png)
 - [crypto-charting-data/2026-10-19/XRP-holdings-preview.png](charts/crypto-charting-data/2026-10-19/XRP-holdings-preview.png)
 - [crypto-charting-data/2026-10-19/XRP-market-preview.png](charts/crypto-charting-data/2026-10-19/XRP-market-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/UNI-context-preview.png](charts/crypto-charting-data/weekly/2026-10-19/UNI-context-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/UNI-dashboard-preview.png](charts/crypto-charting-data/weekly/2026-10-19/UNI-dashboard-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/UNI-holdings-preview.png](charts/crypto-charting-data/weekly/2026-10-19/UNI-holdings-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/UNI-market-preview.png](charts/crypto-charting-data/weekly/2026-10-19/UNI-market-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/ZEC-context-preview.png](charts/crypto-charting-data/weekly/2026-10-19/ZEC-context-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/ZEC-dashboard-preview.png](charts/crypto-charting-data/weekly/2026-10-19/ZEC-dashboard-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/ZEC-holdings-preview.png](charts/crypto-charting-data/weekly/2026-10-19/ZEC-holdings-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/ZEC-market-preview.png](charts/crypto-charting-data/weekly/2026-10-19/ZEC-market-preview.png)
+- [crypto-charting-data/weekly/2026-10-19/qa-contact.png](charts/crypto-charting-data/weekly/2026-10-19/qa-contact.png)
 
-## 来源数据（18）
+## 来源数据（25）
 
 - [crypto-charting-data/2026-10-19/BTC.json](data/crypto-charting-data/2026-10-19/BTC.json)
 - [crypto-charting-data/2026-10-19/ETH.9bf64322a02b1f81.json](data/crypto-charting-data/2026-10-19/ETH.9bf64322a02b1f81.json)
@@ -75,8 +88,10 @@
 - [crypto-charting-data/2026-10-19/SOL.a77a9a777fc4b203.json](data/crypto-charting-data/2026-10-19/SOL.a77a9a777fc4b203.json)
 - [crypto-charting-data/2026-10-19/SOL.json](data/crypto-charting-data/2026-10-19/SOL.json)
 - [crypto-charting-data/2026-10-19/SUI.json](data/crypto-charting-data/2026-10-19/SUI.json)
+- [crypto-charting-data/2026-10-19/UNI.dbb674dca87d9315.json](data/crypto-charting-data/2026-10-19/UNI.dbb674dca87d9315.json)
 - [crypto-charting-data/2026-10-19/UNI.json](data/crypto-charting-data/2026-10-19/UNI.json)
 - [crypto-charting-data/2026-10-19/XRP.json](data/crypto-charting-data/2026-10-19/XRP.json)
+- [crypto-charting-data/2026-10-19/ZEC.42ce57ca6bead771.json](data/crypto-charting-data/2026-10-19/ZEC.42ce57ca6bead771.json)
 - [crypto-charting-data/2026-10-19/ZEC.json](data/crypto-charting-data/2026-10-19/ZEC.json)
 - [crypto-charting-data/latest/BTC.json](data/crypto-charting-data/latest/BTC.json)
 - [crypto-charting-data/latest/ETH.9bf64322a02b1f81.json](data/crypto-charting-data/latest/ETH.9bf64322a02b1f81.json)
@@ -84,12 +99,19 @@
 - [crypto-charting-data/latest/SOL.a77a9a777fc4b203.json](data/crypto-charting-data/latest/SOL.a77a9a777fc4b203.json)
 - [crypto-charting-data/latest/SOL.json](data/crypto-charting-data/latest/SOL.json)
 - [crypto-charting-data/latest/SUI.json](data/crypto-charting-data/latest/SUI.json)
+- [crypto-charting-data/latest/UNI.dbb674dca87d9315.json](data/crypto-charting-data/latest/UNI.dbb674dca87d9315.json)
 - [crypto-charting-data/latest/UNI.json](data/crypto-charting-data/latest/UNI.json)
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
+- [crypto-charting-data/latest/ZEC.42ce57ca6bead771.json](data/crypto-charting-data/latest/ZEC.42ce57ca6bead771.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
+- [crypto-charting-data/weekly/2026-10-19/UNI.json](data/crypto-charting-data/weekly/2026-10-19/UNI.json)
+- [crypto-charting-data/weekly/2026-10-19/ZEC.json](data/crypto-charting-data/weekly/2026-10-19/ZEC.json)
+- [crypto-charting-data/weekly/2026-10-19/validation.json](data/crypto-charting-data/weekly/2026-10-19/validation.json)
 
-## 研究资料（68）
+## 研究资料（72）
 
+- [research/2026-10-19-weekly/recover_sources.py](research/research/2026-10-19-weekly/recover_sources.py)
+- [research/2026-10-19-weekly/verify_weekly.py](research/research/2026-10-19-weekly/verify_weekly.py)
 - [research/2026-10-19/btc-update/archived-BTC-2026-10-18.json](research/research/2026-10-19/btc-update/archived-BTC-2026-10-18.json)
 - [research/2026-10-19/btc-update/cftc-release-index.html](research/research/2026-10-19/btc-update/cftc-release-index.html)
 - [research/2026-10-19/btc-update/fed-calendar.html](research/research/2026-10-19/btc-update/fed-calendar.html)
@@ -158,8 +180,10 @@
 - [research/2026-10-19/xrp-update/xrpl-reserves.html](research/research/2026-10-19/xrp-update/xrpl-reserves.html)
 - [research/2026-10-19/xrp-update/xrpl-security-disclosure.html](research/research/2026-10-19/xrp-update/xrpl-security-disclosure.html)
 - [research/2026-10-19/xrp-update/研究说明.md](research/research/2026-10-19/xrp-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
+- [research/2026-10-19/zec-update/archived-ZEC-2026-10-18.json](research/research/2026-10-19/zec-update/archived-ZEC-2026-10-18.json)
+- [research/2026-10-19/zec-update/prices.json](research/research/2026-10-19/zec-update/prices.json)
 
-## 校验与日志（12）
+## 校验与日志（14）
 
 - [crypto-charting-data/2026-10-19/BTC-table-check.ndjson](logs/crypto-charting-data/2026-10-19/BTC-table-check.ndjson)
 - [crypto-charting-data/2026-10-19/BTC.xlsx.inspect.ndjson](logs/crypto-charting-data/2026-10-19/BTC.xlsx.inspect.ndjson)
@@ -173,4 +197,6 @@
 - [crypto-charting-data/2026-10-19/SUI.xlsx.inspect.ndjson](logs/crypto-charting-data/2026-10-19/SUI.xlsx.inspect.ndjson)
 - [crypto-charting-data/2026-10-19/XRP-table-check.ndjson](logs/crypto-charting-data/2026-10-19/XRP-table-check.ndjson)
 - [crypto-charting-data/2026-10-19/XRP.xlsx.inspect.ndjson](logs/crypto-charting-data/2026-10-19/XRP.xlsx.inspect.ndjson)
+- [crypto-charting-data/weekly/2026-10-19/UNI.xlsx.inspect.ndjson](logs/crypto-charting-data/weekly/2026-10-19/UNI.xlsx.inspect.ndjson)
+- [crypto-charting-data/weekly/2026-10-19/ZEC.xlsx.inspect.ndjson](logs/crypto-charting-data/weekly/2026-10-19/ZEC.xlsx.inspect.ndjson)
 

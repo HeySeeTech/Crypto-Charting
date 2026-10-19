@@ -188,6 +188,60 @@
       "bytes": 237793
     },
     {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/UNI-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "56f800133919efa4dc26d3be92cda624c6341478",
+      "bytes": 337841
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/UNI-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "7af4a449f36d385455a3a165923eb0d8050c3351",
+      "bytes": 343558
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/UNI-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "1d8dc734d8b23d685b34e65134cb85d7d2035ab8",
+      "bytes": 170594
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/UNI-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "3a8170ce30cb98295aba275916dc445b479ea636",
+      "bytes": 242869
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/ZEC-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "20b4b7b7fdeb9dc3cf5cd8bebf42538d18e1d576",
+      "bytes": 198722
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/ZEC-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "cf23c28c2ed6e1c672169c0fb438af1dd1a7ca16",
+      "bytes": 359122
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/ZEC-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "05c654ce7a9365b20ddf04599346a32b3e83dd1c",
+      "bytes": 227248
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/ZEC-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "b95fcd6aeee3b46e8ef3365b51544071f7fff48a",
+      "bytes": 236247
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-19/qa-contact.png",
+      "category": "charts",
+      "git_blob_sha1": "b0aab4bd4a01f10984547e9f4a20a01445f2e723",
+      "bytes": 585202
+    },
+    {
       "path": "copy/outputs/2026-10-19/BTC-X文案.md",
       "category": "copy",
       "git_blob_sha1": "821131860a98326b725761a8a2befe22371ce3ac",
@@ -290,6 +344,12 @@
       "bytes": 9049
     },
     {
+      "path": "data/crypto-charting-data/2026-10-19/UNI.dbb674dca87d9315.json",
+      "category": "data",
+      "git_blob_sha1": "e94da980fa94ba19bc7c30d169624c6c11263eeb",
+      "bytes": 7063
+    },
+    {
       "path": "data/crypto-charting-data/2026-10-19/UNI.json",
       "category": "data",
       "git_blob_sha1": "bd86f62d9d4ef00bf45dbaf6b1b06e4e0cff3344",
@@ -300,6 +360,12 @@
       "category": "data",
       "git_blob_sha1": "bab7a59c9d0d1c5ddf4cac1f5662f15e7d7ca27a",
       "bytes": 13103
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-19/ZEC.42ce57ca6bead771.json",
+      "category": "data",
+      "git_blob_sha1": "b2b6531cef6f882c40b64551f5905e28a360199b",
+      "bytes": 8443
     },
     {
       "path": "data/crypto-charting-data/2026-10-19/ZEC.json",
@@ -344,6 +410,12 @@
       "bytes": 9049
     },
     {
+      "path": "data/crypto-charting-data/latest/UNI.dbb674dca87d9315.json",
+      "category": "data",
+      "git_blob_sha1": "e94da980fa94ba19bc7c30d169624c6c11263eeb",
+      "bytes": 7063
+    },
+    {
       "path": "data/crypto-charting-data/latest/UNI.json",
       "category": "data",
       "git_blob_sha1": "bd86f62d9d4ef00bf45dbaf6b1b06e4e0cff3344",
@@ -356,10 +428,34 @@
       "bytes": 13103
     },
     {
+      "path": "data/crypto-charting-data/latest/ZEC.42ce57ca6bead771.json",
+      "category": "data",
+      "git_blob_sha1": "b2b6531cef6f882c40b64551f5905e28a360199b",
+      "bytes": 8443
+    },
+    {
       "path": "data/crypto-charting-data/latest/ZEC.json",
       "category": "data",
       "git_blob_sha1": "f942e1c6d24bab00f87ce492e3fb09038ff6ef27",
       "bytes": 8535
+    },
+    {
+      "path": "data/crypto-charting-data/weekly/2026-10-19/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "badbc9734fc0b9198fba1c03fd174b3256de05b5",
+      "bytes": 7495
+    },
+    {
+      "path": "data/crypto-charting-data/weekly/2026-10-19/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "295a5b29fec29fc295949e5f20649281c1c7adf0",
+      "bytes": 8875
+    },
+    {
+      "path": "data/crypto-charting-data/weekly/2026-10-19/validation.json",
+      "category": "data",
+      "git_blob_sha1": "11dda6d18eabc2afe8c80244a2860757ed991776",
+      "bytes": 383
     },
     {
       "path": "logs/crypto-charting-data/2026-10-19/BTC-table-check.ndjson",
@@ -432,6 +528,18 @@
       "category": "logs",
       "git_blob_sha1": "8370add3e33e26f33fdc1da86f351ea93059f1f9",
       "bytes": 138221
+    },
+    {
+      "path": "logs/crypto-charting-data/weekly/2026-10-19/UNI.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "74e1914e71230d1ed86bdf150b113aeff1746134",
+      "bytes": 111118
+    },
+    {
+      "path": "logs/crypto-charting-data/weekly/2026-10-19/ZEC.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "fc12026cd862a45b4f16de2360677b582fd98a16",
+      "bytes": 112157
     },
     {
       "path": "reports/crypto-charting-data/2026-10-19/BTC.xlsx",
@@ -512,10 +620,46 @@
       "bytes": 2018849
     },
     {
+      "path": "reports/crypto-charting-data/latest/UNI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "ba9acffdaf0aced282ced0d2366ae4571385832b",
+      "bytes": 23190
+    },
+    {
       "path": "reports/crypto-charting-data/latest/XRP.xlsx",
       "category": "reports",
       "git_blob_sha1": "74afba00d1e5d12c57c60f86d8826a26109b6531",
       "bytes": 25601
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/ZEC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "4115a8bd677ed01c218a0ae05e9f88f9903fb6a4",
+      "bytes": 23926
+    },
+    {
+      "path": "reports/crypto-charting-data/weekly/2026-10-19/UNI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "ba9acffdaf0aced282ced0d2366ae4571385832b",
+      "bytes": 23190
+    },
+    {
+      "path": "reports/crypto-charting-data/weekly/2026-10-19/ZEC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "4115a8bd677ed01c218a0ae05e9f88f9903fb6a4",
+      "bytes": 23926
+    },
+    {
+      "path": "research/research/2026-10-19-weekly/recover_sources.py",
+      "category": "research",
+      "git_blob_sha1": "500b45be7c2a811fabc4e4ea9fcb7a2a4c973379",
+      "bytes": 2478
+    },
+    {
+      "path": "research/research/2026-10-19-weekly/verify_weekly.py",
+      "category": "research",
+      "git_blob_sha1": "117fa8933348ce75ee29e964910f47bf469de9f1",
+      "bytes": 1468
     },
     {
       "path": "research/research/2026-10-19/btc-update/archived-BTC-2026-10-18.json",
@@ -924,6 +1068,18 @@
       "category": "research",
       "git_blob_sha1": "7fcc91ad0c8aa6b3841409a243749be41c8c093b",
       "bytes": 4815
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/archived-ZEC-2026-10-18.json",
+      "category": "research",
+      "git_blob_sha1": "796ea451d539b1d7475f8ec27a41fac986a664e0",
+      "bytes": 7161
+    },
+    {
+      "path": "research/research/2026-10-19/zec-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "077962f9e3542f61b3bfc282a1b7c060b04f377a",
+      "bytes": 2285
     }
   ]
 }

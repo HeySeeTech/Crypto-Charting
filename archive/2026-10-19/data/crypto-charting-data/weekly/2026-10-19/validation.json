@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "UNI",
+    "checks": "JSON period/provider timestamp, cached formulas, chart presence, source reconciliation",
+    "charts": 2,
+    "errors": [],
+    "status": "pass"
+  },
+  {
+    "symbol": "ZEC",
+    "checks": "JSON period/provider timestamp, cached formulas, chart presence, source reconciliation",
+    "charts": 2,
+    "errors": [],
+    "status": "pass"
+  }
+]
