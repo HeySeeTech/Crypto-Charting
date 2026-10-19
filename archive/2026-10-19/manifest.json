@@ -206,6 +206,12 @@
       "bytes": 2893
     },
     {
+      "path": "copy/outputs/2026-10-19/SUI-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "c8ce76621b686c1b83d17b1bd65433957354414d",
+      "bytes": 3139
+    },
+    {
       "path": "copy/outputs/2026-10-19/UNI-X文案.md",
       "category": "copy",
       "git_blob_sha1": "df59d42ce70a66840606def4e7c89a76f7993a51",
@@ -714,6 +720,66 @@
       "category": "research",
       "git_blob_sha1": "e4ffe74973e7a7aff7343803d35d72341cc28803",
       "bytes": 4947
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/archived-SUI-2026-10-18.json",
+      "category": "research",
+      "git_blob_sha1": "4176496a96796488881c5eae4a4e08d57756d414",
+      "bytes": 8377
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/chains.json",
+      "category": "research",
+      "git_blob_sha1": "9fa31b526798256b0649250ca8a105662df931e7",
+      "bytes": 85783
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/dexs.json",
+      "category": "research",
+      "git_blob_sha1": "a7a5e2249459eb9f0457ff5faaa9a95991cbce57",
+      "bytes": 54445
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/hashi-announcement.html",
+      "category": "research",
+      "git_blob_sha1": "c933af115477b89be4bbaecfc8766cd33c152e08",
+      "bytes": 302254
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/hashi-product.html",
+      "category": "research",
+      "git_blob_sha1": "a09ba9ba1056488c2a041dc68321cc445eef5cf5",
+      "bytes": 339928
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/mysten-letter.html",
+      "category": "research",
+      "git_blob_sha1": "ce635406facbd85b913df07f514499c7f3e4b087",
+      "bytes": 477757
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "bed5e00d29f31fca570fb42e02d9089773bf2256",
+      "bytes": 4477
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/samsung-announcement.html",
+      "category": "research",
+      "git_blob_sha1": "c29e31bcf6f4d7176622603995588a9181af2095",
+      "bytes": 297954
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "200c4a9f7ed3f308f671d5c865e4aebd252d7933",
+      "bytes": 829
+    },
+    {
+      "path": "research/research/2026-10-19/sui-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "e1cc1ae1366171b503a82a2a7aab88e80319ee59",
+      "bytes": 5431
     },
     {
       "path": "research/research/2026-10-19/supplementary-web-evidence.json",

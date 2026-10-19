@@ -2,11 +2,12 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（9）
+## 文案（10）
 
 - [outputs/2026-10-19/BTC-X文案.md](copy/outputs/2026-10-19/BTC-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/ETH-X文案.md](copy/outputs/2026-10-19/ETH-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/SOL-X文案.md](copy/outputs/2026-10-19/SOL-X%E6%96%87%E6%A1%88.md)
+- [outputs/2026-10-19/SUI-X文案.md](copy/outputs/2026-10-19/SUI-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/UNI-X文案.md](copy/outputs/2026-10-19/UNI-X%E6%96%87%E6%A1%88.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
@@ -86,7 +87,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（50）
+## 研究资料（60）
 
 - [research/2026-10-19/btc-update/archived-BTC-2026-10-18.json](research/research/2026-10-19/btc-update/archived-BTC-2026-10-18.json)
 - [research/2026-10-19/btc-update/cftc-release-index.html](research/research/2026-10-19/btc-update/cftc-release-index.html)
@@ -123,6 +124,16 @@
 - [research/2026-10-19/sol-update/source-manifest.json](research/research/2026-10-19/sol-update/source-manifest.json)
 - [research/2026-10-19/sol-update/status.html](research/research/2026-10-19/sol-update/status.html)
 - [research/2026-10-19/sol-update/研究说明.md](research/research/2026-10-19/sol-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
+- [research/2026-10-19/sui-update/archived-SUI-2026-10-18.json](research/research/2026-10-19/sui-update/archived-SUI-2026-10-18.json)
+- [research/2026-10-19/sui-update/chains.json](research/research/2026-10-19/sui-update/chains.json)
+- [research/2026-10-19/sui-update/dexs.json](research/research/2026-10-19/sui-update/dexs.json)
+- [research/2026-10-19/sui-update/hashi-announcement.html](research/research/2026-10-19/sui-update/hashi-announcement.html)
+- [research/2026-10-19/sui-update/hashi-product.html](research/research/2026-10-19/sui-update/hashi-product.html)
+- [research/2026-10-19/sui-update/mysten-letter.html](research/research/2026-10-19/sui-update/mysten-letter.html)
+- [research/2026-10-19/sui-update/prices.json](research/research/2026-10-19/sui-update/prices.json)
+- [research/2026-10-19/sui-update/samsung-announcement.html](research/research/2026-10-19/sui-update/samsung-announcement.html)
+- [research/2026-10-19/sui-update/source-manifest.json](research/research/2026-10-19/sui-update/source-manifest.json)
+- [research/2026-10-19/sui-update/研究说明.md](research/research/2026-10-19/sui-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/supplementary-web-evidence.json](research/research/2026-10-19/supplementary-web-evidence.json)
 - [research/2026-10-19/uni-update/arc-proposal.html](research/research/2026-10-19/uni-update/arc-proposal.html)
 - [research/2026-10-19/uni-update/archive-index-2026-10-18.md](research/research/2026-10-19/uni-update/archive-index-2026-10-18.md)

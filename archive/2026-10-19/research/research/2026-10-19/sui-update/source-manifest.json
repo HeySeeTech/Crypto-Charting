@@ -1,0 +1,29 @@
+{
+  "retrieved_at_utc": "2026-10-19T03:28:02.432093+00:00",
+  "sources": [
+    {
+      "name": "hashi-announcement",
+      "url": "https://www.sui.io/blog/hashi-mainnet-to-launch-with-500m-in-capital-backing-adds-anchorage-digital-to-coalition",
+      "status": "saved",
+      "bytes": 302254
+    },
+    {
+      "name": "samsung-announcement",
+      "url": "https://www.sui.io/blog/samsung-collaborates-with-sui-to-bring-usdc-to-samsung-wallet-on-82-million-u-s-galaxy-devices",
+      "status": "saved",
+      "bytes": 297954
+    },
+    {
+      "name": "hashi-product",
+      "url": "https://www.sui.io/hashi",
+      "status": "saved",
+      "bytes": 339928
+    },
+    {
+      "name": "mysten-letter",
+      "url": "https://www.mystenlabs.com/blog/letters-from-the-ceo",
+      "status": "saved",
+      "bytes": 477757
+    }
+  ]
+}
