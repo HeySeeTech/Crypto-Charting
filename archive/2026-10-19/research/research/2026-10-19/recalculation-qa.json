@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "BTC",
+    "current_sample": 241364.9789,
+    "history_excluded": true,
+    "current_input_recalculates": true,
+    "missing_holdings_not_zero": null
+  },
+  {
+    "symbol": "ETH",
+    "current_sample": 45284.003,
+    "history_excluded": true,
+    "current_input_recalculates": true,
+    "missing_holdings_not_zero": null
+  },
+  {
+    "symbol": "SOL",
+    "current_sample": 10853896.11,
+    "history_excluded": true,
+    "current_input_recalculates": true,
+    "missing_holdings_not_zero": null
+  },
+  {
+    "symbol": "SUI",
+    "current_sample": null,
+    "history_excluded": true,
+    "current_input_recalculates": false,
+    "missing_holdings_not_zero": true
+  },
+  {
+    "symbol": "XRP",
+    "current_sample": 652547749.56,
+    "history_excluded": true,
+    "current_input_recalculates": true,
+    "missing_holdings_not_zero": null
+  }
+]

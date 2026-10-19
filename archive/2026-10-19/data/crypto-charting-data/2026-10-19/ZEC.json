@@ -1,0 +1,235 @@
+{
+  "schema_version": 2,
+  "symbol": "ZEC",
+  "asset_id": "zcash",
+  "collected_at": "2026-10-19T10:33:13+08:00",
+  "report_date_shanghai": "2026-10-19",
+  "status": "partial",
+  "metrics": {
+    "price_usd": {
+      "value": 1169.45,
+      "unit": "USD/ZEC",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "当前美元报价"
+    },
+    "change_24h_pct": {
+      "value": 2.35789,
+      "unit": "%",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动24小时涨跌幅"
+    },
+    "volume_24h_usd": {
+      "value": 1004257402,
+      "unit": "USD",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动24小时成交额"
+    },
+    "market_cap_usd": {
+      "value": 19869888339,
+      "unit": "USD",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "流通市值"
+    },
+    "change_7d_pct": {
+      "value": -8.9533,
+      "unit": "%",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动7天涨跌幅"
+    },
+    "circulating_supply": {
+      "value": 16990836.1030448,
+      "unit": "ZEC",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "当前流通供应量"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-12",
+          "close_usd": 1166.913215
+        },
+        {
+          "date_utc": "2026-10-13",
+          "close_usd": 1217.901339
+        },
+        {
+          "date_utc": "2026-10-14",
+          "close_usd": 1146.777997
+        },
+        {
+          "date_utc": "2026-10-15",
+          "close_usd": 1220.527705
+        },
+        {
+          "date_utc": "2026-10-16",
+          "close_usd": 1146.803584
+        },
+        {
+          "date_utc": "2026-10-17",
+          "close_usd": 1126.235159
+        },
+        {
+          "date_utc": "2026-10-18",
+          "close_usd": 1128.727452
+        }
+      ],
+      "source_url": "https://api.coingecko.com/api/v3/coins/zcash/market_chart?vs_currency=usd&days=8&interval=daily",
+      "period_start": "2026-10-12",
+      "period_end": "2026-10-18",
+      "method": "CoinGecko UTC 00:00 快照，归属刚结束的前一 UTC 日之近似收盘；不同于滚动现价"
+    }
+  },
+  "etf": {
+    "scope": "US-listed spot ZEC ETF; ZCSH (NYSE Arca) verified from SEC filing; exclude corporate treasuries",
+    "trading_date_et": "2026-10-16",
+    "product_universe": [
+      {
+        "ticker": "ZCSH",
+        "issuer": "Grayscale",
+        "name": "The Zcash ETF",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1720265/000119312526363603/zcsh__424b3.htm"
+      }
+    ],
+    "holdings": [
+      {
+        "ticker": "ZCSH",
+        "quantity_native": 547192.63,
+        "unit": "ZEC",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://www.zecmetrics.io/markets",
+        "source_tier": "issuer_transcribed",
+        "issuer_url": "https://etfs.grayscale.com/zcsh",
+        "aggregator_error": false,
+        "verified_at_shanghai": "2026-10-19T10:33:13+08:00",
+        "scope": "zecmetrics 明示来自 Grayscale 每日文件；发行商页面 HTTP 429，未直接解析每日持仓文件"
+      }
+    ],
+    "holdings_summary": {
+      "kind": "complete_total",
+      "as_of_et": "2026-10-16",
+      "verified_products": 1,
+      "universe_products": 1,
+      "unit": "ZEC",
+      "verified_at_shanghai": "2026-10-19T10:33:13+08:00",
+      "note": "1/1 只已确认合格产品；发行商每日文件的公开转录，非发行商直读"
+    },
+    "product_details": [
+      {
+        "ticker": "ZCSH",
+        "annual_fee_pct_listed": 2.5,
+        "fee_source_url": "https://farside.co.uk/zec/",
+        "net_flow_usd_millions": -1.2,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/zec/",
+        "verified_at_shanghai": "2026-10-19T10:33:13+08:00",
+        "holding_status": "已核实 2026-10-16；公开转录；发行商页面 HTTP 429，未直接解析每日持仓文件"
+      }
+    ],
+    "flows": [
+      {
+        "trading_date_et": "2026-10-16",
+        "net_flow_usd_millions": -1.2,
+        "source_url": "https://farside.co.uk/zec/",
+        "contributors_usd_millions": {
+          "ZCSH": -1.2
+        }
+      }
+    ],
+    "flow_history": [
+      {
+        "trading_date_et": "2026-10-08",
+        "net_flow_usd_millions": -18.7,
+        "source_url": "https://farside.co.uk/zec/"
+      },
+      {
+        "trading_date_et": "2026-10-09",
+        "net_flow_usd_millions": 0,
+        "source_url": "https://farside.co.uk/zec/"
+      },
+      {
+        "trading_date_et": "2026-10-12",
+        "net_flow_usd_millions": -1.7,
+        "source_url": "https://farside.co.uk/zec/"
+      },
+      {
+        "trading_date_et": "2026-10-13",
+        "net_flow_usd_millions": -5.2,
+        "source_url": "https://farside.co.uk/zec/"
+      },
+      {
+        "trading_date_et": "2026-10-14",
+        "net_flow_usd_millions": 3.7,
+        "source_url": "https://farside.co.uk/zec/"
+      },
+      {
+        "trading_date_et": "2026-10-15",
+        "net_flow_usd_millions": -14.8,
+        "source_url": "https://farside.co.uk/zec/"
+      },
+      {
+        "trading_date_et": "2026-10-16",
+        "net_flow_usd_millions": -1.2,
+        "source_url": "https://farside.co.uk/zec/"
+      }
+    ]
+  },
+  "chain": {
+    "metrics": []
+  },
+  "developments": [],
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d"
+    },
+    {
+      "name": "ZCSH SEC prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720265/000119312526363603/zcsh__424b3.htm"
+    },
+    {
+      "name": "ZCSH issuer",
+      "url": "https://etfs.grayscale.com/zcsh"
+    },
+    {
+      "name": "ZCSH transcribed holding",
+      "url": "https://www.zecmetrics.io/markets"
+    },
+    {
+      "name": "Farside ZEC 实时网页直读",
+      "url": "https://farside.co.uk/zec/"
+    },
+    {
+      "name": "昨日归档（仅最后有效日期或历史值）",
+      "url": "https://github.com/HeySeeTech/Crypto-Charting/blob/main/archive/2026-10-18/data/crypto-charting-data/2026-10-18/ZEC.json"
+    }
+  ],
+  "missing_or_stale": [
+    "ZEC 网络指标本次未取得带明确采样日期的可重复日频序列，未填数字。",
+    "ZCSH 发行商页面 HTTP 429，未直接解析每日持仓文件；最新可核实持仓日 2026-10-16，使用公开转录并标注来源层级。"
+  ],
+  "revision": {
+    "revised_at_shanghai": "2026-10-19T10:43:57+08:00",
+    "reason": "补充网页直读与归档证据；保留原始行情采集时间，历史数量另列且不纳入本次样本"
+  },
+  "source_access_notes": [
+    "ZEC ETF 美元资金流 本次未取得：HTTPError；未沿用旧数。",
+    "ZEC 网络指标本次未取得带明确采样日期的可重复日频序列，未填数字。",
+    "ZCSH 美元资金流最后有效日期：无历史有效日期。",
+    "ZCSH 发行商页面 HTTP 429，未直接解析每日持仓文件；最新可核实持仓日 2026-10-16，使用公开转录并标注来源层级。"
+  ],
+  "history_archive_url": "https://github.com/HeySeeTech/Crypto-Charting/blob/main/archive/2026-10-18/data/crypto-charting-data/2026-10-18/ZEC.json"
+}

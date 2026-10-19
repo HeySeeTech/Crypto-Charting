@@ -1,0 +1,182 @@
+{
+  "schema_version": 2,
+  "symbol": "UNI",
+  "asset_id": "uniswap",
+  "collected_at": "2026-10-19T10:33:13+08:00",
+  "report_date_shanghai": "2026-10-19",
+  "status": "complete",
+  "metrics": {
+    "price_usd": {
+      "value": 7.23,
+      "unit": "USD/UNI",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "当前美元报价"
+    },
+    "change_24h_pct": {
+      "value": -0.77159,
+      "unit": "%",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动24小时涨跌幅"
+    },
+    "volume_24h_usd": {
+      "value": 340425917,
+      "unit": "USD",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动24小时成交额"
+    },
+    "market_cap_usd": {
+      "value": 4514819910,
+      "unit": "USD",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "流通市值"
+    },
+    "change_7d_pct": {
+      "value": -6.2277,
+      "unit": "%",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动7天涨跌幅"
+    },
+    "circulating_supply": {
+      "value": 624740422.4808736,
+      "unit": "UNI",
+      "data_as_of": "2026-10-19T02:32:53.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "当前流通供应量"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-12",
+          "close_usd": 6.972878
+        },
+        {
+          "date_utc": "2026-10-13",
+          "close_usd": 7.536511
+        },
+        {
+          "date_utc": "2026-10-14",
+          "close_usd": 7.187178
+        },
+        {
+          "date_utc": "2026-10-15",
+          "close_usd": 7.423755
+        },
+        {
+          "date_utc": "2026-10-16",
+          "close_usd": 7.32661
+        },
+        {
+          "date_utc": "2026-10-17",
+          "close_usd": 7.145162
+        },
+        {
+          "date_utc": "2026-10-18",
+          "close_usd": 7.189242
+        }
+      ],
+      "source_url": "https://api.coingecko.com/api/v3/coins/uniswap/market_chart?vs_currency=usd&days=8&interval=daily",
+      "period_start": "2026-10-12",
+      "period_end": "2026-10-18",
+      "method": "CoinGecko UTC 00:00 快照，归属刚结束的前一 UTC 日之近似收盘；不同于滚动现价"
+    }
+  },
+  "etf": {
+    "scope": "US-listed spot UNI ETFs; checked European AUNI ETP and private Bitwise Uniswap Fund, both excluded",
+    "trading_date_et": null,
+    "product_universe": [],
+    "holdings": [],
+    "holdings_summary": null,
+    "product_details": [],
+    "flows": [],
+    "flow_history": []
+  },
+  "chain": {
+    "metrics": [
+      {
+        "name": "Uniswap 协议 TVL（约）",
+        "value": 3872000000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-19T10:42:20+08:00 北京时间网页观察",
+        "source_url": "https://defillama.com/protocol/uniswap",
+        "method": "Uniswap 多链协议指标；页面缩写换算约值；非 UNI 持有人收入，提供方未注明精确采样时刻"
+      },
+      {
+        "name": "Uniswap 协议 DEX 成交额 24h（约）",
+        "value": 1707000000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-19T10:42:20+08:00 北京时间网页观察",
+        "source_url": "https://defillama.com/protocol/uniswap",
+        "method": "Uniswap 多链协议指标；页面缩写换算约值；非 UNI 持有人收入，提供方未注明精确采样时刻"
+      },
+      {
+        "name": "Uniswap 协议 DEX 成交额 7d（约）",
+        "value": 15577000000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-19T10:42:20+08:00 北京时间网页观察",
+        "source_url": "https://defillama.com/protocol/uniswap",
+        "method": "Uniswap 多链协议指标；页面缩写换算约值；非 UNI 持有人收入，提供方未注明精确采样时刻"
+      },
+      {
+        "name": "Uniswap 协议费用 7d（约）",
+        "value": 19180000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-19T10:42:20+08:00 北京时间网页观察",
+        "source_url": "https://defillama.com/protocol/uniswap",
+        "method": "Uniswap 多链协议指标；页面缩写换算约值；非 UNI 持有人收入，提供方未注明精确采样时刻"
+      },
+      {
+        "name": "Uniswap 协议收入 7d（约）",
+        "value": 1820000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-19T10:42:20+08:00 北京时间网页观察",
+        "source_url": "https://defillama.com/protocol/uniswap",
+        "method": "Uniswap 多链协议指标；页面缩写换算约值；非 UNI 持有人收入，提供方未注明精确采样时刻"
+      }
+    ]
+  },
+  "developments": [],
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d"
+    },
+    {
+      "name": "21Shares AUNI (excluded European ETP)",
+      "url": "https://www.21shares.com/en-uk/product/auni"
+    },
+    {
+      "name": "Bitwise Uniswap Fund (excluded private fund)",
+      "url": "https://bitwiseinvestments.com/crypto-funds/uniswap"
+    },
+    {
+      "name": "DefiLlama 网页直读补充",
+      "url": "https://defillama.com/protocol/uniswap"
+    },
+    {
+      "name": "昨日归档（仅最后有效日期或历史值）",
+      "url": "https://github.com/HeySeeTech/Crypto-Charting/blob/main/archive/2026-10-18/data/crypto-charting-data/2026-10-18/UNI.json"
+    }
+  ],
+  "missing_or_stale": [],
+  "revision": {
+    "revised_at_shanghai": "2026-10-19T10:43:57+08:00",
+    "reason": "补充网页直读与归档证据；保留原始行情采集时间，历史数量另列且不纳入本次样本"
+  },
+  "source_access_notes": [
+    "UNI 协议指标 本次未取得：HTTPError；未沿用旧数。"
+  ],
+  "history_archive_url": "https://github.com/HeySeeTech/Crypto-Charting/blob/main/archive/2026-10-18/data/crypto-charting-data/2026-10-18/UNI.json"
+}

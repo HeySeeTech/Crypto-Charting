@@ -1,0 +1,33 @@
+{
+  "verified_at_shanghai": "2026-10-19T10:45:10+08:00",
+  "observations": [
+    {
+      "ticker": "BRRR",
+      "field": "native_holdings",
+      "value": 5678.45,
+      "unit": "BTC",
+      "as_of_et": "2026-10-16",
+      "source_url": "https://coinshares.com/us/etf/brrr/"
+    },
+    {
+      "ticker": "EZBC",
+      "field": "historical_native_holdings",
+      "value": 5603.61,
+      "unit": "BTC",
+      "as_of_et": "2026-10-05",
+      "source_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/39639/SINGLCLASS/franklin-bitcoin-etf/EZBC"
+    },
+    {
+      "ticker": "SUIS",
+      "field": "listed_fee_pct",
+      "value": 0.75,
+      "source_url": "https://canaryetfs.com/suis/"
+    },
+    {
+      "ticker": "TSUI",
+      "field": "listed_fee_pct",
+      "value": 0.3,
+      "source_url": "https://www.21shares.com/en-us/products-us/tsui"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "collected_at": "2026-10-19T10:38:39+08:00",
+  "cutoff_et": "2026-10-16",
+  "observations": [
+    {
+      "ticker": "BTCW",
+      "url": "https://www.wisdomtree.com/us/products/crypto/btcw",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "IBIT",
+      "url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf/latest-holdings.csv",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-15",
+      "reason": null
+    },
+    {
+      "ticker": "MSBT",
+      "url": "https://www.morganstanley.com/im/en-us/institutional-investor/products/etfs.html",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "BITB",
+      "url": "https://bitbetf.com/",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-15",
+      "reason": null
+    },
+    {
+      "ticker": "FBTC",
+      "url": "https://institutional.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FBTC",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "BTCO",
+      "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-galaxy-bitcoin-etf.html",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "ETHA",
+      "url": "https://www.ishares.com/us/products/337614/ishares-ethereum-trust-etf/latest-holdings.csv",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-15",
+      "reason": null
+    },
+    {
+      "ticker": "ARKB",
+      "url": "https://assets.ark-funds.com/fund-documents/funds-etf-pdf/ARK_21SHARES_BITCOIN_ETF_ARKB_HOLDINGS.pdf",
+      "status": "success",
+      "parsed": false,
+      "source_date": "2026-10-16",
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "GBTC",
+      "url": "https://etfs.grayscale.com/gbtc",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "BRRR",
+      "url": "https://coinshares.com/us/etf/brrr/",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "BTC",
+      "url": "https://etfs.grayscale.com/btc",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "ETHB",
+      "url": "https://www.ishares.com/us/products/348532/ishares-staked-ethereum-trust-etf/latest-holdings.csv",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-15",
+      "reason": null
+    },
+    {
+      "ticker": "HODL",
+      "url": "https://www.vaneck.com/us/en/investments/bitcoin-etf-hodl/",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-16",
+      "reason": null
+    },
+    {
+      "ticker": "EZBC",
+      "url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/39639/SINGLCLASS/franklin-bitcoin-etf/EZBC",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "ETHW",
+      "url": "https://ethwetf.com/",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-15",
+      "reason": null
+    },
+    {
+      "ticker": "FETH",
+      "url": "https://institutional.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FETH",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "EZET",
+      "url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/41422/SINGLCLASS/franklin-ethereum-etf/EZET",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "MSSE",
+      "url": "https://www.morganstanley.com/im/en-us/institutional-investor/products/etfs.html",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "TETH",
+      "url": "https://www.21shares.com/en-us/products-us/teth",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "ETH",
+      "url": "https://etfs.grayscale.com/eth",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "BSOL",
+      "url": "https://bsoletf.com/",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-15",
+      "reason": null
+    },
+    {
+      "ticker": "ETHV",
+      "url": "https://www.vaneck.com/us/en/investments/ethereum-etf-ethv/",
+      "status": "success",
+      "parsed": true,
+      "source_date": "2026-10-16",
+      "reason": null
+    },
+    {
+      "ticker": "QETH",
+      "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-galaxy-ethereum-etf.html",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "ETHE",
+      "url": "https://etfs.grayscale.com/ethe",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "SOEZ",
+      "url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47731/SINGLCLASS/franklin-solana-etf/SOEZ",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "GSOL",
+      "url": "https://etfs.grayscale.com/gsol",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "SOLC",
+      "url": "https://canaryetfs.com/solc/",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "FSOL",
+      "url": "https://institutional.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FSOL",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "GSUI",
+      "url": "https://etfs.grayscale.com/gsui",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "MSOL",
+      "url": "https://www.morganstanley.com/im/en-us/institutional-investor/products/etfs.html",
+      "status": "来源失败 HTTPError"
+    },
+    {
+      "ticker": "VSOL",
+      "url": "https://www.vaneck.com/us/en/investments/solana-etf-vsol/",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "TSOL",
+      "url": "https://www.21shares.com/en-us/products-us/tsol",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "QSOL",
+      "url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-galaxy-solana-etf.html",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    },
+    {
+      "ticker": "SUIS",
+      "url": "https://canaryetfs.com/suis/",
+      "status": "success",
+      "parsed": false,
+      "source_date": "2026-10-19",
+      "reason": "披露日期 2026-10-19 超过已结束美东交易日 2026-10-16，或数量无效；本次不采用"
+    },
+    {
+      "ticker": "TSUI",
+      "url": "https://www.21shares.com/en-us/products-us/tsui",
+      "status": "success",
+      "parsed": false,
+      "source_date": null,
+      "reason": "页面未取得带日期的原生币持仓"
+    }
+  ]
+}

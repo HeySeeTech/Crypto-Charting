@@ -1,0 +1,57 @@
+[
+  {
+    "symbol": "BTC",
+    "price_time": "2026-10-19T02:37:49.000Z",
+    "latest_flow_date": "2026-10-16",
+    "verified_products": 8,
+    "universe": 12,
+    "sample_date": "2026-10-16",
+    "sample_quantity": 241364.9789,
+    "errors": [],
+    "charts": 2
+  },
+  {
+    "symbol": "ETH",
+    "price_time": "2026-10-19T02:37:49.000Z",
+    "latest_flow_date": "2026-10-16",
+    "verified_products": 4,
+    "universe": 11,
+    "sample_date": "2026-10-16",
+    "sample_quantity": 45284.003,
+    "errors": [],
+    "charts": 2
+  },
+  {
+    "symbol": "SOL",
+    "price_time": "2026-10-19T02:37:49.000Z",
+    "latest_flow_date": "2026-10-16",
+    "verified_products": 1,
+    "universe": 9,
+    "sample_date": "2026-10-15",
+    "sample_quantity": 10853896.11,
+    "errors": [],
+    "charts": 2
+  },
+  {
+    "symbol": "SUI",
+    "price_time": "2026-10-19T02:37:49.000Z",
+    "latest_flow_date": null,
+    "verified_products": 0,
+    "universe": 3,
+    "sample_date": null,
+    "sample_quantity": null,
+    "errors": [],
+    "charts": 2
+  },
+  {
+    "symbol": "XRP",
+    "price_time": "2026-10-19T02:31:49.000Z",
+    "latest_flow_date": null,
+    "verified_products": 4,
+    "universe": 5,
+    "sample_date": "2026-10-16",
+    "sample_quantity": 652547749.56,
+    "errors": [],
+    "charts": 2
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "ticker": "TSUI",
+    "source_url": "https://cdn.21shares.com/uploads/product_documents/Factsheets/Factsheet_TSUI.pdf",
+    "as_of_label": "September 30, 2026",
+    "quantity": 26572774.9638,
+    "status": "verified after PDF whitespace normalization",
+    "evidence": "CKER\n \nTOKENS\n \nPRICE\n \nMARKET\n \nVALUE\n \nWEIGHT\n \nSUI\n \nSUI\n \n26572774.9638\n \n$1.16\n \n$30,706,861.00\n \n100.00%\n \n \nPortfolio\n \nholdings\n \nshould\n"
+  },
+  {
+    "ticker": "TSOL",
+    "source_url": "https://cdn.21shares.com/uploads/product_documents/Factsheets/Factsheet_TSOL.pdf",
+    "as_of_label": "September 30, 2026",
+    "quantity": 83507.6315,
+    "status": "verified after PDF whitespace normalization",
+    "evidence": "native token row not parsed"
+  },
+  {
+    "ticker": "TETH",
+    "source_url": "https://cdn.21shares.com/uploads/product_documents/Factsheets/Factsheet_TETH.pdf",
+    "as_of_label": "September 30, 2026",
+    "quantity": 14072.5444,
+    "status": "verified after PDF whitespace normalization",
+    "evidence": "native token row not parsed"
+  }
+]

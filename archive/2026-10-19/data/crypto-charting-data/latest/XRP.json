@@ -1,0 +1,337 @@
+{
+  "schema_version": 2,
+  "symbol": "XRP",
+  "asset_id": "ripple",
+  "collected_at": "2026-10-19T10:33:14+08:00",
+  "report_date_shanghai": "2026-10-19",
+  "status": "partial",
+  "metrics": {
+    "price_usd": {
+      "value": 1.31,
+      "unit": "USD/XRP",
+      "data_as_of": "2026-10-19T02:31:49.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ripple&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 实时聚合；涨跌幅为滚动周期"
+    },
+    "change_24h_pct": {
+      "value": 0.70286,
+      "unit": "%",
+      "data_as_of": "2026-10-19T02:31:49.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ripple&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 实时聚合；涨跌幅为滚动周期"
+    },
+    "change_7d_pct": {
+      "value": -6.9737,
+      "unit": "%",
+      "data_as_of": "2026-10-19T02:31:49.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ripple&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 实时聚合；涨跌幅为滚动周期"
+    },
+    "volume_24h_usd": {
+      "value": 1245302448,
+      "unit": "USD",
+      "data_as_of": "2026-10-19T02:31:49.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ripple&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 实时聚合；涨跌幅为滚动周期"
+    },
+    "market_cap_usd": {
+      "value": 82516099660,
+      "unit": "USD",
+      "data_as_of": "2026-10-19T02:31:49.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ripple&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 实时聚合；涨跌幅为滚动周期"
+    },
+    "circulating_supply": {
+      "value": 63129671205.0,
+      "unit": "XRP",
+      "data_as_of": "2026-10-19T02:31:49.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ripple&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 实时聚合；涨跌幅为滚动周期"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-12",
+          "close_usd": 1.340961
+        },
+        {
+          "date_utc": "2026-10-13",
+          "close_usd": 1.365131
+        },
+        {
+          "date_utc": "2026-10-14",
+          "close_usd": 1.330594
+        },
+        {
+          "date_utc": "2026-10-15",
+          "close_usd": 1.333544
+        },
+        {
+          "date_utc": "2026-10-16",
+          "close_usd": 1.309972
+        },
+        {
+          "date_utc": "2026-10-17",
+          "close_usd": 1.292655
+        },
+        {
+          "date_utc": "2026-10-18",
+          "close_usd": 1.305665
+        }
+      ],
+      "source_url": "https://api.coingecko.com/api/v3/coins/ripple/market_chart?vs_currency=usd&days=8&interval=daily",
+      "period_start": "2026-10-12",
+      "period_end": "2026-10-18",
+      "method": "CoinGecko UTC 00:00 快照，归属刚结束的前一 UTC 日之近似收盘；不同于滚动现价"
+    }
+  },
+  "etf": {
+    "scope": "US pure native-XRP spot trusts; exclude BITW multi-asset and XRPR indirect/mixed exposure",
+    "trading_date_et": null,
+    "product_universe": [
+      {
+        "ticker": "XRP",
+        "issuer": "Bitwise",
+        "source_url": "https://bitxrpetf.com/"
+      },
+      {
+        "ticker": "XRPC",
+        "issuer": "Canary",
+        "source_url": "https://canaryetfs.com/xrpc/"
+      },
+      {
+        "ticker": "XRPZ",
+        "issuer": "Franklin Templeton",
+        "source_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47318/SINGLCLASS/franklin-xrp-etf/XRPZ"
+      },
+      {
+        "ticker": "GXRP",
+        "issuer": "Grayscale",
+        "source_url": "https://etfs.grayscale.com/gxrp"
+      },
+      {
+        "ticker": "TOXR",
+        "issuer": "21shares",
+        "source_url": "https://www.21shares.com/en-us/products-us/toxr"
+      }
+    ],
+    "holdings": [
+      {
+        "ticker": "XRP",
+        "quantity_native": 417729396.21,
+        "unit": "XRP",
+        "as_of_et": "2026-10-15",
+        "source_url": "https://bitxrpetf.com/",
+        "issuer_url": "https://bitxrpetf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "scope": "发行商直接披露日"
+      },
+      {
+        "ticker": "XRPC",
+        "quantity_native": 243456798.34,
+        "unit": "XRP",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://xrp-insights.com/data/xrp-etf-flows.json",
+        "issuer_url": "https://canaryetfs.com/xrpc/",
+        "source_tier": "issuer_transcribed",
+        "aggregator_error": false,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "scope": "转录数据集 settled 观察日；发行商原始日期未独立复核；发行商页面未解析到带日期的原生 XRP 数量"
+      },
+      {
+        "ticker": "XRPZ",
+        "quantity_native": 301795330.58,
+        "unit": "XRP",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://xrp-insights.com/data/xrp-etf-flows.json",
+        "issuer_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47318/SINGLCLASS/franklin-xrp-etf/XRPZ",
+        "source_tier": "issuer_transcribed",
+        "aggregator_error": false,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "scope": "转录数据集 settled 观察日；发行商原始日期未独立复核；发行商页面未解析到带日期的原生 XRP 数量"
+      },
+      {
+        "ticker": "TOXR",
+        "quantity_native": 107295620.64,
+        "unit": "XRP",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://xrp-insights.com/data/xrp-etf-flows.json",
+        "issuer_url": "https://www.21shares.com/en-us/products-us/toxr",
+        "source_tier": "issuer_transcribed",
+        "aggregator_error": false,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "scope": "转录数据集 settled 观察日；发行商原始日期未独立复核；发行商页面未解析到带日期的原生 XRP 数量"
+      }
+    ],
+    "holdings_summary": {
+      "kind": "verified_sample",
+      "as_of_et": "2026-10-16",
+      "verified_products": 3,
+      "universe_products": 5,
+      "unit": "XRP",
+      "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+      "note": "同日样本；转录行日期为数据集 settled 观察日，非独立核实的发行商原始日期"
+    },
+    "product_details": [
+      {
+        "ticker": "XRP",
+        "annual_fee_pct_listed": 0.34,
+        "fee_source_url": "https://bitxrpetf.com/",
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "holding_status": "发行商页面未解析到带日期的原生 XRP 数量"
+      },
+      {
+        "ticker": "XRPC",
+        "annual_fee_pct_listed": 0.5,
+        "fee_source_url": "https://canaryetfs.com/xrpc/",
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "holding_status": "发行商页面未解析到带日期的原生 XRP 数量"
+      },
+      {
+        "ticker": "XRPZ",
+        "annual_fee_pct_listed": null,
+        "fee_source_url": null,
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "holding_status": "发行商页面未解析到带日期的原生 XRP 数量"
+      },
+      {
+        "ticker": "GXRP",
+        "annual_fee_pct_listed": null,
+        "fee_source_url": null,
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "holding_status": "发行商访问失败：HTTPError；转录源存在冻结记录，未独立核实持仓日期"
+      },
+      {
+        "ticker": "TOXR",
+        "annual_fee_pct_listed": 0.3,
+        "fee_source_url": "https://www.21shares.com/en-us/products-us/toxr",
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-19T10:33:14+08:00",
+        "holding_status": "发行商页面未解析到带日期的原生 XRP 数量"
+      }
+    ],
+    "flows": [],
+    "flow_history": [],
+    "last_valid_holdings": [
+      {
+        "ticker": "XRP",
+        "quantity_native": 417729396.21,
+        "unit": "XRP",
+        "as_of_et": "2026-10-15",
+        "source_url": "https://bitxrpetf.com/",
+        "issuer_url": "https://bitxrpetf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-18T13:35:49+08:00",
+        "scope": "发行商直接披露日"
+      },
+      {
+        "ticker": "XRPC",
+        "quantity_native": 243456798.34,
+        "unit": "XRP",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://xrp-insights.com/data/xrp-etf-flows.json",
+        "issuer_url": "https://canaryetfs.com/xrpc/",
+        "source_tier": "issuer_transcribed",
+        "aggregator_error": false,
+        "verified_at_shanghai": "2026-10-18T13:35:49+08:00",
+        "scope": "转录数据集 settled 观察日；发行商原始日期未独立复核；发行商持仓表出现未来日期；未采用该行"
+      },
+      {
+        "ticker": "XRPZ",
+        "quantity_native": 301795330.58,
+        "unit": "XRP",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://xrp-insights.com/data/xrp-etf-flows.json",
+        "issuer_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47318/SINGLCLASS/franklin-xrp-etf/XRPZ",
+        "source_tier": "issuer_transcribed",
+        "aggregator_error": false,
+        "verified_at_shanghai": "2026-10-18T13:35:49+08:00",
+        "scope": "转录数据集 settled 观察日；发行商原始日期未独立复核；发行商页面未解析到带日期的原生 XRP 数量"
+      },
+      {
+        "ticker": "TOXR",
+        "quantity_native": 107295620.64,
+        "unit": "XRP",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://xrp-insights.com/data/xrp-etf-flows.json",
+        "issuer_url": "https://www.21shares.com/en-us/products-us/toxr",
+        "source_tier": "issuer_transcribed",
+        "aggregator_error": false,
+        "verified_at_shanghai": "2026-10-18T13:35:49+08:00",
+        "scope": "转录数据集 settled 观察日；发行商原始日期未独立复核；发行商页面未解析到带日期的原生 XRP 数量"
+      }
+    ]
+  },
+  "chain": {
+    "metrics": []
+  },
+  "developments": [],
+  "sources": [
+    {
+      "name": "CoinGecko XRP",
+      "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ripple&price_change_percentage=7d"
+    },
+    {
+      "name": "XRP Insights 持仓转录与方法",
+      "url": "https://xrp-insights.com/data"
+    },
+    {
+      "name": "XRP Bitwise",
+      "url": "https://bitxrpetf.com/"
+    },
+    {
+      "name": "XRPC Canary",
+      "url": "https://canaryetfs.com/xrpc/"
+    },
+    {
+      "name": "XRPZ Franklin Templeton",
+      "url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47318/SINGLCLASS/franklin-xrp-etf/XRPZ"
+    },
+    {
+      "name": "GXRP Grayscale",
+      "url": "https://etfs.grayscale.com/gxrp"
+    },
+    {
+      "name": "TOXR 21shares",
+      "url": "https://www.21shares.com/en-us/products-us/toxr"
+    },
+    {
+      "name": "昨日归档（仅最后有效日期或历史值）",
+      "url": "https://github.com/HeySeeTech/Crypto-Charting/blob/main/archive/2026-10-18/data/crypto-charting-data/2026-10-18/XRP.json"
+    }
+  ],
+  "missing_or_stale": [
+    "GXRP 持仓未核实：发行商访问失败：HTTPError；转录源存在冻结记录，未独立核实持仓日期；最后有效日期未知。",
+    "ETF 美元申赎净流量未取得独立可核实来源；Farside /xrp/ HTTP 403；尚未解析到独立美元申赎数据；最后有效日期未知。XRP Insights 的 flow_usd 为持仓差乘价格，未冒充资金流。",
+    "XRPL 日频指标和最近24小时官方动态未核实到足以列入的事件；未填造。",
+    "转录行日期为数据集观察日；不与发行商直接披露行混算原生币日变化。"
+  ],
+  "revision": {
+    "revised_at_shanghai": "2026-10-19T10:43:57+08:00",
+    "reason": "补充网页直读与归档证据；保留原始行情采集时间，历史数量另列且不纳入本次样本"
+  },
+  "history_archive_url": "https://github.com/HeySeeTech/Crypto-Charting/blob/main/archive/2026-10-18/data/crypto-charting-data/2026-10-18/XRP.json"
+}

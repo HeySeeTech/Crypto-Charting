@@ -1,0 +1,4 @@
+{
+  "HODL": {"quantity_native":14665.524,"as_of_et":"2026-10-16","source_url":"https://www.vaneck.com/us/en/investments/bitcoin-etf-hodl/","scope":"今日通过网页工具直接核查 ETF Statistics 的 Bitcoin in Trust；原始披露日10月16日，净应计费用口径"},
+  "ETHV": {"quantity_native":45284.003,"as_of_et":"2026-10-16","source_url":"https://www.vaneck.com/us/en/investments/ethereum-etf-ethv/","scope":"今日通过网页工具直接核查 ETF Statistics 的 Ether in Trust；原始披露日10月16日，净应计费用口径"}
+}
