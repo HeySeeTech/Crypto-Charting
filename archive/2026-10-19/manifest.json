@@ -248,6 +248,12 @@
       "bytes": 3039
     },
     {
+      "path": "copy/outputs/2026-10-19/DOGE-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "3497b74d87ef60ac620c9020355f574fbe23ff1a",
+      "bytes": 2968
+    },
+    {
       "path": "copy/outputs/2026-10-19/ETH-X文案.md",
       "category": "copy",
       "git_blob_sha1": "882fedf083a6e6cc2b509f46e8f8d660f6cf171b",
@@ -744,6 +750,60 @@
       "category": "research",
       "git_blob_sha1": "bb74ff79d5ea1d80065cb678e6c7db1132623c27",
       "bytes": 685
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/archive-day-index.md",
+      "category": "research",
+      "git_blob_sha1": "c48f569ddc48a4c231e1337969f59c65d757c0c3",
+      "bytes": 7719
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/archive-index.md",
+      "category": "research",
+      "git_blob_sha1": "69dfbbbd87818cd9e1cfefcd2409482fab8c38d2",
+      "bytes": 704
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/archived-research-notes.md",
+      "category": "research",
+      "git_blob_sha1": "229ecdaed5d0b66514dff42df0fea87c39a424bb",
+      "bytes": 18
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/dogeos-guide.html",
+      "category": "research",
+      "git_blob_sha1": "6f3616f2c44679ccafeadbb92d8a4b998c0222d3",
+      "bytes": 83688
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "cdc39ec4a0f1c66940dc27e58ee3692eed6bcf47",
+      "bytes": 3303
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/sec-submissions.html",
+      "category": "research",
+      "git_blob_sha1": "3d5db7003c42e799525bb96ff7022bc2796d8560",
+      "bytes": 4619
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "cf62d7e12888fbd81ebc61a1a73a26d9886522b9",
+      "bytes": 867
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/tdog.html",
+      "category": "research",
+      "git_blob_sha1": "02d6e8e97c88207faac39096e7f8bd962f63a474",
+      "bytes": 455599
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "9c39a31472db27523fe14a7b60b81dbbd657a7f6",
+      "bytes": 2558
     },
     {
       "path": "research/research/2026-10-19/eth-update/archived-ETH-2026-10-18.json",

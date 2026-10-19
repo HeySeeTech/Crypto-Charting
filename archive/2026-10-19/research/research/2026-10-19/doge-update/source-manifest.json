@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://bwowetf.com/",
+    "status": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2053791/000119312526387903/bwow-ex99_1.htm",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0002053791.json",
+    "status": "saved",
+    "bytes": 4619
+  },
+  {
+    "url": "https://www.globenewswire.com/news-release/2026/09/30/3372073/0/en/dogeos-opens-public-testnet-as-builders-bring-new-apps-to-dogecoin.html",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://docs.dogeos.com/en/getting-started/user-guide",
+    "status": "saved",
+    "bytes": 83688
+  },
+  {
+    "url": "https://www.21shares.com/en-us/products-us/tdog",
+    "status": "saved",
+    "bytes": 455599
+  }
+]
