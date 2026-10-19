@@ -1,0 +1,47 @@
+{
+  "retrieved_at_utc": "2026-10-19T02:57:03.701763+00:00",
+  "sources": [
+    {
+      "name": "volatilepair-announcement",
+      "url": "https://blog.uniswap.org/volatilepair-hook-pricing-both-sides-of-the-trade",
+      "bytes": 183399,
+      "status": "saved"
+    },
+    {
+      "name": "volatilepair-docs",
+      "url": "https://developers.uniswap.org/docs/protocols/uniswap-labs-hooks/volatile-pair/overview",
+      "bytes": 295949,
+      "status": "saved"
+    },
+    {
+      "name": "cme-announcement",
+      "url": "https://www.cmegroup.com/media-room/press-releases/2026/9/22/cme_group_to_expandcryptoderivativessuitewithbitcoincashandunisw.html",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "defillama",
+      "url": "https://defillama.com/protocol/uniswap",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "v4-fees",
+      "url": "https://gov.uniswap.org/t/temp-check-activate-v4-protocol-fees/26162/1",
+      "bytes": 98349,
+      "status": "saved"
+    },
+    {
+      "name": "arc-proposal",
+      "url": "https://gov.uniswap.org/t/temp-check-protocol-fee-expansion-arc/26287",
+      "bytes": 45237,
+      "status": "saved"
+    },
+    {
+      "name": "unichain-upgrade",
+      "url": "https://blog.uniswap.org/unichain-is-upgrading-to-op-enterprise",
+      "bytes": 169919,
+      "status": "saved"
+    }
+  ]
+}

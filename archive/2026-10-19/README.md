@@ -82,7 +82,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（16）
+## 研究资料（23）
 
 - [research/2026-10-19/corrected-primary-sources.json](research/research/2026-10-19/corrected-primary-sources.json)
 - [research/2026-10-19/factsheet-checks.json](research/research/2026-10-19/factsheet-checks.json)
@@ -93,11 +93,18 @@
 - [research/2026-10-19/issuer-web.json](research/research/2026-10-19/issuer-web.json)
 - [research/2026-10-19/recalculation-qa.json](research/research/2026-10-19/recalculation-qa.json)
 - [research/2026-10-19/supplementary-web-evidence.json](research/research/2026-10-19/supplementary-web-evidence.json)
+- [research/2026-10-19/uni-update/arc-proposal.html](research/research/2026-10-19/uni-update/arc-proposal.html)
 - [research/2026-10-19/uni-update/archive-index-2026-10-18.md](research/research/2026-10-19/uni-update/archive-index-2026-10-18.md)
 - [research/2026-10-19/uni-update/archived-UNI-2026-10-18.json](research/research/2026-10-19/uni-update/archived-UNI-2026-10-18.json)
 - [research/2026-10-19/uni-update/archived-drafts.md](research/research/2026-10-19/uni-update/archived-drafts.md)
 - [research/2026-10-19/uni-update/archived-research-notes.md](research/research/2026-10-19/uni-update/archived-research-notes.md)
 - [research/2026-10-19/uni-update/live-prices.json](research/research/2026-10-19/uni-update/live-prices.json)
+- [research/2026-10-19/uni-update/source-manifest.json](research/research/2026-10-19/uni-update/source-manifest.json)
+- [research/2026-10-19/uni-update/unichain-upgrade.html](research/research/2026-10-19/uni-update/unichain-upgrade.html)
+- [research/2026-10-19/uni-update/v4-fees.html](research/research/2026-10-19/uni-update/v4-fees.html)
+- [research/2026-10-19/uni-update/volatilepair-announcement.html](research/research/2026-10-19/uni-update/volatilepair-announcement.html)
+- [research/2026-10-19/uni-update/volatilepair-docs.html](research/research/2026-10-19/uni-update/volatilepair-docs.html)
+- [research/2026-10-19/uni-update/研究说明.md](research/research/2026-10-19/uni-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/verify_workbooks.mjs](research/research/2026-10-19/verify_workbooks.mjs)
 - [research/2026-10-19/workbook-validation.json](research/research/2026-10-19/workbook-validation.json)
 

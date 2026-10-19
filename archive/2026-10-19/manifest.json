@@ -536,6 +536,12 @@
       "bytes": 899
     },
     {
+      "path": "research/research/2026-10-19/uni-update/arc-proposal.html",
+      "category": "research",
+      "git_blob_sha1": "6192f66d92195bfe6bc8803230b6c7bd422fde2d",
+      "bytes": 45237
+    },
+    {
       "path": "research/research/2026-10-19/uni-update/archive-index-2026-10-18.md",
       "category": "research",
       "git_blob_sha1": "c48f569ddc48a4c231e1337969f59c65d757c0c3",
@@ -564,6 +570,42 @@
       "category": "research",
       "git_blob_sha1": "c216b8cd6330f92bd39484e6c3c5067071d2fd18",
       "bytes": 3432
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "8e508a94c3bd0311f013c4bc0660b87051876619",
+      "bytes": 1419
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/unichain-upgrade.html",
+      "category": "research",
+      "git_blob_sha1": "0ba5d3abef8e39ae4cd991278c7fbf505d8b8d55",
+      "bytes": 169919
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/v4-fees.html",
+      "category": "research",
+      "git_blob_sha1": "84167c926ff75fea36f46a1b707039c4cb4ccb94",
+      "bytes": 98349
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/volatilepair-announcement.html",
+      "category": "research",
+      "git_blob_sha1": "8da6624518da99d95846c232aa3715b81029ca93",
+      "bytes": 183399
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/volatilepair-docs.html",
+      "category": "research",
+      "git_blob_sha1": "fbba6e8a31a1f157c8024638990b1eb6c147b6e4",
+      "bytes": 295949
+    },
+    {
+      "path": "research/research/2026-10-19/uni-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "0acce5da4e6b2c49e589fed602e114cac4b041a3",
+      "bytes": 4135
     },
     {
       "path": "research/research/2026-10-19/verify_workbooks.mjs",
