@@ -218,6 +218,12 @@
       "bytes": 2421
     },
     {
+      "path": "copy/outputs/2026-10-19/XRP-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "9d10d54927eaa611ad3cc306b9c4b608ae918984",
+      "bytes": 3110
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -870,6 +876,54 @@
       "category": "research",
       "git_blob_sha1": "be95867c9556d75495c9d742e92eea0e5e024bbc",
       "bytes": 1293
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/archived-XRP-2026-10-18.json",
+      "category": "research",
+      "git_blob_sha1": "1c1412c5724dcd48c5122f97ea81ff9067775cbe",
+      "bytes": 10431
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/crossriver-announcement.html",
+      "category": "research",
+      "git_blob_sha1": "a7218b34790947f0e5f38276d4ffbefa0c29fda4",
+      "bytes": 115926
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "104740126216fa9a5fabf029474eb992e978e5d0",
+      "bytes": 2276
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "564a108ff5d20cc2e913097cabdfa12d7489d1ce",
+      "bytes": 889
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/xrpl-fees.html",
+      "category": "research",
+      "git_blob_sha1": "877668cf31ac9520b5f105ff32326660bbf51872",
+      "bytes": 510537
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/xrpl-reserves.html",
+      "category": "research",
+      "git_blob_sha1": "9a69fba90418a9ece1a64a74af6dc5927279769e",
+      "bytes": 460069
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/xrpl-security-disclosure.html",
+      "category": "research",
+      "git_blob_sha1": "fc576de329a054e81340c972e0f9a4c362ea8b53",
+      "bytes": 504079
+    },
+    {
+      "path": "research/research/2026-10-19/xrp-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "7fcc91ad0c8aa6b3841409a243749be41c8c093b",
+      "bytes": 4815
     }
   ]
 }

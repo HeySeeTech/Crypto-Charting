@@ -2,13 +2,14 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（10）
+## 文案（11）
 
 - [outputs/2026-10-19/BTC-X文案.md](copy/outputs/2026-10-19/BTC-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/ETH-X文案.md](copy/outputs/2026-10-19/ETH-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/SOL-X文案.md](copy/outputs/2026-10-19/SOL-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/SUI-X文案.md](copy/outputs/2026-10-19/SUI-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/UNI-X文案.md](copy/outputs/2026-10-19/UNI-X%E6%96%87%E6%A1%88.md)
+- [outputs/2026-10-19/XRP-X文案.md](copy/outputs/2026-10-19/XRP-X%E6%96%87%E6%A1%88.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
@@ -87,7 +88,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（60）
+## 研究资料（68）
 
 - [research/2026-10-19/btc-update/archived-BTC-2026-10-18.json](research/research/2026-10-19/btc-update/archived-BTC-2026-10-18.json)
 - [research/2026-10-19/btc-update/cftc-release-index.html](research/research/2026-10-19/btc-update/cftc-release-index.html)
@@ -149,6 +150,14 @@
 - [research/2026-10-19/uni-update/研究说明.md](research/research/2026-10-19/uni-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/verify_workbooks.mjs](research/research/2026-10-19/verify_workbooks.mjs)
 - [research/2026-10-19/workbook-validation.json](research/research/2026-10-19/workbook-validation.json)
+- [research/2026-10-19/xrp-update/archived-XRP-2026-10-18.json](research/research/2026-10-19/xrp-update/archived-XRP-2026-10-18.json)
+- [research/2026-10-19/xrp-update/crossriver-announcement.html](research/research/2026-10-19/xrp-update/crossriver-announcement.html)
+- [research/2026-10-19/xrp-update/prices.json](research/research/2026-10-19/xrp-update/prices.json)
+- [research/2026-10-19/xrp-update/source-manifest.json](research/research/2026-10-19/xrp-update/source-manifest.json)
+- [research/2026-10-19/xrp-update/xrpl-fees.html](research/research/2026-10-19/xrp-update/xrpl-fees.html)
+- [research/2026-10-19/xrp-update/xrpl-reserves.html](research/research/2026-10-19/xrp-update/xrpl-reserves.html)
+- [research/2026-10-19/xrp-update/xrpl-security-disclosure.html](research/research/2026-10-19/xrp-update/xrpl-security-disclosure.html)
+- [research/2026-10-19/xrp-update/研究说明.md](research/research/2026-10-19/xrp-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 
 ## 校验与日志（12）
 

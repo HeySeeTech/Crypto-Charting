@@ -1,0 +1,29 @@
+{
+  "retrieved_at_utc": "2026-10-19T03:35:06.434866+00:00",
+  "sources": [
+    {
+      "name": "crossriver-announcement",
+      "url": "https://www.crossriver.com/newsroom/cross-river-embeds-ripple-usd-stablecoin-on-the-xrp-ledger-into-its-core-banking-infrastructure-expanding-faster-payment-capabilities-for-businesses",
+      "status": "saved",
+      "bytes": 115926
+    },
+    {
+      "name": "xrpl-fees",
+      "url": "https://xrpl.org/docs/concepts/transactions/transaction-cost",
+      "status": "saved",
+      "bytes": 510537
+    },
+    {
+      "name": "xrpl-reserves",
+      "url": "https://xrpl.org/docs/concepts/accounts/reserves",
+      "status": "saved",
+      "bytes": 460069
+    },
+    {
+      "name": "xrpl-security-disclosure",
+      "url": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+      "status": "saved",
+      "bytes": 504079
+    }
+  ]
+}
