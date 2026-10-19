@@ -1,0 +1,71 @@
+{
+  "retrieved_at": "2026-10-19T03:07:38.667705+00:00",
+  "sources": [
+    {
+      "name": "farside",
+      "url": "https://farside.co.uk/btc/",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "cpi",
+      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "fed-statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "bytes": 82636,
+      "status": "saved"
+    },
+    {
+      "name": "fed-calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "bytes": 165751,
+      "status": "saved"
+    },
+    {
+      "name": "fed-jefferson",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+      "bytes": 95776,
+      "status": "saved"
+    },
+    {
+      "name": "sec-comments",
+      "url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27?page=0",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "cftc-release-index",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases?c=1072500&page=0",
+      "bytes": 65565,
+      "status": "saved"
+    },
+    {
+      "name": "msci-decision",
+      "url": "https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=aq0wbkjxPgo%3D",
+      "bytes": 4257,
+      "status": "saved"
+    },
+    {
+      "name": "strategy-response",
+      "url": "https://www.strategy.com/msci",
+      "error": "HTTP Error 403: Forbidden",
+      "status": "failed"
+    },
+    {
+      "name": "whitehouse-reserve",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+      "bytes": 298881,
+      "status": "saved"
+    },
+    {
+      "name": "msci-methodology",
+      "url": "https://www-cdn.msci.com/documents/10199/4365ac24-7b9b-228b-5be4-4c3e60000cc5",
+      "bytes": 2104313,
+      "status": "saved"
+    }
+  ]
+}

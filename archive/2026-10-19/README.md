@@ -2,8 +2,9 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（6）
+## 文案（7）
 
+- [outputs/2026-10-19/BTC-X文案.md](copy/outputs/2026-10-19/BTC-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/UNI-X文案.md](copy/outputs/2026-10-19/UNI-X%E6%96%87%E6%A1%88.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
@@ -83,8 +84,19 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（23）
+## 研究资料（34）
 
+- [research/2026-10-19/btc-update/archived-BTC-2026-10-18.json](research/research/2026-10-19/btc-update/archived-BTC-2026-10-18.json)
+- [research/2026-10-19/btc-update/cftc-release-index.html](research/research/2026-10-19/btc-update/cftc-release-index.html)
+- [research/2026-10-19/btc-update/fed-calendar.html](research/research/2026-10-19/btc-update/fed-calendar.html)
+- [research/2026-10-19/btc-update/fed-jefferson.html](research/research/2026-10-19/btc-update/fed-jefferson.html)
+- [research/2026-10-19/btc-update/fed-statement.html](research/research/2026-10-19/btc-update/fed-statement.html)
+- [research/2026-10-19/btc-update/live-prices.json](research/research/2026-10-19/btc-update/live-prices.json)
+- [research/2026-10-19/btc-update/msci-decision.html](research/research/2026-10-19/btc-update/msci-decision.html)
+- [research/2026-10-19/btc-update/msci-methodology.pdf](research/research/2026-10-19/btc-update/msci-methodology.pdf)
+- [research/2026-10-19/btc-update/source-manifest.json](research/research/2026-10-19/btc-update/source-manifest.json)
+- [research/2026-10-19/btc-update/whitehouse-reserve.html](research/research/2026-10-19/btc-update/whitehouse-reserve.html)
+- [research/2026-10-19/btc-update/研究说明.md](research/research/2026-10-19/btc-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/corrected-primary-sources.json](research/research/2026-10-19/corrected-primary-sources.json)
 - [research/2026-10-19/factsheet-checks.json](research/research/2026-10-19/factsheet-checks.json)
 - [research/2026-10-19/farside-live.json](research/research/2026-10-19/farside-live.json)

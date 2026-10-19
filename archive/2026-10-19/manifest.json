@@ -188,6 +188,12 @@
       "bytes": 237793
     },
     {
+      "path": "copy/outputs/2026-10-19/BTC-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "821131860a98326b725761a8a2befe22371ce3ac",
+      "bytes": 3039
+    },
+    {
       "path": "copy/outputs/2026-10-19/UNI-X文案.md",
       "category": "copy",
       "git_blob_sha1": "df59d42ce70a66840606def4e7c89a76f7993a51",
@@ -486,6 +492,72 @@
       "category": "reports",
       "git_blob_sha1": "74afba00d1e5d12c57c60f86d8826a26109b6531",
       "bytes": 25601
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/archived-BTC-2026-10-18.json",
+      "category": "research",
+      "git_blob_sha1": "eee3a7aea7340f2feb2dbfecd2fdb5a411cddf58",
+      "bytes": 17529
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/cftc-release-index.html",
+      "category": "research",
+      "git_blob_sha1": "6661770a98258ceb9326cd4821603a7be166a9ab",
+      "bytes": 65565
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/fed-calendar.html",
+      "category": "research",
+      "git_blob_sha1": "785636c081aec2dc1e2930a9f4b0a7e063cc79e8",
+      "bytes": 165751
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/fed-jefferson.html",
+      "category": "research",
+      "git_blob_sha1": "ee54d70d3d22336e0fb5ef42dc0d7187a15c8520",
+      "bytes": 95776
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/fed-statement.html",
+      "category": "research",
+      "git_blob_sha1": "1eb3eccf43123c4d139891b8d1733f9f9f8bf3b8",
+      "bytes": 82636
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/live-prices.json",
+      "category": "research",
+      "git_blob_sha1": "0e66b715ab742fa9deaa9679a5152adeecb1367b",
+      "bytes": 3431
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/msci-decision.html",
+      "category": "research",
+      "git_blob_sha1": "2faa87993921bd1229c836ed17bc8d819770602b",
+      "bytes": 4257
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/msci-methodology.pdf",
+      "category": "research",
+      "git_blob_sha1": "6c6a3545248ba2ce1b175d40653a823f69d51958",
+      "bytes": 2104313
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "467904322b36b07c5b82e2ed3e0d765881b7806d",
+      "bytes": 2112
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/whitehouse-reserve.html",
+      "category": "research",
+      "git_blob_sha1": "6a737fbbb3483b1d4adc17236fb0c8008b98bcb4",
+      "bytes": 298881
+    },
+    {
+      "path": "research/research/2026-10-19/btc-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "127839a568f94fa7d22a5fb0b3c1814809bf5978",
+      "bytes": 6570
     },
     {
       "path": "research/research/2026-10-19/corrected-primary-sources.json",
