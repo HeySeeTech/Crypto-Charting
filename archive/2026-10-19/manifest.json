@@ -200,6 +200,12 @@
       "bytes": 2884
     },
     {
+      "path": "copy/outputs/2026-10-19/SOL-X文案.md",
+      "category": "copy",
+      "git_blob_sha1": "58aa03b81c2f66d26b5ba0b669edc29888968f42",
+      "bytes": 2893
+    },
+    {
       "path": "copy/outputs/2026-10-19/UNI-X文案.md",
       "category": "copy",
       "git_blob_sha1": "df59d42ce70a66840606def4e7c89a76f7993a51",
@@ -660,6 +666,54 @@
       "category": "research",
       "git_blob_sha1": "2cdb65cff3bf4fc2df8efe37aff7d8de379e0a40",
       "bytes": 861
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/alpenglow.html",
+      "category": "research",
+      "git_blob_sha1": "23d8ed851a53d704caf33db8ea8fee00e2b6b184",
+      "bytes": 1134103
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/anza-consensus.html",
+      "category": "research",
+      "git_blob_sha1": "fa0cbde2f0bc3a05eaefa2e9981e19d59bf19114",
+      "bytes": 29881
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/anza-vat.html",
+      "category": "research",
+      "git_blob_sha1": "0c599445f2e348234814d79de2e8028e04bfe15a",
+      "bytes": 49891
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/archived-SOL-2026-10-18.json",
+      "category": "research",
+      "git_blob_sha1": "1fe981f74601e928302ea27eba3e9b0fdf89727b",
+      "bytes": 13738
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/live-prices.json",
+      "category": "research",
+      "git_blob_sha1": "4fe2fd8c1489366a49f0c50359a99e2a5b1d7df4",
+      "bytes": 3431
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/source-manifest.json",
+      "category": "research",
+      "git_blob_sha1": "471ceb5c4e507ca790e66a5becdd0efc802f2c1d",
+      "bytes": 802
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/status.html",
+      "category": "research",
+      "git_blob_sha1": "79977c18f09573b980f699eb982681fd9ca41b85",
+      "bytes": 102408
+    },
+    {
+      "path": "research/research/2026-10-19/sol-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "e4ffe74973e7a7aff7343803d35d72341cc28803",
+      "bytes": 4947
     },
     {
       "path": "research/research/2026-10-19/supplementary-web-evidence.json",

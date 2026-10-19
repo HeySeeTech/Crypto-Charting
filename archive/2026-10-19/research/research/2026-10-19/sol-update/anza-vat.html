@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-operations/guides/vote-accounts" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.2">
+<title data-rh="true">Validator Guide: Vote Account Management | Agave</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://docs.anza.xyz/operations/guides/vote-accounts"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Validator Guide: Vote Account Management | Agave"><meta data-rh="true" name="description" content="This page describes how to set up an on-chain vote account. Creating a vote"><meta data-rh="true" property="og:description" content="This page describes how to set up an on-chain vote account. Creating a vote"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.anza.xyz/operations/guides/vote-accounts"><link data-rh="true" rel="alternate" href="https://docs.anza.xyz/operations/guides/vote-accounts" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.anza.xyz/operations/guides/vote-accounts" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://FQ12ISJR4B-dsn.algolia.net" crossorigin="anonymous"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Vote Account Management","item":"https://docs.anza.xyz/operations/guides/vote-accounts"}]}</script><link rel="search" type="application/opensearchdescription+xml" title="Agave" href="/opensearch.xml">
+<link rel="stylesheet" href="/katex/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.2ab92a88.css">
+<script src="/assets/js/runtime~main.11f2f0ff.js" defer="defer"></script>
+<script src="/assets/js/main.7187c2e1.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_UKau" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo-horizontal.svg" alt="Anza Logo" class="themedComponent_CC3c themedComponent--light_yNai"><img src="/img/logo-horizontal-dark.svg" alt="Anza Logo" class="themedComponent_CC3c themedComponent--dark_tcoh"></div></a><a class="navbar__item navbar__link" href="/cli">CLI</a><a class="navbar__item navbar__link" href="/architecture">Architecture</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/operations">Operating a Validator</a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">More</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/proposals">Proposals</a></li><li><a href="https://spl.solana.com" target="_blank" rel="noopener noreferrer" class="dropdown__link">Solana Program Library<svg width="12" height="12" aria-label="(opens in new tab)" class="iconExternalLink_d8Nt"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://solana.com/discord" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-link-icon header-discord-link" aria-label="Solana Tech Discord"></a><a href="https://github.com/anza-xyz/agave/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-link-icon header-github-link" aria-label="GitHub repository"></a><div class="toggle_twJd colorModeToggle_hJLd"><button class="clean-btn toggleButton_LRPR toggleButtonDisabled_UKIj" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_oHC7 lightToggleIcon_xE3u"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_oHC7 darkToggleIcon_mGtO"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_oHC7 systemToggleIcon_NDlO"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_gy_A"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search (Meta+k)" aria-keyshortcuts="Meta+k"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8" stroke="currentColor" fill="none" stroke-width="1.4"></circle><path d="m21 21-4.3-4.3" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"></span></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_NrPM"><div class="docsWrapper_VH6C"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_QlKS" type="button"></button><div class="docRoot_J_Q4"><aside class="theme-doc-sidebar-container docSidebarContainer_ecLX"><div class="sidebarViewport_jsB7"><div class="sidebar_kUkp"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_u_on"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/"><span class="linkLabel_woM2">Home</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_HxEO menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/what-is-a-validator"><span class="categoryLinkLabel_Lr8i">Introduction</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/what-is-a-validator"><span class="linkLabel_woM2">What is a Validator?</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/what-is-an-rpc-node"><span class="linkLabel_woM2">What is an RPC Node?</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/faq"><span class="linkLabel_woM2">Frequently Asked Questions</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/backwards-compatibility"><span class="linkLabel_woM2">Backward Compatibility Policy</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_HxEO menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/cli/"><span class="categoryLinkLabel_Lr8i">Command Line Tools</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_HxEO menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/architecture"><span class="categoryLinkLabel_Lr8i">Architecture</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_HxEO menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/operations/"><span class="categoryLinkLabel_Lr8i">Operating a Validator</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/"><span class="linkLabel_woM2">Operating a Validator</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/validator-or-rpc-node"><span class="linkLabel_woM2">Validator vs RPC Node</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/prerequisites"><span class="linkLabel_woM2">Prerequisites</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/requirements"><span class="linkLabel_woM2">Requirements</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/setup-a-validator"><span class="linkLabel_woM2">Setup an Agave Validator</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/setup-an-rpc-node"><span class="linkLabel_woM2">Setup an Agave RPC Node</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/running-with-af-xdp"><span class="linkLabel_woM2">Running with AF_XDP</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_HxEO menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/operations/best-practices/general"><span class="categoryLinkLabel_Lr8i">Best Practices</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_HxEO menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/operations/guides/validator-start"><span class="categoryLinkLabel_Lr8i">Validator Guides</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/guides/validator-start"><span class="linkLabel_woM2">Starting a Validator</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/guides/validator-info"><span class="linkLabel_woM2">Publishing Validator Info</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/guides/validator-monitor"><span class="linkLabel_woM2">Monitoring a Validator</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/guides/validator-stake"><span class="linkLabel_woM2">Staking</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/guides/validator-troubleshoot"><span class="linkLabel_woM2">Troubleshooting</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/operations/guides/vote-accounts"><span class="linkLabel_woM2">Vote Account Management</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/guides/validator-failover"><span class="linkLabel_woM2">Node Failover</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/guides/restart-cluster"><span class="linkLabel_woM2">Restart a Cluster</span></a></li></ul></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_u1aU"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_JAev"><div class="docItemContainer_ZnER"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_ASUD" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_K10X"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Operating a Validator</span></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Validator Guides</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Vote Account Management</span></li></ul></nav><div class="tocCollapsible_AG2R theme-doc-toc-mobile tocMobile_suob"><button type="button" class="clean-btn tocCollapsibleButton_txZx">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Validator Guide: Vote Account Management</h1></header><p>This page describes how to set up an on-chain <em>vote account</em>. Creating a vote
+account is needed if you plan to run a validator node on Solana.</p>
+<h2 class="anchor anchorTargetStickyNavbar_j9JF" id="create-a-vote-account">Create a Vote Account<a href="#create-a-vote-account" class="hash-link" aria-label="Direct link to Create a Vote Account" title="Direct link to Create a Vote Account" translate="no">​</a></h2>
+<p>A vote account can be created with the
+<code>create-vote-account</code> command. The
+vote account can be configured when first created or after the validator is
+running. All aspects of the vote account can be changed except for the
+<a href="#vote-account-address" class="">vote account address</a>, which is fixed for the lifetime
+of the account.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="configure-an-existing-vote-account">Configure an Existing Vote Account<a href="#configure-an-existing-vote-account" class="hash-link" aria-label="Direct link to Configure an Existing Vote Account" title="Direct link to Configure an Existing Vote Account" translate="no">​</a></h3>
+<ul>
+<li class="">To change the <a href="#validator-identity" class="">validator identity</a>, use
+<code>vote-update-validator</code>.</li>
+<li class="">To change the <a href="#vote-authority" class="">vote authority</a>, use
+<code>vote-authorize-voter-checked</code>.</li>
+<li class="">To set the BLS public key associated with the
+<a href="#vote-authority" class="">vote authority</a>, use
+<code>vote-authorize-voter-checked</code>
+after SIMD-0387 is active on the cluster.</li>
+<li class="">To change the <a href="#authorized-withdrawer" class="">authorized withdrawer</a>, use
+<code>vote-authorize-withdrawer-checked</code>.</li>
+<li class="">To change the <a href="#commission" class="">commission</a>, use
+<code>vote-update-commission</code>.</li>
+<li class="">To change a <a href="#fund-the-vat-with-commission-revenue" class="">commission collector</a>, use
+<code>vote-update-commission-collector</code>.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="set-the-bls-public-key">Set the BLS Public Key<a href="#set-the-bls-public-key" class="hash-link" aria-label="Direct link to Set the BLS Public Key" title="Direct link to Set the BLS Public Key" translate="no">​</a></h3>
+<p>Voting validators must set the BLS public key associated with their authorized voter.</p>
+<p>You must use <code>solana</code> version 4.1.0 or higher.</p>
+<p>For almost all validators, the authorized voter is the validator identity. If
+you are unsure which keypair is the current authorized voter, run:</p>
+<div class="language-bash codeBlockContainer_yKJF theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_VvE_"><pre tabindex="0" class="prism-code language-bash codeBlock_W8Ud thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_bPfe"><div class="token-line" style="color:#bfc7d5"><span class="token plain">solana vote-account &lt;VOTE_ACCOUNT&gt; | grep &quot;Vote Authority&quot;</span><br></div></code></pre></div></div>
+<p>Then set the BLS public key by running the following command.</p>
+<div class="language-bash codeBlockContainer_yKJF theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_VvE_"><pre tabindex="0" class="prism-code language-bash codeBlock_W8Ud thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_bPfe"><div class="token-line" style="color:#bfc7d5"><span class="token plain">solana vote-authorize-voter-checked &lt;VOTE_ACCOUNT&gt; &lt;AUTHORIZED_VOTER_KEYPAIR&gt; &lt;AUTHORIZED_VOTER_KEYPAIR&gt;</span><br></div></code></pre></div></div>
+<p>This does not change the authorized voter. It fills in the BLS public key
+associated with the authorized voter.</p>
+<p>For a new vote account, follow the normal
+<a href="#create-a-vote-account" class="">create vote account</a> instructions first, then run the
+same <code>vote-authorize-voter-checked</code> command above to set the BLS public key.</p>
+<p>To check whether the BLS public key is set on chain, run:</p>
+<div class="language-bash codeBlockContainer_yKJF theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_VvE_"><pre tabindex="0" class="prism-code language-bash codeBlock_W8Ud thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_bPfe"><div class="token-line" style="color:#bfc7d5"><span class="token plain">solana vote-account &lt;VOTE_ACCOUNT&gt; | grep &quot;BLS Public Key&quot;</span><br></div></code></pre></div></div>
+<p>If the command does not print a <code>BLS Public Key</code> line, the vote account does not
+have a BLS public key set.</p>
+<p>To view the BLS public key derived from the authorized voter keypair locally,
+run:</p>
+<div class="language-bash codeBlockContainer_yKJF theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_VvE_"><pre tabindex="0" class="prism-code language-bash codeBlock_W8Ud thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_bPfe"><div class="token-line" style="color:#bfc7d5"><span class="token plain">solana-keygen bls_pubkey &lt;AUTHORIZED_VOTER_KEYPAIR&gt;</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_j9JF" id="vote-account-structure">Vote Account Structure<a href="#vote-account-structure" class="hash-link" aria-label="Direct link to Vote Account Structure" title="Direct link to Vote Account Structure" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="vote-account-address">Vote Account Address<a href="#vote-account-address" class="hash-link" aria-label="Direct link to Vote Account Address" title="Direct link to Vote Account Address" translate="no">​</a></h3>
+<p>A vote account is created at an address that is either the public key of a
+keypair file, or at a derived address based on a keypair file&#x27;s public key and a
+seed string.</p>
+<p>The address of a vote account is never needed to sign any transactions, but is
+just used to look up the account information.</p>
+<p>When someone wants to
+<a href="https://solana.com/staking" target="_blank" rel="noopener noreferrer" class="">delegate tokens in a stake account</a>,
+the delegation command is pointed at the vote account address of the validator
+to whom the token-holder wants to delegate.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="validator-admission-ticket">Validator Admission Ticket<a href="#validator-admission-ticket" class="hash-link" aria-label="Direct link to Validator Admission Ticket" title="Direct link to Validator Admission Ticket" translate="no">​</a></h3>
+<p>Under Alpenglow, the
+<a href="https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0357-alpenglow_validator_admission_ticket.md" target="_blank" rel="noopener noreferrer" class="">validator admission ticket (VAT)</a>
+is burned from each admitted validator&#x27;s vote account once per epoch. The vote
+account must hold the ticket amount in addition to its rent-exempt minimum. If
+its balance is too low, the validator is not admitted to vote or produce blocks
+in the following epoch.</p>
+<p>The first VAT is charged in the migration epoch—the epoch in which the Alpenglow
+feature flag activates. For example on mainnet beta, the VAT will be first charged
+at the start of epoch 1064 for admission in epoch 1065.</p>
+<p>The VAT is 0.8 SOL per epoch.</p>
+<h4 class="anchor anchorTargetStickyNavbar_j9JF" id="fund-the-vat-with-commission-revenue">Fund the VAT with Commission Revenue<a href="#fund-the-vat-with-commission-revenue" class="hash-link" aria-label="Direct link to Fund the VAT with Commission Revenue" title="Direct link to Fund the VAT with Commission Revenue" translate="no">​</a></h4>
+<p><a href="https://github.com/solana-foundation/solana-improvement-documents/blob/main/proposals/0232-custom-commission-collector.md" target="_blank" rel="noopener noreferrer" class="">SIMD-0232</a>
+lets validators choose separate collector accounts for inflation rewards and
+block revenue. The inflation rewards collector defaults to the vote account,
+while the block revenue collector defaults to the validator identity. Directing
+both commission streams to the vote account can replenish its VAT balance and
+reduce the need for manual top-ups.</p>
+<p>To direct block revenue commission to the vote account, run:</p>
+<div class="language-bash codeBlockContainer_yKJF theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_VvE_"><pre tabindex="0" class="prism-code language-bash codeBlock_W8Ud thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_bPfe"><div class="token-line" style="color:#bfc7d5"><span class="token plain">solana vote-update-commission-collector \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;VOTE_ACCOUNT_ADDRESS&gt; \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  block-revenue \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;VOTE_ACCOUNT_ADDRESS&gt; \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;AUTHORIZED_WITHDRAWER_KEYPAIR&gt;</span><br></div></code></pre></div></div>
+<p>A change to the block revenue commission made during Epoch E
+takes effect in E + 2.</p>
+<p>The inflation rewards collector already defaults to the vote account. To set it
+explicitly, run:</p>
+<div class="language-bash codeBlockContainer_yKJF theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_VvE_"><pre tabindex="0" class="prism-code language-bash codeBlock_W8Ud thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_bPfe"><div class="token-line" style="color:#bfc7d5"><span class="token plain">solana vote-update-commission-collector \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;VOTE_ACCOUNT_ADDRESS&gt; \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  inflation-rewards \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;VOTE_ACCOUNT_ADDRESS&gt; \</span><br></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;AUTHORIZED_WITHDRAWER_KEYPAIR&gt;</span><br></div></code></pre></div></div>
+<p>A change to the inflation rewards commission made during Epoch E
+takes effect in E + 1.</p>
+<p>The authorized withdrawer must sign these transactions.
+Verify both collectors afterward with:</p>
+<div class="language-bash codeBlockContainer_yKJF theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_VvE_"><pre tabindex="0" class="prism-code language-bash codeBlock_W8Ud thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_bPfe"><div class="token-line" style="color:#bfc7d5"><span class="token plain">solana vote-account &lt;VOTE_ACCOUNT_ADDRESS&gt;</span><br></div></code></pre></div></div>
+<div class="theme-admonition theme-admonition-caution admonition_whxW alert alert--warning"><div class="admonitionHeading_bbZ6"><span class="admonitionIcon_Cd7z"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution</div><div class="admonitionContent_JtTB"><p>Commission income is not guaranteed to cover the VAT, and rewards arriving at an
+epoch boundary cannot rescue an account that is already underfunded when
+admission is evaluated. Pre-fund the first ticket, then monitor the vote account
+and maintain at least its rent-exempt minimum plus the next VAT charge, with an
+additional buffer.</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="validator-identity">Validator Identity<a href="#validator-identity" class="hash-link" aria-label="Direct link to Validator Identity" title="Direct link to Validator Identity" translate="no">​</a></h3>
+<p>The <em>validator identity</em> is a system account that is used to pay for all the
+vote transaction fees submitted to the vote account. Because the validator is
+expected to vote on most valid blocks it receives, the validator identity
+account is frequently (potentially multiple times per second) signing
+transactions and paying fees. For this reason the validator identity keypair
+must be stored as a &quot;hot wallet&quot; in a keypair file on the same system the
+validator process is running.</p>
+<p>Because a hot wallet is generally less secure than an offline or &quot;cold&quot; wallet,
+the validator operator may choose to store only enough SOL on the identity
+account to cover voting fees for a limited amount of time, such as a few weeks
+or months. The validator identity account could be periodically topped off from
+a more secure wallet.</p>
+<p>This practice can reduce the risk of loss of funds if the validator node&#x27;s disk
+or file system becomes compromised or corrupted.</p>
+<p>The validator identity is required to be provided when a vote account is
+created. The validator identity can also be changed after an account is created
+by using the
+<code>vote-update-validator</code> command.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="vote-authority">Vote Authority<a href="#vote-authority" class="hash-link" aria-label="Direct link to Vote Authority" title="Direct link to Vote Authority" translate="no">​</a></h3>
+<p>The <em>vote authority</em> keypair is used to sign each vote transaction the validator
+node wants to submit to the cluster. This doesn&#x27;t necessarily have to be unique
+from the validator identity, as you will see later in this document. Because the
+vote authority, like the validator identity, is signing transactions frequently,
+this also must be a hot keypair on the same file system as the validator
+process.</p>
+<p>The vote authority can be set to the same address as the validator identity. If
+the validator identity is also the vote authority, only one signature per vote
+transaction is needed in order to both sign the vote and pay the transaction
+fee. Because transaction fees on Solana are assessed per-signature, having one
+signer instead of two will result in half the transaction fee paid compared to
+setting the vote authority and validator identity to two different accounts.</p>
+<p>The vote authority can be set when the vote account is created. If it is not
+provided, the default behavior is to assign it the same as the validator
+identity. The vote authority can be changed later with the
+<code>vote-authorize-voter-checked</code>
+command.</p>
+<p>The vote authority can be changed at most once per epoch. If the authority is
+changed with
+<code>vote-authorize-voter-checked</code>,
+this will not take effect until the beginning of the next epoch. To support a
+smooth transition of the vote signing, <code>agave-validator</code> allows the
+<code>--authorized-voter</code> argument to be specified multiple times. This allows the
+validator process to keep voting successfully when the network reaches an epoch
+boundary at which the validator&#x27;s vote authority account changes.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="authorized-withdrawer">Authorized Withdrawer<a href="#authorized-withdrawer" class="hash-link" aria-label="Direct link to Authorized Withdrawer" title="Direct link to Authorized Withdrawer" translate="no">​</a></h3>
+<p>The <em>authorized withdrawer</em> keypair is used to withdraw funds from a vote
+account using the
+<code>withdraw-from-vote-account</code>
+command. Any network rewards a validator earns are deposited into the vote
+account and are only retrievable by signing with the authorized withdrawer
+keypair.</p>
+<p>The authorized withdrawer is also required to sign any transaction to change a
+vote account&#x27;s <a href="#commission" class="">commission</a>, and to change the validator identity
+on a vote account.</p>
+<p>Because theft of an authorized withdrawer keypair can give complete control over
+the operation of a validator to an attacker, it is advised to keep the withdraw
+authority keypair in an offline/cold wallet in a secure location. The withdraw
+authority keypair is not needed during operation of a validator and should not
+stored on the validator itself.</p>
+<p>The authorized withdrawer must be set when the vote account is created. It must
+not be set to a keypair that is the same as either the validator identity
+keypair or the vote authority keypair.</p>
+<p>The authorized withdrawer can be changed later with the
+<code>vote-authorize-withdrawer-checked</code>
+command.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="commission">Commission<a href="#commission" class="hash-link" aria-label="Direct link to Commission" title="Direct link to Commission" translate="no">​</a></h3>
+<p><em>Commission</em> is the percent of network rewards earned by a validator that are
+deposited into the validator&#x27;s vote account. The remainder of the rewards are
+distributed to all of the stake accounts delegated to that vote account,
+proportional to the active stake weight of each stake account.</p>
+<p>For example, if a vote account has a commission of 10%, for all rewards earned
+by that validator in a given epoch, 10% of these rewards will be deposited into
+the vote account in the first block of the following epoch. The remaining 90%
+will be deposited into delegated stake accounts as immediately active stake.</p>
+<p>A validator may choose to set a low commission to try to attract more stake
+delegations as a lower commission results in a larger percentage of rewards
+passed along to the delegator. As there are costs associated with setting up and
+operating a validator node, a validator would ideally set a high enough
+commission to at least cover their expenses.</p>
+<p>Commission can be set upon vote account creation with the <code>--commission</code> option.
+If it is not provided, it will default to 100%, which will result in all rewards
+deposited in the vote account, and none passed on to any delegated stake
+accounts.</p>
+<p>Commission can also be changed later with the
+<code>vote-update-commission</code> command.</p>
+<p>When setting the commission, only integer values in the set [0-100] are
+accepted. The integer represents the number of percentage points for the
+commission, so creating an account with <code>--commission 10</code> will set a 10%
+commission.</p>
+<p>Note that validators can only update their commission during the first half of
+any epoch. This prevents validators from stealing delegator rewards by setting a
+low commission, increasing it right before the end of the epoch, and then
+changing it back after reward distribution.</p>
+<h2 class="anchor anchorTargetStickyNavbar_j9JF" id="key-rotation">Key Rotation<a href="#key-rotation" class="hash-link" aria-label="Direct link to Key Rotation" title="Direct link to Key Rotation" translate="no">​</a></h2>
+<p>Rotating the vote account authority keys requires special handling when dealing
+with a live validator.</p>
+<p>Note that vote account key rotation has no effect on the stake accounts that
+have been delegated to the vote account. For example it is possible to use key
+rotation to transfer all authority of a vote account from one entity to another
+without any impact to staking rewards.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="vote-account-validator-identity">Vote Account Validator Identity<a href="#vote-account-validator-identity" class="hash-link" aria-label="Direct link to Vote Account Validator Identity" title="Direct link to Vote Account Validator Identity" translate="no">​</a></h3>
+<p>You will need access to the <em>authorized withdrawer</em> keypair for the vote account
+to change the validator identity. The following steps assume that
+<code>~/authorized_withdrawer.json</code> is that keypair.</p>
+<ol>
+<li class="">Create the new validator identity keypair,
+<code>solana-keygen new -o ~/new-validator-keypair.json</code>.</li>
+<li class="">Ensure that the new identity account has been funded,
+<code>solana transfer ~/new-validator-keypair.json 500</code>.</li>
+<li class="">Run
+<code>solana vote-update-validator ~/vote-account-keypair.json ~/new-validator-keypair.json ~/authorized_withdrawer.json</code>
+to modify the validator identity in your vote account</li>
+<li class="">Restart your validator with the new identity keypair for the <code>--identity</code>
+argument</li>
+</ol>
+<p><strong>Additional steps are required if your validator has stake.</strong> The leader
+schedule is computed two epochs in advance. Therefore if your old validator
+identity was in the leader schedule, it will remain in the leader schedule for
+up to two epochs after the validator identity change. If extra steps are not
+taken your validator will produce no blocks until your new validator identity is
+added to the leader schedule.</p>
+<p>After your validator is restarted with the new identity keypair, per step 4,
+start a second non-voting validator on a different machine with the old identity
+keypair without providing the <code>--vote-account</code> argument, as well as with the
+<code>--no-wait-for-vote-to-start-leader</code> argument.</p>
+<p>This temporary validator should be run for two full epochs. During this time it
+will:</p>
+<ul>
+<li class="">Produce blocks for the remaining slots that are assigned to your old validator
+identity</li>
+<li class="">Receive the transaction fees and rent rewards for your old validator identity</li>
+</ul>
+<p>It is safe to stop this temporary validator when your old validator identity is
+no longer listed in the <code>solana leader-schedule</code> output.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="vote-account-authorized-voter">Vote Account Authorized Voter<a href="#vote-account-authorized-voter" class="hash-link" aria-label="Direct link to Vote Account Authorized Voter" title="Direct link to Vote Account Authorized Voter" translate="no">​</a></h3>
+<p>The <em>vote authority</em> keypair may only be changed at epoch boundaries and
+requires some additional arguments to <code>agave-validator</code> for a seamless
+migration.</p>
+<ol>
+<li class="">Run <code>solana epoch-info</code>. If there is not much time remaining time in the
+current epoch, consider waiting for the next epoch to allow your validator
+plenty of time to restart and catch up.</li>
+<li class="">Create the new vote authority keypair,
+<code>solana-keygen new -o ~/new-vote-authority.json</code>.</li>
+<li class="">Determine the current <em>vote authority</em> keypair by running
+<code>solana vote-account ~/vote-account-keypair.json</code>. It may be validator&#x27;s
+identity account (the default) or some other keypair. The following steps
+assume that <code>~/validator-keypair.json</code> is that keypair.</li>
+<li class="">Run
+<code>solana vote-authorize-voter-checked ~/vote-account-keypair.json ~/validator-keypair.json ~/new-vote-authority.json</code>.
+The new vote authority is scheduled to become active starting at the next
+epoch.</li>
+<li class=""><code>agave-validator</code> now needs to be restarted with the old and new vote
+authority keypairs, so that it can smoothly transition at the next epoch. Add
+the two arguments on restart:
+<code>--authorized-voter ~/validator-keypair.json --authorized-voter ~/new-vote-authority.json</code></li>
+<li class="">After the cluster reaches the next epoch, remove the
+<code>--authorized-voter ~/validator-keypair.json</code> argument and restart
+<code>agave-validator</code>, as the old vote authority keypair is no longer required.</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="vote-account-authorized-withdrawer">Vote Account Authorized Withdrawer<a href="#vote-account-authorized-withdrawer" class="hash-link" aria-label="Direct link to Vote Account Authorized Withdrawer" title="Direct link to Vote Account Authorized Withdrawer" translate="no">​</a></h3>
+<p>No special handling or timing considerations are required. Use the
+<code>solana vote-authorize-withdrawer-checked</code> command as needed.</p>
+<h3 class="anchor anchorTargetStickyNavbar_j9JF" id="consider-durable-nonces-for-a-trustless-transfer-of-the-authorized-voter-or-withdrawer">Consider Durable Nonces for a Trustless Transfer of the Authorized Voter or Withdrawer<a href="#consider-durable-nonces-for-a-trustless-transfer-of-the-authorized-voter-or-withdrawer" class="hash-link" aria-label="Direct link to Consider Durable Nonces for a Trustless Transfer of the Authorized Voter or Withdrawer" title="Direct link to Consider Durable Nonces for a Trustless Transfer of the Authorized Voter or Withdrawer" translate="no">​</a></h3>
+<p>If the Authorized Voter or Withdrawer is to be transferred to another entity
+then a two-stage signing process using a
+<a class="" href="/cli/examples/durable-nonce">Durable Nonce</a> is recommended.</p>
+<ol>
+<li class="">Entity B creates a durable nonce using <code>solana create-nonce-account</code></li>
+<li class="">Entity B then runs a <code>solana vote-authorize-voter-checked</code> or
+<code>solana vote-authorize-withdrawer-checked</code> command, including:</li>
+</ol>
+<ul>
+<li class="">the <code>--sign-only</code> argument</li>
+<li class="">the <code>--nonce</code>, <code>--nonce-authority</code>, and <code>--blockhash</code> arguments to specify the
+nonce particulars</li>
+<li class="">the address of the Entity A&#x27;s existing authority, and the keypair for Entity
+B&#x27;s new authority</li>
+</ul>
+<ol start="3">
+<li class="">When the <code>solana vote-authorize-...-checked</code> command successfully executes,
+it will output transaction signatures that Entity B must share with Entity A</li>
+<li class="">Entity A then runs a similar <code>solana vote-authorize-voter-checked</code> or
+<code>solana vote-authorize-withdrawer-checked</code> command with the following
+changes:</li>
+</ol>
+<ul>
+<li class="">the <code>--sign-only</code> argument is removed, and replaced with a <code>--signer</code> argument
+for each of the signatures provided by Entity B</li>
+<li class="">the address of Entity A&#x27;s existing authority is replaced with the
+corresponding keypair, and the keypair for Entity B&#x27;s new authority is
+replaced with the corresponding address</li>
+</ul>
+<p>On success the authority is now changed without Entity A or B having to reveal
+keypairs to the other even though both entities signed the transaction.</p>
+<h2 class="anchor anchorTargetStickyNavbar_j9JF" id="close-a-vote-account">Close a Vote Account<a href="#close-a-vote-account" class="hash-link" aria-label="Direct link to Close a Vote Account" title="Direct link to Close a Vote Account" translate="no">​</a></h2>
+<p>A vote account can be closed with the
+<code>close-vote-account</code> command. Closing
+a vote account withdraws all remaining SOL funds to a supplied recipient address
+and renders it invalid as a vote account. It is not possible to close a vote
+account with active stake.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/operations/guides/validator-troubleshoot"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Validator Guides: Troubleshooting</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/operations/guides/validator-failover"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Validator Guides: Node Failover</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_RSOj thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#create-a-vote-account" class="table-of-contents__link toc-highlight">Create a Vote Account</a><ul><li><a href="#configure-an-existing-vote-account" class="table-of-contents__link toc-highlight">Configure an Existing Vote Account</a></li><li><a href="#set-the-bls-public-key" class="table-of-contents__link toc-highlight">Set the BLS Public Key</a></li></ul></li><li><a href="#vote-account-structure" class="table-of-contents__link toc-highlight">Vote Account Structure</a><ul><li><a href="#vote-account-address" class="table-of-contents__link toc-highlight">Vote Account Address</a></li><li><a href="#validator-admission-ticket" class="table-of-contents__link toc-highlight">Validator Admission Ticket</a></li><li><a href="#validator-identity" class="table-of-contents__link toc-highlight">Validator Identity</a></li><li><a href="#vote-authority" class="table-of-contents__link toc-highlight">Vote Authority</a></li><li><a href="#authorized-withdrawer" class="table-of-contents__link toc-highlight">Authorized Withdrawer</a></li><li><a href="#commission" class="table-of-contents__link toc-highlight">Commission</a></li></ul></li><li><a href="#key-rotation" class="table-of-contents__link toc-highlight">Key Rotation</a><ul><li><a href="#vote-account-validator-identity" class="table-of-contents__link toc-highlight">Vote Account Validator Identity</a></li><li><a href="#vote-account-authorized-voter" class="table-of-contents__link toc-highlight">Vote Account Authorized Voter</a></li><li><a href="#vote-account-authorized-withdrawer" class="table-of-contents__link toc-highlight">Vote Account Authorized Withdrawer</a></li><li><a href="#consider-durable-nonces-for-a-trustless-transfer-of-the-authorized-voter-or-withdrawer" class="table-of-contents__link toc-highlight">Consider Durable Nonces for a Trustless Transfer of the Authorized Voter or Withdrawer</a></li></ul></li><li><a href="#close-a-vote-account" class="table-of-contents__link toc-highlight">Close a Vote Account</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Documentation</h4><ul class="footer__items"><li class="footer__item"><a href="https://solana.com/developers" target="_blank" rel="noopener noreferrer" class="footer__link-item">Developers »</a></li><li class="footer__item"><a class="footer__link-item" href="/operations">Running a Validator</a></li><li class="footer__item"><a class="footer__link-item" href="/cli">Command Line</a></li><li class="footer__item"><a class="footer__link-item" href="/architecture">Architecture</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a href="https://solana.stackexchange.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Exchange »</a></li><li class="footer__item"><a href="https://github.com/anza-xyz/agave" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub »</a></li><li class="footer__item"><a href="https://solana.com/discord" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord »</a></li><li class="footer__item"><a href="https://solana.com/twitter" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter »</a></li><li class="footer__item"><a href="https://forum.solana.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Forum »</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Resources</h4><ul class="footer__items"><li class="footer__item"><a href="https://solana.com/docs/terminology" target="_blank" rel="noopener noreferrer" class="footer__link-item">Terminology »</a></li><li class="footer__item"><a class="footer__link-item" href="/proposals">Proposals</a></li><li class="footer__item"><a href="https://spl.solana.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Solana Program Library »</a></li></ul></div></div><div class="text--center"><div>Copyright © 2026 Anza</div></div></div></footer></div>
+</body>
+</html>

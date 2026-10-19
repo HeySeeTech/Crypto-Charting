@@ -1,0 +1,35 @@
+{
+  "retrieved_at_utc": "2026-10-19T03:21:32.224258+00:00",
+  "sources": [
+    {
+      "name": "alpenglow",
+      "url": "https://solana.com/upgrades/alpenglow",
+      "status": "saved",
+      "bytes": 1134103
+    },
+    {
+      "name": "farside",
+      "url": "https://farside.co.uk/sol/",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "status",
+      "url": "https://status.solana.com/",
+      "status": "saved",
+      "bytes": 102408
+    },
+    {
+      "name": "anza-vat",
+      "url": "https://docs.anza.xyz/operations/guides/vote-accounts",
+      "status": "saved",
+      "bytes": 49891
+    },
+    {
+      "name": "anza-consensus",
+      "url": "https://docs.anza.xyz/consensus/alpenglow",
+      "status": "saved",
+      "bytes": 29881
+    }
+  ]
+}

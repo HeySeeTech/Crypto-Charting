@@ -2,10 +2,11 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（8）
+## 文案（9）
 
 - [outputs/2026-10-19/BTC-X文案.md](copy/outputs/2026-10-19/BTC-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/ETH-X文案.md](copy/outputs/2026-10-19/ETH-X%E6%96%87%E6%A1%88.md)
+- [outputs/2026-10-19/SOL-X文案.md](copy/outputs/2026-10-19/SOL-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/UNI-X文案.md](copy/outputs/2026-10-19/UNI-X%E6%96%87%E6%A1%88.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
@@ -85,7 +86,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（42）
+## 研究资料（50）
 
 - [research/2026-10-19/btc-update/archived-BTC-2026-10-18.json](research/research/2026-10-19/btc-update/archived-BTC-2026-10-18.json)
 - [research/2026-10-19/btc-update/cftc-release-index.html](research/research/2026-10-19/btc-update/cftc-release-index.html)
@@ -114,6 +115,14 @@
 - [research/2026-10-19/issuer-source-checks.json](research/research/2026-10-19/issuer-source-checks.json)
 - [research/2026-10-19/issuer-web.json](research/research/2026-10-19/issuer-web.json)
 - [research/2026-10-19/recalculation-qa.json](research/research/2026-10-19/recalculation-qa.json)
+- [research/2026-10-19/sol-update/alpenglow.html](research/research/2026-10-19/sol-update/alpenglow.html)
+- [research/2026-10-19/sol-update/anza-consensus.html](research/research/2026-10-19/sol-update/anza-consensus.html)
+- [research/2026-10-19/sol-update/anza-vat.html](research/research/2026-10-19/sol-update/anza-vat.html)
+- [research/2026-10-19/sol-update/archived-SOL-2026-10-18.json](research/research/2026-10-19/sol-update/archived-SOL-2026-10-18.json)
+- [research/2026-10-19/sol-update/live-prices.json](research/research/2026-10-19/sol-update/live-prices.json)
+- [research/2026-10-19/sol-update/source-manifest.json](research/research/2026-10-19/sol-update/source-manifest.json)
+- [research/2026-10-19/sol-update/status.html](research/research/2026-10-19/sol-update/status.html)
+- [research/2026-10-19/sol-update/研究说明.md](research/research/2026-10-19/sol-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/supplementary-web-evidence.json](research/research/2026-10-19/supplementary-web-evidence.json)
 - [research/2026-10-19/uni-update/arc-proposal.html](research/research/2026-10-19/uni-update/arc-proposal.html)
 - [research/2026-10-19/uni-update/archive-index-2026-10-18.md](research/research/2026-10-19/uni-update/archive-index-2026-10-18.md)
