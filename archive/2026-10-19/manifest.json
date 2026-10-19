@@ -248,6 +248,18 @@
       "bytes": 3039
     },
     {
+      "path": "copy/outputs/2026-10-19/DOGE-X文案-初稿.md",
+      "category": "copy",
+      "git_blob_sha1": "3497b74d87ef60ac620c9020355f574fbe23ff1a",
+      "bytes": 2968
+    },
+    {
+      "path": "copy/outputs/2026-10-19/DOGE-X文案.b2fc8da942ac4961.md",
+      "category": "copy",
+      "git_blob_sha1": "ce846ce96bc2eb7cbe97c3a2ad257d6920ce4265",
+      "bytes": 2597
+    },
+    {
       "path": "copy/outputs/2026-10-19/DOGE-X文案.md",
       "category": "copy",
       "git_blob_sha1": "3497b74d87ef60ac620c9020355f574fbe23ff1a",
@@ -776,6 +788,12 @@
       "bytes": 83688
     },
     {
+      "path": "research/research/2026-10-19/doge-update/prices-revision.json",
+      "category": "research",
+      "git_blob_sha1": "ee6d3a27af950d2e7d5bfdc9320a7f8984a7a2a8",
+      "bytes": 1635
+    },
+    {
       "path": "research/research/2026-10-19/doge-update/prices.json",
       "category": "research",
       "git_blob_sha1": "cdc39ec4a0f1c66940dc27e58ee3692eed6bcf47",
@@ -798,6 +816,12 @@
       "category": "research",
       "git_blob_sha1": "02d6e8e97c88207faac39096e7f8bd962f63a474",
       "bytes": 455599
+    },
+    {
+      "path": "research/research/2026-10-19/doge-update/中文改稿说明.md",
+      "category": "research",
+      "git_blob_sha1": "acf2e79abf75050d49a73127b3a42429a37e4132",
+      "bytes": 464
     },
     {
       "path": "research/research/2026-10-19/doge-update/研究说明.md",

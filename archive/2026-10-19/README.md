@@ -2,9 +2,11 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（14）
+## 文案（16）
 
 - [outputs/2026-10-19/BTC-X文案.md](copy/outputs/2026-10-19/BTC-X%E6%96%87%E6%A1%88.md)
+- [outputs/2026-10-19/DOGE-X文案-初稿.md](copy/outputs/2026-10-19/DOGE-X%E6%96%87%E6%A1%88-%E5%88%9D%E7%A8%BF.md)
+- [outputs/2026-10-19/DOGE-X文案.b2fc8da942ac4961.md](copy/outputs/2026-10-19/DOGE-X%E6%96%87%E6%A1%88.b2fc8da942ac4961.md)
 - [outputs/2026-10-19/DOGE-X文案.md](copy/outputs/2026-10-19/DOGE-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/ETH-X文案.md](copy/outputs/2026-10-19/ETH-X%E6%96%87%E6%A1%88.md)
 - [outputs/2026-10-19/PEPE-X文案.md](copy/outputs/2026-10-19/PEPE-X%E6%96%87%E6%A1%88.md)
@@ -111,7 +113,7 @@
 - [crypto-charting-data/weekly/2026-10-19/ZEC.json](data/crypto-charting-data/weekly/2026-10-19/ZEC.json)
 - [crypto-charting-data/weekly/2026-10-19/validation.json](data/crypto-charting-data/weekly/2026-10-19/validation.json)
 
-## 研究资料（98）
+## 研究资料（100）
 
 - [research/2026-10-19-weekly/recover_sources.py](research/research/2026-10-19-weekly/recover_sources.py)
 - [research/2026-10-19-weekly/verify_weekly.py](research/research/2026-10-19-weekly/verify_weekly.py)
@@ -131,10 +133,12 @@
 - [research/2026-10-19/doge-update/archive-index.md](research/research/2026-10-19/doge-update/archive-index.md)
 - [research/2026-10-19/doge-update/archived-research-notes.md](research/research/2026-10-19/doge-update/archived-research-notes.md)
 - [research/2026-10-19/doge-update/dogeos-guide.html](research/research/2026-10-19/doge-update/dogeos-guide.html)
+- [research/2026-10-19/doge-update/prices-revision.json](research/research/2026-10-19/doge-update/prices-revision.json)
 - [research/2026-10-19/doge-update/prices.json](research/research/2026-10-19/doge-update/prices.json)
 - [research/2026-10-19/doge-update/sec-submissions.html](research/research/2026-10-19/doge-update/sec-submissions.html)
 - [research/2026-10-19/doge-update/source-manifest.json](research/research/2026-10-19/doge-update/source-manifest.json)
 - [research/2026-10-19/doge-update/tdog.html](research/research/2026-10-19/doge-update/tdog.html)
+- [research/2026-10-19/doge-update/中文改稿说明.md](research/research/2026-10-19/doge-update/%E4%B8%AD%E6%96%87%E6%94%B9%E7%A8%BF%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/doge-update/研究说明.md](research/research/2026-10-19/doge-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-19/eth-update/archived-ETH-2026-10-18.json](research/research/2026-10-19/eth-update/archived-ETH-2026-10-18.json)
 - [research/2026-10-19/eth-update/eip1559.html](research/research/2026-10-19/eth-update/eip1559.html)
