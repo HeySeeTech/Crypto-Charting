@@ -188,6 +188,12 @@
       "bytes": 2718
     },
     {
+      "path": "copy/outputs/2026-10-20/ETH-X文案-Bitmine增持.001cd637d9dca1ee.md",
+      "category": "copy",
+      "git_blob_sha1": "56a2c4a5dd8f5cb357cfdd103aaa2a3ff8d67582",
+      "bytes": 2385
+    },
+    {
       "path": "copy/outputs/2026-10-20/ETH-X文案-Bitmine增持.21a223f77e918afc.md",
       "category": "copy",
       "git_blob_sha1": "6e43aa20b4b5b4c320dff640a46e14bade53b05c",
@@ -204,6 +210,12 @@
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
       "bytes": 10
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/feedback.6a44ac55f88727a7.md",
+      "category": "copy",
+      "git_blob_sha1": "1938e9fdb17398ac078a101936d1bc3ac9c62b67",
+      "bytes": 676
     },
     {
       "path": "copy/x-finance-os/CONTENT_DB/feedback.md",
