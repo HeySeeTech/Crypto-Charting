@@ -2,9 +2,10 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（7）
+## 文案（8）
 
 - [outputs/2026-10-20/BTC-X文案-保护型ETF.md](copy/outputs/2026-10-20/BTC-X%E6%96%87%E6%A1%88-%E4%BF%9D%E6%8A%A4%E5%9E%8BETF.md)
+- [outputs/2026-10-20/ETH-X文案-Bitmine增持.21a223f77e918afc.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.21a223f77e918afc.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
