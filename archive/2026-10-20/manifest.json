@@ -206,6 +206,12 @@
       "bytes": 2792
     },
     {
+      "path": "copy/outputs/2026-10-20/SOL-X文案-升级交付.md",
+      "category": "copy",
+      "git_blob_sha1": "acabad15e57ab341d343cd33e6cf76616414f117",
+      "bytes": 2949
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -552,6 +558,54 @@
       "category": "research",
       "git_blob_sha1": "489eda67a9073bce9e1efcd0c6bb11a31ae55648",
       "bytes": 866
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/agave-release.json",
+      "category": "research",
+      "git_blob_sha1": "01cd414f404d2912a275f2684ee03ebc07da1204",
+      "bytes": 24273
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/foundation.html",
+      "category": "research",
+      "git_blob_sha1": "98fc33938868d6e3849be30709e5c391d89610e3",
+      "bytes": 1136263
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/manifest.json",
+      "category": "research",
+      "git_blob_sha1": "801f3cdc8c84ee4c46706aca29f9e204135927c4",
+      "bytes": 439
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "606af96b3ad70550a03864a468322056b3b05a37",
+      "bytes": 2584
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "58aa03b81c2f66d26b5ba0b669edc29888968f42",
+      "bytes": 2893
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/quicknode.html",
+      "category": "research",
+      "git_blob_sha1": "6d2910ff442934a602339056efcb546b6007d5ca",
+      "bytes": 75315
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/web-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "db8f55b37e71a1a6a242a5e3f930e82ba233ab72",
+      "bytes": 60267
+    },
+    {
+      "path": "research/research/2026-10-20/sol-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "a2adb9a1251c764581dd22f7a6d644c97d1573f1",
+      "bytes": 4858
     },
     {
       "path": "research/research/2026-10-20/supplement.py",
