@@ -212,6 +212,12 @@
       "bytes": 2949
     },
     {
+      "path": "copy/outputs/2026-10-20/SUI-X文案-稳定币回购.md",
+      "category": "copy",
+      "git_blob_sha1": "dbff2e64d3437c3fcb002bb0daa570b44a76fbeb",
+      "bytes": 2963
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -606,6 +612,78 @@
       "category": "research",
       "git_blob_sha1": "a2adb9a1251c764581dd22f7a6d644c97d1573f1",
       "bytes": 4858
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/buybacks.html",
+      "category": "research",
+      "git_blob_sha1": "98ce149972ee088876e4e3ad0c2e2b2d71d5ab97",
+      "bytes": 372141
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/calculations.json",
+      "category": "research",
+      "git_blob_sha1": "b284f83732454f51b1d8d7d653e9df660724844a",
+      "bytes": 130
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/circulation.json",
+      "category": "research",
+      "git_blob_sha1": "ce6c76dd9fc4a7f7fc8e82e193605160ac9b1b44",
+      "bytes": 2009
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/manifest.json",
+      "category": "research",
+      "git_blob_sha1": "2ede987a75f7dec346e6dc062ee9eee703976962",
+      "bytes": 480
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/official-circulation.json",
+      "category": "research",
+      "git_blob_sha1": "6d7862e1b50f8f369a79c19dd74a9902e2356bf5",
+      "bytes": 9945
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "eeac7361fdfe57b56b301db384c3824200ef8e68",
+      "bytes": 1647
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "c8ce76621b686c1b83d17b1bd65433957354414d",
+      "bytes": 3139
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/purchases.json",
+      "category": "research",
+      "git_blob_sha1": "fbd17867c5a73c915944acac56a99c3340763cc1",
+      "bytes": 9170
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/revenue.json",
+      "category": "research",
+      "git_blob_sha1": "9e77f309a6077645e0701f603165589559c29a89",
+      "bytes": 115503
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/token-schedule.html",
+      "category": "research",
+      "git_blob_sha1": "caa5665cf308b66f873824756e1a65de7f283ebe",
+      "bytes": 278736
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/web-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "a7cc2d57871e01d804ce30b86a35298a77219eba",
+      "bytes": 37379
+    },
+    {
+      "path": "research/research/2026-10-20/sui-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "8986063d7a3d957009b478a8a14d53b1c22ec15b",
+      "bytes": 4928
     },
     {
       "path": "research/research/2026-10-20/supplement.py",

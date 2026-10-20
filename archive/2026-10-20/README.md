@@ -2,13 +2,14 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（11）
+## 文案（12）
 
 - [outputs/2026-10-20/BTC-X文案-保护型ETF.md](copy/outputs/2026-10-20/BTC-X%E6%96%87%E6%A1%88-%E4%BF%9D%E6%8A%A4%E5%9E%8BETF.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.001cd637d9dca1ee.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.001cd637d9dca1ee.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.21a223f77e918afc.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.21a223f77e918afc.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.md)
 - [outputs/2026-10-20/SOL-X文案-升级交付.md](copy/outputs/2026-10-20/SOL-X%E6%96%87%E6%A1%88-%E5%8D%87%E7%BA%A7%E4%BA%A4%E4%BB%98.md)
+- [outputs/2026-10-20/SUI-X文案-稳定币回购.md](copy/outputs/2026-10-20/SUI-X%E6%96%87%E6%A1%88-%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%9B%9E%E8%B4%AD.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.6a44ac55f88727a7.md](copy/x-finance-os/CONTENT_DB/feedback.6a44ac55f88727a7.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
@@ -79,7 +80,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（28）
+## 研究资料（40）
 
 - [research/2026-10-20/btc-x-update/cftc-news.html](research/research/2026-10-20/btc-x-update/cftc-news.html)
 - [research/2026-10-20/btc-x-update/farside.html](research/research/2026-10-20/btc-x-update/farside.html)
@@ -107,6 +108,18 @@
 - [research/2026-10-20/sol-x-update/quicknode.html](research/research/2026-10-20/sol-x-update/quicknode.html)
 - [research/2026-10-20/sol-x-update/web-evidence.json](research/research/2026-10-20/sol-x-update/web-evidence.json)
 - [research/2026-10-20/sol-x-update/研究说明.md](research/research/2026-10-20/sol-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
+- [research/2026-10-20/sui-x-update/buybacks.html](research/research/2026-10-20/sui-x-update/buybacks.html)
+- [research/2026-10-20/sui-x-update/calculations.json](research/research/2026-10-20/sui-x-update/calculations.json)
+- [research/2026-10-20/sui-x-update/circulation.json](research/research/2026-10-20/sui-x-update/circulation.json)
+- [research/2026-10-20/sui-x-update/manifest.json](research/research/2026-10-20/sui-x-update/manifest.json)
+- [research/2026-10-20/sui-x-update/official-circulation.json](research/research/2026-10-20/sui-x-update/official-circulation.json)
+- [research/2026-10-20/sui-x-update/prices.json](research/research/2026-10-20/sui-x-update/prices.json)
+- [research/2026-10-20/sui-x-update/prior-draft.md](research/research/2026-10-20/sui-x-update/prior-draft.md)
+- [research/2026-10-20/sui-x-update/purchases.json](research/research/2026-10-20/sui-x-update/purchases.json)
+- [research/2026-10-20/sui-x-update/revenue.json](research/research/2026-10-20/sui-x-update/revenue.json)
+- [research/2026-10-20/sui-x-update/token-schedule.html](research/research/2026-10-20/sui-x-update/token-schedule.html)
+- [research/2026-10-20/sui-x-update/web-evidence.json](research/research/2026-10-20/sui-x-update/web-evidence.json)
+- [research/2026-10-20/sui-x-update/研究说明.md](research/research/2026-10-20/sui-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-20/supplement.py](research/research/2026-10-20/supplement.py)
 - [research/2026-10-20/verify_workbooks.mjs](research/research/2026-10-20/verify_workbooks.mjs)
 
