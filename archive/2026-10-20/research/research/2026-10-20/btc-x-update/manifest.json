@@ -1,0 +1,32 @@
+[
+  {
+    "name": "price",
+    "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin&price_change_percentage=7d",
+    "status": 200,
+    "retrieved": "2026-10-20T03:39:55.315932+00:00"
+  },
+  {
+    "name": "farside",
+    "url": "https://farside.co.uk/btc/",
+    "status": 403,
+    "retrieved": "2026-10-20T03:39:57.560060+00:00"
+  },
+  {
+    "name": "sec-news",
+    "url": "https://www.sec.gov/newsroom/press-releases",
+    "status": 403,
+    "retrieved": "2026-10-20T03:39:59.105587+00:00"
+  },
+  {
+    "name": "cftc-news",
+    "url": "https://www.cftc.gov/PressRoom/PressReleases",
+    "status": 200,
+    "retrieved": "2026-10-20T03:40:00.993085+00:00"
+  },
+  {
+    "name": "fed",
+    "url": "https://www.federalreserve.gov/recentpostings.htm",
+    "status": 200,
+    "retrieved": "2026-10-20T03:40:03.255308+00:00"
+  }
+]

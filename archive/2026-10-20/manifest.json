@@ -182,6 +182,12 @@
       "bytes": 524621
     },
     {
+      "path": "copy/outputs/2026-10-20/BTC-X文案-保护型ETF.md",
+      "category": "copy",
+      "git_blob_sha1": "c181902da87a1b686f5b6ca020739be5e06fbbc3",
+      "bytes": 2718
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -414,6 +420,60 @@
       "category": "reports",
       "git_blob_sha1": "633a911f46e44981d5817f43c91ff03e5ec0cfc8",
       "bytes": 25504
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/cftc-news.html",
+      "category": "research",
+      "git_blob_sha1": "545fea7da5fb380b92fc65a56885f632b83e3352",
+      "bytes": 65155
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/farside.html",
+      "category": "research",
+      "git_blob_sha1": "6e0d850547845f20a5d8f8655e0f9055bf6b4e13",
+      "bytes": 5405
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/fed.html",
+      "category": "research",
+      "git_blob_sha1": "649e86bca0a7a22b5aba1ffc33d31ab316035389",
+      "bytes": 99870
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/manifest.json",
+      "category": "research",
+      "git_blob_sha1": "e725593aaf3be2c4f739e95da4e4ecc84397d468",
+      "bytes": 852
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/price.json",
+      "category": "research",
+      "git_blob_sha1": "1912164853a89d55890afa71ad9b8713447f9bd2",
+      "bytes": 827
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "821131860a98326b725761a8a2befe22371ce3ac",
+      "bytes": 3039
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/sec-news.html",
+      "category": "research",
+      "git_blob_sha1": "2176bfa2b66834c24a22b7e74eaf329bb0b6698b",
+      "bytes": 1925
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/web-primary-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "d6d85e006235a01ef86c5db4955322d7072796e8",
+      "bytes": 47970
+    },
+    {
+      "path": "research/research/2026-10-20/btc-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "4b02a470c5d9dfb41a11b10f690619f2c2804e71",
+      "bytes": 3827
     },
     {
       "path": "research/research/2026-10-20/flows.json",
