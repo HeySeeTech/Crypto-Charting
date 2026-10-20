@@ -236,6 +236,12 @@
       "bytes": 3010
     },
     {
+      "path": "copy/outputs/2026-10-20/ZEC-X文案-跨链隐私.md",
+      "category": "copy",
+      "git_blob_sha1": "38ecba10778f5abac0b7deedd13a6bb9643429b0",
+      "bytes": 3356
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -888,6 +894,72 @@
       "category": "research",
       "git_blob_sha1": "aeb5a06fa13ddfdd4000c6ffbe4df4976437800c",
       "bytes": 5459
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/manifest.json",
+      "category": "research",
+      "git_blob_sha1": "97a31d4d3ac298d3aa445b7edb102e00fac5ca9d",
+      "bytes": 757
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/nu7-activation-issue.json",
+      "category": "research",
+      "git_blob_sha1": "c7e0801d815626df4f5ba088d0c22d2f56e9c1e1",
+      "bytes": 7138
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/nu7-deployment-pr.json",
+      "category": "research",
+      "git_blob_sha1": "6b3efb5537d0a34ad899f16fbe1887ab2d3c50af",
+      "bytes": 17241
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/nu7-readiness-issue.json",
+      "category": "research",
+      "git_blob_sha1": "ede3539edea32da612eae7a1b49585b9dea57eee",
+      "bytes": 15396
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/nu7-timeline.json",
+      "category": "research",
+      "git_blob_sha1": "7dd72c8d713f75b136cf097784c78484838bf3fa",
+      "bytes": 55322
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "e0773f0520e513ebaa512516d40ec1d5301322f5",
+      "bytes": 1679
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "fed2ed710bacdc180ebc0eb55868d4174bb0a617",
+      "bytes": 3198
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/quantum-primary.html",
+      "category": "research",
+      "git_blob_sha1": "ee4613e3584b6546d9a517940d107ce23ad8c314",
+      "bytes": 541481
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/web-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "f29e48be2b8f841d711f9c674570c657edddeb58",
+      "bytes": 28698
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/zebra-latest.json",
+      "category": "research",
+      "git_blob_sha1": "b3057ca2664f3d346b1d8ada3ebcb45941557182",
+      "bytes": 26213
+    },
+    {
+      "path": "research/research/2026-10-20/zec-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "70e6bf62bb4dcc103658c94ae744606f182352a5",
+      "bytes": 5373
     }
   ]
 }

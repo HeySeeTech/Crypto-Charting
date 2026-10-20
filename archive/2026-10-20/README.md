@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（15）
+## 文案（16）
 
 - [outputs/2026-10-20/BTC-X文案-保护型ETF.md](copy/outputs/2026-10-20/BTC-X%E6%96%87%E6%A1%88-%E4%BF%9D%E6%8A%A4%E5%9E%8BETF.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.001cd637d9dca1ee.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.001cd637d9dca1ee.md)
@@ -13,6 +13,7 @@
 - [outputs/2026-10-20/SUI-X文案-稳定币回购.md](copy/outputs/2026-10-20/SUI-X%E6%96%87%E6%A1%88-%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%9B%9E%E8%B4%AD.md)
 - [outputs/2026-10-20/UNI-X文案-销毁怎么兑现.md](copy/outputs/2026-10-20/UNI-X%E6%96%87%E6%A1%88-%E9%94%80%E6%AF%81%E6%80%8E%E4%B9%88%E5%85%91%E7%8E%B0.md)
 - [outputs/2026-10-20/XRP-X文案-AI支付.md](copy/outputs/2026-10-20/XRP-X%E6%96%87%E6%A1%88-AI%E6%94%AF%E4%BB%98.md)
+- [outputs/2026-10-20/ZEC-X文案-跨链隐私.md](copy/outputs/2026-10-20/ZEC-X%E6%96%87%E6%A1%88-%E8%B7%A8%E9%93%BE%E9%9A%90%E7%A7%81.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.6a44ac55f88727a7.md](copy/x-finance-os/CONTENT_DB/feedback.6a44ac55f88727a7.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
@@ -83,7 +84,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（69）
+## 研究资料（80）
 
 - [research/2026-10-20/btc-x-update/cftc-news.html](research/research/2026-10-20/btc-x-update/cftc-news.html)
 - [research/2026-10-20/btc-x-update/farside.html](research/research/2026-10-20/btc-x-update/farside.html)
@@ -154,6 +155,17 @@
 - [research/2026-10-20/xrp-x-update/reserves.html](research/research/2026-10-20/xrp-x-update/reserves.html)
 - [research/2026-10-20/xrp-x-update/web-evidence.json](research/research/2026-10-20/xrp-x-update/web-evidence.json)
 - [research/2026-10-20/xrp-x-update/研究说明.md](research/research/2026-10-20/xrp-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
+- [research/2026-10-20/zec-x-update/manifest.json](research/research/2026-10-20/zec-x-update/manifest.json)
+- [research/2026-10-20/zec-x-update/nu7-activation-issue.json](research/research/2026-10-20/zec-x-update/nu7-activation-issue.json)
+- [research/2026-10-20/zec-x-update/nu7-deployment-pr.json](research/research/2026-10-20/zec-x-update/nu7-deployment-pr.json)
+- [research/2026-10-20/zec-x-update/nu7-readiness-issue.json](research/research/2026-10-20/zec-x-update/nu7-readiness-issue.json)
+- [research/2026-10-20/zec-x-update/nu7-timeline.json](research/research/2026-10-20/zec-x-update/nu7-timeline.json)
+- [research/2026-10-20/zec-x-update/prices.json](research/research/2026-10-20/zec-x-update/prices.json)
+- [research/2026-10-20/zec-x-update/prior-draft.md](research/research/2026-10-20/zec-x-update/prior-draft.md)
+- [research/2026-10-20/zec-x-update/quantum-primary.html](research/research/2026-10-20/zec-x-update/quantum-primary.html)
+- [research/2026-10-20/zec-x-update/web-evidence.json](research/research/2026-10-20/zec-x-update/web-evidence.json)
+- [research/2026-10-20/zec-x-update/zebra-latest.json](research/research/2026-10-20/zec-x-update/zebra-latest.json)
+- [research/2026-10-20/zec-x-update/研究说明.md](research/research/2026-10-20/zec-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 
 ## 校验与日志（10）
 

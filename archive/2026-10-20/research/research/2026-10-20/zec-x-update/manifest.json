@@ -1,0 +1,26 @@
+[
+  {
+    "name": "quantum-primary",
+    "url": "https://zakura.com/engineering/quantum-unlinkability/",
+    "status": 200,
+    "retrieved_at_utc": "2026-10-20T05:17:20.656243+00:00"
+  },
+  {
+    "name": "nu7-timeline",
+    "url": "https://forum.zcashcommunity.com/t/nu7-timeline/57655.json",
+    "status": 200,
+    "retrieved_at_utc": "2026-10-20T05:17:25.407815+00:00"
+  },
+  {
+    "name": "nu7-deployment-pr",
+    "url": "https://api.github.com/repos/zcash/zips/pulls/1363",
+    "status": 200,
+    "retrieved_at_utc": "2026-10-20T05:17:28.047780+00:00"
+  },
+  {
+    "name": "zebra-latest",
+    "url": "https://api.github.com/repos/ZcashFoundation/zebra/releases/latest",
+    "status": 200,
+    "retrieved_at_utc": "2026-10-20T05:17:31.127924+00:00"
+  }
+]
