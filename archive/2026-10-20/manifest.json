@@ -218,6 +218,12 @@
       "bytes": 2963
     },
     {
+      "path": "copy/outputs/2026-10-20/XRP-X文案-AI支付.md",
+      "category": "copy",
+      "git_blob_sha1": "49fa3aae5af0ca34b7c2c34e19253972e6325c24",
+      "bytes": 3010
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -696,6 +702,66 @@
       "category": "research",
       "git_blob_sha1": "e9c7bcbe34eeda3d8ba2c8a841a70c418a5e1046",
       "bytes": 2796
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/ai-hub.html",
+      "category": "research",
+      "git_blob_sha1": "711bc981d8e0b82083f5376ac124589f257862be",
+      "bytes": 391351
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/etf-report.html",
+      "category": "research",
+      "git_blob_sha1": "6b1a0af766c49ab3bed2027d4f948b7362852125",
+      "bytes": 5777
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/manifest.json",
+      "category": "research",
+      "git_blob_sha1": "da8918766c5afb1a2968ad39b116ec3ef0b5fffc",
+      "bytes": 509
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "c0f47c8d11e5e7c014dd25b073503a2ce67b85df",
+      "bytes": 1668
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "9d10d54927eaa611ad3cc306b9c4b608ae918984",
+      "bytes": 3110
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/privy-primary.html",
+      "category": "research",
+      "git_blob_sha1": "9f8194e06cc0e054938eba315c03f8de1f320973",
+      "bytes": 289134
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/privy.html",
+      "category": "research",
+      "git_blob_sha1": "ebdd8624e15b2512fe0f6a7520656f3a6016cbad",
+      "bytes": 7730
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/reserves.html",
+      "category": "research",
+      "git_blob_sha1": "9a69fba90418a9ece1a64a74af6dc5927279769e",
+      "bytes": 460069
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/web-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "f9e9f077f0e8ff0d902657964c1afdb87549b8ee",
+      "bytes": 35931
+    },
+    {
+      "path": "research/research/2026-10-20/xrp-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "aeb5a06fa13ddfdd4000c6ffbe4df4976437800c",
+      "bytes": 5459
     }
   ]
 }

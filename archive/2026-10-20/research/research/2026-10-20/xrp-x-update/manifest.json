@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.privy.io/blog/building-payments-and-agentic-commerce-with-the-xrp-ledger",
+    "status": 200,
+    "time_utc": "2026-10-20T04:30:46.741166+00:00"
+  },
+  {
+    "url": "https://xrpl.org/docs/concepts/accounts/reserves",
+    "status": 200,
+    "time_utc": "2026-10-20T04:30:50.882154+00:00"
+  },
+  {
+    "url": "https://cryptoslate.com/xrp-etf-inflow-streak-ends-as-bitcoin-and-ethereum-outflows-continue/",
+    "status": 403,
+    "time_utc": "2026-10-20T04:30:52.561720+00:00"
+  }
+]
