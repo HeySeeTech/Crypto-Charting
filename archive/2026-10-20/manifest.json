@@ -224,6 +224,12 @@
       "bytes": 2963
     },
     {
+      "path": "copy/outputs/2026-10-20/UNI-X文案-销毁怎么兑现.md",
+      "category": "copy",
+      "git_blob_sha1": "7e201d98a9f703c5de559bfa189c8a88a1f3c0c4",
+      "bytes": 3153
+    },
+    {
       "path": "copy/outputs/2026-10-20/XRP-X文案-AI支付.md",
       "category": "copy",
       "git_blob_sha1": "49fa3aae5af0ca34b7c2c34e19253972e6325c24",
@@ -762,6 +768,60 @@
       "category": "research",
       "git_blob_sha1": "71e3aa2ac8a5745d26d0915e97974344687b7179",
       "bytes": 4447
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/burn-blockscout.json",
+      "category": "research",
+      "git_blob_sha1": "a8060ca6d110d7943ffbc5dd0c303a896372a117",
+      "bytes": 90424
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/burn-receipt.json",
+      "category": "research",
+      "git_blob_sha1": "55baf88cdb88546b6d6fd82089721dd3b9607f68",
+      "bytes": 695925
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/burn-tracker.html",
+      "category": "research",
+      "git_blob_sha1": "0f2fff4387a11df765109af54e711d1a6bb3b226",
+      "bytes": 263908
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/fee-docs.html",
+      "category": "research",
+      "git_blob_sha1": "bb17f87efa74b3842e5ebc087be70c8c0c2846ce",
+      "bytes": 299354
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "888aca302a3e15ba50056f569a92bf709dfa456f",
+      "bytes": 2582
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "df59d42ce70a66840606def4e7c89a76f7993a51",
+      "bytes": 2421
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/verified-burn.json",
+      "category": "research",
+      "git_blob_sha1": "c999479d2ab9d66997d2d49a033b1fe53b58d4f2",
+      "bytes": 184
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/web-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "ab7ba95313c4fd9a3642356cd44383d50b1f3cd0",
+      "bytes": 11669
+    },
+    {
+      "path": "research/research/2026-10-20/uni-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "e0c85878144e5d326b7238e13f80ca48e0a3358e",
+      "bytes": 5911
     },
     {
       "path": "research/research/2026-10-20/verify_workbooks.mjs",
