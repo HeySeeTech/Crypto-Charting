@@ -206,6 +206,12 @@
       "bytes": 2792
     },
     {
+      "path": "copy/outputs/2026-10-20/PEPE-X文案-现货与合约.md",
+      "category": "copy",
+      "git_blob_sha1": "e3ce4c2a8b07f50dd21cca786d047d3225e83b70",
+      "bytes": 2865
+    },
+    {
       "path": "copy/outputs/2026-10-20/SOL-X文案-升级交付.md",
       "category": "copy",
       "git_blob_sha1": "acabad15e57ab341d343cd33e6cf76616414f117",
@@ -564,6 +570,66 @@
       "category": "research",
       "git_blob_sha1": "aef2660b31ff99442ac7282754c6b822870bba17",
       "bytes": 7779
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/binance-daily.json",
+      "category": "research",
+      "git_blob_sha1": "96b7bcbd548fe38b960b0bca46681b9c4a788615",
+      "bytes": 677
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/binance-funding.json",
+      "category": "research",
+      "git_blob_sha1": "eedfd87559b3b365924e4b955de99628ab8c4680",
+      "bytes": 510
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/binance-oi-history.json",
+      "category": "research",
+      "git_blob_sha1": "ed7bab66bbdbaed9ffb1d4a3a1b13b22076f47b2",
+      "bytes": 4576
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/binance-perp.json",
+      "category": "research",
+      "git_blob_sha1": "ffba4b70863b4176056635bb90024c8a0f8e30b8",
+      "bytes": 389
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/binance-spot.json",
+      "category": "research",
+      "git_blob_sha1": "14bb2642095a349039bce5c0712c100535d5728e",
+      "bytes": 528
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/calculations.json",
+      "category": "research",
+      "git_blob_sha1": "1d5cb0ac2cd33c5db92a1007f76ce2b8795de684",
+      "bytes": 433
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/manifest.json",
+      "category": "research",
+      "git_blob_sha1": "2832c1d0a275973bbb615733d07273a08c31eb49",
+      "bytes": 1061
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "1760faf2efd49709e95ced43b3356a6ebf8f854a",
+      "bytes": 4283
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "25aa47b8131d4358f723ad63441b56539aff71b5",
+      "bytes": 2481
+    },
+    {
+      "path": "research/research/2026-10-20/pepe-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "aa5a96a5aa3549f0e831b8adc861534459a9b2ef",
+      "bytes": 5442
     },
     {
       "path": "research/research/2026-10-20/recalculation-qa.json",

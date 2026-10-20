@@ -1,0 +1,11 @@
+{
+  "oi_quantity_change_pct": 3.120669593350711,
+  "oi_usd_change_pct": 7.2475707588459,
+  "perp_spot_volume_ratio": 8.318155011453289,
+  "oi_start_utc": "2026-10-19T04:00:00+00:00",
+  "oi_end_utc": "2026-10-20T04:00:00+00:00",
+  "complete_day_2026_10_19_quote_volume_usdt": 25904188.78778241,
+  "prior_day_quote_volume_usdt": 18635726.14265444,
+  "volume_growth_pct": 39.002841045681194,
+  "taker_buy_share_pct": 58.57259779173116
+}

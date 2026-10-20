@@ -2,12 +2,13 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（13）
+## 文案（14）
 
 - [outputs/2026-10-20/BTC-X文案-保护型ETF.md](copy/outputs/2026-10-20/BTC-X%E6%96%87%E6%A1%88-%E4%BF%9D%E6%8A%A4%E5%9E%8BETF.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.001cd637d9dca1ee.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.001cd637d9dca1ee.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.21a223f77e918afc.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.21a223f77e918afc.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.md)
+- [outputs/2026-10-20/PEPE-X文案-现货与合约.md](copy/outputs/2026-10-20/PEPE-X%E6%96%87%E6%A1%88-%E7%8E%B0%E8%B4%A7%E4%B8%8E%E5%90%88%E7%BA%A6.md)
 - [outputs/2026-10-20/SOL-X文案-升级交付.md](copy/outputs/2026-10-20/SOL-X%E6%96%87%E6%A1%88-%E5%8D%87%E7%BA%A7%E4%BA%A4%E4%BB%98.md)
 - [outputs/2026-10-20/SUI-X文案-稳定币回购.md](copy/outputs/2026-10-20/SUI-X%E6%96%87%E6%A1%88-%E7%A8%B3%E5%AE%9A%E5%B8%81%E5%9B%9E%E8%B4%AD.md)
 - [outputs/2026-10-20/XRP-X文案-AI支付.md](copy/outputs/2026-10-20/XRP-X%E6%96%87%E6%A1%88-AI%E6%94%AF%E4%BB%98.md)
@@ -81,7 +82,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（50）
+## 研究资料（60）
 
 - [research/2026-10-20/btc-x-update/cftc-news.html](research/research/2026-10-20/btc-x-update/cftc-news.html)
 - [research/2026-10-20/btc-x-update/farside.html](research/research/2026-10-20/btc-x-update/farside.html)
@@ -100,6 +101,16 @@
 - [research/2026-10-20/eth-x-update/研究说明.md](research/research/2026-10-20/eth-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-20/flows.json](research/research/2026-10-20/flows.json)
 - [research/2026-10-20/issuer-source-checks.json](research/research/2026-10-20/issuer-source-checks.json)
+- [research/2026-10-20/pepe-x-update/binance-daily.json](research/research/2026-10-20/pepe-x-update/binance-daily.json)
+- [research/2026-10-20/pepe-x-update/binance-funding.json](research/research/2026-10-20/pepe-x-update/binance-funding.json)
+- [research/2026-10-20/pepe-x-update/binance-oi-history.json](research/research/2026-10-20/pepe-x-update/binance-oi-history.json)
+- [research/2026-10-20/pepe-x-update/binance-perp.json](research/research/2026-10-20/pepe-x-update/binance-perp.json)
+- [research/2026-10-20/pepe-x-update/binance-spot.json](research/research/2026-10-20/pepe-x-update/binance-spot.json)
+- [research/2026-10-20/pepe-x-update/calculations.json](research/research/2026-10-20/pepe-x-update/calculations.json)
+- [research/2026-10-20/pepe-x-update/manifest.json](research/research/2026-10-20/pepe-x-update/manifest.json)
+- [research/2026-10-20/pepe-x-update/prices.json](research/research/2026-10-20/pepe-x-update/prices.json)
+- [research/2026-10-20/pepe-x-update/prior-draft.md](research/research/2026-10-20/pepe-x-update/prior-draft.md)
+- [research/2026-10-20/pepe-x-update/研究说明.md](research/research/2026-10-20/pepe-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-20/recalculation-qa.json](research/research/2026-10-20/recalculation-qa.json)
 - [research/2026-10-20/sol-x-update/agave-release.json](research/research/2026-10-20/sol-x-update/agave-release.json)
 - [research/2026-10-20/sol-x-update/foundation.html](research/research/2026-10-20/sol-x-update/foundation.html)
