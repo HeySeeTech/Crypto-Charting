@@ -65,7 +65,14 @@ def sync(root,category,categories):
     lines.extend(f'| [{day}](archive/{day}/README.md) | {len(days[day])} |' for day in sorted(days,reverse=True));put('README.md',('\n'.join(lines)+'\n').encode())
     for name in ['scripts/archive_to_github.py','scripts/github_archive_api.py','ARCHIVE.md','AGENTS.md']:put(name,(root/name).read_bytes())
     if entries!=original:
-        tree=api('git/trees','POST',{'tree':[{'path':p,'mode':r['mode'],'type':'blob','sha':r['sha']} for p,r in sorted(entries.items())]})['sha']
+        # Preserve the existing tree and submit only changed paths. Rebuilding
+        # every archived path can time out as the historical archive grows.
+        changes=[{'path':p,'mode':r['mode'],'type':'blob','sha':r['sha']} for p,r in sorted(entries.items()) if p not in original or original[p]['sha']!=r['sha'] or original[p]['mode']!=r['mode']]
+        changes += [{'path':p,'mode':r['mode'],'type':'blob','sha':None} for p,r in sorted(original.items()) if p not in entries]
+        tree_sha=tree['sha']
+        for offset in range(0,len(changes),100):
+            tree_sha=api('git/trees','POST',{'base_tree':tree_sha,'tree':changes[offset:offset+100]})['sha']
+        tree=tree_sha
         commit=api('git/commits','POST',{'message':f'Classify and archive generated content {today}','tree':tree,'parents':[head]})['sha']
         api('git/refs/heads/main','PATCH',{'sha':commit,'force':False})
     else:commit=head

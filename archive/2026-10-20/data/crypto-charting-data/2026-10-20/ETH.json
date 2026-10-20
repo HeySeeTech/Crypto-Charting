@@ -1,0 +1,463 @@
+{
+  "schema_version": 2,
+  "symbol": "ETH",
+  "asset_id": "ethereum",
+  "collected_at": "2026-10-20T10:08:54+08:00",
+  "report_date_shanghai": "2026-10-20",
+  "status": "partial",
+  "metrics": {
+    "price_usd": {
+      "value": 2389.44,
+      "unit": "USD/ETH",
+      "data_as_of": "2026-10-20T02:07:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "change_24h_pct": {
+      "value": -1.55471,
+      "unit": "%",
+      "data_as_of": "2026-10-20T02:07:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "change_7d_pct": {
+      "value": -1.0,
+      "unit": "%",
+      "data_as_of": "2026-10-20T02:07:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "volume_24h_usd": {
+      "value": 9208735315,
+      "unit": "USD",
+      "data_as_of": "2026-10-20T02:07:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "market_cap_usd": {
+      "value": 291942478952,
+      "unit": "USD",
+      "data_as_of": "2026-10-20T02:07:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-13",
+          "close_usd": 2496.590088
+        },
+        {
+          "date_utc": "2026-10-14",
+          "close_usd": 2419.689614
+        },
+        {
+          "date_utc": "2026-10-15",
+          "close_usd": 2439.961877
+        },
+        {
+          "date_utc": "2026-10-16",
+          "close_usd": 2420.559806
+        },
+        {
+          "date_utc": "2026-10-17",
+          "close_usd": 2400.30792
+        },
+        {
+          "date_utc": "2026-10-18",
+          "close_usd": 2407.842372
+        },
+        {
+          "date_utc": "2026-10-19",
+          "close_usd": 2405.918376
+        }
+      ],
+      "source_url": "https://api.coingecko.com/api/v3/coins/ethereum/market_chart?vs_currency=usd&days=8&interval=daily",
+      "period_start": "2026-10-13",
+      "period_end": "2026-10-19",
+      "method": "CoinGecko UTC 00:00 快照，归属刚结束的前一 UTC 日之近似收盘；不同于滚动现价"
+    }
+  },
+  "etf": {
+    "scope": "US-listed native-asset spot trusts; exclude multi-asset, futures, leveraged and foreign products",
+    "trading_date_et": "2026-10-16",
+    "product_universe": [
+      {
+        "ticker": "ETHA",
+        "issuer": "BlackRock",
+        "name": "ETHA US spot ETH product",
+        "source_url": "https://www.ishares.com/us/products/337614/ishares-ethereum-trust-etf"
+      },
+      {
+        "ticker": "ETHB",
+        "issuer": "BlackRock",
+        "name": "ETHB US spot ETH product",
+        "source_url": "https://www.ishares.com/us/products/348532/ishares-staked-ethereum-trust-etf"
+      },
+      {
+        "ticker": "FETH",
+        "issuer": "Fidelity",
+        "name": "FETH US spot ETH product",
+        "source_url": "https://institutional.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FETH"
+      },
+      {
+        "ticker": "ETHW",
+        "issuer": "Bitwise",
+        "name": "ETHW US spot ETH product",
+        "source_url": "https://ethwetf.com/"
+      },
+      {
+        "ticker": "TETH",
+        "issuer": "21Shares",
+        "name": "TETH US spot ETH product",
+        "source_url": "https://www.21shares.com/en-us/products-us/teth"
+      },
+      {
+        "ticker": "ETHV",
+        "issuer": "VanEck",
+        "name": "ETHV US spot ETH product",
+        "source_url": "https://www.vaneck.com/us/en/investments/ethereum-etf-ethv/"
+      },
+      {
+        "ticker": "QETH",
+        "issuer": "Invesco",
+        "name": "QETH US spot ETH product",
+        "source_url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-galaxy-ethereum-etf.html"
+      },
+      {
+        "ticker": "EZET",
+        "issuer": "Franklin",
+        "name": "EZET US spot ETH product",
+        "source_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/40521/SINGLCLASS/franklin-ethereum-etf/EZET"
+      },
+      {
+        "ticker": "MSSE",
+        "issuer": "Morgan Stanley",
+        "name": "MSSE US spot ETH product",
+        "source_url": "https://www.morganstanley.com/im/en-us/institutional-investor/products/etfs.html"
+      },
+      {
+        "ticker": "ETHE",
+        "issuer": "Grayscale",
+        "name": "ETHE US spot ETH product",
+        "source_url": "https://etfs.grayscale.com/ethe"
+      },
+      {
+        "ticker": "ETH",
+        "issuer": "Grayscale",
+        "name": "ETH US spot ETH product",
+        "source_url": "https://etfs.grayscale.com/eth"
+      }
+    ],
+    "holdings": [
+      {
+        "ticker": "ETHA",
+        "quantity_native": 3361580.8725,
+        "unit": "ETH",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://www.ishares.com/us/products/337614/ishares-ethereum-trust-etf/latest-holdings.csv",
+        "issuer_url": "https://www.ishares.com/us/products/337614/ishares-ethereum-trust-etf/latest-holdings.csv",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "scope": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "ETHB",
+        "quantity_native": 441091.7833,
+        "unit": "ETH",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://www.ishares.com/us/products/348532/ishares-staked-ethereum-trust-etf/latest-holdings.csv",
+        "issuer_url": "https://www.ishares.com/us/products/348532/ishares-staked-ethereum-trust-etf/latest-holdings.csv",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "scope": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "ETHW",
+        "quantity_native": 108961.39,
+        "unit": "ETH",
+        "as_of_et": "2026-10-18",
+        "source_url": "https://ethwetf.com/",
+        "issuer_url": "https://ethwetf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "scope": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      }
+    ],
+    "holdings_summary": {
+      "kind": "verified_sample",
+      "as_of_et": "2026-10-18",
+      "verified_products": 1,
+      "universe_products": 11,
+      "unit": "ETH"
+    },
+    "product_details": [
+      {
+        "ticker": "ETHA",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": -69.7,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "ETHB",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "FETH",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "ETHW",
+        "annual_fee_pct_listed": 0.2,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      },
+      {
+        "ticker": "TETH",
+        "annual_fee_pct_listed": 0.21,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "ETHV",
+        "annual_fee_pct_listed": 0.2,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日 2026-10-16（历史 45,284.00300000 ETH）"
+      },
+      {
+        "ticker": "QETH",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "EZET",
+        "annual_fee_pct_listed": 0.19,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "MSSE",
+        "annual_fee_pct_listed": 0.14,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      },
+      {
+        "ticker": "ETHE",
+        "annual_fee_pct_listed": 2.5,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      },
+      {
+        "ticker": "ETH",
+        "annual_fee_pct_listed": 0.15,
+        "fee_source_url": "https://farside.co.uk/eth/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-16",
+        "flow_source_url": "https://farside.co.uk/eth/",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      }
+    ],
+    "flows": [
+      {
+        "trading_date_et": "2026-10-16",
+        "net_flow_usd_millions": -69.7,
+        "source_url": "https://farside.co.uk/eth/",
+        "contributors_usd_millions": {
+          "ETHA": -69.7
+        }
+      }
+    ],
+    "flow_history": [
+      {
+        "trading_date_et": "2026-10-08",
+        "net_flow_usd_millions": -72.5,
+        "source_url": "https://farside.co.uk/eth/"
+      },
+      {
+        "trading_date_et": "2026-10-09",
+        "net_flow_usd_millions": -56.1,
+        "source_url": "https://farside.co.uk/eth/"
+      },
+      {
+        "trading_date_et": "2026-10-12",
+        "net_flow_usd_millions": -85.4,
+        "source_url": "https://farside.co.uk/eth/"
+      },
+      {
+        "trading_date_et": "2026-10-13",
+        "net_flow_usd_millions": 24.8,
+        "source_url": "https://farside.co.uk/eth/"
+      },
+      {
+        "trading_date_et": "2026-10-14",
+        "net_flow_usd_millions": -129.5,
+        "source_url": "https://farside.co.uk/eth/"
+      },
+      {
+        "trading_date_et": "2026-10-15",
+        "net_flow_usd_millions": -60.3,
+        "source_url": "https://farside.co.uk/eth/"
+      },
+      {
+        "trading_date_et": "2026-10-16",
+        "net_flow_usd_millions": -69.7,
+        "source_url": "https://farside.co.uk/eth/"
+      }
+    ],
+    "last_valid_holdings": [
+      {
+        "ticker": "ETHA",
+        "quantity_native": 3390538.2492,
+        "unit": "ETH",
+        "as_of_et": "2026-10-15",
+        "source_url": "https://www.ishares.com/us/products/337614/ishares-ethereum-trust-etf/latest-holdings.csv",
+        "issuer_url": "https://www.ishares.com/us/products/337614/ishares-ethereum-trust-etf/latest-holdings.csv",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-19T10:38:39+08:00",
+        "scope": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "ETHB",
+        "quantity_native": 441067.1592,
+        "unit": "ETH",
+        "as_of_et": "2026-10-15",
+        "source_url": "https://www.ishares.com/us/products/348532/ishares-staked-ethereum-trust-etf/latest-holdings.csv",
+        "issuer_url": "https://www.ishares.com/us/products/348532/ishares-staked-ethereum-trust-etf/latest-holdings.csv",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-19T10:38:39+08:00",
+        "scope": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "ETHW",
+        "quantity_native": 108961.39,
+        "unit": "ETH",
+        "as_of_et": "2026-10-15",
+        "source_url": "https://ethwetf.com/",
+        "issuer_url": "https://ethwetf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-19T10:38:39+08:00",
+        "scope": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      },
+      {
+        "ticker": "ETHV",
+        "quantity_native": 45284.003,
+        "unit": "ETH",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://www.vaneck.com/us/en/investments/ethereum-etf-ethv/",
+        "issuer_url": "https://www.vaneck.com/us/en/investments/ethereum-etf-ethv/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-19T10:38:39+08:00",
+        "scope": "今日通过网页工具直接核查 ETF Statistics 的 Ether in Trust；原始披露日10月16日，净应计费用口径"
+      }
+    ]
+  },
+  "chain": {
+    "metrics": [
+      {
+        "name": "DeFi TVL",
+        "value": 49393530320.89001,
+        "unit": "USD",
+        "data_as_of": "2026-10-20T10:08:54+08:00",
+        "method": "Ethereum 链 DeFi 锁仓值；观察时间，提供方未注明精确采样时刻",
+        "source_url": "https://api.llama.fi/v2/chains"
+      },
+      {
+        "name": "DEX 成交额 24h",
+        "value": 1042692177.66,
+        "unit": "USD",
+        "data_as_of": "2026-10-20T10:08:54+08:00",
+        "method": "Ethereum 链 DEX 滚动窗口；API total24h，非代币持有人收入",
+        "source_url": "https://api.llama.fi/overview/dexs/Ethereum?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+      },
+      {
+        "name": "DEX 成交额 7d",
+        "value": 8143306854.16,
+        "unit": "USD",
+        "data_as_of": "2026-10-20T10:08:54+08:00",
+        "method": "Ethereum 链 DEX 滚动窗口；API total7d，非代币持有人收入",
+        "source_url": "https://api.llama.fi/overview/dexs/Ethereum?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+      }
+    ]
+  },
+  "developments": [],
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d"
+    },
+    {
+      "name": "Farside（网页直读；终端403）",
+      "url": "https://farside.co.uk/eth/"
+    }
+  ],
+  "missing_or_stale": [
+    "10-19 Farside 尚未完整：ETHA、ETHB 为未披露短横线，已披露小计 -7.9 百万美元；首页及七交易日序列采用最后完整交易日 10-16，不将待披露值填零。",
+    "FETH 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "TETH 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "ETHV 原生币持仓：页面未取得带日期的原生币持仓；最后有效日 2026-10-16（历史 45,284.00300000 ETH）",
+    "QETH 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "EZET 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "MSSE 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "ETHE 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "ETH 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "截至采集时最近已结束美东交易日为 2026-10-19；当前行情与 ETF 披露日期分列，旧披露不称为今日新数据。",
+    "过去24小时未核实到符合要求的重要官方新公告；不以旧公告填充。"
+  ],
+  "revision": {
+    "revised_at_shanghai": "2026-10-20T10:10:39+08:00",
+    "reason": "本次采集的网页补充核验；保留初始行情采集时间与各字段实际所属日期。"
+  }
+}
