@@ -2,9 +2,10 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（6）
+## 文案（7）
 
 - [outputs/2026-10-20/BTC-X文案-保护型ETF.md](copy/outputs/2026-10-20/BTC-X%E6%96%87%E6%A1%88-%E4%BF%9D%E6%8A%A4%E5%9E%8BETF.md)
+- [outputs/2026-10-20/ETH-X文案-Bitmine增持.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
@@ -74,7 +75,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（14）
+## 研究资料（20）
 
 - [research/2026-10-20/btc-x-update/cftc-news.html](research/research/2026-10-20/btc-x-update/cftc-news.html)
 - [research/2026-10-20/btc-x-update/farside.html](research/research/2026-10-20/btc-x-update/farside.html)
@@ -85,6 +86,12 @@
 - [research/2026-10-20/btc-x-update/sec-news.html](research/research/2026-10-20/btc-x-update/sec-news.html)
 - [research/2026-10-20/btc-x-update/web-primary-evidence.json](research/research/2026-10-20/btc-x-update/web-primary-evidence.json)
 - [research/2026-10-20/btc-x-update/研究说明.md](research/research/2026-10-20/btc-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
+- [research/2026-10-20/eth-x-update/bitmine-release.html](research/research/2026-10-20/eth-x-update/bitmine-release.html)
+- [research/2026-10-20/eth-x-update/collection.json](research/research/2026-10-20/eth-x-update/collection.json)
+- [research/2026-10-20/eth-x-update/prices.json](research/research/2026-10-20/eth-x-update/prices.json)
+- [research/2026-10-20/eth-x-update/prior-draft.md](research/research/2026-10-20/eth-x-update/prior-draft.md)
+- [research/2026-10-20/eth-x-update/web-evidence.json](research/research/2026-10-20/eth-x-update/web-evidence.json)
+- [research/2026-10-20/eth-x-update/研究说明.md](research/research/2026-10-20/eth-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-20/flows.json](research/research/2026-10-20/flows.json)
 - [research/2026-10-20/issuer-source-checks.json](research/research/2026-10-20/issuer-source-checks.json)
 - [research/2026-10-20/recalculation-qa.json](research/research/2026-10-20/recalculation-qa.json)

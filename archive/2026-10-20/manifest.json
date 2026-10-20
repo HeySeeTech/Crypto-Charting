@@ -188,6 +188,12 @@
       "bytes": 2718
     },
     {
+      "path": "copy/outputs/2026-10-20/ETH-X文案-Bitmine增持.md",
+      "category": "copy",
+      "git_blob_sha1": "79931f759d398de717bfad42b0a3d910a58ba0ac",
+      "bytes": 2792
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -474,6 +480,42 @@
       "category": "research",
       "git_blob_sha1": "4b02a470c5d9dfb41a11b10f690619f2c2804e71",
       "bytes": 3827
+    },
+    {
+      "path": "research/research/2026-10-20/eth-x-update/bitmine-release.html",
+      "category": "research",
+      "git_blob_sha1": "f4dcc77f8aede57f6b953a93d2af9c4203e53b7f",
+      "bytes": 188212
+    },
+    {
+      "path": "research/research/2026-10-20/eth-x-update/collection.json",
+      "category": "research",
+      "git_blob_sha1": "d75567c6e743b2e4438932b2aeee1844a5a34583",
+      "bytes": 434
+    },
+    {
+      "path": "research/research/2026-10-20/eth-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "462de339798f760ac3488258d70d6167d9ba9223",
+      "bytes": 1746
+    },
+    {
+      "path": "research/research/2026-10-20/eth-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "882fedf083a6e6cc2b509f46e8f8d660f6cf171b",
+      "bytes": 2884
+    },
+    {
+      "path": "research/research/2026-10-20/eth-x-update/web-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "f08ce9b45a47d7838aa6b83b89a1b41fb2fd54ab",
+      "bytes": 59910
+    },
+    {
+      "path": "research/research/2026-10-20/eth-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "9794f9486863451741a89d53589778db269a7823",
+      "bytes": 4200
     },
     {
       "path": "research/research/2026-10-20/flows.json",
