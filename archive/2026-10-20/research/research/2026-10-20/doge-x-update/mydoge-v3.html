@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>From Dogecoin Wallet to Dogecoin App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="https://blog.dogeos.com/assets/built/screen.css?v=xPGozQS2SFMZDlmQ">
+    <link rel="preload" as="script" href="https://blog.dogeos.com/assets/built/source.js?v=33sa4-qy5thAFPQH">
+    
+    <link rel="preload" as="font" type="font/woff2" href="https://blog.dogeos.com/assets/fonts/inter-roman.woff2?v=OecsB5TBLy27FKD2" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: optional;
+        src: url(https://blog.dogeos.com/assets/fonts/inter-roman.woff2?v=OecsB5TBLy27FKD2) format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+
+    <link rel="stylesheet" type="text/css" href="https://blog.dogeos.com/assets/built/screen.css?v=xPGozQS2SFMZDlmQ">
+
+    <style>
+        :root {
+            --background-color: #FFFAD9
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <link rel="icon" href="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w256h256/2025/06/Dogeos-logo-icon.png" type="image/png">
+    <link rel="canonical" href="https://blog.dogeos.com/from-dogecoin-wallet-to-dogecoin-app/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="DogeOS">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="From Dogecoin Wallet to Dogecoin App">
+    <meta property="og:description" content="For a long time, if you asked what you could do with Dogecoin, the answer was pretty simple: hold it, send it, tip someone on X, or buy from a merchant who accepted it. That hasn&#x27;t changed much in 13 years. Meanwhile, other cryptocurrencies have built huge ecosystems of">
+    <meta property="og:url" content="https://blog.dogeos.com/from-dogecoin-wallet-to-dogecoin-app/">
+    <meta property="og:image" content="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/2026/10/wallet-1.png">
+    <meta property="article:published_time" content="2026-10-08T16:08:56.000Z">
+    <meta property="article:modified_time" content="2026-10-08T16:20:42.000Z">
+    <meta property="article:publisher" content="https://www.facebook.com/dogeos">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="From Dogecoin Wallet to Dogecoin App">
+    <meta name="twitter:description" content="For a long time, if you asked what you could do with Dogecoin, the answer was pretty simple: hold it, send it, tip someone on X, or buy from a merchant who accepted it. That hasn&#x27;t changed much in 13 years. Meanwhile, other cryptocurrencies have built huge ecosystems of">
+    <meta name="twitter:url" content="https://blog.dogeos.com/from-dogecoin-wallet-to-dogecoin-app/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/2026/10/wallet-1.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="DogeOS Team">
+    <meta name="twitter:site" content="@dogeos">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="720">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DogeOS",
+        "url": "https://blog.dogeos.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/2025/06/Dogeos-logo2.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "DogeOS Team",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/2025/06/xEPwaS9m_400x400.jpg",
+            "width": 400,
+            "height": 400
+        },
+        "url": "https://blog.dogeos.com/author/dogeosteam/",
+        "sameAs": []
+    },
+    "headline": "From Dogecoin Wallet to Dogecoin App",
+    "url": "https://blog.dogeos.com/from-dogecoin-wallet-to-dogecoin-app/",
+    "datePublished": "2026-10-08T16:08:56.000Z",
+    "dateModified": "2026-10-08T16:20:42.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/2026/10/wallet-1.png",
+        "width": 1200,
+        "height": 720
+    },
+    "description": "For a long time, if you asked what you could do with Dogecoin, the answer was pretty simple: hold it, send it, tip someone on X, or buy from a merchant who accepted it. That hasn't changed much in 13 years. Meanwhile, other cryptocurrencies have built huge ecosystems of apps, exchanges, games, and financial tools. Dogecoin has a massive community, but not many uses for the actual coins. MyDoge V3 is where that starts to change. MyDoge V3 is live today on iOS and Android. It arrives as an app upd",
+    "mainEntityOfPage": "https://blog.dogeos.com/from-dogecoin-wallet-to-dogecoin-app/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.72">
+    <link rel="alternate" type="application/rss+xml" title="DogeOS" href="https://blog.dogeos.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.72/umd/portal.min.js" data-i18n="true" data-ghost="https://blog.dogeos.com/" data-key="69df7f3faf011090c7f45901d9" data-api="https://dogeos.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/sodo-search.min.js" data-key="69df7f3faf011090c7f45901d9" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.9/umd/main.css" data-sodo-search="https://dogeos.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js" data-announcement-bar="https://blog.dogeos.com/" data-api-url="https://blog.dogeos.com/members/api/announcement/" crossorigin="anonymous"></script>
+    <link href="https://blog.dogeos.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=ShRHxgy4po8zN-Wf"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=WwnU9jw5ancNC8Gc">
+    <script defer src="/public/comment-counts.min.js?v=oFYkaGLdiMqB8VN9" data-ghost-comments-counts-api="https://blog.dogeos.com/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=AKG4hWena9j3yX3I"></script>
+    <script defer src="/public/ghost-stats.min.js?v=vFcCUf6ZQ0Hyhc8h" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://blog.dogeos.com/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87" tb_post_uuid="b4950abc-fc81-4bfe-a526-fa65820897fa" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined" tb_gift_link=""></script><style>:root {--ghost-accent-color: #FED70B;}</style>
+    <link rel="preconnect" href="https://fonts.bunny.net"><link rel="stylesheet" href="https://fonts.bunny.net/css?family=space-mono:400,700|manrope:300,500,700"><style>:root {--gh-font-heading: Space Mono;--gh-font-body: Manrope;}</style>
+
+</head>
+<body class="post-template gh-font-heading-space-mono gh-font-body-manrope has-sans-title has-sans-body">
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-left-logo gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="https://blog.dogeos.com">
+                    <img src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/2025/06/Dogeos-logo2.png" alt="DogeOS">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-home"><a href="https://blog.dogeos.com/">Home</a></li>
+    <li class="nav-announcements"><a href="https://blog.dogeos.com/tag/announcement/">Announcements</a></li>
+    <li class="nav-ecosystem"><a href="https://blog.dogeos.com/tag/ecosystem/">Ecosystem</a></li>
+    <li class="nav-state-of-doge"><a href="https://blog.dogeos.com/tag/state-of-doge/">State of Doge</a></li>
+    <li class="nav-doge-on-the-road"><a href="https://blog.dogeos.com/tag/doge-on-the-road/">Doge on the Road</a></li>
+</ul>
+
+        </nav>
+
+        <div class="gh-navigation-actions">
+                <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>                <div class="gh-navigation-members">
+                            <a href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-button" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                </div>
+        </div>
+
+    </div>
+</header>
+
+    
+
+<main class="gh-main">
+
+    <article class="gh-article post">
+
+        <header class="gh-article-header gh-canvas">
+
+            <h1 class="gh-article-title is-title">From Dogecoin Wallet to Dogecoin App</h1>
+
+                <div class="gh-meta-share">
+                    <div class="gh-article-meta">
+                        <div class="gh-article-author-image instapaper_ignore">
+                                    <a href="/author/dogeosteam/">
+                                        <img class="author-profile-image" src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w160/2025/06/xEPwaS9m_400x400.jpg" alt="DogeOS Team">
+                                    </a>
+                        </div>
+                        <div class="gh-article-meta-wrapper">
+                            <h4 class="gh-article-author-name"><a href="/author/dogeosteam/">DogeOS Team</a></h4>
+                            <div class="gh-article-meta-content">
+                                <time class="gh-article-meta-date" datetime="2026-10-08">08 Oct 2026</time>
+                                    <span class="gh-article-meta-length"><span class="bull">—</span> 7 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#/share" class="gh-button gh-button-share">
+                        Share
+                    </a>
+                </div>
+
+                <figure class="gh-article-image">
+        <img
+            class="gh-feature-image"
+            srcset="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w320/2026/10/wallet-1.png 320w,
+                    https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/2026/10/wallet-1.png 600w,
+                    https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w960/2026/10/wallet-1.png 960w,
+                    https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/2026/10/wallet-1.png 1200w,
+                    https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w2000/2026/10/wallet-1.png 2000w"
+            sizes="(max-width: 1200px) 100vw, 1120px"
+            src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/2026/10/wallet-1.png"
+            alt="From Dogecoin Wallet to Dogecoin App"
+        >
+    </figure>
+
+        </header>
+
+        <section class="gh-content gh-canvas is-body">
+            <p>For a long time, if you asked what you could do with Dogecoin, the answer was pretty simple: hold it, send it, tip someone on X, or buy from a merchant who accepted it. That hasn't changed much in 13 years. Meanwhile, other cryptocurrencies have built huge ecosystems of apps, exchanges, games, and financial tools. Dogecoin has a massive community, but not many uses for the actual coins. MyDoge V3 is where that starts to change. MyDoge V3 is live today on iOS and Android. It arrives as an app update, your existing wallet comes with you, and when you open it, there is considerably more to do than there was yesterday. Let’s dig into why.</p><h2 id="why-we-built-mydoge-in-the-first-place"><strong>Why we built MyDoge in the first place</strong></h2><p>MyDoge first came out in early 2022. At that time, Dogecoin had a huge number of holders and a really strong community, but it seemed like nobody was creating things just for them. Sure, there were wallets that supported DOGE along with a lot of other coins, but none of them really felt like they were made specifically for Dogecoin fans.</p><p>So, we built one. We put out a tweet about it, and the community took it from there. MyDoge grew to hundreds of thousands of users without a paid acquisition machine behind it, because people wanted somewhere to keep their DOGE that treated Dogecoin as the center point rather than a line item.</p><p>What we learned from those years is that nobody in this community needs convincing to care about Dogecoin. They already care, and what they have needed is more places where caring about Dogecoin leads somewhere. That is the problem DogeOS was built to solve, and V3 is where MyDoge connects to it.</p><h2 id="your-old-wallet-is-still-your-old-wallet"><strong>Your old wallet is still your old wallet</strong></h2><p>Before anything new, the part that matters most if you have been with us a while.</p><p>Your existing MyDoge wallet does not go anywhere. After you update, it becomes your <strong>Classic Wallet</strong>, with the same seed phrase, the same private key, the same Dogecoin address, and the same assets. Your username, profile picture, and wallet cloud backups all carry across. Buying, sending, receiving, MyDogeTip, profiles, activity, QR payments, and your existing security settings are all still there.</p><p>There is no separate app to download. V3 comes through the regular update on iOS and Android. Before you upgrade, check that your Classic seed phrase is saved somewhere safe. Social Wallet has its own separate phrase, which you can (and should) also retrieve once two-factor authentication is set up.</p><p><strong>Social Wallet, and why there are now two</strong></p><p>V3 introduces a second wallet alongside Classic Wallet, called Social Wallet, which you create by signing in with X. Once it is set up, the wallet selector above your balance lets you move between the two, showing the balance of whichever wallet you have selected rather than combining them into a single number.</p><p>Both wallets support multiple chains, swaps, and Dogecoin apps. The one thing that needs Social Wallet is MyDogeTip, since tipping runs through your X account. The main difference is how you access them.</p><p>Classic Wallet works the way crypto wallets traditionally have, through a seed phrase that you are responsible for keeping safe. Social Wallet is designed around a login people already know: X, which is the obvious place to start because so much of Dogecoin already happens there. The community, the memes, and many of the accounts people associate with Dogecoin all live on X, so signing in that way connects your wallet to an identity you may already use across the Dogecoin community.</p><p>Moving DOGE between the two wallets is optional. If you would rather keep everything in one place, MyDoge walks you through a one-time transfer between them, with only the standard Dogecoin network fee and nothing added by us.</p><p><strong>On security</strong></p><p>MyDoge is self-custodial, which means your assets remain yours: we cannot move them, and nobody at MyDoge can recover a wallet on your behalf. Both wallets have a seed phrase. Classic Wallet works as it always has, with the phrase you already hold, while Social Wallet also has a seed phrase that can be retrieved when two-factor authentication is enabled, following a 48-hour confirmation period. That delay gives you time to spot a retrieval request you did not make and take action before access is granted.</p><p>When you create a Social Wallet, set up two-factor authentication inside MyDoge and add a recovery email, which gives you another route back into your wallet if you ever lose access to your X account.</p><p>Because Social Wallet is accessed through your X login, the security of that account becomes part of your wallet security as well. Turning on two-factor authentication for X is strongly recommended, alongside the usual precautions: be careful about what you sign in to, treat unsolicited support messages with suspicion, and assume anyone asking for your seed phrase is trying to steal it.</p><p>V3 also adds encrypted seed-phrase storage, passkeys, authenticator app support, email verification, and PIN and biometric protection for sensitive actions.</p><h2 id="dogeos-apps-open-inside-the-wallet"><strong>DogeOS apps open inside the wallet</strong></h2><p>DogeOS apps are now accessible directly from MyDoge. You open the app, pick something from the home screen, and use it right there with your Social Wallet. This is the first time a DOGE balance and an app ecosystem have sat next to each other. DogeOS is a separate application layer where developers build apps around DOGE (currently on testnet), and MyDoge is where anyone holding DOGE reaches them.</p><p>The apps cluster into a few groups. Games are the largest by some distance. Then there is the financial layer, covering swaps, lending, staking, and stablecoins, which is what turns a balance sitting in a wallet into an actual onchain economy. Beyond those, there are AI apps, prediction markets, and more.&nbsp;</p><p>Builders who want to work on that have the DogeOS SDK at <a href="http://sdk.dogeos.com/?ref=blog.dogeos.com"><u>sdk.dogeos.com</u></a>, which supports MyDoge V3 integrations into external applications.</p><h2 id="the-grand-heist-is-where-to-begin"><strong>The Grand Heist is where to begin</strong></h2><p>There is a lot to look at in V3, so we did not want to hand you a list of apps and leave you to it. So V3 ships with a mission. The Grand Heist is the DogeOS questing experience, and you can reach it directly from MyDoge. You explore the ecosystem while completing actions, earn XP and badges, and pick up items used across DogeOS along the way. New quest lines open periodically as more apps and community activations come online, so it is an ongoing journey through the ecosystem rather than a checklist you finish once.</p><p>Over time, what you do across DogeOS starts to add up to a record of participation: who turned up early, who tried what, who stuck around through the quiet parts. Soulbound and tradable assets are part of where this goes, giving that history somewhere to live inside the product instead of only in memes, old posts, and community memory.</p><h2 id="mydoge-is-multichain-now"><strong>MyDoge is multichain now</strong></h2><p>Dogecoin people own other things. Building around the pretence that they do not would make for a worse wallet, so V3 supports Dogecoin, Bitcoin, Ethereum, Solana, BNB Chain, Arbitrum One, Base, Optimism, and Polygon, alongside the DogeOS Chikyū testnet.</p><p>Multichain swaps are live at launch for supported token pairs, depending on route and liquidity availability, so moving between supported assets happens inside the same app.</p><p>We did not add this to become another wallet with an endless chain list on a marketing page. We added it because if you hold DOGE next to BTC, ETH, SOL, and stablecoins, and MyDoge only handles one of them, you end up living in somebody else's wallet most days. DOGE stays the centre of this product. The rest of your portfolio can come along rather than pulling you away from it. More networks will follow based on what people actually use and ask for.</p><h2 id="mydogetip-is-not-going-anywhere"><strong>MyDogeTip is not going anywhere</strong></h2><p>Some things never needed fixing. Dogecoin spread through internet tipping long before anyone thought to give that behaviour a category name, and tipping is still the thing this app does best.&nbsp;</p><p>MyDogeTip works the same way in V3. You connect your X account through MyDoge, post a tip through <a href="https://x.com/MyDogeTip?ref=blog.dogeos.com"><u>@MyDogeTip </u></a>with the recipient and the amount, and confirm it from your wallet. If the recipient already uses MyDoge, it goes straight between wallets. If they have not finished setting up, the tip sits pending until they connect. We never take custody of the DOGE involved at any point. Tipping runs through Social Wallet, since it works off your X account. If you have only set up Classic Wallet, create a Social Wallet to send and receive tips.</p><h2 id="what-comes-next"><strong>What comes next</strong></h2><p>V3 launches with DogeOS apps, The Grand Heist, multichain wallets, and swaps. And there are more features coming.&nbsp;</p><p>The AI Feed will bring the social side of Dogecoin into MyDoge, surfacing what the community is talking about without requiring users to build another follower list from scratch. Drawing from established Dogecoin voices and leading accounts across crypto, the feed uses AI to curate relevant conversations, creating a direct line between what is happening across X and what users find inside the wallet. DogeOS NFT support follows after mainnet, while soulbound and tradable assets build on the identity layer introduced through quests, giving participation, achievements and ownership a more permanent place across the DogeOS ecosystem.</p><p>Further out, as DogeOS protocols come online, MyDoge becomes an access point for borrowing, staking, and earning on DOGE.&nbsp; MyDoge V3 is mobile. There is no desktop or browser extension version at launch.</p><h2 id="dogecoin-app"><strong>Dogecoin App</strong></h2><p>MyDoge started as a simple way to hold, send, and tip DOGE. V3 keeps that foundation and adds a much broader way to use it, through DogeOS apps, swaps, quests, assets, and new social features. Dogecoin has had the community for years. Now it starts getting the application layer to match. You already have DOGE. Now there is more to do with it.</p><p>Your Classic Wallet stays yours, your DOGE stays under your control, tipping stays. Around all of that, there is now a Social Wallet, a set of apps built specifically for Dogecoin, swaps across nine networks, quests worth doing, and the start of a much larger economy around the funniest money on the internet.</p><p>Update MyDoge on <a href="https://apps.apple.com/us/app/mydoge-dogecoin-wallet/id1600967876?ref=blog.dogeos.com"><u>iOS</u></a> or <a href="https://play.google.com/store/apps/details?id=com.mydoge.android&hl=en&pli=1&ref=blog.dogeos.com"><u>Android</u></a>, open The Grand Heist, and see what is out there. Building something for Dogecoin? Start at <a href="http://sdk.dogeos.com/?ref=blog.dogeos.com"><u>sdk.dogeos.com</u></a>.&nbsp;</p>
+        </section>
+
+    </article>
+
+        <div class="gh-comments gh-canvas">
+            
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.6/umd/comments-ui.min.js" data-locale="en" data-ghost-comments="https://blog.dogeos.com/" data-api="https://dogeos.ghost.io/ghost/api/content/" data-admin="https://dogeos.ghost.io/ghost/" data-key="69df7f3faf011090c7f45901d9" data-title="null" data-count="true" data-post-id="6ac7bd978833280001df9e3a" data-color-scheme="auto" data-avatar-saturation="60" data-accent-color="#FED70B" data-comments-enabled="all" data-publication="DogeOS" crossorigin="anonymous"></script>
+    
+        </div>
+
+</main>
+
+
+            <section class="gh-container is-grid gh-outer">
+                <div class="gh-container-inner gh-inner">
+                    <h2 class="gh-container-title">Read more</h2>
+                    <div class="gh-feed">
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/the-grand-heist-is-where-the-dogecoin-economy-starts/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w160/format/webp/2026/10/OPTION-3.png 160w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w320/format/webp/2026/10/OPTION-3.png 320w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/format/webp/2026/10/OPTION-3.png 600w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w960/format/webp/2026/10/OPTION-3.png 960w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/format/webp/2026/10/OPTION-3.png 1200w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w2000/format/webp/2026/10/OPTION-3.png 2000w"
+                    sizes="auto, (max-width: 1199px) 100vw, 980px"
+                    src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/2026/10/OPTION-3.png"
+                    alt="The Grand Heist Is Where the Dogecoin Economy Starts"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">The Grand Heist Is Where the Dogecoin Economy Starts</h3>
+                    <p class="gh-card-excerpt is-body">The Doge Grand Heist is a community campaign and a gamified way to explore the Dogecoin ecosystem powered by DogeOS and find your way into the Dogecoin economy, all inside the MyDoge app. You pick a crew, run missions, try the apps. Chapter 1 is open to join right now.</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By DogeOS Team</span>
+                    <time class="gh-card-date" datetime="2026-10-09">09 Oct 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/doge-on-the-road-devconnect-argentina/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w160/format/webp/2025/11/photo_2025-11-20-18.46.05.jpeg 160w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w320/format/webp/2025/11/photo_2025-11-20-18.46.05.jpeg 320w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/format/webp/2025/11/photo_2025-11-20-18.46.05.jpeg 600w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w960/format/webp/2025/11/photo_2025-11-20-18.46.05.jpeg 960w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/format/webp/2025/11/photo_2025-11-20-18.46.05.jpeg 1200w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w2000/format/webp/2025/11/photo_2025-11-20-18.46.05.jpeg 2000w"
+                    sizes="auto, (max-width: 1199px) 100vw, 980px"
+                    src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/2025/11/photo_2025-11-20-18.46.05.jpeg"
+                    alt="Doge on the Road: DevConnect Argentina"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Doge on the Road: DevConnect Argentina</h3>
+                <p class="gh-card-excerpt is-body">DogeOS is bringing Doge House to Argentina&#x27;s historic Casa Ocampo on November 21st during DevConnect, where LATAM&#x27;s builders meet Dogecoin&#x27;s ecosystem.</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By DogeOS Team</span>
+                    <time class="gh-card-date" datetime="2025-11-20">20 Nov 2025</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/state-of-doge-october-2025/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w160/format/webp/2025/10/Satate-of-Doge-Blog-banner.png 160w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w320/format/webp/2025/10/Satate-of-Doge-Blog-banner.png 320w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/format/webp/2025/10/Satate-of-Doge-Blog-banner.png 600w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w960/format/webp/2025/10/Satate-of-Doge-Blog-banner.png 960w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/format/webp/2025/10/Satate-of-Doge-Blog-banner.png 1200w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w2000/format/webp/2025/10/Satate-of-Doge-Blog-banner.png 2000w"
+                    sizes="auto, (max-width: 1199px) 100vw, 980px"
+                    src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/2025/10/Satate-of-Doge-Blog-banner.png"
+                    alt="State of Doge - October 2025"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">State of Doge - October 2025</h3>
+                <p class="gh-card-excerpt is-body">October delivered significant community growth and ecosystem expansion for DogeOS. We surpassed 150,000 followers on X, launched the Woof List community program, and showcased builders.</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By DogeOS Team</span>
+                    <time class="gh-card-date" datetime="2025-10-31">31 Oct 2025</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/state-of-doge-september-2025/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w160/format/webp/2025/09/Blog-8.png 160w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w320/format/webp/2025/09/Blog-8.png 320w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/format/webp/2025/09/Blog-8.png 600w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w960/format/webp/2025/09/Blog-8.png 960w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w1200/format/webp/2025/09/Blog-8.png 1200w,
+                            https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w2000/format/webp/2025/09/Blog-8.png 2000w"
+                    sizes="auto, (max-width: 1199px) 100vw, 980px"
+                    src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/size/w600/2025/09/Blog-8.png"
+                    alt="State of Doge - September 2025"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">State of Doge - September 2025</h3>
+                <p class="gh-card-excerpt is-body">DogeOS becomes title sponsor of Korea Blockchain Week, unlocks Bitcoin liquidity through Lombard Finance, and expands gaming with PlaysOut&#x27;s Doge Dungeon. September proved that Dogecoin&#x27;s cultural power combined with real utility creates something unstoppable.</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By DogeOS Team</span>
+                    <time class="gh-card-date" datetime="2025-09-30">30 Sep 2025</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>
+                    </div>
+                </div>
+            </section>
+
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+                <section class="gh-footer-signup">
+                    <h2 class="gh-footer-signup-header is-title">
+                        DogeOS
+                    </h2>
+                    <p class="gh-footer-signup-subhead is-body">
+                        much knowledge. very insights.
+                    </p>
+                    <form class="gh-form" data-members-form>
+    <input class="gh-form-input" id="footer-email" name="email" type="email" placeholder="jamie@example.com" required data-members-email>
+    <button class="gh-button" type="submit" aria-label="Subscribe">
+        <span><span>Subscribe</span> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path></svg></span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+    <g stroke-linecap="round" stroke-width="2" fill="currentColor" stroke="none" stroke-linejoin="round" class="nc-icon-wrapper">
+        <g class="nc-loop-dots-4-24-icon-o">
+            <circle cx="4" cy="12" r="3"></circle>
+            <circle cx="12" cy="12" r="3"></circle>
+            <circle cx="20" cy="12" r="3"></circle>
+        </g>
+        <style data-cap="butt">
+            .nc-loop-dots-4-24-icon-o{--animation-duration:0.8s}
+            .nc-loop-dots-4-24-icon-o *{opacity:.4;transform:scale(.75);animation:nc-loop-dots-4-anim var(--animation-duration) infinite}
+            .nc-loop-dots-4-24-icon-o :nth-child(1){transform-origin:4px 12px;animation-delay:-.3s;animation-delay:calc(var(--animation-duration)/-2.666)}
+            .nc-loop-dots-4-24-icon-o :nth-child(2){transform-origin:12px 12px;animation-delay:-.15s;animation-delay:calc(var(--animation-duration)/-5.333)}
+            .nc-loop-dots-4-24-icon-o :nth-child(3){transform-origin:20px 12px}
+            @keyframes nc-loop-dots-4-anim{0%,100%{opacity:.4;transform:scale(.75)}50%{opacity:1;transform:scale(1)}}
+        </style>
+    </g>
+</svg>        <span>Email sent</span>
+    </button>
+    <p data-members-error></p>
+</form>
+                </section>
+
+        <div class="gh-social-links">
+                <a href="https://x.com/dogeos" target="_blank" rel="noopener" aria-label="X">
+<svg viewBox="0 0 24 24" fill="currentColor"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>                </a>
+                <a href="https://www.facebook.com/dogeos" target="_blank" rel="noopener" aria-label="Facebook">
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"/></svg>                </a>
+        </div>
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="https://storage.ghost.io/c/3b/5f/3b5f5a22-8a34-45f1-b9e0-a4c10bec5e87/content/images/2025/06/Dogeos-logo2.png" alt="DogeOS">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-sign-up"><a href="#/portal/">Sign up</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+    
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://blog.dogeos.com/assets/built/source.js?v=33sa4-qy5thAFPQH"></script>
+
+
+
+</body>
+</html>

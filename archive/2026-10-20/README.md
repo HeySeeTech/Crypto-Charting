@@ -2,9 +2,10 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（16）
+## 文案（17）
 
 - [outputs/2026-10-20/BTC-X文案-保护型ETF.md](copy/outputs/2026-10-20/BTC-X%E6%96%87%E6%A1%88-%E4%BF%9D%E6%8A%A4%E5%9E%8BETF.md)
+- [outputs/2026-10-20/DOGE-X文案-百万任务.md](copy/outputs/2026-10-20/DOGE-X%E6%96%87%E6%A1%88-%E7%99%BE%E4%B8%87%E4%BB%BB%E5%8A%A1.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.001cd637d9dca1ee.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.001cd637d9dca1ee.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.21a223f77e918afc.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.21a223f77e918afc.md)
 - [outputs/2026-10-20/ETH-X文案-Bitmine增持.md](copy/outputs/2026-10-20/ETH-X%E6%96%87%E6%A1%88-Bitmine%E5%A2%9E%E6%8C%81.md)
@@ -84,7 +85,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（80）
+## 研究资料（89）
 
 - [research/2026-10-20/btc-x-update/cftc-news.html](research/research/2026-10-20/btc-x-update/cftc-news.html)
 - [research/2026-10-20/btc-x-update/farside.html](research/research/2026-10-20/btc-x-update/farside.html)
@@ -95,6 +96,15 @@
 - [research/2026-10-20/btc-x-update/sec-news.html](research/research/2026-10-20/btc-x-update/sec-news.html)
 - [research/2026-10-20/btc-x-update/web-primary-evidence.json](research/research/2026-10-20/btc-x-update/web-primary-evidence.json)
 - [research/2026-10-20/btc-x-update/研究说明.md](research/research/2026-10-20/btc-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
+- [research/2026-10-20/doge-x-update/grand-heist.html](research/research/2026-10-20/doge-x-update/grand-heist.html)
+- [research/2026-10-20/doge-x-update/manifest.json](research/research/2026-10-20/doge-x-update/manifest.json)
+- [research/2026-10-20/doge-x-update/million-report.html](research/research/2026-10-20/doge-x-update/million-report.html)
+- [research/2026-10-20/doge-x-update/mydoge-v3.html](research/research/2026-10-20/doge-x-update/mydoge-v3.html)
+- [research/2026-10-20/doge-x-update/prices.json](research/research/2026-10-20/doge-x-update/prices.json)
+- [research/2026-10-20/doge-x-update/prior-draft.md](research/research/2026-10-20/doge-x-update/prior-draft.md)
+- [research/2026-10-20/doge-x-update/quests.html](research/research/2026-10-20/doge-x-update/quests.html)
+- [research/2026-10-20/doge-x-update/terms.html](research/research/2026-10-20/doge-x-update/terms.html)
+- [research/2026-10-20/doge-x-update/研究说明.md](research/research/2026-10-20/doge-x-update/%E7%A0%94%E7%A9%B6%E8%AF%B4%E6%98%8E.md)
 - [research/2026-10-20/eth-x-update/bitmine-release.html](research/research/2026-10-20/eth-x-update/bitmine-release.html)
 - [research/2026-10-20/eth-x-update/collection.json](research/research/2026-10-20/eth-x-update/collection.json)
 - [research/2026-10-20/eth-x-update/prices.json](research/research/2026-10-20/eth-x-update/prices.json)

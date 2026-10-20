@@ -188,6 +188,12 @@
       "bytes": 2718
     },
     {
+      "path": "copy/outputs/2026-10-20/DOGE-X文案-百万任务.md",
+      "category": "copy",
+      "git_blob_sha1": "51fec0dd315ea3d019284e3f2df3eac036e6076d",
+      "bytes": 2985
+    },
+    {
       "path": "copy/outputs/2026-10-20/ETH-X文案-Bitmine增持.001cd637d9dca1ee.md",
       "category": "copy",
       "git_blob_sha1": "56a2c4a5dd8f5cb357cfdd103aaa2a3ff8d67582",
@@ -534,6 +540,60 @@
       "category": "research",
       "git_blob_sha1": "4b02a470c5d9dfb41a11b10f690619f2c2804e71",
       "bytes": 3827
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/grand-heist.html",
+      "category": "research",
+      "git_blob_sha1": "dd0db9494d5d4f2acf1f1f9eb065de694c3e145e",
+      "bytes": 38124
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/manifest.json",
+      "category": "research",
+      "git_blob_sha1": "831e55996faef33ce1a6f21c6889c839b9db9d73",
+      "bytes": 933
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/million-report.html",
+      "category": "research",
+      "git_blob_sha1": "cbf08a0e0377bc6eb3ee24b829d95ded095e44ea",
+      "bytes": 165570
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/mydoge-v3.html",
+      "category": "research",
+      "git_blob_sha1": "a2ba489f647a7fa3d40a8b644424a63762047b68",
+      "bytes": 42955
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "9586ebe119387345488e9142b4ff8f1034224d4c",
+      "bytes": 4476
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "3497b74d87ef60ac620c9020355f574fbe23ff1a",
+      "bytes": 2968
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/quests.html",
+      "category": "research",
+      "git_blob_sha1": "e7e4eec2e6cdc175261c2e0ed7023f2df6ad9f63",
+      "bytes": 200292
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/terms.html",
+      "category": "research",
+      "git_blob_sha1": "107781a629f6c3f4904c9c3f12f264cfec95424b",
+      "bytes": 42794
+    },
+    {
+      "path": "research/research/2026-10-20/doge-x-update/研究说明.md",
+      "category": "research",
+      "git_blob_sha1": "e8f1bca68a660ab33f3ad6f66bc2b1f674164ff0",
+      "bytes": 3028
     },
     {
       "path": "research/research/2026-10-20/eth-x-update/bitmine-release.html",
