@@ -14,13 +14,18 @@
 - [x-finance-os/CONTENT_DB/published.md](copy/x-finance-os/CONTENT_DB/published.md)
 - [x-finance-os/CONTENT_DB/research-notes.md](copy/x-finance-os/CONTENT_DB/research-notes.md)
 
-## Excel报表（5）
+## Excel报表（10）
 
 - [crypto-charting-data/2026-10-21/BTC.xlsx](reports/crypto-charting-data/2026-10-21/BTC.xlsx)
 - [crypto-charting-data/2026-10-21/ETH.xlsx](reports/crypto-charting-data/2026-10-21/ETH.xlsx)
 - [crypto-charting-data/2026-10-21/SOL.xlsx](reports/crypto-charting-data/2026-10-21/SOL.xlsx)
 - [crypto-charting-data/2026-10-21/SUI.xlsx](reports/crypto-charting-data/2026-10-21/SUI.xlsx)
 - [crypto-charting-data/2026-10-21/XRP.xlsx](reports/crypto-charting-data/2026-10-21/XRP.xlsx)
+- [crypto-charting-data/latest/BTC.xlsx](reports/crypto-charting-data/latest/BTC.xlsx)
+- [crypto-charting-data/latest/ETH.xlsx](reports/crypto-charting-data/latest/ETH.xlsx)
+- [crypto-charting-data/latest/SOL.xlsx](reports/crypto-charting-data/latest/SOL.xlsx)
+- [crypto-charting-data/latest/SUI.xlsx](reports/crypto-charting-data/latest/SUI.xlsx)
+- [crypto-charting-data/latest/XRP.xlsx](reports/crypto-charting-data/latest/XRP.xlsx)
 
 ## 图表与预览（25）
 
@@ -50,7 +55,7 @@
 - [crypto-charting-data/2026-10-21/XRP-holdings-preview.png](charts/crypto-charting-data/2026-10-21/XRP-holdings-preview.png)
 - [crypto-charting-data/2026-10-21/XRP-market-preview.png](charts/crypto-charting-data/2026-10-21/XRP-market-preview.png)
 
-## 来源数据（7）
+## 来源数据（14）
 
 - [crypto-charting-data/2026-10-21/BTC.json](data/crypto-charting-data/2026-10-21/BTC.json)
 - [crypto-charting-data/2026-10-21/ETH.json](data/crypto-charting-data/2026-10-21/ETH.json)
@@ -59,6 +64,13 @@
 - [crypto-charting-data/2026-10-21/UNI.json](data/crypto-charting-data/2026-10-21/UNI.json)
 - [crypto-charting-data/2026-10-21/XRP.json](data/crypto-charting-data/2026-10-21/XRP.json)
 - [crypto-charting-data/2026-10-21/ZEC.json](data/crypto-charting-data/2026-10-21/ZEC.json)
+- [crypto-charting-data/latest/BTC.json](data/crypto-charting-data/latest/BTC.json)
+- [crypto-charting-data/latest/ETH.json](data/crypto-charting-data/latest/ETH.json)
+- [crypto-charting-data/latest/SOL.json](data/crypto-charting-data/latest/SOL.json)
+- [crypto-charting-data/latest/SUI.json](data/crypto-charting-data/latest/SUI.json)
+- [crypto-charting-data/latest/UNI.json](data/crypto-charting-data/latest/UNI.json)
+- [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
+- [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
 ## 研究资料（20）
 

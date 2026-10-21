@@ -248,6 +248,48 @@
       "bytes": 6647
     },
     {
+      "path": "data/crypto-charting-data/latest/BTC.json",
+      "category": "data",
+      "git_blob_sha1": "74c9bd214748f790ce07abfe124ecb05aa942b89",
+      "bytes": 17431
+    },
+    {
+      "path": "data/crypto-charting-data/latest/ETH.json",
+      "category": "data",
+      "git_blob_sha1": "ae5cac2b7c2a20535d668ff2087985e18952c7a6",
+      "bytes": 17682
+    },
+    {
+      "path": "data/crypto-charting-data/latest/SOL.json",
+      "category": "data",
+      "git_blob_sha1": "b52ce3130877f93270917c348688c94830a93ef2",
+      "bytes": 14460
+    },
+    {
+      "path": "data/crypto-charting-data/latest/SUI.json",
+      "category": "data",
+      "git_blob_sha1": "2f778b52e5c2b73a5038297996f8895d50a33a4b",
+      "bytes": 7743
+    },
+    {
+      "path": "data/crypto-charting-data/latest/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "9939d682d5f0d89f01d8bcf1b643455b67fe75b1",
+      "bytes": 6789
+    },
+    {
+      "path": "data/crypto-charting-data/latest/XRP.json",
+      "category": "data",
+      "git_blob_sha1": "c6c67da2de342298040a2c515ae6ae3c2b8af49f",
+      "bytes": 10378
+    },
+    {
+      "path": "data/crypto-charting-data/latest/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "599765a6ef261691744f9a839cecdbbbcd272ddb",
+      "bytes": 6647
+    },
+    {
       "path": "logs/crypto-charting-data/2026-10-21/BTC-table-check.ndjson",
       "category": "logs",
       "git_blob_sha1": "a3d039625431d1e641a591d74fadfa8e3439b401",
@@ -333,6 +375,36 @@
     },
     {
       "path": "reports/crypto-charting-data/2026-10-21/XRP.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "894c9c8e8f42f0a938533c9e46e093509b8d64ce",
+      "bytes": 25255
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/BTC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "42d094b03b67c2d93c90e9a2ede7cf878e60b2e5",
+      "bytes": 2008893
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/ETH.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "e282091c85a9fe2f8aa850a10f8f45b43b4f2f17",
+      "bytes": 1915378
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/SOL.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "8cf889959b481f8c15fef6fd2d081485c8e6af48",
+      "bytes": 1971711
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/SUI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "ead00d38bd77ff3a28b8d5fc2dc65a5d2f6ce8e6",
+      "bytes": 2018466
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/XRP.xlsx",
       "category": "reports",
       "git_blob_sha1": "894c9c8e8f42f0a938533c9e46e093509b8d64ce",
       "bytes": 25255
