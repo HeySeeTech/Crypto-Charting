@@ -1,0 +1,8 @@
+{
+  "as_of":"2026-10-21T14:00:00+08:00",
+  "price":{"btc_usd":82603,"change_24h_pct":1.12179,"change_7d_pct":-1.0902,"ath_usd":126080,"drawdown_from_ath_pct":-34.48362,"source":"CoinGecko","url":"https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin&price_change_percentage=7d"},
+  "etf_flows":{"source":"Farside Investors","url":"https://farside.co.uk/btc/","2026-10-19":{"total_m_usd":526.7,"ibit_m_usd":665.2,"fbtc_m_usd":-83.6,"gbtc_m_usd":-54.9},"2026-10-20":{"total_m_usd":23.2,"ibit_m_usd":29.9,"fbtc_m_usd":3.6,"bitb_m_usd":-10.3},"october_total_m_usd":-90.6},
+  "market_context":{"source":"Investing.com/Reuters","url":"https://ca.investing.com/news/cryptocurrency-news/bitcoin-firms-to-82k-but-oil-ai-jitters-limit-upside-4892356","published":"2026-10-21","observed":"BTC rose to about 83490 intraday; oil near five-month highs; rising Treasury yields and AI-trade uncertainty limited upside; BTC had stayed in 80000-87000 range over the prior month"},
+  "policy":{"source":"Federal Reserve","url":"https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm","observed":"2026-09-16 target range raised to 3.75%-4.00%"},
+  "delta_from_prior":"The 10/19 IBIT figure is now reported, overturning an incomplete apparent-outflow reading. The new evidence supports concentrated allocator demand, not a broad complex-wide bid."
+}

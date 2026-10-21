@@ -2,9 +2,10 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（6）
+## 文案（7）
 
 - [outputs/2026-10-21/BTC-X文案-ETF流入反转.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-ETF%E6%B5%81%E5%85%A5%E5%8F%8D%E8%BD%AC.md)
+- [outputs/2026-10-21/BTC-X文案-资金广度未回归.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-%E8%B5%84%E9%87%91%E5%B9%BF%E5%BA%A6%E6%9C%AA%E5%9B%9E%E5%BD%92.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
@@ -57,11 +58,12 @@
 - [crypto-charting-data/2026-10-21/XRP.json](data/crypto-charting-data/2026-10-21/XRP.json)
 - [crypto-charting-data/2026-10-21/ZEC.json](data/crypto-charting-data/2026-10-21/ZEC.json)
 
-## 研究资料（18）
+## 研究资料（19）
 
 - [research/2026-10-21/btc-x-update/cryptoetf.html](research/research/2026-10-21/btc-x-update/cryptoetf.html)
 - [research/2026-10-21/btc-x-update/farside.html](research/research/2026-10-21/btc-x-update/farside.html)
 - [research/2026-10-21/btc-x-update/fed.html](research/research/2026-10-21/btc-x-update/fed.html)
+- [research/2026-10-21/btc-x-update/latest-evidence.json](research/research/2026-10-21/btc-x-update/latest-evidence.json)
 - [research/2026-10-21/btc-x-update/prices.json](research/research/2026-10-21/btc-x-update/prices.json)
 - [research/2026-10-21/btc-x-update/prior-draft.md](research/research/2026-10-21/btc-x-update/prior-draft.md)
 - [research/2026-10-21/btc-x-update/prior-price.json](research/research/2026-10-21/btc-x-update/prior-price.json)

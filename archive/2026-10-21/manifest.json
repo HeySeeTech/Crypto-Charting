@@ -158,6 +158,12 @@
       "bytes": 2022
     },
     {
+      "path": "copy/outputs/2026-10-21/BTC-X文案-资金广度未回归.md",
+      "category": "copy",
+      "git_blob_sha1": "58bee1461b9233491bd444de862ab2bbf87e2800",
+      "bytes": 1811
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -336,6 +342,12 @@
       "category": "research",
       "git_blob_sha1": "5b9e143cc72748d786897596f2f983323bf3a113",
       "bytes": 82646
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/latest-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "16f55812d3cc2257234d7000e890bd28b5dd9472",
+      "bytes": 1373
     },
     {
       "path": "research/research/2026-10-21/btc-x-update/prices.json",
