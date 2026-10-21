@@ -158,6 +158,12 @@
       "bytes": 2022
     },
     {
+      "path": "copy/outputs/2026-10-21/BTC-X文案-监管改善但价格未确认.md",
+      "category": "copy",
+      "git_blob_sha1": "50dafd5eea449f4242b04ee6685ea33a149b2a99",
+      "bytes": 1775
+    },
+    {
       "path": "copy/outputs/2026-10-21/BTC-X文案-资金广度未回归.md",
       "category": "copy",
       "git_blob_sha1": "58bee1461b9233491bd444de862ab2bbf87e2800",
@@ -324,6 +330,12 @@
       "category": "reports",
       "git_blob_sha1": "894c9c8e8f42f0a938533c9e46e093509b8d64ce",
       "bytes": 25255
+    },
+    {
+      "path": "research/research/2026-10-21/btc-latest-research.md",
+      "category": "research",
+      "git_blob_sha1": "0d535adc4fbabf9bc5f582480cb96b2fafb0c062",
+      "bytes": 2920
     },
     {
       "path": "research/research/2026-10-21/btc-x-update/cryptoetf.html",
