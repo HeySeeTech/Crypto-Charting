@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（11）
+## 文案（12）
 
 - [outputs/2026-10-21/BTC-X文案-ETF流入反转.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-ETF%E6%B5%81%E5%85%A5%E5%8F%8D%E8%BD%AC.md)
 - [outputs/2026-10-21/BTC-X文案-买盘回来了但趋势未改写.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-%E4%B9%B0%E7%9B%98%E5%9B%9E%E6%9D%A5%E4%BA%86%E4%BD%86%E8%B6%8B%E5%8A%BF%E6%9C%AA%E6%94%B9%E5%86%99.md)
@@ -10,6 +10,7 @@
 - [outputs/2026-10-21/BTC-X文案-监管改善但价格未确认.e408b4a1a5bab2e4.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-%E7%9B%91%E7%AE%A1%E6%94%B9%E5%96%84%E4%BD%86%E4%BB%B7%E6%A0%BC%E6%9C%AA%E7%A1%AE%E8%AE%A4.e408b4a1a5bab2e4.md)
 - [outputs/2026-10-21/BTC-X文案-监管改善但价格未确认.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-%E7%9B%91%E7%AE%A1%E6%94%B9%E5%96%84%E4%BD%86%E4%BB%B7%E6%A0%BC%E6%9C%AA%E7%A1%AE%E8%AE%A4.md)
 - [outputs/2026-10-21/BTC-X文案-资金广度未回归.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-%E8%B5%84%E9%87%91%E5%B9%BF%E5%BA%A6%E6%9C%AA%E5%9B%9E%E5%BD%92.md)
+- [outputs/2026-10-21/ETH-X文案-使用增长与代币定价脱钩.md](copy/outputs/2026-10-21/ETH-X%E6%96%87%E6%A1%88-%E4%BD%BF%E7%94%A8%E5%A2%9E%E9%95%BF%E4%B8%8E%E4%BB%A3%E5%B8%81%E5%AE%9A%E4%BB%B7%E8%84%B1%E9%92%A9.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
