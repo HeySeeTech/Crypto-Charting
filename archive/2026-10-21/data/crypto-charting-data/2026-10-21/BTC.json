@@ -1,0 +1,446 @@
+{
+  "schema_version": 2,
+  "symbol": "BTC",
+  "asset_id": "bitcoin",
+  "collected_at": "2026-10-21T18:52:38+08:00",
+  "report_date_shanghai": "2026-10-21",
+  "status": "partial",
+  "metrics": {
+    "price_usd": {
+      "value": 83367,
+      "unit": "USD/BTC",
+      "data_as_of": "2026-10-21T10:51:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "change_24h_pct": {
+      "value": 2.3457,
+      "unit": "%",
+      "data_as_of": "2026-10-21T10:51:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "change_7d_pct": {
+      "value": -0.0298,
+      "unit": "%",
+      "data_as_of": "2026-10-21T10:51:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "volume_24h_usd": {
+      "value": 28159802613,
+      "unit": "USD",
+      "data_as_of": "2026-10-21T10:51:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    },
+    "market_cap_usd": {
+      "value": 1675380047542,
+      "unit": "USD",
+      "data_as_of": "2026-10-21T10:51:51.000Z",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d",
+      "status": "available",
+      "method": "CoinGecko 聚合；涨跌与成交额为滚动窗口"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-14",
+          "close_usd": 81603.654646
+        },
+        {
+          "date_utc": "2026-10-15",
+          "close_usd": 82155.539797
+        },
+        {
+          "date_utc": "2026-10-16",
+          "close_usd": 81523.658024
+        },
+        {
+          "date_utc": "2026-10-17",
+          "close_usd": 81408.345213
+        },
+        {
+          "date_utc": "2026-10-18",
+          "close_usd": 82019.582913
+        },
+        {
+          "date_utc": "2026-10-19",
+          "close_usd": 81875.263916
+        },
+        {
+          "date_utc": "2026-10-20",
+          "close_usd": 82943.8315
+        }
+      ],
+      "source_url": "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=8&interval=daily",
+      "period_start": "2026-10-14",
+      "period_end": "2026-10-20",
+      "method": "CoinGecko UTC 00:00 快照，归属刚结束的前一 UTC 日之近似收盘；不同于滚动现价"
+    }
+  },
+  "etf": {
+    "scope": "US-listed native-asset spot trusts; exclude multi-asset, futures, leveraged and foreign products",
+    "trading_date_et": "2026-10-20",
+    "product_universe": [
+      {
+        "ticker": "IBIT",
+        "issuer": "BlackRock",
+        "name": "IBIT US spot BTC product",
+        "source_url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf"
+      },
+      {
+        "ticker": "FBTC",
+        "issuer": "Fidelity",
+        "name": "FBTC US spot BTC product",
+        "source_url": "https://institutional.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FBTC"
+      },
+      {
+        "ticker": "BITB",
+        "issuer": "Bitwise",
+        "name": "BITB US spot BTC product",
+        "source_url": "https://bitbetf.com/"
+      },
+      {
+        "ticker": "ARKB",
+        "issuer": "ARK 21Shares",
+        "name": "ARKB US spot BTC product",
+        "source_url": "https://www.ark-funds.com/funds/arkb"
+      },
+      {
+        "ticker": "BTCO",
+        "issuer": "Invesco Galaxy",
+        "name": "BTCO US spot BTC product",
+        "source_url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-galaxy-bitcoin-etf.html"
+      },
+      {
+        "ticker": "EZBC",
+        "issuer": "Franklin",
+        "name": "EZBC US spot BTC product",
+        "source_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/39639/SINGLCLASS/franklin-bitcoin-etf/EZBC"
+      },
+      {
+        "ticker": "BRRR",
+        "issuer": "CoinShares",
+        "name": "BRRR US spot BTC product",
+        "source_url": "https://coinshares.com/us/etf/brrr/"
+      },
+      {
+        "ticker": "HODL",
+        "issuer": "VanEck",
+        "name": "HODL US spot BTC product",
+        "source_url": "https://www.vaneck.com/us/en/investments/bitcoin-etf-hodl/"
+      },
+      {
+        "ticker": "BTCW",
+        "issuer": "WisdomTree",
+        "name": "BTCW US spot BTC product",
+        "source_url": "https://www.wisdomtree.com/us/products/crypto/btcw"
+      },
+      {
+        "ticker": "MSBT",
+        "issuer": "Morgan Stanley",
+        "name": "MSBT US spot BTC product",
+        "source_url": "https://www.morganstanley.com/im/en-us/institutional-investor/products/etfs.html"
+      },
+      {
+        "ticker": "GBTC",
+        "issuer": "Grayscale",
+        "name": "GBTC US spot BTC product",
+        "source_url": "https://etfs.grayscale.com/gbtc"
+      },
+      {
+        "ticker": "BTC",
+        "issuer": "Grayscale",
+        "name": "BTC US spot BTC product",
+        "source_url": "https://etfs.grayscale.com/btc"
+      }
+    ],
+    "holdings": [
+      {
+        "ticker": "IBIT",
+        "quantity_native": 811115.5801,
+        "unit": "BTC",
+        "as_of_et": "2026-10-19",
+        "source_url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf/latest-holdings.csv",
+        "issuer_url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf/latest-holdings.csv",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "scope": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "BITB",
+        "quantity_native": 37193.1,
+        "unit": "BTC",
+        "as_of_et": "2026-10-19",
+        "source_url": "https://bitbetf.com/",
+        "issuer_url": "https://bitbetf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "scope": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      }
+    ],
+    "holdings_summary": {
+      "kind": "verified_sample",
+      "as_of_et": "2026-10-19",
+      "verified_products": 2,
+      "universe_products": 12,
+      "unit": "BTC"
+    },
+    "product_details": [
+      {
+        "ticker": "IBIT",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 29.9,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "FBTC",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 3.6,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "BITB",
+        "annual_fee_pct_listed": 0.2,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": -10.3,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      },
+      {
+        "ticker": "ARKB",
+        "annual_fee_pct_listed": 0.21,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "披露日期 2026-10-21 超过已结束美东交易日 2026-10-20，或数量无效；本次不采用；最后有效日 2026-10-19（历史 32,024.00000000 BTC）"
+      },
+      {
+        "ticker": "BTCO",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "EZBC",
+        "annual_fee_pct_listed": 0.19,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "BRRR",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "HODL",
+        "annual_fee_pct_listed": 0.2,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日 2026-10-16（历史 14,665.52400000 BTC）"
+      },
+      {
+        "ticker": "BTCW",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      },
+      {
+        "ticker": "MSBT",
+        "annual_fee_pct_listed": 0.14,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      },
+      {
+        "ticker": "GBTC",
+        "annual_fee_pct_listed": 1.5,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      },
+      {
+        "ticker": "BTC",
+        "annual_fee_pct_listed": 0.15,
+        "fee_source_url": "https://farside.co.uk/btc/",
+        "net_flow_usd_millions": 0,
+        "flow_as_of_et": "2026-10-20",
+        "flow_source_url": "https://farside.co.uk/btc/",
+        "verified_at_shanghai": "2026-10-21T18:52:38+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      }
+    ],
+    "flows": [
+      {
+        "trading_date_et": "2026-10-20",
+        "net_flow_usd_millions": 23.2,
+        "source_url": "https://farside.co.uk/btc/",
+        "contributors_usd_millions": {
+          "IBIT": 29.9,
+          "FBTC": 3.6,
+          "BITB": -10.3
+        }
+      }
+    ],
+    "flow_history": [
+      {
+        "trading_date_et": "2026-10-12",
+        "net_flow_usd_millions": -65.4,
+        "source_url": "https://farside.co.uk/btc/"
+      },
+      {
+        "trading_date_et": "2026-10-13",
+        "net_flow_usd_millions": 175.7,
+        "source_url": "https://farside.co.uk/btc/"
+      },
+      {
+        "trading_date_et": "2026-10-14",
+        "net_flow_usd_millions": -261.4,
+        "source_url": "https://farside.co.uk/btc/"
+      },
+      {
+        "trading_date_et": "2026-10-15",
+        "net_flow_usd_millions": 5.1,
+        "source_url": "https://farside.co.uk/btc/"
+      },
+      {
+        "trading_date_et": "2026-10-16",
+        "net_flow_usd_millions": -82.4,
+        "source_url": "https://farside.co.uk/btc/"
+      },
+      {
+        "trading_date_et": "2026-10-19",
+        "net_flow_usd_millions": 526.7,
+        "source_url": "https://farside.co.uk/btc/"
+      },
+      {
+        "trading_date_et": "2026-10-20",
+        "net_flow_usd_millions": 23.2,
+        "source_url": "https://farside.co.uk/btc/"
+      }
+    ],
+    "last_valid_holdings": [
+      {
+        "ticker": "IBIT",
+        "quantity_native": 802987.6066,
+        "unit": "BTC",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf/latest-holdings.csv",
+        "issuer_url": "https://www.ishares.com/us/products/333011/ishares-bitcoin-trust-etf/latest-holdings.csv",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "scope": "发行商 CSV 原生币 Quantity；ETHB 汇总同日质押与未质押 ETH，排除现金"
+      },
+      {
+        "ticker": "BITB",
+        "quantity_native": 37317.87,
+        "unit": "BTC",
+        "as_of_et": "2026-10-18",
+        "source_url": "https://bitbetf.com/",
+        "issuer_url": "https://bitbetf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "scope": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      },
+      {
+        "ticker": "ARKB",
+        "quantity_native": 32024.0,
+        "unit": "BTC",
+        "as_of_et": "2026-10-19",
+        "source_url": "https://assets.ark-funds.com/fund-documents/funds-etf-pdf/ARK_21SHARES_BITCOIN_ETF_ARKB_HOLDINGS.pdf",
+        "issuer_url": "https://assets.ark-funds.com/fund-documents/funds-etf-pdf/ARK_21SHARES_BITCOIN_ETF_ARKB_HOLDINGS.pdf",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-20T10:08:54+08:00",
+        "scope": "发行商持仓 PDF 的原生 BTC 数量"
+      },
+      {
+        "ticker": "HODL",
+        "quantity_native": 14665.524,
+        "unit": "BTC",
+        "as_of_et": "2026-10-16",
+        "source_url": "https://www.vaneck.com/us/en/investments/bitcoin-etf-hodl/",
+        "issuer_url": "https://www.vaneck.com/us/en/investments/bitcoin-etf-hodl/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-20T10:10:39+08:00",
+        "scope": "本次网页核验 ETF Statistics Bitcoin in Trust；与四舍五入托管储备口径区分"
+      }
+    ]
+  },
+  "chain": {
+    "metrics": []
+  },
+  "developments": [],
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin%2Cethereum%2Csolana%2Csui&price_change_percentage=7d"
+    },
+    {
+      "name": "Farside（网页直读；终端403）",
+      "url": "https://farside.co.uk/btc/"
+    }
+  ],
+  "missing_or_stale": [
+    "FBTC 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "ARKB 原生币持仓：披露日期 2026-10-21 超过已结束美东交易日 2026-10-20，或数量无效；本次不采用；最后有效日 2026-10-19（历史 32,024.00000000 BTC）",
+    "BTCO 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "EZBC 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "BRRR 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "HODL 原生币持仓：页面未取得带日期的原生币持仓；最后有效日 2026-10-16（历史 14,665.52400000 BTC）",
+    "BTCW 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "MSBT 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "GBTC 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "BTC 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "截至采集时最近已结束美东交易日为 2026-10-20；当前行情与 ETF 披露日期分列，旧披露不称为今日新数据。",
+    "过去24小时未核实到符合要求的重要官方新公告；不以旧公告填充。"
+  ],
+  "revision": {
+    "revised_at_shanghai": null,
+    "reason": null
+  }
+}
