@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（14）
+## 文案（15）
 
 - [outputs/2026-10-21/BTC-X文案-ETF流入反转.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-ETF%E6%B5%81%E5%85%A5%E5%8F%8D%E8%BD%AC.md)
 - [outputs/2026-10-21/BTC-X文案-买盘回来了但趋势未改写.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-%E4%B9%B0%E7%9B%98%E5%9B%9E%E6%9D%A5%E4%BA%86%E4%BD%86%E8%B6%8B%E5%8A%BF%E6%9C%AA%E6%94%B9%E5%86%99.md)
@@ -13,6 +13,7 @@
 - [outputs/2026-10-21/ETH-X文案-使用增长与代币定价脱钩.md](copy/outputs/2026-10-21/ETH-X%E6%96%87%E6%A1%88-%E4%BD%BF%E7%94%A8%E5%A2%9E%E9%95%BF%E4%B8%8E%E4%BB%A3%E5%B8%81%E5%AE%9A%E4%BB%B7%E8%84%B1%E9%92%A9.md)
 - [outputs/2026-10-21/SOL-X文案-生态变热但资金未跟上.md](copy/outputs/2026-10-21/SOL-X%E6%96%87%E6%A1%88-%E7%94%9F%E6%80%81%E5%8F%98%E7%83%AD%E4%BD%86%E8%B5%84%E9%87%91%E6%9C%AA%E8%B7%9F%E4%B8%8A.md)
 - [outputs/2026-10-21/SUI-X文案-基础设施很热但代币仍有供给压力.md](copy/outputs/2026-10-21/SUI-X%E6%96%87%E6%A1%88-%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E5%BE%88%E7%83%AD%E4%BD%86%E4%BB%A3%E5%B8%81%E4%BB%8D%E6%9C%89%E4%BE%9B%E7%BB%99%E5%8E%8B%E5%8A%9B.md)
+- [outputs/2026-10-21/XRP-X文案-RLUSD在增长但XRP定价未跟上.md](copy/outputs/2026-10-21/XRP-X%E6%96%87%E6%A1%88-RLUSD%E5%9C%A8%E5%A2%9E%E9%95%BF%E4%BD%86XRP%E5%AE%9A%E4%BB%B7%E6%9C%AA%E8%B7%9F%E4%B8%8A.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
