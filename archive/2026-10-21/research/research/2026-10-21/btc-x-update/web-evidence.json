@@ -1,0 +1,7 @@
+{
+  "as_of":"2026-10-21T14:00:00+08:00",
+  "price":{"source":"CoinGecko","url":"https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin&price_change_percentage=7d","btc_usd":82603,"change_24h_pct":1.12179,"change_7d_pct":-1.0902,"last_updated":"2026-10-21T05:57:51Z"},
+  "etf_flows":{"source":"Farside Investors","url":"https://farside.co.uk/btc/","2026-10-19":{"total_m_usd":526.7,"ibit_m_usd":665.2,"fbtc_m_usd":-83.6,"gbtc_m_usd":-54.9},"2026-10-20":{"total_m_usd":23.2,"ibit_m_usd":29.9,"fbtc_m_usd":3.6,"bitb_m_usd":-10.3},"october_total_m_usd":-90.6},
+  "fed":{"source":"Federal Reserve","url":"https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm","event":"2026-09-16 FOMC raised target range to 3.75%-4.00%"},
+  "context":{"prior_angle":"BlackRock PBIT protection-oriented ETF filing; product filing is not proof of spot demand","new_delta":"IBIT flow for 19 Oct is now reported, changing the day's incomplete reading from apparent outflow to +$526.7M total inflow; 20 Oct remained a smaller +$23.2M inflow"}
+}

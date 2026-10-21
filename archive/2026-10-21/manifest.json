@@ -30,6 +30,114 @@
       "category": "copy",
       "git_blob_sha1": "229ecdaed5d0b66514dff42df0fea87c39a424bb",
       "bytes": 18
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-21/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "9939d682d5f0d89f01d8bcf1b643455b67fe75b1",
+      "bytes": 6789
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-21/XRP.json",
+      "category": "data",
+      "git_blob_sha1": "c6c67da2de342298040a2c515ae6ae3c2b8af49f",
+      "bytes": 10378
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-21/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "599765a6ef261691744f9a839cecdbbbcd272ddb",
+      "bytes": 6647
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/cryptoetf.html",
+      "category": "research",
+      "git_blob_sha1": "c332840e1bec78e76458aa7861b6f0ec2001c9e5",
+      "bytes": 603511
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/farside.html",
+      "category": "research",
+      "git_blob_sha1": "cf6b7ba0eb8dc3fad314b09bc48d603ccc32dfc5",
+      "bytes": 275511
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/fed.html",
+      "category": "research",
+      "git_blob_sha1": "5b9e143cc72748d786897596f2f983323bf3a113",
+      "bytes": 82646
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/prices.json",
+      "category": "research",
+      "git_blob_sha1": "9be2b0746fd8ab2c8a02210a32bc8580ad8fee72",
+      "bytes": 2398
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/prior-draft.md",
+      "category": "research",
+      "git_blob_sha1": "c181902da87a1b686f5b6ca020739be5e06fbbc3",
+      "bytes": 2718
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/prior-price.json",
+      "category": "research",
+      "git_blob_sha1": "1912164853a89d55890afa71ad9b8713447f9bd2",
+      "bytes": 827
+    },
+    {
+      "path": "research/research/2026-10-21/btc-x-update/web-evidence.json",
+      "category": "research",
+      "git_blob_sha1": "55bcaf75c9a6af37a5654911b81152d3c1bc5350",
+      "bytes": 1063
+    },
+    {
+      "path": "research/research/2026-10-21/flows.json",
+      "category": "research",
+      "git_blob_sha1": "1a77610adfef4e0fd28ff768c8d5bc19eab060e8",
+      "bytes": 7376
+    },
+    {
+      "path": "research/research/2026-10-21/history/BTC.json",
+      "category": "research",
+      "git_blob_sha1": "dbdcb8d6231a23acd451898133071d3143f6ad4a",
+      "bytes": 20641
+    },
+    {
+      "path": "research/research/2026-10-21/history/ETH.json",
+      "category": "research",
+      "git_blob_sha1": "f91f76a982a21cab899e13e73fcfb26446ea96a5",
+      "bytes": 18602
+    },
+    {
+      "path": "research/research/2026-10-21/history/SOL.json",
+      "category": "research",
+      "git_blob_sha1": "61fa9f33f712b121cc20b2ca306edbad60ca1f49",
+      "bytes": 14348
+    },
+    {
+      "path": "research/research/2026-10-21/history/SUI.json",
+      "category": "research",
+      "git_blob_sha1": "13e2888ab177305eaa83b502b0d54e1c9bfdb57f",
+      "bytes": 7589
+    },
+    {
+      "path": "research/research/2026-10-21/history/UNI.json",
+      "category": "research",
+      "git_blob_sha1": "04e1433644239eb9c808535cc1bc6e0de0c2a58d",
+      "bytes": 6686
+    },
+    {
+      "path": "research/research/2026-10-21/history/XRP.json",
+      "category": "research",
+      "git_blob_sha1": "9b48abe2717b215ad7b7c56fd719c06ff1119ecd",
+      "bytes": 11198
+    },
+    {
+      "path": "research/research/2026-10-21/history/ZEC.json",
+      "category": "research",
+      "git_blob_sha1": "18f8170be3f2394a2f7041fe3963adb86c9c6969",
+      "bytes": 8140
     }
   ]
 }
