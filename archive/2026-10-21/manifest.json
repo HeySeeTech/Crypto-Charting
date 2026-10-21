@@ -2,6 +2,12 @@
   "date": "2026-10-21",
   "files": [
     {
+      "path": "copy/outputs/2026-10-21/BTC-X文案-ETF流入反转.md",
+      "category": "copy",
+      "git_blob_sha1": "4099b94a94a1d94277400436cb4d70ea457c02e8",
+      "bytes": 2022
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
