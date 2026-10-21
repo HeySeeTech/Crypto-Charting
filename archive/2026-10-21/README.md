@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（16）
+## 文案（17）
 
 - [outputs/2026-10-21/BTC-X文案-ETF流入反转.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-ETF%E6%B5%81%E5%85%A5%E5%8F%8D%E8%BD%AC.md)
 - [outputs/2026-10-21/BTC-X文案-买盘回来了但趋势未改写.md](copy/outputs/2026-10-21/BTC-X%E6%96%87%E6%A1%88-%E4%B9%B0%E7%9B%98%E5%9B%9E%E6%9D%A5%E4%BA%86%E4%BD%86%E8%B6%8B%E5%8A%BF%E6%9C%AA%E6%94%B9%E5%86%99.md)
@@ -15,6 +15,7 @@
 - [outputs/2026-10-21/SUI-X文案-基础设施很热但代币仍有供给压力.md](copy/outputs/2026-10-21/SUI-X%E6%96%87%E6%A1%88-%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E5%BE%88%E7%83%AD%E4%BD%86%E4%BB%A3%E5%B8%81%E4%BB%8D%E6%9C%89%E4%BE%9B%E7%BB%99%E5%8E%8B%E5%8A%9B.md)
 - [outputs/2026-10-21/UNI-X文案-CME期货上线不等于现货重估.md](copy/outputs/2026-10-21/UNI-X%E6%96%87%E6%A1%88-CME%E6%9C%9F%E8%B4%A7%E4%B8%8A%E7%BA%BF%E4%B8%8D%E7%AD%89%E4%BA%8E%E7%8E%B0%E8%B4%A7%E9%87%8D%E4%BC%B0.md)
 - [outputs/2026-10-21/XRP-X文案-RLUSD在增长但XRP定价未跟上.md](copy/outputs/2026-10-21/XRP-X%E6%96%87%E6%A1%88-RLUSD%E5%9C%A8%E5%A2%9E%E9%95%BF%E4%BD%86XRP%E5%AE%9A%E4%BB%B7%E6%9C%AA%E8%B7%9F%E4%B8%8A.md)
+- [outputs/2026-10-21/ZEC-X文案-隐私需求坚挺但资金流很脆弱.md](copy/outputs/2026-10-21/ZEC-X%E6%96%87%E6%A1%88-%E9%9A%90%E7%A7%81%E9%9C%80%E6%B1%82%E5%9D%9A%E6%8C%BA%E4%BD%86%E8%B5%84%E9%87%91%E6%B5%81%E5%BE%88%E8%84%86%E5%BC%B1.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
