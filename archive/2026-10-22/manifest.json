@@ -2,6 +2,12 @@
   "date": "2026-10-22",
   "files": [
     {
+      "path": "copy/outputs/2026-10-22/BTC-X文案-反弹先看资金质量.md",
+      "category": "copy",
+      "git_blob_sha1": "777e7ffa8b99297c37a7adfb0477299e92fbc3a5",
+      "bytes": 1505
+    },
+    {
       "path": "copy/outputs/2026-10-22/DOGE-X文案-鲸鱼在买但华尔街没有留下.md",
       "category": "copy",
       "git_blob_sha1": "bb7e8b5120066d80f453c2bf1359ded501327cd8",
@@ -42,6 +48,30 @@
       "category": "copy",
       "git_blob_sha1": "229ecdaed5d0b66514dff42df0fea87c39a424bb",
       "bytes": 18
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-22/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "f555dceed0842f8aeb7cb995a448a6b5d68839f5",
+      "bytes": 6789
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-22/XRP.json",
+      "category": "data",
+      "git_blob_sha1": "10f8d68b3480380dea7a24ec4ba225bac6ece98d",
+      "bytes": 10377
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-22/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "dfb3568918f249c0dfe36bc7fe967bfd46b825e5",
+      "bytes": 7582
+    },
+    {
+      "path": "research/outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md",
+      "category": "research",
+      "git_blob_sha1": "a03a0cc6dab57385fb67253e7449be77918bd302",
+      "bytes": 4634
     }
   ]
 }
