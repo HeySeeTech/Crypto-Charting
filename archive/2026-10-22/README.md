@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（40）
+## 文案（41）
 
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.1b590cb8a6b2f305.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.1b590cb8a6b2f305.md)
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.md)
@@ -23,6 +23,7 @@
 - [outputs/2026-10-22/X创作复盘与去模板化方案.29e799ea37f74d22.md](copy/outputs/2026-10-22/X%E5%88%9B%E4%BD%9C%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%8E%BB%E6%A8%A1%E6%9D%BF%E5%8C%96%E6%96%B9%E6%A1%88.29e799ea37f74d22.md)
 - [outputs/2026-10-22/X创作复盘与去模板化方案.md](copy/outputs/2026-10-22/X%E5%88%9B%E4%BD%9C%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%8E%BB%E6%A8%A1%E6%9D%BF%E5%8C%96%E6%96%B9%E6%A1%88.md)
 - [outputs/2026-10-22/X短帖研究提示词v2.md](copy/outputs/2026-10-22/X%E7%9F%AD%E5%B8%96%E7%A0%94%E7%A9%B6%E6%8F%90%E7%A4%BA%E8%AF%8Dv2.md)
+- [outputs/2026-10-22/三则参考文案-金融加密宏观认知.md](copy/outputs/2026-10-22/%E4%B8%89%E5%88%99%E5%8F%82%E8%80%83%E6%96%87%E6%A1%88-%E9%87%91%E8%9E%8D%E5%8A%A0%E5%AF%86%E5%AE%8F%E8%A7%82%E8%AE%A4%E7%9F%A5.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.3401a24417350a29.md](copy/x-finance-os/CONTENT_DB/feedback.3401a24417350a29.md)
 - [x-finance-os/CONTENT_DB/feedback.7533bc89f4bd2bd8.md](copy/x-finance-os/CONTENT_DB/feedback.7533bc89f4bd2bd8.md)
