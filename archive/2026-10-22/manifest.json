@@ -14,6 +14,12 @@
       "bytes": 1505
     },
     {
+      "path": "copy/outputs/2026-10-22/BTC-X文案-稳定币收益与BTC资金管道.md",
+      "category": "copy",
+      "git_blob_sha1": "660a564fd3ec7725c8e4494030f45486bf2bd534",
+      "bytes": 1756
+    },
+    {
       "path": "copy/outputs/2026-10-22/DOGE-X文案-鲸鱼在买但华尔街没有留下.md",
       "category": "copy",
       "git_blob_sha1": "bb7e8b5120066d80f453c2bf1359ded501327cd8",
@@ -72,6 +78,12 @@
       "category": "data",
       "git_blob_sha1": "dfb3568918f249c0dfe36bc7fe967bfd46b825e5",
       "bytes": 7582
+    },
+    {
+      "path": "research/outputs/2026-10-22/research/BTC-2026-10-22-latest.md",
+      "category": "research",
+      "git_blob_sha1": "8ad67f49087e7ca35e2458a64a2972b7f79e183b",
+      "bytes": 2138
     },
     {
       "path": "research/outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md",
