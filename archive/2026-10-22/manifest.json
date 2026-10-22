@@ -32,6 +32,12 @@
       "bytes": 2943
     },
     {
+      "path": "copy/outputs/2026-10-22/X创作复盘与去模板化方案.md",
+      "category": "copy",
+      "git_blob_sha1": "ed56d8745eb159b2362e2a6cb2560bc7f76ddddc",
+      "bytes": 2311
+    },
+    {
       "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
       "category": "copy",
       "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
@@ -90,6 +96,12 @@
       "category": "research",
       "git_blob_sha1": "a03a0cc6dab57385fb67253e7449be77918bd302",
       "bytes": 4634
+    },
+    {
+      "path": "research/research/outputs/2026-10-22/research/BTC-2026-10-22-latest.md",
+      "category": "research",
+      "git_blob_sha1": "8ad67f49087e7ca35e2458a64a2972b7f79e183b",
+      "bytes": 2138
     },
     {
       "path": "research/research/outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md",
