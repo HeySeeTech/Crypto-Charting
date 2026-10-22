@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（29）
+## 文案（31）
 
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.1b590cb8a6b2f305.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.1b590cb8a6b2f305.md)
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.md)
@@ -11,6 +11,7 @@
 - [outputs/2026-10-22/DOGE-X文案-鲸鱼在买但华尔街没有留下.md](copy/outputs/2026-10-22/DOGE-X%E6%96%87%E6%A1%88-%E9%B2%B8%E9%B1%BC%E5%9C%A8%E4%B9%B0%E4%BD%86%E5%8D%8E%E5%B0%94%E8%A1%97%E6%B2%A1%E6%9C%89%E7%95%99%E4%B8%8B.md)
 - [outputs/2026-10-22/ETH-X短帖-ETF止血未反转.md](copy/outputs/2026-10-22/ETH-X%E7%9F%AD%E5%B8%96-ETF%E6%AD%A2%E8%A1%80%E6%9C%AA%E5%8F%8D%E8%BD%AC.md)
 - [outputs/2026-10-22/Grok分析吸收评估.md](copy/outputs/2026-10-22/Grok%E5%88%86%E6%9E%90%E5%90%B8%E6%94%B6%E8%AF%84%E4%BC%B0.md)
+- [outputs/2026-10-22/Grok报告与长短帖策略复盘.md](copy/outputs/2026-10-22/Grok%E6%8A%A5%E5%91%8A%E4%B8%8E%E9%95%BF%E7%9F%AD%E5%B8%96%E7%AD%96%E7%95%A5%E5%A4%8D%E7%9B%98.md)
 - [outputs/2026-10-22/SOL-X短帖-活跃不等于代币需求.md](copy/outputs/2026-10-22/SOL-X%E7%9F%AD%E5%B8%96-%E6%B4%BB%E8%B7%83%E4%B8%8D%E7%AD%89%E4%BA%8E%E4%BB%A3%E5%B8%81%E9%9C%80%E6%B1%82.md)
 - [outputs/2026-10-22/STRK-X文案-量子叙事先涨供给随后追上.md](copy/outputs/2026-10-22/STRK-X%E6%96%87%E6%A1%88-%E9%87%8F%E5%AD%90%E5%8F%99%E4%BA%8B%E5%85%88%E6%B6%A8%E4%BE%9B%E7%BB%99%E9%9A%8F%E5%90%8E%E8%BF%BD%E4%B8%8A.md)
 - [outputs/2026-10-22/SUI-X短帖-资金进场但没交易.md](copy/outputs/2026-10-22/SUI-X%E7%9F%AD%E5%B8%96-%E8%B5%84%E9%87%91%E8%BF%9B%E5%9C%BA%E4%BD%86%E6%B2%A1%E4%BA%A4%E6%98%93.md)
@@ -21,6 +22,7 @@
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.7533bc89f4bd2bd8.md](copy/x-finance-os/CONTENT_DB/feedback.7533bc89f4bd2bd8.md)
 - [x-finance-os/CONTENT_DB/feedback.8e524305c4bd9b99.md](copy/x-finance-os/CONTENT_DB/feedback.8e524305c4bd9b99.md)
+- [x-finance-os/CONTENT_DB/feedback.b357e9695392b9d6.md](copy/x-finance-os/CONTENT_DB/feedback.b357e9695392b9d6.md)
 - [x-finance-os/CONTENT_DB/feedback.eb57bacb590d2534.md](copy/x-finance-os/CONTENT_DB/feedback.eb57bacb590d2534.md)
 - [x-finance-os/CONTENT_DB/feedback.f685e04e270a9a41.md](copy/x-finance-os/CONTENT_DB/feedback.f685e04e270a9a41.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
