@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（28）
+## 文案（29）
 
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.1b590cb8a6b2f305.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.1b590cb8a6b2f305.md)
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.md)
@@ -24,6 +24,7 @@
 - [x-finance-os/CONTENT_DB/feedback.eb57bacb590d2534.md](copy/x-finance-os/CONTENT_DB/feedback.eb57bacb590d2534.md)
 - [x-finance-os/CONTENT_DB/feedback.f685e04e270a9a41.md](copy/x-finance-os/CONTENT_DB/feedback.f685e04e270a9a41.md)
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
+- [x-finance-os/CONTENT_DB/ideas.9098c0b58dd151cd.md](copy/x-finance-os/CONTENT_DB/ideas.9098c0b58dd151cd.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
 - [x-finance-os/CONTENT_DB/published.md](copy/x-finance-os/CONTENT_DB/published.md)
 - [x-finance-os/CONTENT_DB/research-notes.3ae317bf9ddd679e.md](copy/x-finance-os/CONTENT_DB/research-notes.3ae317bf9ddd679e.md)
