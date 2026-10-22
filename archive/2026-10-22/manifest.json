@@ -182,6 +182,12 @@
       "bytes": 1045
     },
     {
+      "path": "copy/outputs/2026-10-22/XRP-X短帖-ETF成本线.md",
+      "category": "copy",
+      "git_blob_sha1": "057e12904dd58eb945e5d1d208e50b6cbf5a1235",
+      "bytes": 944
+    },
+    {
       "path": "copy/outputs/2026-10-22/X创作复盘与去模板化方案.29e799ea37f74d22.md",
       "category": "copy",
       "git_blob_sha1": "5b7a32c47c88c4896998f111578008dd093d3e7e",
@@ -240,6 +246,12 @@
       "category": "copy",
       "git_blob_sha1": "9c0a60b0a2245fd35b8dd0a8146a8a28aa1c2c1d",
       "bytes": 13
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/research-notes.3ae317bf9ddd679e.md",
+      "category": "copy",
+      "git_blob_sha1": "a46c6e0f5fde1c13061671a9f42d6c17ee61411f",
+      "bytes": 1579
     },
     {
       "path": "copy/x-finance-os/CONTENT_DB/research-notes.4c1a331e9da2aa31.md",
@@ -482,6 +494,12 @@
       "bytes": 876
     },
     {
+      "path": "research/outputs/2026-10-22/research/XRP-2026-10-22-short-post.md",
+      "category": "research",
+      "git_blob_sha1": "749543df2783f8e9e12e110d5d47bc666e80b857",
+      "bytes": 1145
+    },
+    {
       "path": "research/research/2026-10-22/flows.json",
       "category": "research",
       "git_blob_sha1": "0967ef424bce6791893e9a57bb952f80fd536e93",
@@ -546,6 +564,12 @@
       "category": "research",
       "git_blob_sha1": "2294f90eb4144a29c698e9c08b949a23e2f7faa7",
       "bytes": 974
+    },
+    {
+      "path": "research/research/outputs/2026-10-22/research/SUI-2026-10-22-short-post.md",
+      "category": "research",
+      "git_blob_sha1": "c9908d23416601ef12983fcaa38bfa1fcbe1df2b",
+      "bytes": 876
     }
   ]
 }
