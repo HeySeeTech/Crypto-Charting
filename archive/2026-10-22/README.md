@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（23）
+## 文案（25）
 
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.1b590cb8a6b2f305.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.1b590cb8a6b2f305.md)
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.md)
@@ -13,6 +13,7 @@
 - [outputs/2026-10-22/Grok分析吸收评估.md](copy/outputs/2026-10-22/Grok%E5%88%86%E6%9E%90%E5%90%B8%E6%94%B6%E8%AF%84%E4%BC%B0.md)
 - [outputs/2026-10-22/SOL-X短帖-活跃不等于代币需求.md](copy/outputs/2026-10-22/SOL-X%E7%9F%AD%E5%B8%96-%E6%B4%BB%E8%B7%83%E4%B8%8D%E7%AD%89%E4%BA%8E%E4%BB%A3%E5%B8%81%E9%9C%80%E6%B1%82.md)
 - [outputs/2026-10-22/STRK-X文案-量子叙事先涨供给随后追上.md](copy/outputs/2026-10-22/STRK-X%E6%96%87%E6%A1%88-%E9%87%8F%E5%AD%90%E5%8F%99%E4%BA%8B%E5%85%88%E6%B6%A8%E4%BE%9B%E7%BB%99%E9%9A%8F%E5%90%8E%E8%BF%BD%E4%B8%8A.md)
+- [outputs/2026-10-22/SUI-X短帖-资金进场但没交易.md](copy/outputs/2026-10-22/SUI-X%E7%9F%AD%E5%B8%96-%E8%B5%84%E9%87%91%E8%BF%9B%E5%9C%BA%E4%BD%86%E6%B2%A1%E4%BA%A4%E6%98%93.md)
 - [outputs/2026-10-22/X创作复盘与去模板化方案.29e799ea37f74d22.md](copy/outputs/2026-10-22/X%E5%88%9B%E4%BD%9C%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%8E%BB%E6%A8%A1%E6%9D%BF%E5%8C%96%E6%96%B9%E6%A1%88.29e799ea37f74d22.md)
 - [outputs/2026-10-22/X创作复盘与去模板化方案.md](copy/outputs/2026-10-22/X%E5%88%9B%E4%BD%9C%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%8E%BB%E6%A8%A1%E6%9D%BF%E5%8C%96%E6%96%B9%E6%A1%88.md)
 - [outputs/2026-10-22/X短帖研究提示词v2.md](copy/outputs/2026-10-22/X%E7%9F%AD%E5%B8%96%E7%A0%94%E7%A9%B6%E6%8F%90%E7%A4%BA%E8%AF%8Dv2.md)
@@ -23,6 +24,7 @@
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
 - [x-finance-os/CONTENT_DB/published.md](copy/x-finance-os/CONTENT_DB/published.md)
+- [x-finance-os/CONTENT_DB/research-notes.4c1a331e9da2aa31.md](copy/x-finance-os/CONTENT_DB/research-notes.4c1a331e9da2aa31.md)
 - [x-finance-os/CONTENT_DB/research-notes.856e5820a2405f0e.md](copy/x-finance-os/CONTENT_DB/research-notes.856e5820a2405f0e.md)
 - [x-finance-os/CONTENT_DB/research-notes.caae52d3e243da96.md](copy/x-finance-os/CONTENT_DB/research-notes.caae52d3e243da96.md)
 - [x-finance-os/CONTENT_DB/research-notes.d839616a6ba01e3d.md](copy/x-finance-os/CONTENT_DB/research-notes.d839616a6ba01e3d.md)
@@ -81,13 +83,14 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（15）
+## 研究资料（17）
 
 - [outputs/2026-10-22/research/BTC-2026-10-22-latest.md](research/outputs/2026-10-22/research/BTC-2026-10-22-latest.md)
 - [outputs/2026-10-22/research/BTC-2026-10-22-short-post.md](research/outputs/2026-10-22/research/BTC-2026-10-22-short-post.md)
 - [outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md](research/outputs/2026-10-22/research/BTC-%E6%9C%80%E6%96%B0%E5%8A%A8%E6%80%81%E7%A0%94%E7%A9%B6-2026-10-22.md)
 - [outputs/2026-10-22/research/ETH-2026-10-22-short-post.md](research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md)
 - [outputs/2026-10-22/research/SOL-2026-10-22-short-post.md](research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md)
+- [outputs/2026-10-22/research/SUI-2026-10-22-short-post.md](research/outputs/2026-10-22/research/SUI-2026-10-22-short-post.md)
 - [research/2026-10-22/flows.json](research/research/2026-10-22/flows.json)
 - [research/2026-10-22/history/BTC.json](research/research/2026-10-22/history/BTC.json)
 - [research/2026-10-22/history/ETH.json](research/research/2026-10-22/history/ETH.json)
@@ -98,6 +101,7 @@
 - [research/outputs/2026-10-22/research/BTC-2026-10-22-short-post.md](research/research/outputs/2026-10-22/research/BTC-2026-10-22-short-post.md)
 - [research/outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md](research/research/outputs/2026-10-22/research/BTC-%E6%9C%80%E6%96%B0%E5%8A%A8%E6%80%81%E7%A0%94%E7%A9%B6-2026-10-22.md)
 - [research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md](research/research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md)
+- [research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md](research/research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md)
 
 ## 校验与日志（5）
 

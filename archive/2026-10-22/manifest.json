@@ -176,6 +176,12 @@
       "bytes": 2943
     },
     {
+      "path": "copy/outputs/2026-10-22/SUI-X短帖-资金进场但没交易.md",
+      "category": "copy",
+      "git_blob_sha1": "78ec16b15e183f174524fd2eb01d11dbaae959df",
+      "bytes": 1045
+    },
+    {
       "path": "copy/outputs/2026-10-22/X创作复盘与去模板化方案.29e799ea37f74d22.md",
       "category": "copy",
       "git_blob_sha1": "5b7a32c47c88c4896998f111578008dd093d3e7e",
@@ -234,6 +240,12 @@
       "category": "copy",
       "git_blob_sha1": "9c0a60b0a2245fd35b8dd0a8146a8a28aa1c2c1d",
       "bytes": 13
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/research-notes.4c1a331e9da2aa31.md",
+      "category": "copy",
+      "git_blob_sha1": "d0eaaa56d8902687e59964a26d049b1ffafd27ab",
+      "bytes": 1254
     },
     {
       "path": "copy/x-finance-os/CONTENT_DB/research-notes.856e5820a2405f0e.md",
@@ -464,6 +476,12 @@
       "bytes": 974
     },
     {
+      "path": "research/outputs/2026-10-22/research/SUI-2026-10-22-short-post.md",
+      "category": "research",
+      "git_blob_sha1": "c9908d23416601ef12983fcaa38bfa1fcbe1df2b",
+      "bytes": 876
+    },
+    {
       "path": "research/research/2026-10-22/flows.json",
       "category": "research",
       "git_blob_sha1": "0967ef424bce6791893e9a57bb952f80fd536e93",
@@ -522,6 +540,12 @@
       "category": "research",
       "git_blob_sha1": "5778d837a93c4acd7ce524154e2018203fcf162d",
       "bytes": 981
+    },
+    {
+      "path": "research/research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md",
+      "category": "research",
+      "git_blob_sha1": "2294f90eb4144a29c698e9c08b949a23e2f7faa7",
+      "bytes": 974
     }
   ]
 }
