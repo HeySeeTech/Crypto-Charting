@@ -2,8 +2,9 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（15）
+## 文案（16）
 
+- [outputs/2026-10-23/Crypto-Charting制作升级记录-2026-10-23.md](copy/outputs/2026-10-23/Crypto-Charting%E5%88%B6%E4%BD%9C%E5%8D%87%E7%BA%A7%E8%AE%B0%E5%BD%95-2026-10-23.md)
 - [outputs/2026-10-23/Crypto-Charting日报再利用方案-2026-10-23.md](copy/outputs/2026-10-23/Crypto-Charting%E6%97%A5%E6%8A%A5%E5%86%8D%E5%88%A9%E7%94%A8%E6%96%B9%E6%A1%88-2026-10-23.md)
 - [outputs/2026-10-23/Mason_X运营14天执行方案-2026-10-24至2026-11-06.cd4d1601aa93084e.md](copy/outputs/2026-10-23/Mason_X%E8%BF%90%E8%90%A514%E5%A4%A9%E6%89%A7%E8%A1%8C%E6%96%B9%E6%A1%88-2026-10-24%E8%87%B32026-11-06.cd4d1601aa93084e.md)
 - [outputs/2026-10-23/Mason_X运营14天执行方案-2026-10-24至2026-11-06.md](copy/outputs/2026-10-23/Mason_X%E8%BF%90%E8%90%A514%E5%A4%A9%E6%89%A7%E8%A1%8C%E6%96%B9%E6%A1%88-2026-10-24%E8%87%B32026-11-06.md)
