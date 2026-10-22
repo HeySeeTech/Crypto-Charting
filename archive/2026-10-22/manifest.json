@@ -152,6 +152,12 @@
       "bytes": 2919
     },
     {
+      "path": "copy/outputs/2026-10-22/ETH-X短帖-ETF止血未反转.md",
+      "category": "copy",
+      "git_blob_sha1": "bc8777432383e93c3cfb62338644309962d49d0f",
+      "bytes": 960
+    },
+    {
       "path": "copy/outputs/2026-10-22/Grok分析吸收评估.md",
       "category": "copy",
       "git_blob_sha1": "85f11f36cfa06930fde93a5335b966694c75978a",
@@ -228,6 +234,12 @@
       "category": "copy",
       "git_blob_sha1": "f576c31947a813238fedfe9670fa60fefc4fda82",
       "bytes": 331
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/research-notes.d839616a6ba01e3d.md",
+      "category": "copy",
+      "git_blob_sha1": "c118d7bdd0970f7186a84cdd4009e1540f63fa4e",
+      "bytes": 636
     },
     {
       "path": "copy/x-finance-os/CONTENT_DB/research-notes.md",
@@ -426,6 +438,12 @@
       "category": "research",
       "git_blob_sha1": "a03a0cc6dab57385fb67253e7449be77918bd302",
       "bytes": 4634
+    },
+    {
+      "path": "research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md",
+      "category": "research",
+      "git_blob_sha1": "5778d837a93c4acd7ce524154e2018203fcf162d",
+      "bytes": 981
     },
     {
       "path": "research/research/2026-10-22/flows.json",
