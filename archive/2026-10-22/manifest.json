@@ -560,48 +560,6 @@
       "bytes": 25194
     },
     {
-      "path": "research/outputs/2026-10-22/research/BTC-2026-10-22-latest.md",
-      "category": "research",
-      "git_blob_sha1": "8ad67f49087e7ca35e2458a64a2972b7f79e183b",
-      "bytes": 2138
-    },
-    {
-      "path": "research/outputs/2026-10-22/research/BTC-2026-10-22-short-post.md",
-      "category": "research",
-      "git_blob_sha1": "7bd89bfa6c7f4847998c965d908362bffd58028e",
-      "bytes": 984
-    },
-    {
-      "path": "research/outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md",
-      "category": "research",
-      "git_blob_sha1": "a03a0cc6dab57385fb67253e7449be77918bd302",
-      "bytes": 4634
-    },
-    {
-      "path": "research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md",
-      "category": "research",
-      "git_blob_sha1": "5778d837a93c4acd7ce524154e2018203fcf162d",
-      "bytes": 981
-    },
-    {
-      "path": "research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md",
-      "category": "research",
-      "git_blob_sha1": "2294f90eb4144a29c698e9c08b949a23e2f7faa7",
-      "bytes": 974
-    },
-    {
-      "path": "research/outputs/2026-10-22/research/SUI-2026-10-22-short-post.md",
-      "category": "research",
-      "git_blob_sha1": "c9908d23416601ef12983fcaa38bfa1fcbe1df2b",
-      "bytes": 876
-    },
-    {
-      "path": "research/outputs/2026-10-22/research/XRP-2026-10-22-short-post.md",
-      "category": "research",
-      "git_blob_sha1": "749543df2783f8e9e12e110d5d47bc666e80b857",
-      "bytes": 1145
-    },
-    {
       "path": "research/research/2026-10-22/flows.json",
       "category": "research",
       "git_blob_sha1": "0967ef424bce6791893e9a57bb952f80fd536e93",

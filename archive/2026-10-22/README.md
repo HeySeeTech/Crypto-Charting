@@ -102,15 +102,8 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（20）
+## 研究资料（13）
 
-- [outputs/2026-10-22/research/BTC-2026-10-22-latest.md](research/outputs/2026-10-22/research/BTC-2026-10-22-latest.md)
-- [outputs/2026-10-22/research/BTC-2026-10-22-short-post.md](research/outputs/2026-10-22/research/BTC-2026-10-22-short-post.md)
-- [outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md](research/outputs/2026-10-22/research/BTC-%E6%9C%80%E6%96%B0%E5%8A%A8%E6%80%81%E7%A0%94%E7%A9%B6-2026-10-22.md)
-- [outputs/2026-10-22/research/ETH-2026-10-22-short-post.md](research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md)
-- [outputs/2026-10-22/research/SOL-2026-10-22-short-post.md](research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md)
-- [outputs/2026-10-22/research/SUI-2026-10-22-short-post.md](research/outputs/2026-10-22/research/SUI-2026-10-22-short-post.md)
-- [outputs/2026-10-22/research/XRP-2026-10-22-short-post.md](research/outputs/2026-10-22/research/XRP-2026-10-22-short-post.md)
 - [research/2026-10-22/flows.json](research/research/2026-10-22/flows.json)
 - [research/2026-10-22/history/BTC.json](research/research/2026-10-22/history/BTC.json)
 - [research/2026-10-22/history/ETH.json](research/research/2026-10-22/history/ETH.json)
