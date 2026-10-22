@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-23",
+  "files": [
+    {
+      "path": "copy/outputs/2026-10-23/Phyrex运营全方位拆解与Mason迁移方案.md",
+      "category": "copy",
+      "git_blob_sha1": "2f4f0527e7d827ac74837beee3772246130b9086",
+      "bytes": 7281
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/drafts.md",
+      "category": "copy",
+      "git_blob_sha1": "d45526c78eee6e60a1e792fbc9d6d1b4e3b061a7",
+      "bytes": 10
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/feedback.md",
+      "category": "copy",
+      "git_blob_sha1": "988165ecbfb6ec75eb63c00fe452d72affdfbff1",
+      "bytes": 7505
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/ideas.md",
+      "category": "copy",
+      "git_blob_sha1": "e2e9d743f30b7b2818d0dbc78544f2b5873daf59",
+      "bytes": 3261
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/metrics-log.md",
+      "category": "copy",
+      "git_blob_sha1": "514275f9b12759f3e291aa8f371d28e0258a9c92",
+      "bytes": 862
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/published.md",
+      "category": "copy",
+      "git_blob_sha1": "9c0a60b0a2245fd35b8dd0a8146a8a28aa1c2c1d",
+      "bytes": 13
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/research-notes.md",
+      "category": "copy",
+      "git_blob_sha1": "a46c6e0f5fde1c13061671a9f42d6c17ee61411f",
+      "bytes": 1579
+    }
+  ]
+}
