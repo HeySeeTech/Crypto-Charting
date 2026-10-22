@@ -2,6 +2,12 @@
   "date": "2026-10-22",
   "files": [
     {
+      "path": "copy/outputs/2026-10-22/BTC-X文案-反弹先看资金质量.1b590cb8a6b2f305.md",
+      "category": "copy",
+      "git_blob_sha1": "a74a3e1cb94b5d0ae957707784461635d740bfa1",
+      "bytes": 1496
+    },
+    {
       "path": "copy/outputs/2026-10-22/BTC-X文案-反弹先看资金质量.md",
       "category": "copy",
       "git_blob_sha1": "777e7ffa8b99297c37a7adfb0477299e92fbc3a5",
@@ -69,6 +75,12 @@
     },
     {
       "path": "research/outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md",
+      "category": "research",
+      "git_blob_sha1": "a03a0cc6dab57385fb67253e7449be77918bd302",
+      "bytes": 4634
+    },
+    {
+      "path": "research/research/outputs/2026-10-22/research/BTC-最新动态研究-2026-10-22.md",
       "category": "research",
       "git_blob_sha1": "a03a0cc6dab57385fb67253e7449be77918bd302",
       "bytes": 4634
