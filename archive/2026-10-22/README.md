@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（33）
+## 文案（36）
 
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.1b590cb8a6b2f305.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.1b590cb8a6b2f305.md)
 - [outputs/2026-10-22/BTC-X文案-反弹先看资金质量.md](copy/outputs/2026-10-22/BTC-X%E6%96%87%E6%A1%88-%E5%8F%8D%E5%BC%B9%E5%85%88%E7%9C%8B%E8%B5%84%E9%87%91%E8%B4%A8%E9%87%8F.md)
@@ -13,6 +13,7 @@
 - [outputs/2026-10-22/Grok分析吸收评估.md](copy/outputs/2026-10-22/Grok%E5%88%86%E6%9E%90%E5%90%B8%E6%94%B6%E8%AF%84%E4%BC%B0.md)
 - [outputs/2026-10-22/Grok报告与长短帖策略复盘.8051cd870716fbad.md](copy/outputs/2026-10-22/Grok%E6%8A%A5%E5%91%8A%E4%B8%8E%E9%95%BF%E7%9F%AD%E5%B8%96%E7%AD%96%E7%95%A5%E5%A4%8D%E7%9B%98.8051cd870716fbad.md)
 - [outputs/2026-10-22/Grok报告与长短帖策略复盘.md](copy/outputs/2026-10-22/Grok%E6%8A%A5%E5%91%8A%E4%B8%8E%E9%95%BF%E7%9F%AD%E5%B8%96%E7%AD%96%E7%95%A5%E5%A4%8D%E7%9B%98.md)
+- [outputs/2026-10-22/Mason账号运营深度复盘与升级方案.md](copy/outputs/2026-10-22/Mason%E8%B4%A6%E5%8F%B7%E8%BF%90%E8%90%A5%E6%B7%B1%E5%BA%A6%E5%A4%8D%E7%9B%98%E4%B8%8E%E5%8D%87%E7%BA%A7%E6%96%B9%E6%A1%88.md)
 - [outputs/2026-10-22/SOL-X短帖-活跃不等于代币需求.md](copy/outputs/2026-10-22/SOL-X%E7%9F%AD%E5%B8%96-%E6%B4%BB%E8%B7%83%E4%B8%8D%E7%AD%89%E4%BA%8E%E4%BB%A3%E5%B8%81%E9%9C%80%E6%B1%82.md)
 - [outputs/2026-10-22/STRK-X文案-量子叙事先涨供给随后追上.md](copy/outputs/2026-10-22/STRK-X%E6%96%87%E6%A1%88-%E9%87%8F%E5%AD%90%E5%8F%99%E4%BA%8B%E5%85%88%E6%B6%A8%E4%BE%9B%E7%BB%99%E9%9A%8F%E5%90%8E%E8%BF%BD%E4%B8%8A.md)
 - [outputs/2026-10-22/SUI-X短帖-资金进场但没交易.md](copy/outputs/2026-10-22/SUI-X%E7%9F%AD%E5%B8%96-%E8%B5%84%E9%87%91%E8%BF%9B%E5%9C%BA%E4%BD%86%E6%B2%A1%E4%BA%A4%E6%98%93.md)
@@ -22,6 +23,7 @@
 - [outputs/2026-10-22/X短帖研究提示词v2.md](copy/outputs/2026-10-22/X%E7%9F%AD%E5%B8%96%E7%A0%94%E7%A9%B6%E6%8F%90%E7%A4%BA%E8%AF%8Dv2.md)
 - [x-finance-os/CONTENT_DB/drafts.md](copy/x-finance-os/CONTENT_DB/drafts.md)
 - [x-finance-os/CONTENT_DB/feedback.7533bc89f4bd2bd8.md](copy/x-finance-os/CONTENT_DB/feedback.7533bc89f4bd2bd8.md)
+- [x-finance-os/CONTENT_DB/feedback.7e7075a92189e927.md](copy/x-finance-os/CONTENT_DB/feedback.7e7075a92189e927.md)
 - [x-finance-os/CONTENT_DB/feedback.8e524305c4bd9b99.md](copy/x-finance-os/CONTENT_DB/feedback.8e524305c4bd9b99.md)
 - [x-finance-os/CONTENT_DB/feedback.b357e9695392b9d6.md](copy/x-finance-os/CONTENT_DB/feedback.b357e9695392b9d6.md)
 - [x-finance-os/CONTENT_DB/feedback.c7d3a5ec80c40a7a.md](copy/x-finance-os/CONTENT_DB/feedback.c7d3a5ec80c40a7a.md)
@@ -30,6 +32,7 @@
 - [x-finance-os/CONTENT_DB/feedback.md](copy/x-finance-os/CONTENT_DB/feedback.md)
 - [x-finance-os/CONTENT_DB/ideas.9098c0b58dd151cd.md](copy/x-finance-os/CONTENT_DB/ideas.9098c0b58dd151cd.md)
 - [x-finance-os/CONTENT_DB/ideas.md](copy/x-finance-os/CONTENT_DB/ideas.md)
+- [x-finance-os/CONTENT_DB/metrics-log.md](copy/x-finance-os/CONTENT_DB/metrics-log.md)
 - [x-finance-os/CONTENT_DB/published.md](copy/x-finance-os/CONTENT_DB/published.md)
 - [x-finance-os/CONTENT_DB/research-notes.3ae317bf9ddd679e.md](copy/x-finance-os/CONTENT_DB/research-notes.3ae317bf9ddd679e.md)
 - [x-finance-os/CONTENT_DB/research-notes.4c1a331e9da2aa31.md](copy/x-finance-os/CONTENT_DB/research-notes.4c1a331e9da2aa31.md)
