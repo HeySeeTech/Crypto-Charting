@@ -164,6 +164,12 @@
       "bytes": 2597
     },
     {
+      "path": "copy/outputs/2026-10-22/SOL-X短帖-活跃不等于代币需求.md",
+      "category": "copy",
+      "git_blob_sha1": "f6b9b41b8c752bbbab625708646f83aa0944487e",
+      "bytes": 991
+    },
+    {
       "path": "copy/outputs/2026-10-22/STRK-X文案-量子叙事先涨供给随后追上.md",
       "category": "copy",
       "git_blob_sha1": "d0fc7eda38e80560cc433dfa7b57da5e2ccb586c",
@@ -228,6 +234,12 @@
       "category": "copy",
       "git_blob_sha1": "9c0a60b0a2245fd35b8dd0a8146a8a28aa1c2c1d",
       "bytes": 13
+    },
+    {
+      "path": "copy/x-finance-os/CONTENT_DB/research-notes.856e5820a2405f0e.md",
+      "category": "copy",
+      "git_blob_sha1": "c2238eef84af4fc4add1c1c14e70ffa32917ff0b",
+      "bytes": 952
     },
     {
       "path": "copy/x-finance-os/CONTENT_DB/research-notes.caae52d3e243da96.md",
@@ -446,6 +458,12 @@
       "bytes": 981
     },
     {
+      "path": "research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md",
+      "category": "research",
+      "git_blob_sha1": "2294f90eb4144a29c698e9c08b949a23e2f7faa7",
+      "bytes": 974
+    },
+    {
       "path": "research/research/2026-10-22/flows.json",
       "category": "research",
       "git_blob_sha1": "0967ef424bce6791893e9a57bb952f80fd536e93",
@@ -498,6 +516,12 @@
       "category": "research",
       "git_blob_sha1": "a03a0cc6dab57385fb67253e7449be77918bd302",
       "bytes": 4634
+    },
+    {
+      "path": "research/research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md",
+      "category": "research",
+      "git_blob_sha1": "5778d837a93c4acd7ce524154e2018203fcf162d",
+      "bytes": 981
     }
   ]
 }
