@@ -85,7 +85,7 @@
 - [crypto-charting-data/latest/XRP.json](data/crypto-charting-data/latest/XRP.json)
 - [crypto-charting-data/latest/ZEC.json](data/crypto-charting-data/latest/ZEC.json)
 
-## 研究资料（19）
+## 研究资料（20）
 
 - [outputs/2026-10-22/research/BTC-2026-10-22-latest.md](research/outputs/2026-10-22/research/BTC-2026-10-22-latest.md)
 - [outputs/2026-10-22/research/BTC-2026-10-22-short-post.md](research/outputs/2026-10-22/research/BTC-2026-10-22-short-post.md)
@@ -106,6 +106,7 @@
 - [research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md](research/research/outputs/2026-10-22/research/ETH-2026-10-22-short-post.md)
 - [research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md](research/research/outputs/2026-10-22/research/SOL-2026-10-22-short-post.md)
 - [research/outputs/2026-10-22/research/SUI-2026-10-22-short-post.md](research/research/outputs/2026-10-22/research/SUI-2026-10-22-short-post.md)
+- [research/outputs/2026-10-22/research/XRP-2026-10-22-short-post.md](research/research/outputs/2026-10-22/research/XRP-2026-10-22-short-post.md)
 
 ## 校验与日志（5）
 
