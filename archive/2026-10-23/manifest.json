@@ -284,6 +284,12 @@
       "bytes": 7281
     },
     {
+      "path": "copy/outputs/2026-10-23/daily-public-brief.md",
+      "category": "copy",
+      "git_blob_sha1": "1791d5d4abf130cbc66a5e251951742a654e84ca",
+      "bytes": 235
+    },
+    {
       "path": "copy/outputs/2026-10-23/日更栏目与多资产更新策略评估.d01692fd37f91caf.md",
       "category": "copy",
       "git_blob_sha1": "64d7af0a80c256cc9db0e5983b20fb75821bf035",
