@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（61）
+## 文案（62）
 
 - [outputs/2026-10-23/10月23日文案资讯质量事故复盘与修复方案.md](copy/outputs/2026-10-23/10%E6%9C%8823%E6%97%A5%E6%96%87%E6%A1%88%E8%B5%84%E8%AE%AF%E8%B4%A8%E9%87%8F%E4%BA%8B%E6%95%85%E5%A4%8D%E7%9B%98%E4%B8%8E%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88.md)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.72f27690cc40f360.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.72f27690cc40f360.md)
@@ -18,6 +18,7 @@
 - [outputs/2026-10-23/Crypto-Charting日报再利用方案-2026-10-23.bb5e02f2c19008a5.md](copy/outputs/2026-10-23/Crypto-Charting%E6%97%A5%E6%8A%A5%E5%86%8D%E5%88%A9%E7%94%A8%E6%96%B9%E6%A1%88-2026-10-23.bb5e02f2c19008a5.md)
 - [outputs/2026-10-23/Crypto-Charting日报再利用方案-2026-10-23.cb5d610a2834e457.md](copy/outputs/2026-10-23/Crypto-Charting%E6%97%A5%E6%8A%A5%E5%86%8D%E5%88%A9%E7%94%A8%E6%96%B9%E6%A1%88-2026-10-23.cb5d610a2834e457.md)
 - [outputs/2026-10-23/Crypto-Charting日报再利用方案-2026-10-23.md](copy/outputs/2026-10-23/Crypto-Charting%E6%97%A5%E6%8A%A5%E5%86%8D%E5%88%A9%E7%94%A8%E6%96%B9%E6%A1%88-2026-10-23.md)
+- [outputs/2026-10-23/Mason-2026-10-23-今日发布执行文档.md](copy/outputs/2026-10-23/Mason-2026-10-23-%E4%BB%8A%E6%97%A5%E5%8F%91%E5%B8%83%E6%89%A7%E8%A1%8C%E6%96%87%E6%A1%A3.md)
 - [outputs/2026-10-23/Mason-Day1-数据快报-美日军演与霍尔木兹.md](copy/outputs/2026-10-23/Mason-Day1-%E6%95%B0%E6%8D%AE%E5%BF%AB%E6%8A%A5-%E7%BE%8E%E6%97%A5%E5%86%9B%E6%BC%94%E4%B8%8E%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9.md)
 - [outputs/2026-10-23/Mason-Day1-晚间主帖-美日军演与霍尔木兹.md](copy/outputs/2026-10-23/Mason-Day1-%E6%99%9A%E9%97%B4%E4%B8%BB%E5%B8%96-%E7%BE%8E%E6%97%A5%E5%86%9B%E6%BC%94%E4%B8%8E%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9.md)
 - [outputs/2026-10-23/Mason-Day1-最终易读版.md](copy/outputs/2026-10-23/Mason-Day1-%E6%9C%80%E7%BB%88%E6%98%93%E8%AF%BB%E7%89%88.md)
