@@ -2,8 +2,9 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（59）
+## 文案（61）
 
+- [outputs/2026-10-23/10月23日文案资讯质量事故复盘与修复方案.md](copy/outputs/2026-10-23/10%E6%9C%8823%E6%97%A5%E6%96%87%E6%A1%88%E8%B5%84%E8%AE%AF%E8%B4%A8%E9%87%8F%E4%BA%8B%E6%95%85%E5%A4%8D%E7%9B%98%E4%B8%8E%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88.md)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.72f27690cc40f360.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.72f27690cc40f360.md)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.b9cbacc29b25aaa6.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.b9cbacc29b25aaa6.md)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.fbe4f42996daf2af.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.fbe4f42996daf2af.md)
@@ -23,6 +24,7 @@
 - [outputs/2026-10-23/Mason-Day1-首条回复.md](copy/outputs/2026-10-23/Mason-Day1-%E9%A6%96%E6%9D%A1%E5%9B%9E%E5%A4%8D.md)
 - [outputs/2026-10-23/Mason-X最终收口与物料索引.md](copy/outputs/2026-10-23/Mason-X%E6%9C%80%E7%BB%88%E6%94%B6%E5%8F%A3%E4%B8%8E%E7%89%A9%E6%96%99%E7%B4%A2%E5%BC%95.md)
 - [outputs/2026-10-23/Mason-X运营最终总控方案-2026-10-23.050ef955bd93c0ad.md](copy/outputs/2026-10-23/Mason-X%E8%BF%90%E8%90%A5%E6%9C%80%E7%BB%88%E6%80%BB%E6%8E%A7%E6%96%B9%E6%A1%88-2026-10-23.050ef955bd93c0ad.md)
+- [outputs/2026-10-23/Mason-X运营最终总控方案-2026-10-23.9c85265ca4bf178b.md](copy/outputs/2026-10-23/Mason-X%E8%BF%90%E8%90%A5%E6%9C%80%E7%BB%88%E6%80%BB%E6%8E%A7%E6%96%B9%E6%A1%88-2026-10-23.9c85265ca4bf178b.md)
 - [outputs/2026-10-23/Mason-X运营最终总控方案-2026-10-23.md](copy/outputs/2026-10-23/Mason-X%E8%BF%90%E8%90%A5%E6%9C%80%E7%BB%88%E6%80%BB%E6%8E%A7%E6%96%B9%E6%A1%88-2026-10-23.md)
 - [outputs/2026-10-23/Mason-X高频突破执行-Day1.md](copy/outputs/2026-10-23/Mason-X%E9%AB%98%E9%A2%91%E7%AA%81%E7%A0%B4%E6%89%A7%E8%A1%8C-Day1.md)
 - [outputs/2026-10-23/Mason-X高频突破模式-7天冲刺方案.9750f75f5a1a010c.md](copy/outputs/2026-10-23/Mason-X%E9%AB%98%E9%A2%91%E7%AA%81%E7%A0%B4%E6%A8%A1%E5%BC%8F-7%E5%A4%A9%E5%86%B2%E5%88%BA%E6%96%B9%E6%A1%88.9750f75f5a1a010c.md)
