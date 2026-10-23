@@ -2,7 +2,7 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（45）
+## 文案（47）
 
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.72f27690cc40f360.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.72f27690cc40f360.md)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.b9cbacc29b25aaa6.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.b9cbacc29b25aaa6.md)
@@ -11,6 +11,8 @@
 - [outputs/2026-10-23/Crypto-Charting制作升级记录-2026-10-23.04425079fc6c6dcb.md](copy/outputs/2026-10-23/Crypto-Charting%E5%88%B6%E4%BD%9C%E5%8D%87%E7%BA%A7%E8%AE%B0%E5%BD%95-2026-10-23.04425079fc6c6dcb.md)
 - [outputs/2026-10-23/Crypto-Charting制作升级记录-2026-10-23.48c4a0a6c0676bd4.md](copy/outputs/2026-10-23/Crypto-Charting%E5%88%B6%E4%BD%9C%E5%8D%87%E7%BA%A7%E8%AE%B0%E5%BD%95-2026-10-23.48c4a0a6c0676bd4.md)
 - [outputs/2026-10-23/Crypto-Charting制作升级记录-2026-10-23.md](copy/outputs/2026-10-23/Crypto-Charting%E5%88%B6%E4%BD%9C%E5%8D%87%E7%BA%A7%E8%AE%B0%E5%BD%95-2026-10-23.md)
+- [outputs/2026-10-23/Crypto-Charting数据快报-2026-10-23-重做版.md](copy/outputs/2026-10-23/Crypto-Charting%E6%95%B0%E6%8D%AE%E5%BF%AB%E6%8A%A5-2026-10-23-%E9%87%8D%E5%81%9A%E7%89%88.md)
+- [outputs/2026-10-23/Crypto-Charting数据快报-编辑规范.md](copy/outputs/2026-10-23/Crypto-Charting%E6%95%B0%E6%8D%AE%E5%BF%AB%E6%8A%A5-%E7%BC%96%E8%BE%91%E8%A7%84%E8%8C%83.md)
 - [outputs/2026-10-23/Crypto-Charting日报再利用方案-2026-10-23.bb5e02f2c19008a5.md](copy/outputs/2026-10-23/Crypto-Charting%E6%97%A5%E6%8A%A5%E5%86%8D%E5%88%A9%E7%94%A8%E6%96%B9%E6%A1%88-2026-10-23.bb5e02f2c19008a5.md)
 - [outputs/2026-10-23/Crypto-Charting日报再利用方案-2026-10-23.cb5d610a2834e457.md](copy/outputs/2026-10-23/Crypto-Charting%E6%97%A5%E6%8A%A5%E5%86%8D%E5%88%A9%E7%94%A8%E6%96%B9%E6%A1%88-2026-10-23.cb5d610a2834e457.md)
 - [outputs/2026-10-23/Crypto-Charting日报再利用方案-2026-10-23.md](copy/outputs/2026-10-23/Crypto-Charting%E6%97%A5%E6%8A%A5%E5%86%8D%E5%88%A9%E7%94%A8%E6%96%B9%E6%A1%88-2026-10-23.md)
