@@ -2,11 +2,12 @@
 
 [返回日期总目录](../../README.md)
 
-## 文案（44）
+## 文案（45）
 
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.72f27690cc40f360.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.72f27690cc40f360.md)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.b9cbacc29b25aaa6.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.b9cbacc29b25aaa6.md)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.md)
+- [outputs/2026-10-23/Crypto-Charting今早数据快报.md](copy/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%BF%AB%E6%8A%A5.md)
 - [outputs/2026-10-23/Crypto-Charting制作升级记录-2026-10-23.04425079fc6c6dcb.md](copy/outputs/2026-10-23/Crypto-Charting%E5%88%B6%E4%BD%9C%E5%8D%87%E7%BA%A7%E8%AE%B0%E5%BD%95-2026-10-23.04425079fc6c6dcb.md)
 - [outputs/2026-10-23/Crypto-Charting制作升级记录-2026-10-23.48c4a0a6c0676bd4.md](copy/outputs/2026-10-23/Crypto-Charting%E5%88%B6%E4%BD%9C%E5%8D%87%E7%BA%A7%E8%AE%B0%E5%BD%95-2026-10-23.48c4a0a6c0676bd4.md)
 - [outputs/2026-10-23/Crypto-Charting制作升级记录-2026-10-23.md](copy/outputs/2026-10-23/Crypto-Charting%E5%88%B6%E4%BD%9C%E5%8D%87%E7%BA%A7%E8%AE%B0%E5%BD%95-2026-10-23.md)
@@ -62,7 +63,7 @@
 - [crypto-charting-data/latest/SUI.xlsx](reports/crypto-charting-data/latest/SUI.xlsx)
 - [crypto-charting-data/latest/XRP.xlsx](reports/crypto-charting-data/latest/XRP.xlsx)
 
-## 图表与预览（23）
+## 图表与预览（24）
 
 - [crypto-charting-data/2026-10-23/BTC-context-preview.png](charts/crypto-charting-data/2026-10-23/BTC-context-preview.png)
 - [crypto-charting-data/2026-10-23/BTC-dashboard-preview.png](charts/crypto-charting-data/2026-10-23/BTC-dashboard-preview.png)
@@ -87,6 +88,7 @@
 - [crypto-charting-data/2026-10-23/morning-data-card-5coins.png](charts/crypto-charting-data/2026-10-23/morning-data-card-5coins.png)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.8c5d9a5fb042ffbc.png](charts/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.8c5d9a5fb042ffbc.png)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.png](charts/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.png)
+- [outputs/2026-10-23/Crypto-Charting今早数据快报.png](charts/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%BF%AB%E6%8A%A5.png)
 
 ## 来源数据（14）
 
