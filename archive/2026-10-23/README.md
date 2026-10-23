@@ -76,7 +76,7 @@
 - [crypto-charting-data/latest/SUI.xlsx](reports/crypto-charting-data/latest/SUI.xlsx)
 - [crypto-charting-data/latest/XRP.xlsx](reports/crypto-charting-data/latest/XRP.xlsx)
 
-## 图表与预览（24）
+## 图表与预览（25）
 
 - [crypto-charting-data/2026-10-23/BTC-context-preview.png](charts/crypto-charting-data/2026-10-23/BTC-context-preview.png)
 - [crypto-charting-data/2026-10-23/BTC-dashboard-preview.png](charts/crypto-charting-data/2026-10-23/BTC-dashboard-preview.png)
@@ -102,6 +102,7 @@
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.8c5d9a5fb042ffbc.png](charts/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.8c5d9a5fb042ffbc.png)
 - [outputs/2026-10-23/Crypto-Charting今早数据卡.png](charts/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%8D%A1.png)
 - [outputs/2026-10-23/Crypto-Charting今早数据快报.png](charts/outputs/2026-10-23/Crypto-Charting%E4%BB%8A%E6%97%A9%E6%95%B0%E6%8D%AE%E5%BF%AB%E6%8A%A5.png)
+- [outputs/2026-10-23/Mason-Day1-数据快报-美日军演与霍尔木兹.png](charts/outputs/2026-10-23/Mason-Day1-%E6%95%B0%E6%8D%AE%E5%BF%AB%E6%8A%A5-%E7%BE%8E%E6%97%A5%E5%86%9B%E6%BC%94%E4%B8%8E%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9.png)
 
 ## 来源数据（14）
 
