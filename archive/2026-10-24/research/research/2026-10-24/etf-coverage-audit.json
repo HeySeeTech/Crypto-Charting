@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "BTC",
+    "product_count": 12,
+    "holding_rows": 3,
+    "holding_date": "2026-10-23",
+    "flow_date": "2026-10-23",
+    "flow_rows": 7,
+    "flow_source": "Farside Investors"
+  },
+  {
+    "symbol": "ETH",
+    "product_count": 11,
+    "holding_rows": 3,
+    "holding_date": "2026-10-22",
+    "flow_date": "2026-10-23",
+    "flow_rows": 7,
+    "flow_source": "Farside Investors"
+  },
+  {
+    "symbol": "SOL",
+    "product_count": 9,
+    "holding_rows": 2,
+    "holding_date": "2026-10-23",
+    "flow_date": "2026-10-23",
+    "flow_rows": 7,
+    "flow_source": "Farside Investors"
+  },
+  {
+    "symbol": "SUI",
+    "product_count": 3,
+    "holding_rows": 1,
+    "holding_date": "2026-10-23",
+    "flow_date": null,
+    "flow_rows": 0,
+    "flow_source": "未取得独立美元流量"
+  },
+  {
+    "symbol": "XRP",
+    "product_count": 5,
+    "holding_rows": 4,
+    "holding_date": "2026-10-22",
+    "flow_date": null,
+    "flow_rows": 0,
+    "flow_source": "未取得独立美元流量"
+  }
+]

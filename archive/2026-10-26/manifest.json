@@ -1,0 +1,701 @@
+{
+  "date": "2026-10-26",
+  "files": [
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/BTC-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "4a1d877949882416ae250c12b588ea009b7a73eb",
+      "bytes": 285102
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/BTC-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "7dea8a12d5158c90291f2760921d1d44e8a321cf",
+      "bytes": 773792
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/BTC-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "336fd207cae39ec9db3b1d42143e652a3909342b",
+      "bytes": 616996
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/BTC-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "e766052be81065a78cf56492fb21118d545bd963",
+      "bytes": 227944
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/ETH-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "417d14e3dc0c0d711e1f442a0d2f121c54c9cda8",
+      "bytes": 354876
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/ETH-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "d2fcd232f866cc38d71d0c3cf449183ac19593ae",
+      "bytes": 733883
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/ETH-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "e4c40f9cfe31e91c664cdff26ed1a3ce2e50290a",
+      "bytes": 581622
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/ETH-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "2a1c756f1bd4b3393f51428d98607f85291dae29",
+      "bytes": 222800
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SOL-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "27a8b0ac5e4e6b8f9475a64413b032669b9a7674",
+      "bytes": 366204
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SOL-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "a18a3890a1dbb9fd719cd888ba4b7479b1ef1472",
+      "bytes": 739320
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SOL-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "268d81cf34d723f598832cc1b62f73c031ee5f6b",
+      "bytes": 482148
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SOL-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "d4e5f6a797175d1b5c2de44cea9c12798d53faa4",
+      "bytes": 220119
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SUI-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "b8ea04e1941cb02a66ef6de198ee720fc21b37c3",
+      "bytes": 296817
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SUI-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "d7e3ae955da4b2d666b38c2cd358f0554613bfcc",
+      "bytes": 680267
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SUI-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "e2a5df34c6915767a7297f426b850c4c3f19a176",
+      "bytes": 277703
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/SUI-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "096a96f5331b4a9ba24b126e16948d1524060eba",
+      "bytes": 227078
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/XRP-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "35d12cbe97db2a68d09c536cbbe43d4d911c8b87",
+      "bytes": 242718
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/XRP-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "c28e36011ebb1f19bda4e64884f10746df65eb6b",
+      "bytes": 421910
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/XRP-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "6c533c5652b81f4115728df8ee0b02077ac99e8f",
+      "bytes": 358345
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-26/XRP-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "c98f112c02700344255ebbc26e95d7ed13b8ddb5",
+      "bytes": 239153
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/UNI-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "93c410487b65586dbef64a64fe241d843af33518",
+      "bytes": 391105
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/UNI-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "5963898c1276818964ffaf344a927c7786d94cce",
+      "bytes": 338707
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/UNI-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "1d8dc734d8b23d685b34e65134cb85d7d2035ab8",
+      "bytes": 170594
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/UNI-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "8e14436c15ba9c4c94061c09e96afdbd34375fd8",
+      "bytes": 241947
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/ZEC-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "0c9437822b2524b01ab4c6ccccaf57c6afd4c879",
+      "bytes": 221406
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/ZEC-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "285459cca0ae396dfac3458952d6a9ce9d151348",
+      "bytes": 360564
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/ZEC-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "3313325998e75e78e435f9cebe309755cf9499ff",
+      "bytes": 226283
+    },
+    {
+      "path": "charts/crypto-charting-data/weekly/2026-10-26/ZEC-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "c421c86eed22abc2d89862871f20f04613818f09",
+      "bytes": 237664
+    },
+    {
+      "path": "copy/outputs/2026-10-26/BTC-X-中期选举与中东风险.md",
+      "category": "copy",
+      "git_blob_sha1": "6fc472311f78a57dba255d1fa050228090ab5e81",
+      "bytes": 4232
+    },
+    {
+      "path": "copy/outputs/2026-10-26/BTC-X-再次下跌与合约持仓.md",
+      "category": "copy",
+      "git_blob_sha1": "494c5ca8dd5d8adcac884dc86e99301cb08784db",
+      "bytes": 4442
+    },
+    {
+      "path": "copy/outputs/2026-10-26/BTC-X-议息通胀中东财报联动-口语版.md",
+      "category": "copy",
+      "git_blob_sha1": "e1e27679485dd7a34edad05e1f3320bb80996f4d",
+      "bytes": 2405
+    },
+    {
+      "path": "copy/outputs/2026-10-26/BTC-X-议息通胀中东财报联动.md",
+      "category": "copy",
+      "git_blob_sha1": "4b2ab13e1149b53506ed6535bcd634646fb5de59",
+      "bytes": 4490
+    },
+    {
+      "path": "copy/outputs/2026-10-26/ETH-X-买入理由与议息应对-修订.md",
+      "category": "copy",
+      "git_blob_sha1": "83d9c3cf403191e383fc9ad8187d94f33e25236c",
+      "bytes": 3141
+    },
+    {
+      "path": "copy/outputs/2026-10-26/ETH-X-反弹买盘退潮与本周事件.md",
+      "category": "copy",
+      "git_blob_sha1": "36a822938522e96eda1919950546d8b82c3880ee",
+      "bytes": 6329
+    },
+    {
+      "path": "copy/outputs/2026-10-26/ETH-X-摩根大通存款与多链基金-口语修订.md",
+      "category": "copy",
+      "git_blob_sha1": "ac82a69f00da0672ad4f6c796b3cc1e3aec14f9d",
+      "bytes": 1940
+    },
+    {
+      "path": "copy/outputs/2026-10-26/ETH-X-摩根大通存款与多链基金.md",
+      "category": "copy",
+      "git_blob_sha1": "28d6a736fcc5797c2acb84868e971847936bbfbd",
+      "bytes": 3937
+    },
+    {
+      "path": "copy/outputs/2026-10-26/ETH-X-质押收益与退出选择.md",
+      "category": "copy",
+      "git_blob_sha1": "9b0c35a9110db6275ea2dd3251eb34705f2be221",
+      "bytes": 3286
+    },
+    {
+      "path": "copy/outputs/2026-10-26/ETH-选题撤回与创作边界.md",
+      "category": "copy",
+      "git_blob_sha1": "fcd759f4e96867849b11bf1acf4622eda8378e44",
+      "bytes": 728
+    },
+    {
+      "path": "copy/outputs/2026-10-26/SOL-X-Alpenglow升级与交易统计.md",
+      "category": "copy",
+      "git_blob_sha1": "a125856ff9e23b623fcc91c67d243d94cea2bd3f",
+      "bytes": 4550
+    },
+    {
+      "path": "copy/outputs/2026-10-26/SUI-X-Hashi承诺资金与实际业务.md",
+      "category": "copy",
+      "git_blob_sha1": "9218b1a2a7a6b7833ccb7fad083439ec8ff31f97",
+      "bytes": 1482
+    },
+    {
+      "path": "copy/outputs/2026-10-26/SUI-X-三星钱包支付落地.md",
+      "category": "copy",
+      "git_blob_sha1": "4fccb31a559172a9a9074e4caee80422788ce82a",
+      "bytes": 1634
+    },
+    {
+      "path": "copy/outputs/2026-10-26/UNI-X-聚合Hooks-250字版.md",
+      "category": "copy",
+      "git_blob_sha1": "48e8d70405ad1bc74e53ca55fe578e8c0a748761",
+      "bytes": 1190
+    },
+    {
+      "path": "copy/outputs/2026-10-26/UNI-X-聚合Hooks短帖.md",
+      "category": "copy",
+      "git_blob_sha1": "54657c9cb0b408f4ba99af86ac09c87399b075a6",
+      "bytes": 1328
+    },
+    {
+      "path": "copy/outputs/2026-10-26/UNI-X-聚合收费与报价竞争.md",
+      "category": "copy",
+      "git_blob_sha1": "2fcecf12668005b844b598250eed397546087a53",
+      "bytes": 1112
+    },
+    {
+      "path": "copy/outputs/2026-10-26/XRP-X-Arf结算周转资金.md",
+      "category": "copy",
+      "git_blob_sha1": "0f80333472d816becb4c831f4cf72c0b05147eb5",
+      "bytes": 4228
+    },
+    {
+      "path": "copy/outputs/2026-10-26/X财经创作-日常短提示.md",
+      "category": "copy",
+      "git_blob_sha1": "3f7d92b12750dea3038ab9d1341d42b5ea7ca0c3",
+      "bytes": 425
+    },
+    {
+      "path": "copy/outputs/2026-10-26/daily-public-brief.md",
+      "category": "copy",
+      "git_blob_sha1": "94c193871a16d6c5b3cec596ef8a9e3e612b8749",
+      "bytes": 1021
+    },
+    {
+      "path": "copy/outputs/2026-10-26/x-finance-content-本轮更新说明.md",
+      "category": "copy",
+      "git_blob_sha1": "16b57ca20593ffb990ba54131cc1028d99f314b7",
+      "bytes": 1099
+    },
+    {
+      "path": "copy/outputs/2026-10-26/中文X财经文案-研究与口语写作提示词模板.md",
+      "category": "copy",
+      "git_blob_sha1": "ab3df564935a97f0e42f97f4f76b896d51235974",
+      "bytes": 8198
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/BTC.json",
+      "category": "data",
+      "git_blob_sha1": "797951714a859dbe568904ba1770910904177f00",
+      "bytes": 19757
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/ETH.json",
+      "category": "data",
+      "git_blob_sha1": "eb3c9d66628e0d77efa4980f1dd9587740820bf2",
+      "bytes": 20149
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/SOL.json",
+      "category": "data",
+      "git_blob_sha1": "a7d3870b0bb7d19a470cf51e5a5558eb107f3d55",
+      "bytes": 16474
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/SUI.json",
+      "category": "data",
+      "git_blob_sha1": "80605d5ef9884e0e9552bfba8c49a5d79c182e9b",
+      "bytes": 8154
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "db234d42952cd4bb324635ef39566486035ae979",
+      "bytes": 6896
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/UNI.previous-1002.json",
+      "category": "data",
+      "git_blob_sha1": "230f496fdc02944c437e8323cf821a852b673f1d",
+      "bytes": 4420
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/XRP.json",
+      "category": "data",
+      "git_blob_sha1": "ff98dc9f4839273efc3042e1c085d80b859579d6",
+      "bytes": 10458
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/XRP.previous-100202.json",
+      "category": "data",
+      "git_blob_sha1": "1029981b3d14df39223bc7482b07459a22e6c234",
+      "bytes": 10379
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "88eb7a5b57d1fb5b8086723818d6f4027ddcbde3",
+      "bytes": 7684
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-26/ZEC.previous-1002.json",
+      "category": "data",
+      "git_blob_sha1": "ad03b5245b0ae7c596847a891e8d7f478291daca",
+      "bytes": 6305
+    },
+    {
+      "path": "data/crypto-charting-data/weekly/2026-10-26/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "e92155fa012a818a7d74c2343d56c9d91b1d1fe7",
+      "bytes": 7811
+    },
+    {
+      "path": "data/crypto-charting-data/weekly/2026-10-26/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "9cfec44489b257a7336d22c849380142a5a8460e",
+      "bytes": 8479
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-26/BTC.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "4503b349577ef85bdca4cde4a9840f5db0b38f5c",
+      "bytes": 194166
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-26/ETH.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "7b2b837f1073d3d6a93b21648735ea10b4531e93",
+      "bytes": 194125
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-26/SOL.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "4a2c1f29c0ffb5bb0971605527c2330ea2adcb60",
+      "bytes": 177758
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-26/SUI.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "18eda24ac821a8dbbb84831fd54ff133bf9d8612",
+      "bytes": 125095
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-26/XRP.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "3a6a824072df2ccd6ad4a24c128448eaa08618c8",
+      "bytes": 130631
+    },
+    {
+      "path": "logs/crypto-charting-data/weekly/2026-10-26/UNI.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "76679382de5ebc92dc662fb9c7564ad67f9c8e38",
+      "bytes": 114553
+    },
+    {
+      "path": "logs/crypto-charting-data/weekly/2026-10-26/ZEC.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "cc08fc41f07d6534474e4355c172d4fdaae37558",
+      "bytes": 114421
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-26/BTC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "345f998de5107d962567912dffb9c4fb16db3c54",
+      "bytes": 2008916
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-26/ETH.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "9d89a0c2fd0609ce4c8200be652a6d3a9b710639",
+      "bytes": 1915527
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-26/SOL.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "3ac50718479908391a56d66669cca2b7cdb19f5c",
+      "bytes": 1971829
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-26/SUI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "25f7eb8e7c2b679d9998d5cebb95294611fb269e",
+      "bytes": 2018561
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-26/XRP.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "1998a178a2252f045e94d2069f53db9dedf3feb7",
+      "bytes": 25275
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/UNI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "520894148d29be497485be548f4ecac0e6831f29",
+      "bytes": 23454
+    },
+    {
+      "path": "reports/crypto-charting-data/latest/ZEC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "faa584e956ef7be03e5e37b62bb05cc8ad364530",
+      "bytes": 23973
+    },
+    {
+      "path": "reports/crypto-charting-data/weekly/2026-10-26/UNI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "520894148d29be497485be548f4ecac0e6831f29",
+      "bytes": 23454
+    },
+    {
+      "path": "reports/crypto-charting-data/weekly/2026-10-26/ZEC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "faa584e956ef7be03e5e37b62bb05cc8ad364530",
+      "bytes": 23973
+    },
+    {
+      "path": "research/research/2026-10-26/btc-x/archive-2026-10-23-BTC.json",
+      "category": "research",
+      "git_blob_sha1": "2443d7f6a45e84eb44cf75758cdfb29f9c452eed",
+      "bytes": 14540
+    },
+    {
+      "path": "research/research/2026-10-26/btc-x/binance.json",
+      "category": "research",
+      "git_blob_sha1": "19780d015a1c64ce8f197a98ccb57103ae21bf41",
+      "bytes": 12800
+    },
+    {
+      "path": "research/research/2026-10-26/btc-x/coinbase.json",
+      "category": "research",
+      "git_blob_sha1": "0844acb7422de5509e9c6ad86226307c8780ed59",
+      "bytes": 2114
+    },
+    {
+      "path": "research/research/2026-10-26/btc-x/funding.json",
+      "category": "research",
+      "git_blob_sha1": "908bcb5b718621b76f90d9cbad79dfaa6c5f818e",
+      "bytes": 1135
+    },
+    {
+      "path": "research/research/2026-10-26/btc-x/oi.json",
+      "category": "research",
+      "git_blob_sha1": "7e87534f11cd37cfba552492d6513d7cfeb58edd",
+      "bytes": 8161
+    },
+    {
+      "path": "research/research/2026-10-26/btc-x/retrieval.json",
+      "category": "research",
+      "git_blob_sha1": "40439c9e3a03c6a9f893278f251cdc0476d72f0e",
+      "bytes": 693
+    },
+    {
+      "path": "research/research/2026-10-26/btc-x/ticker.json",
+      "category": "research",
+      "git_blob_sha1": "2256811907cba1675b25ea086bee300456b2a4cb",
+      "bytes": 557
+    },
+    {
+      "path": "research/research/2026-10-26/btc/funding.json",
+      "category": "research",
+      "git_blob_sha1": "d28b53dbc947a8461e8e87d3c46c75a8104111c3",
+      "bytes": 231
+    },
+    {
+      "path": "research/research/2026-10-26/btc/oi.json",
+      "category": "research",
+      "git_blob_sha1": "7e87534f11cd37cfba552492d6513d7cfeb58edd",
+      "bytes": 8161
+    },
+    {
+      "path": "research/research/2026-10-26/btc/spot.json",
+      "category": "research",
+      "git_blob_sha1": "ab37db1801fd01a8a8550ed37a87307886863742",
+      "bytes": 12800
+    },
+    {
+      "path": "research/research/2026-10-26/btc/ticker.json",
+      "category": "research",
+      "git_blob_sha1": "eba54a55a8cd7388fe5c887425e72360544ecd47",
+      "bytes": 557
+    },
+    {
+      "path": "research/research/2026-10-26/eth-institutional/research-and-sources.md",
+      "category": "research",
+      "git_blob_sha1": "28d6a736fcc5797c2acb84868e971847936bbfbd",
+      "bytes": 3937
+    },
+    {
+      "path": "research/research/2026-10-26/eth/BTCUSDT.json",
+      "category": "research",
+      "git_blob_sha1": "8586d43a3ec0391690e0446759db8a990f2e83a7",
+      "bytes": 12800
+    },
+    {
+      "path": "research/research/2026-10-26/eth/ETHBTC.json",
+      "category": "research",
+      "git_blob_sha1": "ce773a1c3e5e32aab2ec2ed3cb956779678c2694",
+      "bytes": 10423
+    },
+    {
+      "path": "research/research/2026-10-26/eth/ETHUSDT.json",
+      "category": "research",
+      "git_blob_sha1": "f6b3c03824e6ae57fb85f16696bcbb7df37fca70",
+      "bytes": 12612
+    },
+    {
+      "path": "research/research/2026-10-26/eth/archive-2026-10-23-ETH.json",
+      "category": "research",
+      "git_blob_sha1": "c9f6ba317fd64b8f97734534ab1ec3afa7db8fe1",
+      "bytes": 15784
+    },
+    {
+      "path": "research/research/2026-10-26/eth/calculated.json",
+      "category": "research",
+      "git_blob_sha1": "64ad4775951d19dcaaa4ba77eff195c9e8956560",
+      "bytes": 3127
+    },
+    {
+      "path": "research/research/2026-10-26/eth/chain-dex.json",
+      "category": "research",
+      "git_blob_sha1": "818e73d0c73fa7f7e63428f877ba6ac873343636",
+      "bytes": 253357
+    },
+    {
+      "path": "research/research/2026-10-26/eth/chain-tvl.json",
+      "category": "research",
+      "git_blob_sha1": "458dceb984c02fe06ac41b4c2147f0c1c1758a0b",
+      "bytes": 58021
+    },
+    {
+      "path": "research/research/2026-10-26/eth/coinbase.json",
+      "category": "research",
+      "git_blob_sha1": "ee9fbeefe459622394882554eee406804e538ab4",
+      "bytes": 2097
+    },
+    {
+      "path": "research/research/2026-10-26/eth/funding.json",
+      "category": "research",
+      "git_blob_sha1": "01f26afd94be956141f9f020237619566437af1e",
+      "bytes": 1127
+    },
+    {
+      "path": "research/research/2026-10-26/eth/oi.json",
+      "category": "research",
+      "git_blob_sha1": "379e48d1c25ebc7d82bab2fc06d39d9455d61475",
+      "bytes": 8305
+    },
+    {
+      "path": "research/research/2026-10-26/eth/retrieval.json",
+      "category": "research",
+      "git_blob_sha1": "8b7a1a93e0c4d4c8b5f5eba82eab38a05501152b",
+      "bytes": 778
+    },
+    {
+      "path": "research/research/2026-10-26/eth/ticker.json",
+      "category": "research",
+      "git_blob_sha1": "82f8bee6292797e680a6c0a938ff7a2ded9fba83",
+      "bytes": 550
+    },
+    {
+      "path": "research/research/2026-10-26/skill-update/openai-before.yaml",
+      "category": "research",
+      "git_blob_sha1": "9cdf35783704c8e9be2cbcc6cdaf1240a957823f",
+      "bytes": 306
+    },
+    {
+      "path": "research/research/2026-10-26/skill-update/subject-routing-before-editorial-update.md",
+      "category": "research",
+      "git_blob_sha1": "b54f4bbffa6f244d0bde1d11b8a4e087611b30fd",
+      "bytes": 5710
+    },
+    {
+      "path": "research/research/2026-10-26/skill-update/x-finance-content-SKILL-before.md",
+      "category": "research",
+      "git_blob_sha1": "988065d7356a97218824afdedb0a4795e19d226e",
+      "bytes": 22952
+    },
+    {
+      "path": "research/research/2026-10-26/skill-update/x-finance-content-before-editorial-update.md",
+      "category": "research",
+      "git_blob_sha1": "0e5f412793f464da67f86d1bfa6e79ed16c4dc4a",
+      "bytes": 27818
+    },
+    {
+      "path": "research/research/2026-10-26/sol/chain.json",
+      "category": "research",
+      "git_blob_sha1": "9bb38788a1abfac3b61ea52e7ee85e9fe7dc38ba",
+      "bytes": 192429
+    },
+    {
+      "path": "research/research/2026-10-26/sol/hours.json",
+      "category": "research",
+      "git_blob_sha1": "72e262d836ecdbe70b816837b2837925fcf5bdb4",
+      "bytes": 8246
+    },
+    {
+      "path": "research/research/2026-10-26/sol/oi.json",
+      "category": "research",
+      "git_blob_sha1": "313ae0f6d905f832b86649c8cbca154f43245665",
+      "bytes": 4129
+    },
+    {
+      "path": "research/research/2026-10-26/sol/research-and-sources.md",
+      "category": "research",
+      "git_blob_sha1": "a125856ff9e23b623fcc91c67d243d94cea2bd3f",
+      "bytes": 4550
+    },
+    {
+      "path": "research/research/2026-10-26/sol/retrieval.json",
+      "category": "research",
+      "git_blob_sha1": "9b4b3b3d6f1a7790973d5e98311c4d29f37f30ee",
+      "bytes": 487
+    },
+    {
+      "path": "research/research/2026-10-26/sol/ticker.json",
+      "category": "research",
+      "git_blob_sha1": "3ea842b94ce7ac6f70236f4b7151fc427ba91688",
+      "bytes": 543
+    },
+    {
+      "path": "research/research/2026-10-26/xrp/amendments.json",
+      "category": "research",
+      "git_blob_sha1": "a8b1dee14cf86b48d2a4d2d3f4c530396c2e7b12",
+      "bytes": 40096
+    },
+    {
+      "path": "research/research/2026-10-26/xrp/dex.json",
+      "category": "research",
+      "git_blob_sha1": "7295d2a58c8193788d22fc9bfe44e622ebb3aaec",
+      "bytes": 5675
+    },
+    {
+      "path": "research/research/2026-10-26/xrp/research-and-sources.md",
+      "category": "research",
+      "git_blob_sha1": "0f80333472d816becb4c831f4cf72c0b05147eb5",
+      "bytes": 4228
+    },
+    {
+      "path": "research/research/2026-10-26/xrp/retrieval.json",
+      "category": "research",
+      "git_blob_sha1": "098bcd673c49af2ebe7b906a9af7a316cf101300",
+      "bytes": 346
+    },
+    {
+      "path": "research/research/2026-10-26/xrp/ticker.json",
+      "category": "research",
+      "git_blob_sha1": "f71219ddbaefafe0f04644ed47b5381242a5524d",
+      "bytes": 533
+    }
+  ]
+}

@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Classified GitHub archive entry point."""
+"""Classified GitHub archive entry point.
+
+GitHub sync is deliberately opt-in. Use ``--confirm`` only after an
+explicit user request to archive/sync the workspace.
+"""
+import argparse
 from pathlib import Path
 from github_archive_api import sync
 CATEGORIES = {
@@ -21,4 +26,10 @@ def category(rel):
     return 'other'
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--confirm', action='store_true', help='explicitly authorize GitHub sync')
+    args = parser.parse_args()
+    if not args.confirm:
+        print('GitHub archive skipped: explicit user request required; rerun with --confirm.')
+        raise SystemExit(0)
     sync(Path(__file__).resolve().parents[1], category, CATEGORIES)

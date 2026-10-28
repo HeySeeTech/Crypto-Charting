@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-26T04:58:44.247926+00:00",
+  "urls": {
+    "ticker": "https://data-api.binance.vision/api/v3/ticker/24hr?symbol=SOLUSDT",
+    "hours": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&interval=1h&limit=48",
+    "oi": "https://fapi.binance.com/futures/data/openInterestHist?symbol=SOLUSDT&period=1h&limit=24",
+    "chain": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+  }
+}

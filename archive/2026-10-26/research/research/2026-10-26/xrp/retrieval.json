@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-26T06:51:36.147802+00:00",
+  "urls": {
+    "ticker": "https://data-api.binance.vision/api/v3/ticker/24hr?symbol=XRPUSDT",
+    "amendments": "https://api.xrpscan.com/api/v1/amendments",
+    "dex": "https://api.llama.fi/overview/dexs/XRPL?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "symbol": "UNI",
+  "asset_id": "uniswap",
+  "collected_at": "2026-10-25T10:04:15+08:00",
+  "report_date_shanghai": "2026-10-25",
+  "status": "complete",
+  "metrics": {
+    "price_usd": {
+      "value": 6.83,
+      "unit": "USD/UNI",
+      "data_as_of": "2026-10-25T02:03:52.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "当前美元报价"
+    },
+    "change_24h_pct": {
+      "value": -1.96097,
+      "unit": "%",
+      "data_as_of": "2026-10-25T02:03:52.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动24小时涨跌幅"
+    },
+    "volume_24h_usd": {
+      "value": 295075760,
+      "unit": "USD",
+      "data_as_of": "2026-10-25T02:03:52.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动24小时成交额"
+    },
+    "market_cap_usd": {
+      "value": 4267306051,
+      "unit": "USD",
+      "data_as_of": "2026-10-25T02:03:52.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "流通市值"
+    },
+    "change_7d_pct": {
+      "value": -4.8251,
+      "unit": "%",
+      "data_as_of": "2026-10-25T02:03:52.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "滚动7天涨跌幅"
+    },
+    "circulating_supply": {
+      "value": 624544422.480362,
+      "unit": "UNI",
+      "data_as_of": "2026-10-25T02:03:52.000Z（CoinGecko 提供方更新时间，UTC）",
+      "source_url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d",
+      "status": "available",
+      "method": "当前流通供应量"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-18",
+          "close_usd": 7.189242
+        },
+        {
+          "date_utc": "2026-10-19",
+          "close_usd": 7.308591
+        },
+        {
+          "date_utc": "2026-10-20",
+          "close_usd": 7.431297
+        },
+        {
+          "date_utc": "2026-10-21",
+          "close_usd": 7.45135
+        },
+        {
+          "date_utc": "2026-10-22",
+          "close_usd": 7.001943
+        },
+        {
+          "date_utc": "2026-10-23",
+          "close_usd": 6.955589
+        },
+        {
+          "date_utc": "2026-10-24",
+          "close_usd": 6.85975
+        }
+      ],
+      "source_url": "https://api.coingecko.com/api/v3/coins/uniswap/market_chart?vs_currency=usd&days=8&interval=daily",
+      "period_start": "2026-10-18",
+      "period_end": "2026-10-24",
+      "method": "CoinGecko UTC 00:00 快照，归属刚结束的前一 UTC 日之近似收盘；不同于滚动现价"
+    }
+  },
+  "etf": {
+    "scope": "US-listed spot UNI ETFs; checked European AUNI ETP and private Bitwise Uniswap Fund, both excluded",
+    "trading_date_et": null,
+    "product_universe": [],
+    "holdings": [],
+    "holdings_summary": null,
+    "product_details": [],
+    "flows": [],
+    "flow_history": []
+  },
+  "chain": {
+    "metrics": [
+      {
+        "name": "Uniswap 协议 TVL（约）",
+        "value": 4014000000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-25 10:04 北京时间观察",
+        "method": "多链 Uniswap 协议锁仓值；页面未注明精确采样时刻；缩写数值换算属约值，非 UNI 代币收入",
+        "source_url": "https://investors.defillama.com/protocol/uniswap?events=false&fdv=true&tvl=false"
+      },
+      {
+        "name": "Uniswap 协议 DEX 成交额 24h（约）",
+        "value": 1862000000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-25 10:04 北京时间观察",
+        "method": "多链 Uniswap 协议滚动24小时现货 DEX 成交额；页面未注明精确采样时刻；缩写数值换算属约值，非 UNI 代币收入",
+        "source_url": "https://investors.defillama.com/protocol/uniswap?events=false&fdv=true&tvl=false"
+      },
+      {
+        "name": "Uniswap 协议 DEX 成交额 7d（约）",
+        "value": 12823000000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-25 10:04 北京时间观察",
+        "method": "多链 Uniswap 协议滚动7天现货 DEX 成交额；页面未注明精确采样时刻；缩写数值换算属约值，非 UNI 代币收入",
+        "source_url": "https://investors.defillama.com/protocol/uniswap?events=false&fdv=true&tvl=false"
+      },
+      {
+        "name": "Uniswap 协议费用 7d（约）",
+        "value": 15610000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-25 10:04 北京时间观察",
+        "method": "多链 Uniswap 协议滚动7天费用；并非全部归 UNI 持有人；页面未注明精确采样时刻；缩写数值换算属约值，非 UNI 代币收入",
+        "source_url": "https://investors.defillama.com/protocol/uniswap?events=false&fdv=true&tvl=false"
+      },
+      {
+        "name": "Uniswap 协议收入 7d（约）",
+        "value": 1530000.0,
+        "unit": "USD",
+        "data_as_of": "2026-10-25 10:04 北京时间观察",
+        "method": "多链 Uniswap 协议滚动7天收入；非全部为 UNI 持有人收入；页面未注明精确采样时刻；缩写数值换算属约值，非 UNI 代币收入",
+        "source_url": "https://investors.defillama.com/protocol/uniswap?events=false&fdv=true&tvl=false"
+      }
+    ]
+  },
+  "developments": [],
+  "sources": [
+    {
+      "name": "CoinGecko",
+      "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=uniswap%2Czcash&price_change_percentage=7d"
+    },
+    {
+      "name": "DefiLlama Uniswap protocol",
+      "url": "https://investors.defillama.com/protocol/uniswap?events=false&fdv=true&tvl=false"
+    },
+    {
+      "name": "21Shares AUNI (excluded European ETP)",
+      "url": "https://www.21shares.com/en-uk/product/auni"
+    },
+    {
+      "name": "Bitwise Uniswap Fund (excluded private fund)",
+      "url": "https://bitwiseinvestments.com/crypto-funds/uniswap"
+    }
+  ],
+  "missing_or_stale": [],
+  "revision": {
+    "revised_at_shanghai": null,
+    "reason": null
+  }
+}

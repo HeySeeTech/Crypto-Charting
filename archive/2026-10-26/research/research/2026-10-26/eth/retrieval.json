@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-26T03:31:25.212728+00:00",
+  "urls": {
+    "ETHUSDT": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&interval=1h&limit=72",
+    "ETHBTC": "https://data-api.binance.vision/api/v3/klines?symbol=ETHBTC&interval=1h&limit=72",
+    "BTCUSDT": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=72",
+    "oi": "https://fapi.binance.com/futures/data/openInterestHist?symbol=ETHUSDT&period=1h&limit=48",
+    "funding": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&limit=9",
+    "ticker": "https://data-api.binance.vision/api/v3/ticker/24hr?symbol=ETHUSDT",
+    "coinbase": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2026-10-24T16:00:00Z&end=2026-10-26T08:00:00Z"
+  }
+}

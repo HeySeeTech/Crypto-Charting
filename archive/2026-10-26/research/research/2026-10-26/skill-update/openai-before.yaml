@@ -1,0 +1,4 @@
+interface:
+  display_name: X Finance Content Engine
+  short_description: Research a market event and write original Chinese X commentary
+  default_prompt: Research this market event, explain the best-supported mechanism, and write a natural Chinese X post with a clear view and useful conditions to watch.

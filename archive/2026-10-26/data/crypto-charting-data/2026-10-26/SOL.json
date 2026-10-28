@@ -1,0 +1,475 @@
+{
+  "schema_version": 2,
+  "symbol": "SOL",
+  "asset_id": "solana",
+  "collected_at": "2026-10-26T10:03:05+08:00",
+  "report_date_shanghai": "2026-10-26",
+  "status": "partial",
+  "metrics": {
+    "price_usd": {
+      "value": 101.12722042513343,
+      "unit": "USD/SOL",
+      "data_as_of": "2026-10-26T01:57:14Z",
+      "source_url": "https://api.coinpaprika.com/v1/tickers/sol-solana",
+      "status": "available",
+      "method": "CoinPaprika USD 即时报价"
+    },
+    "change_24h_pct": {
+      "value": -1.2599999904632568,
+      "unit": "%",
+      "data_as_of": "2026-10-26T01:57:14Z",
+      "source_url": "https://api.coinpaprika.com/v1/tickers/sol-solana",
+      "status": "available",
+      "method": "CoinPaprika 滚动24小时价格变化"
+    },
+    "change_7d_pct": {
+      "value": -1.4299999475479126,
+      "unit": "%",
+      "data_as_of": "2026-10-25T02:00:16Z",
+      "source_url": "https://api.coinpaprika.com/v1/tickers/sol-solana",
+      "status": "available",
+      "method": "CoinPaprika 市场聚合；涨跌与成交额为滚动窗口"
+    },
+    "volume_24h_usd": {
+      "value": 1018364751.323802,
+      "unit": "USD",
+      "data_as_of": "2026-10-26T01:57:14Z",
+      "source_url": "https://api.coinpaprika.com/v1/tickers/sol-solana",
+      "status": "available",
+      "method": "CoinPaprika 滚动24小时成交额"
+    },
+    "market_cap_usd": {
+      "value": 59646837330,
+      "unit": "USD",
+      "data_as_of": "2026-10-26T01:57:14Z",
+      "source_url": "https://api.coinpaprika.com/v1/tickers/sol-solana",
+      "status": "available",
+      "method": "CoinPaprika 流通市值"
+    }
+  },
+  "series": {
+    "price_7_completed_utc_days": {
+      "points": [
+        {
+          "date_utc": "2026-10-19",
+          "close_usd": 104.96
+        },
+        {
+          "date_utc": "2026-10-20",
+          "close_usd": 106.43
+        },
+        {
+          "date_utc": "2026-10-21",
+          "close_usd": 106.87
+        },
+        {
+          "date_utc": "2026-10-22",
+          "close_usd": 103.53
+        },
+        {
+          "date_utc": "2026-10-23",
+          "close_usd": 102.71
+        },
+        {
+          "date_utc": "2026-10-24",
+          "close_usd": 102.23
+        },
+        {
+          "date_utc": "2026-10-25",
+          "close_usd": 101.23
+        }
+      ],
+      "source_url": "https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=86400&start=2026-10-19&end=2026-10-27",
+      "period_start": "2026-10-19",
+      "period_end": "2026-10-25",
+      "method": "Coinbase Exchange USD 交易对每日 K 线收盘价；UTC 00:00 起始日标注对应完整 UTC 日；并非价格指数"
+    }
+  },
+  "etf": {
+    "scope": "US-listed native-asset spot trusts; exclude multi-asset, futures, leveraged and foreign products",
+    "trading_date_et": "2026-10-23",
+    "product_universe": [
+      {
+        "ticker": "BSOL",
+        "issuer": "Bitwise",
+        "name": "BSOL US spot SOL product",
+        "source_url": "https://bsoletf.com/"
+      },
+      {
+        "ticker": "VSOL",
+        "issuer": "VanEck",
+        "name": "VSOL US spot SOL product",
+        "source_url": "https://www.vaneck.com/us/en/investments/solana-etf-vsol/"
+      },
+      {
+        "ticker": "FSOL",
+        "issuer": "Fidelity",
+        "name": "FSOL US spot SOL product",
+        "source_url": "https://institutional.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FSOL"
+      },
+      {
+        "ticker": "TSOL",
+        "issuer": "21Shares",
+        "name": "TSOL US spot SOL product",
+        "source_url": "https://www.21shares.com/en-us/products-us/tsol"
+      },
+      {
+        "ticker": "SOEZ",
+        "issuer": "Franklin",
+        "name": "SOEZ US spot SOL product",
+        "source_url": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47315/SINGLCLASS/franklin-solana-etf/SOEZ"
+      },
+      {
+        "ticker": "MSOL",
+        "issuer": "Morgan Stanley",
+        "name": "MSOL US spot SOL product",
+        "source_url": "https://www.morganstanley.com/im/en-us/institutional-investor/products/etfs.html"
+      },
+      {
+        "ticker": "GSOL",
+        "issuer": "Grayscale",
+        "name": "GSOL US spot SOL product",
+        "source_url": "https://etfs.grayscale.com/gsol"
+      },
+      {
+        "ticker": "SOLC",
+        "issuer": "Canary Capital",
+        "name": "Canary Marinade Solana ETF",
+        "source_url": "https://canaryetfs.com/solc/"
+      },
+      {
+        "ticker": "QSOL",
+        "issuer": "Invesco Galaxy",
+        "name": "Invesco Galaxy Solana ETF",
+        "source_url": "https://www.invesco.com/us/en/financial-products/etfs/invesco-galaxy-solana-etf.html"
+      }
+    ],
+    "holdings": [
+      {
+        "ticker": "BSOL",
+        "quantity_native": 10762094.7,
+        "unit": "SOL",
+        "as_of_et": "2026-10-22",
+        "source_url": "https://bsoletf.com/",
+        "issuer_url": "https://bsoletf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "scope": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      },
+      {
+        "ticker": "SOLC",
+        "quantity_native": 38536.9846048,
+        "unit": "SOL",
+        "as_of_et": "2026-10-23",
+        "source_url": "https://canaryetfs.com/solc/",
+        "issuer_url": "https://canaryetfs.com/solc/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "scope": "发行商 Holdings 原生币精确 Quantity -- Original"
+      }
+    ],
+    "holdings_summary": {
+      "kind": "verified_sample",
+      "as_of_et": "2026-10-23",
+      "verified_products": 1,
+      "universe_products": 9,
+      "unit": "SOL"
+    },
+    "product_details": [
+      {
+        "ticker": "BSOL",
+        "annual_fee_pct_listed": 0.2,
+        "fee_source_url": "https://farside.co.uk/sol/",
+        "net_flow_usd_millions": 0.0,
+        "flow_as_of_et": "2026-10-23",
+        "flow_source_url": "https://farside.co.uk/sol/",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      },
+      {
+        "ticker": "VSOL",
+        "annual_fee_pct_listed": 0.3,
+        "fee_source_url": "https://farside.co.uk/sol/",
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "FSOL",
+        "annual_fee_pct_listed": 0.25,
+        "fee_source_url": "https://farside.co.uk/sol/",
+        "net_flow_usd_millions": 0.0,
+        "flow_as_of_et": "2026-10-23",
+        "flow_source_url": "https://farside.co.uk/sol/",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "TSOL",
+        "annual_fee_pct_listed": 0.21,
+        "fee_source_url": "https://farside.co.uk/sol/",
+        "net_flow_usd_millions": 0.0,
+        "flow_as_of_et": "2026-10-23",
+        "flow_source_url": "https://farside.co.uk/sol/",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "SOEZ",
+        "annual_fee_pct_listed": 0.19,
+        "fee_source_url": "https://farside.co.uk/sol/",
+        "net_flow_usd_millions": 0.0,
+        "flow_as_of_et": "2026-10-23",
+        "flow_source_url": "https://farside.co.uk/sol/",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      },
+      {
+        "ticker": "MSOL",
+        "annual_fee_pct_listed": 0.14,
+        "fee_source_url": "https://farside.co.uk/sol/",
+        "net_flow_usd_millions": 0.0,
+        "flow_as_of_et": "2026-10-23",
+        "flow_source_url": "https://farside.co.uk/sol/",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      },
+      {
+        "ticker": "GSOL",
+        "annual_fee_pct_listed": 0.19,
+        "fee_source_url": "https://farside.co.uk/sol/",
+        "net_flow_usd_millions": 0.0,
+        "flow_as_of_et": "2026-10-23",
+        "flow_source_url": "https://farside.co.uk/sol/",
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "来源失败 HTTPError；最后有效日未知"
+      },
+      {
+        "ticker": "SOLC",
+        "annual_fee_pct_listed": null,
+        "fee_source_url": null,
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "发行商 Holdings 原生币精确 Quantity -- Original"
+      },
+      {
+        "ticker": "QSOL",
+        "annual_fee_pct_listed": null,
+        "fee_source_url": null,
+        "net_flow_usd_millions": null,
+        "flow_as_of_et": null,
+        "flow_source_url": null,
+        "verified_at_shanghai": "2026-10-24T10:02:10+08:00",
+        "holding_status": "页面未取得带日期的原生币持仓；最后有效日未知"
+      }
+    ],
+    "flows": [
+      {
+        "trading_date_et": "2026-10-23",
+        "net_flow_usd_millions": 0.0,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": 0.0,
+          "FSOL": 0.0,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.0,
+          "GSOL": 0.0
+        }
+      }
+    ],
+    "flow_history": [
+      {
+        "trading_date_et": "2026-10-15",
+        "net_flow_usd_millions": -9.8,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": -3.8,
+          "VSOL": 0.0,
+          "FSOL": 0.0,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.0,
+          "GSOL": -6.0
+        }
+      },
+      {
+        "trading_date_et": "2026-10-16",
+        "net_flow_usd_millions": -12.7,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": -12.7,
+          "VSOL": 0.0,
+          "FSOL": 0.0,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.0,
+          "GSOL": 0.0
+        }
+      },
+      {
+        "trading_date_et": "2026-10-19",
+        "net_flow_usd_millions": -6.7,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": -4.9,
+          "VSOL": 0.0,
+          "FSOL": -1.8,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.0,
+          "GSOL": 0.0
+        }
+      },
+      {
+        "trading_date_et": "2026-10-20",
+        "net_flow_usd_millions": -2.6,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": 0.0,
+          "VSOL": 0.0,
+          "FSOL": 0.0,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.0,
+          "GSOL": -2.6
+        }
+      },
+      {
+        "trading_date_et": "2026-10-21",
+        "net_flow_usd_millions": 0.6,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": 0.0,
+          "VSOL": 0.0,
+          "FSOL": 0.0,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.6,
+          "GSOL": 0.0
+        }
+      },
+      {
+        "trading_date_et": "2026-10-22",
+        "net_flow_usd_millions": -8.9,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": -5.7,
+          "VSOL": 0.0,
+          "FSOL": 0.0,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.0,
+          "GSOL": -3.2
+        }
+      },
+      {
+        "trading_date_et": "2026-10-23",
+        "net_flow_usd_millions": 0.0,
+        "source_url": "https://farside.co.uk/sol/",
+        "contributors_usd_millions": {
+          "BSOL": 0.0,
+          "FSOL": 0.0,
+          "TSOL": 0.0,
+          "SOEZ": 0.0,
+          "MSOL": 0.0,
+          "GSOL": 0.0
+        }
+      }
+    ],
+    "last_valid_holdings": [
+      {
+        "ticker": "BSOL",
+        "quantity_native": 10759350.77,
+        "unit": "SOL",
+        "as_of_et": "2026-10-21",
+        "source_url": "https://bsoletf.com/",
+        "issuer_url": "https://bsoletf.com/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-23T10:47:09+08:00",
+        "scope": "发行商 Fund Holdings 的 in Trust 数量；未使用四舍五入的托管证明储备"
+      },
+      {
+        "ticker": "SOLC",
+        "quantity_native": 38532.2640298,
+        "unit": "SOL",
+        "as_of_et": "2026-10-22",
+        "source_url": "https://canaryetfs.com/solc/",
+        "issuer_url": "https://canaryetfs.com/solc/",
+        "source_tier": "issuer_direct",
+        "verified_at_shanghai": "2026-10-23T10:47:09+08:00",
+        "scope": "发行商 Holdings 原生币精确 Quantity -- Original"
+      }
+    ]
+  },
+  "chain": {
+    "metrics": [
+      {
+        "name": "DeFi TVL",
+        "value": 5748442903.981825,
+        "unit": "USD",
+        "data_as_of": "2026-10-26T10:03:05+08:00",
+        "method": "链级 DeFi 锁仓值；提供方未注明精确采样时刻",
+        "source_url": "https://api.llama.fi/v2/chains"
+      },
+      {
+        "name": "DEX 成交额 24h",
+        "value": 1347550389.27,
+        "unit": "USD",
+        "data_as_of": "2026-10-26T10:03:05+08:00",
+        "method": "链级 DEX 滚动24小时成交额；非代币持有人收入",
+        "source_url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+      },
+      {
+        "name": "DEX 成交额 7d",
+        "value": 12497435057.860004,
+        "unit": "USD",
+        "data_as_of": "2026-10-26T10:03:05+08:00",
+        "method": "链级 DEX 滚动7天成交额；非代币持有人收入",
+        "source_url": "https://api.llama.fi/overview/dexs/Solana?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true&dataType=dailyVolume"
+      }
+    ]
+  },
+  "developments": [],
+  "sources": [
+    {
+      "name": "CoinGecko 7日完整UTC收盘价",
+      "url": "https://api.coingecko.com/api/v3/coins/solana/market_chart?vs_currency=usd&days=8&interval=daily",
+      "retrieved_at": "2026-10-24T10:02:10+08:00"
+    },
+    {
+      "name": "Farside Investors ETF flow table",
+      "url": "https://farside.co.uk/sol/",
+      "retrieved_at": "2026-10-24T10:02:10+08:00"
+    },
+    {
+      "name": "CoinPaprika 市场行情",
+      "url": "https://api.coinpaprika.com/v1/tickers/sol-solana"
+    },
+    {
+      "name": "Coinbase USD 现货日线",
+      "url": "https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=86400&start=2026-10-18&end=2026-10-25"
+    }
+  ],
+  "missing_or_stale": [
+    "VSOL 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "FSOL 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "TSOL 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "SOEZ 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "MSOL 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "GSOL 原生币持仓：来源失败 HTTPError；最后有效日未知",
+    "QSOL 原生币持仓：页面未取得带日期的原生币持仓；最后有效日未知",
+    "Farside 仅覆盖7只；SOLC、QSOL 无独立美元流量，表内合计非全市场总量。",
+    "过去24小时未核实到符合要求的重要官方新公告；不以旧公告填充。",
+    "周末无新美东 ETF 交易日；持仓与资金流沿用各自最后实际披露日期。",
+    "美国 ETF 周末未开市：持仓与美元流量沿用原始来源最后披露日；没有 2026-10-26 美东新交易日。"
+  ],
+  "revision": {
+    "revised_at_shanghai": "2026-10-26T10:03:05+08:00",
+    "reason": "2026-10-26 北京时间重新采集行情、完整 UTC 日收盘价及链级指标；ETF 沿用最近实际披露日，原始持仓和流量日期逐只保留"
+  }
+}

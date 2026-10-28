@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-24",
+  "files": [
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/BTC-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "f2ff10ad7bc2e50e2ea8b8c53493d212e481f3ea",
+      "bytes": 278701
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/BTC-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "fdf6c0406a03bbad4963dff3a8362007d04c9864",
+      "bytes": 773637
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/BTC-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "336fd207cae39ec9db3b1d42143e652a3909342b",
+      "bytes": 616996
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/BTC-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "aa51bb3b0f2fcd29d61a98831b8b1bbe58fdf772",
+      "bytes": 238549
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/ETH-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "24b9bee186725cb5322a93910c9d71adb307b28b",
+      "bytes": 349366
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/ETH-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "2892dc6485e8a5d611f7121e2576e7259ee69b29",
+      "bytes": 732751
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/ETH-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "e4c40f9cfe31e91c664cdff26ed1a3ce2e50290a",
+      "bytes": 581622
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/ETH-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "e664e8396c9859c9a39e8b402ac98c89599858f9",
+      "bytes": 233781
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SOL-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "6b46761101be25a0e12996f4efa53485b4dc1ead",
+      "bytes": 359823
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SOL-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "addb497741f865f2f91fa72dd2fb6dcc6711abe9",
+      "bytes": 733501
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SOL-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "268d81cf34d723f598832cc1b62f73c031ee5f6b",
+      "bytes": 482148
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SOL-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "2d799395120915bdba85c05ca3294692480fce39",
+      "bytes": 229707
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SUI-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "444a3944fffe95d838a7ea674bacf44ed7e54b7a",
+      "bytes": 277196
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SUI-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "421acbf3ca9872604c49002b02818ae761cef8bc",
+      "bytes": 679252
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SUI-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "e2a5df34c6915767a7297f426b850c4c3f19a176",
+      "bytes": 277703
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/SUI-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "5a272246c309ae0d84bcae506ab759dd25cb94bf",
+      "bytes": 236613
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/XRP-context-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "962dd46f74a2bdfc1905d3bc8ce120ed0514d061",
+      "bytes": 242608
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/XRP-dashboard-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "18bbe34ad18276fc67df51f90377c1141de5f1a7",
+      "bytes": 420224
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/XRP-holdings-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "27f939fcbd5803198794578c2145881e41eef496",
+      "bytes": 357810
+    },
+    {
+      "path": "charts/crypto-charting-data/2026-10-24/XRP-market-preview.png",
+      "category": "charts",
+      "git_blob_sha1": "2c9e2b12e5ddce8affadcc72ba9dad18ae73168a",
+      "bytes": 239568
+    },
+    {
+      "path": "copy/outputs/2026-10-24/Mason-X日任务-2026-10-24.md",
+      "category": "copy",
+      "git_blob_sha1": "ee4a953160820e00bc39c43f3ae6bdf9a95ff993",
+      "bytes": 10993
+    },
+    {
+      "path": "copy/outputs/2026-10-24/Mason每日执行SOP与提示词.md",
+      "category": "copy",
+      "git_blob_sha1": "57fe80659aa49c968fbcade333c5534e944479db",
+      "bytes": 6053
+    },
+    {
+      "path": "copy/outputs/2026-10-24/三则参考文案-最新数据与认知.md",
+      "category": "copy",
+      "git_blob_sha1": "c69ef99e594c558368dda47c7854436143961d25",
+      "bytes": 2103
+    },
+    {
+      "path": "copy/outputs/2026-10-24/每日五币与机构动态研究创作协议.md",
+      "category": "copy",
+      "git_blob_sha1": "ab0f7fa41d527a6da795124da1ab1e1c4dab132f",
+      "bytes": 4444
+    },
+    {
+      "path": "copy/outputs/2026-10-24/财富捷径-文案改写.md",
+      "category": "copy",
+      "git_blob_sha1": "3c94167d59f768818a7a01a5d803cc2c6786122d",
+      "bytes": 3701
+    },
+    {
+      "path": "copy/outputs/2026-10-24/财富捷径-朋友圈与X短文案.md",
+      "category": "copy",
+      "git_blob_sha1": "13aa9488f95fc47b3b63e7a9430bc596f87d5138",
+      "bytes": 468
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-24/BTC.json",
+      "category": "data",
+      "git_blob_sha1": "80b6f849b1aeb4eed406f67a009c7842abb1c501",
+      "bytes": 19935
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-24/ETH.json",
+      "category": "data",
+      "git_blob_sha1": "9a5b5a17f6c4c403c3a3cfc4c6b10cb8f00e72c0",
+      "bytes": 20382
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-24/SOL.json",
+      "category": "data",
+      "git_blob_sha1": "17b75bec70c445cc89219fc221839dae5fb7f442",
+      "bytes": 16719
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-24/SUI.json",
+      "category": "data",
+      "git_blob_sha1": "ff0f485ad8736a1b9aed7ddc6da51015934d7b8b",
+      "bytes": 8306
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-24/UNI.json",
+      "category": "data",
+      "git_blob_sha1": "1d16865a70f3565337776c0964e6ad0a93bb2cc0",
+      "bytes": 6796
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-24/XRP.json",
+      "category": "data",
+      "git_blob_sha1": "8a67243624aeac62331d2ec56abc892bb0b6cc4a",
+      "bytes": 10378
+    },
+    {
+      "path": "data/crypto-charting-data/2026-10-24/ZEC.json",
+      "category": "data",
+      "git_blob_sha1": "bd146c34d4e1461ab8d53a57567b2d94bce83810",
+      "bytes": 7582
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-24/BTC.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "d4811c946226f55ff66199713d947dc22e977cdb",
+      "bytes": 193752
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-24/ETH.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "6ef07acfcd1932f25c65ca1591e7c523c3e39745",
+      "bytes": 193890
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-24/SOL.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "76ef62be6c6d9d9b34448c15802d0a0a64f11040",
+      "bytes": 177473
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-24/SUI.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "9dc268097e02f2959c08407fd8f291e8fd5e0c07",
+      "bytes": 124397
+    },
+    {
+      "path": "logs/crypto-charting-data/2026-10-24/XRP.xlsx.inspect.ndjson",
+      "category": "logs",
+      "git_blob_sha1": "8fede4535abbbb8a1aacf5bef8e06d038e8389bd",
+      "bytes": 130630
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-24/BTC.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "97849a18333d8fd6bcea2bd9536bf4a5e20d0f60",
+      "bytes": 2008896
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-24/ETH.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "df751b39ebaf24464a7ff05f46a73f5dca22fb2c",
+      "bytes": 1915547
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-24/SOL.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "f961c08387153288ba9a3a5a92bd2877b2bad2c3",
+      "bytes": 1971852
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-24/SUI.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "b289b7b97c2101eaf728a99647747f8b426fb4f4",
+      "bytes": 2018520
+    },
+    {
+      "path": "reports/crypto-charting-data/2026-10-24/XRP.xlsx",
+      "category": "reports",
+      "git_blob_sha1": "8a4d50ba6e23eb9c6c8663039ea2986075f3bfbe",
+      "bytes": 25264
+    },
+    {
+      "path": "research/research/2026-10-24/etf-coverage-audit.json",
+      "category": "research",
+      "git_blob_sha1": "d5c91ef8cfe0d8042c174793d1bf611d4a3ba4f9",
+      "bytes": 1014
+    },
+    {
+      "path": "research/research/2026-10-24/flows.json",
+      "category": "research",
+      "git_blob_sha1": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+      "bytes": 2
+    },
+    {
+      "path": "research/research/2026-10-24/history/BTC.json",
+      "category": "research",
+      "git_blob_sha1": "2443d7f6a45e84eb44cf75758cdfb29f9c452eed",
+      "bytes": 14540
+    },
+    {
+      "path": "research/research/2026-10-24/history/ETH.json",
+      "category": "research",
+      "git_blob_sha1": "c9f6ba317fd64b8f97734534ab1ec3afa7db8fe1",
+      "bytes": 15784
+    },
+    {
+      "path": "research/research/2026-10-24/history/SOL.json",
+      "category": "research",
+      "git_blob_sha1": "f8b093e6c9df67bef86f5113c6555827d77931b6",
+      "bytes": 12661
+    },
+    {
+      "path": "research/research/2026-10-24/history/SUI.json",
+      "category": "research",
+      "git_blob_sha1": "9694135b809bf31bdaba0fa5dbd5258cbc26c146",
+      "bytes": 7587
+    },
+    {
+      "path": "research/research/2026-10-24/issuer-source-checks.json",
+      "category": "research",
+      "git_blob_sha1": "070edbab0f996e9f05e7aad1b2faccf5f9caf888",
+      "bytes": 7779
+    },
+    {
+      "path": "research/research/2026-10-24/财富捷径/财富捷径-全文.txt",
+      "category": "research",
+      "git_blob_sha1": "32e3ace292c4ccfa149b03ed157fd98b5ebf3512",
+      "bytes": 322710
+    },
+    {
+      "path": "research/research/2026-10-24/财富捷径/财富捷径-阅读笔记.md",
+      "category": "research",
+      "git_blob_sha1": "8d0b6634fc188da4d429c7e0ff2f693661b2416b",
+      "bytes": 3944
+    },
+    {
+      "path": "research/research/2026-10-24/财富捷径/财富捷径：直达财务自由的路线图.epub",
+      "category": "research",
+      "git_blob_sha1": "5a91e0e83e9aa3870d2f6d890a3d5d71580dc612",
+      "bytes": 646942
+    }
+  ]
+}

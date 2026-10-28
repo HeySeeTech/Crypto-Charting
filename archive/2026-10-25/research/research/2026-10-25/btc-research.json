@@ -1,0 +1,54 @@
+{
+  "window": "2026-10-24 00:00 to 2026-10-25 11:20 Asia/Shanghai",
+  "price": {
+    "source": "https://www.coinglass.com/currencies/BTC",
+    "read": "2026-10-25 about 11:15 CST",
+    "usd": 80869.7,
+    "rolling_24h_percent": -0.07,
+    "note": "rolling 24h differs from calendar window"
+  },
+  "funding_primary": {
+    "source": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT",
+    "response": {
+      "markPrice": "80920.10000000",
+      "lastFundingRate": "0.00009457",
+      "time": 1792896550000
+    },
+    "percent": 0.009457,
+    "note": "single venue, positive funding alone cannot establish direction"
+  },
+  "derivatives_secondary": {
+    "source": "https://seandra.ai/perp/btc",
+    "as_of": "2026-10-25 02:50 UTC",
+    "oi_usd_billion": 7.6,
+    "oi_24h_percent": 1,
+    "note": "price barely changed; secondary aggregate, no directional inference from OI alone"
+  },
+  "ETF": {
+    "source": "https://farside.co.uk/btc/",
+    "Oct23_million_USD": -137.9,
+    "status": "HODL dash: not fully reported, exclude as decisive final number",
+    "note": "weekend no new US ETF session; secondary sources misdate Oct22 flow"
+  },
+  "chain": {
+    "source": "https://www.bitinfocharts.com/bitcoin/",
+    "as_of": "2026-10-24 23:13:27 UTC block reference",
+    "average_fee_usd": 0.215,
+    "subsidy_last24h_BTC": 437.5,
+    "blocks_last24h": 140,
+    "note": "snapshot, no verified same-definition prior-day baseline, no asserted growth; address counts conflict across providers, excluded"
+  },
+  "governance_narrative": {
+    "source": "https://bitcoincore.org/en/security-advisories/",
+    "observation": "Official policy now allows accelerated fixes/disclosure for easily rediscoverable vulnerabilities. No evidence found of issuance rule change or network-wide exploit in requested window. Policy story published Oct23 outside window; do not present as new Oct24 event."
+  },
+  "external": {
+    "sources": [
+      "https://www.coindaro.com/bitcoin-price-today-under-80000-us-embassy-cuts/",
+      "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    ],
+    "observation": "Reports link weekend drawdown and rebound to Middle East diplomatic/security headlines; causal attribution remains unresolved. FOMC upcoming event, not completed easing. No verified fresh SEC/CFTC/White House executed BTC-demand action found in window."
+  },
+  "judgment": "Weak consolidation; insufficient evidence of spot-demand-led reversal. Confidence moderate-low.",
+  "invalidation": "Next two fully reported US spot ETF trading sessions both net inflow and sum offsets last fully reported outflow (Oct22:635.6m), supports sustained institutional demand; chosen analytical criterion, not forecast."
+}

@@ -1,0 +1,28 @@
+{
+  "asof": "2026-10-25 12:05 Asia/Shanghai",
+  "primary_source": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=48",
+  "definition": "taker buy quote = kline[10]; taker sell quote = kline[7]-kline[10]; imbalance=2*kline[10]-kline[7], not net capital flow",
+  "windows": [
+    {
+      "CST": "Oct24 22:00-Oct25 00:00",
+      "hours": 2,
+      "buy": 105411735.4306239,
+      "sell": 192598020.4045714,
+      "imbalance_USDT": -87186284.9739475
+    },
+    {
+      "CST": "Oct25 00:00-12:00",
+      "hours": 12,
+      "buy": 147107611.6989727,
+      "sell": 146103042.10966247,
+      "imbalance_USDT": 1004569.5893102288
+    }
+  ],
+  "limitations": "Single venue/pair. Unequal window durations explicitly stated; no daily extrapolation. Matched taker classification is not money entering/leaving market. Completed candles only. No claim that liquidations completely ended. New research evidence on old event; not a new crash. Prior mechanical ETF criterion withdrawn.",
+  "other_checks": {
+    "ETF": "Farside Oct23 HODL missing; exclude final-week total and no weekend-flow claim",
+    "chain": "mempool snapshot count42483; no same-window baseline; exclude demand inference",
+    "supply_governance": "No verified issuance/consensus change found in window; official Core releases checked",
+    "external": "Middle East escalation reports already covered, no verified causal trigger; exclude from main copy"
+  }
+}
